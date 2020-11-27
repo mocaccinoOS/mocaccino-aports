@@ -1,0 +1,10 @@
+export MUSL_TARGET=x86_64-mocaccino-linux-musl
+export MUSL_ARCH=x86
+export MUSL_CPU=x86-64
+export LUET_YES=true
+export CBUILD=x86_64-mocaccino-linux-musl
+export LUET_YES=true
+export CC=gcc
+export CFLAGS="-g -O2 -I/include -I/usr/include"
+export CPPFLAGS="-I/include -I/usr/include"
+export ABUILD_BOOTSTRAP=true

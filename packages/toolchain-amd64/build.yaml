@@ -8,14 +8,5 @@ prelude:
     development/automake development/pkg-config development/m4 \
     system/musl-compat && \
     ln -s /bin/gcc /bin/cc
-env:
-  - MUSL_TARGET=x86_64-mocaccino-linux-musl
-  - MUSL_ARCH=x86
-  - MUSL_CPU=x86-64
-  - LUET_YES=true
-  - CBUILD=x86_64-mocaccino-linux-musl
-  - LUET_YES=true
-  - CC=gcc
-  - CFLAGS="-g -O2 -I/include -I/usr/include"
-  - CPPFLAGS="-I/include -I/usr/include"
-  - ABUILD_BOOTSTRAP=true
+  - mkdir /build
+  - cp -rfv env /build/env
