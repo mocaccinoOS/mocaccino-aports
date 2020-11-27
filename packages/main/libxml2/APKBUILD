@@ -86,7 +86,7 @@ dev() {
 _py3() {
 	pkgdesc="$pkgname python3 bindings"
 	mkdir -p "$subpkgdir"/usr/lib
-	mv "$pkgdir"/usr/lib/python3* "$subpkgdir"/usr/lib/
+	#mv "$pkgdir"/usr/lib/python3* "$subpkgdir"/usr/lib/
 }
 
 utils() {
