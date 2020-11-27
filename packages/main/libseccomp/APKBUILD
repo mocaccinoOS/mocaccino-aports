@@ -13,7 +13,6 @@ makedepends="$depends_dev gperf"
 checkdepends="bash"
 subpackages="$pkgname-static $pkgname-dev $pkgname-doc"
 source="https://github.com/seccomp/libseccomp/releases/download/v$pkgver/libseccomp-$pkgver.tar.gz
-	remove-redefinition-prctl.patch
 	"
 
 case "$CARCH" in
@@ -51,5 +50,4 @@ package() {
 	make DESTDIR="$pkgdir" install
 }
 
-sha512sums="2be80a6323f9282dbeae8791724e5778b32e2382b2a3d1b0f77366371ec4072ea28128204f675cce101c091c0420d12c497e1a9ccbb7dc5bcbf61bfd777160af  libseccomp-2.5.1.tar.gz
-f2c31dcafdc9a1ad78e32e76b75e1c1603071eaa3f979e1f2483b879a34ad07e0a4ef3642196a695415cdf81e1ed2bf325175872fb4e203ef9d0e668c287493f  remove-redefinition-prctl.patch"
+sha512sums="2be80a6323f9282dbeae8791724e5778b32e2382b2a3d1b0f77366371ec4072ea28128204f675cce101c091c0420d12c497e1a9ccbb7dc5bcbf61bfd777160af  libseccomp-2.5.1.tar.gz"
