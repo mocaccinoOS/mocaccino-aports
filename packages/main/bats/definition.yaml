@@ -1,0 +1,13 @@
+name: bats
+version: "1.2.1"
+category: alpine
+description: Bash Automated Testing System
+uri:
+  - https://github.com/bats-core/bats-core
+license: MIT
+labels:
+  package.source: "bats-1.2.1.zip::https://github.com/bats-core/bats-core/archive/v1.2.1.zip"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'

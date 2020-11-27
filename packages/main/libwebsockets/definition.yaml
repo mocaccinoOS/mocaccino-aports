@@ -1,0 +1,9 @@
+name: libwebsockets
+version: "4.1.4"
+category: alpine
+description: C library for lightweight websocket clients and servers
+uri:
+  - https://libwebsockets.org
+license: MIT
+labels:
+  package.source: ""

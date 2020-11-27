@@ -1,0 +1,13 @@
+name: vala
+version: "0.50.2"
+category: alpine
+description: Compiler for the GObject type system
+uri:
+  - https://wiki.gnome.org/Projects/Vala
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/vala/0.50/vala-0.50.2.tar.xz"
+requires:
+  - category: alpine
+    name: "glib-dev"
+    version: '>=0'

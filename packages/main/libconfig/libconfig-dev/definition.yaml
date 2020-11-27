@@ -1,0 +1,7 @@
+name: libconfig-dev
+version: "1.7.2"
+category: alpine
+description: A simple library for manipulating structured configuration files
+uri:
+  - http://www.hyperrealm.com/libconfig/
+license: LGPL-2.1-or-later

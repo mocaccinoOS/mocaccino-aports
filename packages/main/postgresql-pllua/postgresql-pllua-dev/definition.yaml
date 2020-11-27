@@ -1,0 +1,7 @@
+name: postgresql-pllua-dev
+version: "2.0.5"
+category: alpine
+description: Procedural language for PostgreSQL using Lua
+uri:
+  - https://github.com/RhodiumToad/pllua-ng
+license: MIT

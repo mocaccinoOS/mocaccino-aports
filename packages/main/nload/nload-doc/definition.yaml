@@ -1,0 +1,7 @@
+name: nload-doc
+version: "0.7.4"
+category: alpine
+description: Console network traffic and bandwidth monitor
+uri:
+  - http://www.roland-riegel.de/nload
+license: GPL

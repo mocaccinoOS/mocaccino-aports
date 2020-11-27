@@ -1,0 +1,7 @@
+name: samurai-doc
+version: "1.1"
+category: alpine
+description: ninja-compatible build tool written in C
+uri:
+  - https://github.com/michaelforney/samurai
+license: Apache-2.0

@@ -1,0 +1,13 @@
+name: xf86-video-ati
+version: "19.1.0"
+category: alpine
+description: ATI video driver
+uri:
+  - https://xorg.freedesktop.org/wiki/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/driver/xf86-video-ati-19.1.0.tar.bz2"
+requires:
+  - category: alpine
+    name: "mesa-dri-ati"
+    version: '>=0'

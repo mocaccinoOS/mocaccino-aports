@@ -1,0 +1,13 @@
+name: ckbcomp
+version: "1.198"
+category: alpine
+description: Compile a XKB keyboard description to a keymap
+uri:
+  - http://anonscm.debian.org/cgit/d-i/console-setup.git
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://ftp.debian.org/debian/pool/main/c/console-setup/console-setup_1.198.tar.xz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

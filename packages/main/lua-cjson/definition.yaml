@@ -1,0 +1,9 @@
+name: lua-cjson
+version: "2.1.0"
+category: alpine
+description: fast JSON parsing and encoding support for Lua
+uri:
+  - https://www.kyne.com.au/~mark/software/lua-cjson.php
+license: MIT
+labels:
+  package.source: "http://www.kyne.com.au/~mark/software/download/lua-cjson-2.1.0.tar.gz"

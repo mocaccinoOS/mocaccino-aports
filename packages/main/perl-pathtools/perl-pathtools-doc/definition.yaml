@@ -1,0 +1,7 @@
+name: perl-pathtools-doc
+version: "3.75"
+category: alpine
+description: The combined distribution for the File::Spec and Cwd modules
+uri:
+  - https://metacpan.org/release/PathTools/
+license: GPL PerlArtistic

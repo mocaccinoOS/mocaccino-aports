@@ -1,0 +1,7 @@
+name: perl-sub-exporter-doc
+version: "0.987"
+category: alpine
+description: a sophisticated exporter for custom-built routines
+uri:
+  - https://metacpan.org/release/Sub-Exporter/
+license: GPL PerlArtistic

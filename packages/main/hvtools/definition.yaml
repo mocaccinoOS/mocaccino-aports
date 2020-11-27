@@ -1,0 +1,9 @@
+name: hvtools
+version: "4.11.9"
+category: alpine
+description: Hyper-v tools
+uri:
+  - https://www.kernel.org/
+license: GPL-2.0-only
+labels:
+  package.source: "https://kernel.org/pub/linux/kernel/v4.x/linux-4.11.tar.xz"

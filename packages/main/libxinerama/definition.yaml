@@ -1,0 +1,9 @@
+name: libxinerama
+version: "1.1.4"
+category: alpine
+description: X11 Xinerama extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXinerama-1.1.4.tar.bz2"

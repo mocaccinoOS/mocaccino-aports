@@ -1,0 +1,9 @@
+name: zonenotify
+version: "0.1"
+category: alpine
+description: Utility to send NS_NOTIFY packets to slave DNS servers
+uri:
+  - https://github.com/morettoni/zonenotify
+license: BSD-2-Clause
+labels:
+  package.source: "http://www.morettoni.net/bsd/zonenotify-0.1.tar.gz"

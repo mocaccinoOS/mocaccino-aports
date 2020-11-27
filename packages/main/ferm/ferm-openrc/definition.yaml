@@ -1,0 +1,7 @@
+name: ferm-openrc
+version: "2.5.1"
+category: alpine
+description: firewall configuration tool
+uri:
+  - http://ferm.foo-projects.org/
+license: GPL

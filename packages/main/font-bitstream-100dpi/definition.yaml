@@ -1,0 +1,25 @@
+name: font-bitstream-100dpi
+version: "1.0.3"
+category: alpine
+description: X.Org Bitstream bitmap fonts
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/font/font-bitstream-100dpi-1.0.3.tar.bz2"
+requires:
+  - category: alpine
+    name: "encodings"
+    version: '>=0'
+  - category: alpine
+    name: "font-alias"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontscale"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontdir"
+    version: '>=0'
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'

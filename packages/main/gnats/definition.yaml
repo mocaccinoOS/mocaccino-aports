@@ -1,0 +1,13 @@
+name: gnats
+version: "4.2.0"
+category: alpine
+description: The GNU Bug Tracking System
+uri:
+  - https://www.gnu.org/software/gnats/
+license: GPL-3.0
+labels:
+  package.source: "https://ftp.gnu.org/pub/gnu/gnats/gnats-4.2.0.tar.gz"
+requires:
+  - category: alpine
+    name: "postfix"
+    version: '>=0'

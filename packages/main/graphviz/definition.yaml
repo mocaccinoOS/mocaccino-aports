@@ -1,0 +1,9 @@
+name: graphviz
+version: "2.44.0"
+category: alpine
+description: Graph Visualization Tools
+uri:
+  - https://www.graphviz.org/
+license: EPL-1.0
+labels:
+  package.source: "https://gitlab.com/graphviz/graphviz/-/archive/2.44.0/graphviz-2.44.0.tar.gz"

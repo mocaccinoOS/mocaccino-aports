@@ -1,0 +1,7 @@
+name: ntfs-3g-dev
+version: "2017.3.23"
+category: alpine
+description: Stable, full-featured, read-write NTFS
+uri:
+  - https://www.tuxera.com/community/ntfs-3g-download/
+license: GPL-2.0-or-later AND LGPL-2.0-or-later

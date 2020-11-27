@@ -1,0 +1,19 @@
+name: varnish
+version: "6.5.1"
+category: alpine
+description: High-performance HTTP accelerator
+uri:
+  - https://www.varnish-cache.org/
+license: BSD-2-Clause
+labels:
+  package.source: "https://varnish-cache.org/_downloads/varnish-6.5.1.tgz"
+requires:
+  - category: alpine
+    name: "gcc"
+    version: '>=0'
+  - category: alpine
+    name: "libc-dev"
+    version: '>=0'
+  - category: alpine
+    name: "libgcc"
+    version: '>=0'

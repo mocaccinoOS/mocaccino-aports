@@ -1,0 +1,9 @@
+name: lua5.1
+version: "5.1.5"
+category: alpine
+description: A powerful light-weight programming language designed for extending applications.
+uri:
+  - https://www.lua.org/
+license: MIT
+labels:
+  package.source: "https://www.lua.org/ftp/lua-5.1.5.tar.gz"

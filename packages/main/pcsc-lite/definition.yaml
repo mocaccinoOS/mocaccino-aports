@@ -1,0 +1,9 @@
+name: pcsc-lite
+version: "1.9.0"
+category: alpine
+description: Middleware to access a smart card using SCard API (PC/SC)
+uri:
+  - https://pcsclite.apdu.fr/
+license: Custom
+labels:
+  package.source: "https://pcsclite.apdu.fr/files/pcsc-lite-1.9.0.tar.bz2"

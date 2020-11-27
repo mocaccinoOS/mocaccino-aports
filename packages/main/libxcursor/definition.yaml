@@ -1,0 +1,9 @@
+name: libxcursor
+version: "1.2.0"
+category: alpine
+description: X cursor management library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXcursor-1.2.0.tar.bz2"

@@ -1,0 +1,7 @@
+name: perl-text-wikiformat-doc
+version: "0.81"
+category: alpine
+description: module for translating Wiki formatted text into other formats
+uri:
+  - https://metacpan.org/release/Text-WikiFormat/
+license: GPL PerlArtistic

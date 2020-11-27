@@ -1,0 +1,7 @@
+name: perl-test-number-delta-doc
+version: "1.06"
+category: alpine
+description: Compare the difference between numbers against a given tolerance
+uri:
+  - https://metacpan.org/release/Test-Number-Delta/
+license: Apache-2.0

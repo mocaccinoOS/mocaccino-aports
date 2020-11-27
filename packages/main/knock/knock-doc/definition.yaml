@@ -1,0 +1,7 @@
+name: knock-doc
+version: "0.8.1"
+category: alpine
+description: A simple port-knocking daemon
+uri:
+  - http://www.zeroflux.org/projects/knock
+license: GPL-2.0-or-later

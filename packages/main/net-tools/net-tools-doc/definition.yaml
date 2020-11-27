@@ -1,0 +1,7 @@
+name: net-tools-doc
+version: "1.60_git20140218"
+category: alpine
+description: Linux networking base tools
+uri:
+  - https://sourceforge.net/projects/net-tools/
+license: GPL-2.0

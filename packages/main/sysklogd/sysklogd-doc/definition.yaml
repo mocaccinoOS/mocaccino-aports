@@ -1,0 +1,7 @@
+name: sysklogd-doc
+version: "1.5.1"
+category: alpine
+description: System and kernel log daemons
+uri:
+  - https://github.com/troglobit/sysklogd
+license: GPL-2.0-or-later

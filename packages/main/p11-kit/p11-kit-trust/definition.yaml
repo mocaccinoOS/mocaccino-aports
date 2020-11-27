@@ -1,0 +1,7 @@
+name: p11-kit-trust
+version: "0.23.21"
+category: alpine
+description: Library for loading and sharing PKCS#11 modules
+uri:
+  - https://p11-glue.freedesktop.org/
+license: BSD-3-Clause

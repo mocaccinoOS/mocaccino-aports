@@ -1,0 +1,9 @@
+name: mbedtls
+version: "2.16.8"
+category: alpine
+description: Light-weight cryptographic and SSL/TLS library
+uri:
+  - https://tls.mbed.org
+license: Apache-2.0
+labels:
+  package.source: "mbedtls-2.16.8.tar.gz::https://github.com/ARMmbed/mbedtls/archive/mbedtls-2.16.8.tar.gz"

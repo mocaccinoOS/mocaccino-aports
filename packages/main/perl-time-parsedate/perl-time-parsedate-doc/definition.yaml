@@ -1,0 +1,7 @@
+name: perl-time-parsedate-doc
+version: "2015.103"
+category: alpine
+description: Parse and format time values
+uri:
+  - https://metacpan.org/release/Time-ParseDate/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

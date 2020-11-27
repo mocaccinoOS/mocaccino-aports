@@ -1,0 +1,19 @@
+name: perl-package-stash
+version: "0.39"
+category: alpine
+description: Routines for manipulating stashes
+uri:
+  - https://metacpan.org/release/Package-Stash/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.39.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dist-checkconflicts"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-implementation"
+    version: '>=0'

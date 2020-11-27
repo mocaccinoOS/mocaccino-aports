@@ -1,0 +1,47 @@
+# Contributor: Rasmus Thomsen <oss@cogitri.dev>
+# Contributor: Natanael Copa <ncopa@alpinelinux.org>
+# Maintainer: Rasmus Thomsen <oss@cogitri.dev>
+pkgname=gcr
+pkgver=3.38.0
+pkgrel=0
+pkgdesc="A library for bits of crypto UI and parsing"
+url="https://wiki.gnome.org/Projects/CryptoGlue"
+arch="all"
+license="LGPL-2.0-or-later"
+makedepends="glib-dev gtk+3.0-dev libgcrypt-dev p11-kit-dev
+	gobject-introspection-dev libxslt vala meson gtk-doc"
+checkdepends="xvfb-run dbus-x11"
+subpackages="$pkgname-dev $pkgname-doc $pkgname-lang $pkgname-base"
+source="https://download.gnome.org/sources/gcr/${pkgver%.*}/gcr-$pkgver.tar.xz
+	allow-building-without-gpg.patch
+	dont-run-gpg-tests.patch
+	fix-64-bit-time_t-32-bit.patch"
+
+build() {
+	abuild-meson \
+		-Dgpg_path=/usr/bin/gpg2 \
+		output
+	meson compile ${JOBS:+-j ${JOBS}} -C output
+}
+
+check() {
+	xvfb-run meson test --no-rebuild -v -C output
+}
+
+package() {
+	DESTDIR="$pkgdir" meson install --no-rebuild -C output
+}
+
+base() {
+	depends=""
+	pkgdesc="$pkgdesc (base libraries)"
+	mkdir -p "$subpkgdir"/usr/lib
+	mv "$pkgdir"/usr/lib/libgck-1.so.* \
+		"$pkgdir"/usr/lib/libgcr-base-3.so.* \
+		"$subpkgdir"/usr/lib
+}
+
+sha512sums="24c35ac514a67a1dee6a5738e829b55921a490b060ffa597421cea0abac3ddc62695370d2c7b3504c0adfd55b1ade878ad3ca5e6cb869428b4a19f4a11563bc6  gcr-3.38.0.tar.xz
+7cca3fd0512621129f0a0c532a3592b4ea0e49f887cf5935b1a104363d08fca05dbba470672561efa4b8b02efdbe22c948f989af26fdb32833a82383393207f0  allow-building-without-gpg.patch
+e4fc2248497e7103980e9baf9444505649ee93c657c7a82c042ae62d7c54b2764ad7bc9780467ceda5e53a23fa11dc4957898929c7d7f995d9d0d205d18d5eb7  dont-run-gpg-tests.patch
+579b229d6f310ed035974a92a65804deae7b047cf6109e259844ecdc75df32653a2c9f9dcddba9092da335f44d07d5d82056ae0cf5775057bdb9be5b52e29bcc  fix-64-bit-time_t-32-bit.patch"

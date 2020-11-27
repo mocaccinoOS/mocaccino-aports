@@ -1,0 +1,9 @@
+name: lxc
+version: "4.0.5"
+category: alpine
+description: Userspace interface for the Linux kernel containment features
+uri:
+  - https://linuxcontainers.org/lxc/
+license: GPL-2.0-only
+labels:
+  package.source: "https://linuxcontainers.org/downloads/lxc/lxc-4.0.5.tar.gz"

@@ -1,0 +1,7 @@
+name: py3-talloc
+version: "2.3.1"
+category: alpine
+description: Memory pool management library
+uri:
+  - https://talloc.samba.org
+license: LGPL-3.0-or-later

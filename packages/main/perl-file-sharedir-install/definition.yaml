@@ -1,0 +1,9 @@
+name: perl-file-sharedir-install
+version: "0.13"
+category: alpine
+description: Install shared files
+uri:
+  - https://metacpan.org/release/File-ShareDir-Install/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.13.tar.gz"

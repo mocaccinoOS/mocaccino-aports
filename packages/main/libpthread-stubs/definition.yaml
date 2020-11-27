@@ -1,0 +1,9 @@
+name: libpthread-stubs
+version: "0.3"
+category: alpine
+description: Pthread functions stubs for platforms missing them
+uri:
+  - https://cgit.freedesktop.org/xcb/pthread-stubs
+license: X11
+labels:
+  package.source: "https://xcb.freedesktop.org/dist/libpthread-stubs-0.3.tar.bz2"

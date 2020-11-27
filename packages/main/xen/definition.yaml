@@ -1,0 +1,19 @@
+name: xen
+version: "4.14.0"
+category: alpine
+description: Xen hypervisor
+uri:
+  - https://www.xenproject.org/
+license: GPL-2.0-only
+labels:
+  package.source: "https://downloads.xenproject.org/release/xen/4.14.0/xen-4.14.0.tar.gz"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "iproute2"
+    version: '>=0'
+  - category: alpine
+    name: "logrotate"
+    version: '>=0'

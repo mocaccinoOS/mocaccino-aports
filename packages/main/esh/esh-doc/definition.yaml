@@ -1,0 +1,7 @@
+name: esh-doc
+version: "0.3.0"
+category: alpine
+description: Simple template system based on shell
+uri:
+  - https://github.com/jirutka/esh
+license: MIT

@@ -1,0 +1,7 @@
+name: sc-doc
+version: "7.16"
+category: alpine
+description: Speadsheet Calculator
+uri:
+  - https://github.com/dkastner/sc
+license: Public-Domain

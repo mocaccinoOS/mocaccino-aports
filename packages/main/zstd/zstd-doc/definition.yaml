@@ -1,0 +1,7 @@
+name: zstd-doc
+version: "1.4.5"
+category: alpine
+description: Zstandard - Fast real-time compression algorithm
+uri:
+  - https://www.zstd.net
+license: BSD-3-Clause GPL-2.0-or-later

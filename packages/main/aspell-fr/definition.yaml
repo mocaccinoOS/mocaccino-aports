@@ -1,0 +1,9 @@
+name: aspell-fr
+version: "0.50_p3"
+category: alpine
+description: French dictionary for aspell
+uri:
+  - http://aspell.net/
+license: GPL-2.0
+labels:
+  package.source: "https://ftp.gnu.org/gnu/aspell/dict/fr/aspell-fr-0.50-3.tar.bz2"

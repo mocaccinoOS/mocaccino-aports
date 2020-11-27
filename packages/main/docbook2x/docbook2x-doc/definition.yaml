@@ -1,0 +1,7 @@
+name: docbook2x-doc
+version: "0.8.8"
+category: alpine
+description: DocBook converter to UNIX manpage and GNU Texinfo format
+uri:
+  - http://docbook2x.sourceforge.net
+license: MIT

@@ -1,0 +1,9 @@
+name: tcpflow
+version: "1.5.0"
+category: alpine
+description: A Tool for monitoring, capturing and storing TCP connections flows
+uri:
+  - https://github.com/simsong/tcpflow
+license: GPL-3.0-only
+labels:
+  package.source: "https://fossies.org/linux/misc/tcpflow-1.5.0.tar.gz"

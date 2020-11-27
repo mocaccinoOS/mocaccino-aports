@@ -1,0 +1,7 @@
+name: zeromq-dev
+version: "4.3.3"
+category: alpine
+description: The ZeroMQ messaging library and tools
+uri:
+  - http://www.zeromq.org/
+license: LGPL-3.0-or-later with exceptions

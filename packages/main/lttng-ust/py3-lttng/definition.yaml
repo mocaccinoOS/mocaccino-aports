@@ -1,0 +1,7 @@
+name: py3-lttng
+version: "2.12.0"
+category: alpine
+description: LTTng 2.0 Userspace Tracer
+uri:
+  - https://lttng.org
+license: LGPL-2.1-or-later

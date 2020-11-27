@@ -1,0 +1,7 @@
+name: execline-doc
+version: "2.6.1.1"
+category: alpine
+description: A small scripting language, to be used in place of a shell in non-interactive scripts.
+uri:
+  - http://skarnet.org/software/execline/
+license: ISC

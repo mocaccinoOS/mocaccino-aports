@@ -1,0 +1,7 @@
+name: perl-test2-suite-doc
+version: "0.000138"
+category: alpine
+description: Distribution with a rich set of tools built upon the Test2 framework.
+uri:
+  - https://metacpan.org/release/Test2-Suite/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

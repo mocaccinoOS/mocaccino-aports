@@ -1,0 +1,9 @@
+name: glu
+version: "9.0.1"
+category: alpine
+description: Mesa OpenGL Utility library
+uri:
+  - https://cgit.freedesktop.org/mesa/glu/
+license: SGI-B-1.1 AND SGI-B-2.0
+labels:
+  package.source: "ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.1.tar.xz"

@@ -1,0 +1,7 @@
+name: perl-class-accessor-doc
+version: "0.51"
+category: alpine
+description: Class::Accessor perl module
+uri:
+  - https://search.cpan.org/dist/Class-Accessor/
+license: GPL-2.0 or Artistic

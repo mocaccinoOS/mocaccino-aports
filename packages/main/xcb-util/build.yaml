@@ -1,0 +1,19 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libxcb-dev
+    version: '>=0'
+  - category: alpine
+    name: util-macros
+    version: '>=0'
+  - category: alpine
+    name: m4
+    version: '>=0'
+  - category: alpine
+    name: gperf
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

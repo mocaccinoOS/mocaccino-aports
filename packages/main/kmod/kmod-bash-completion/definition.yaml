@@ -1,0 +1,7 @@
+name: kmod-bash-completion
+version: "27"
+category: alpine
+description: Linux kernel module management utilities
+uri:
+  - http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
+license: GPL-2.0-or-later

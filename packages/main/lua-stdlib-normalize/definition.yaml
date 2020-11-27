@@ -1,0 +1,16 @@
+name: lua-stdlib-normalize
+version: "2.0.3"
+category: alpine
+description: Normalized Lua functions
+uri:
+  - https://lua-stdlib.github.io/normalize/
+license: MIT
+labels:
+  package.source: "lua-stdlib-normalize-2.0.3.tar.gz::https://github.com/lua-stdlib/normalize/archive/v2.0.3.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'
+  - category: alpine
+    name: "lua-stdlib-debug"
+    version: '>=0'

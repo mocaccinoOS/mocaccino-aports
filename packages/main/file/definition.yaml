@@ -1,0 +1,9 @@
+name: file
+version: "5.39"
+category: alpine
+description: File type identification utility
+uri:
+  - https://www.darwinsys.com/file
+license: BSD-2-Clause
+labels:
+  package.source: "file-5.39.tar.gz::https://github.com/file/file/archive/FILE5_39.tar.gz"

@@ -1,0 +1,7 @@
+name: perl-timedate-doc
+version: "2.33"
+category: alpine
+description: Perl TimeDate module
+uri:
+  - https://metacpan.org/release/TimeDate
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

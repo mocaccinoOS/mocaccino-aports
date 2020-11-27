@@ -1,0 +1,7 @@
+name: perl-io-socket-ssl-doc
+version: "2.068"
+category: alpine
+description: Nearly transparent SSL encapsulation for IO::Socket::INET
+uri:
+  - https://metacpan.org/release/IO-Socket-SSL
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

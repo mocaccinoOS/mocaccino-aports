@@ -1,0 +1,7 @@
+name: seabios-bin
+version: "1.13.0"
+category: alpine
+description: Open-source legacy BIOS implementation
+uri:
+  - http://www.coreboot.org/SeaBIOS
+license: LGPL-3.0

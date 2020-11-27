@@ -1,0 +1,13 @@
+name: eudev
+version: "3.2.9"
+category: alpine
+description: OpenRC compatible fork of systemd-udev
+uri:
+  - https://wiki.gentoo.org/wiki/Project:Eudev
+license: GPL-2.0-only
+labels:
+  package.source: "https://dev.gentoo.org/~blueness/eudev/eudev-3.2.9.tar.gz"
+requires:
+  - category: alpine
+    name: "udev-init-scripts"
+    version: '>=0'

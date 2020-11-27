@@ -1,0 +1,7 @@
+name: gengetopt-doc
+version: "2.23"
+category: alpine
+description: Tool to write command line option parsing code for C programs
+uri:
+  - https://www.gnu.org/software/gengetopt/
+license: GPL-3.0-or-later

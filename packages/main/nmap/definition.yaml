@@ -1,0 +1,9 @@
+name: nmap
+version: "7.91"
+category: alpine
+description: A network exploration tool and security/port scanner
+uri:
+  - https://nmap.org
+license: custom
+labels:
+  package.source: "https://nmap.org/dist/nmap-7.91.tar.bz2"

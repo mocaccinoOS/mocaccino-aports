@@ -1,0 +1,39 @@
+# Maintainer: Carlo Landmeter <clandmeter@gmail.com>
+pkgname=expat
+pkgver=2.2.10
+pkgrel=0
+pkgdesc="XML Parser library written in C"
+url="http://www.libexpat.org/"
+arch="all"
+license='MIT'
+checkdepends="bash"
+source="https://downloads.sourceforge.net/project/expat/expat/$pkgver/expat-$pkgver.tar.bz2"
+subpackages="$pkgname-static $pkgname-dev $pkgname-doc"
+
+# secfixes:
+#   2.2.7-r1:
+#     - CVE-2019-15903
+#   2.2.7-r0:
+#     - CVE-2018-20843
+#   2.2.0-r1:
+#     - CVE-2017-9233
+
+build() {
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--mandir=/usr/share/man \
+		--enable-static
+	make
+}
+
+check() {
+	make check
+}
+
+package() {
+	make DESTDIR="$pkgdir/" install
+}
+
+sha512sums="9623e86024d09e3bb0cf51fd0d56ecaee5fb8c8acb71589104a63b510f73c1e84abb0ccea4e2c196bdf1d30b5ad0633a915758f75813717d031d633e34f022b7  expat-2.2.10.tar.bz2"

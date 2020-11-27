@@ -1,0 +1,9 @@
+name: iftop
+version: "0.17"
+category: alpine
+description: A tool to display bandwidth usage on an interface
+uri:
+  - http://www.ex-parrot.com/~pdw/iftop/
+license: GPL-2.0
+labels:
+  package.source: "http://www.ex-parrot.com/~pdw/iftop/download/iftop-0.17.tar.gz"

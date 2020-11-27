@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: skalibs-dev
+    version: '>=0'
+  - category: alpine
+    name: execline-dev
+    version: '>=0'
+  - category: alpine
+    name: s6-dev
+    version: '>=0'
+  - category: alpine
+    name: s6-dns-dev
+    version: '>=0'
+  - category: alpine
+    name: bearssl
+    version: '>=0'
+  - category: alpine
+    name: bearssl-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

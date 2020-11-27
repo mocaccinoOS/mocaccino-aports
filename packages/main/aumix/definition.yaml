@@ -1,0 +1,9 @@
+name: aumix
+version: "2.9.1"
+category: alpine
+description: color text mode sound mixer
+uri:
+  - http://www.jpj.net/~trevor/aumix.html
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://jpj.net/~trevor/aumix/releases/aumix-2.9.1.tar.bz2"

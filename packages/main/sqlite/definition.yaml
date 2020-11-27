@@ -1,0 +1,9 @@
+name: sqlite
+version: "3.33.0"
+category: alpine
+description: C library that implements an SQL database engine
+uri:
+  - https://www.sqlite.org/
+license: Public-Domain
+labels:
+  package.source: "https://www.sqlite.org/2020/sqlite-autoconf-3330000.tar.gz"

@@ -1,0 +1,7 @@
+name: libutempter-dev
+version: "1.2.1"
+category: alpine
+description: Library interface to record user sessions in utmp/wtmp files
+uri:
+  - http://freecode.com/projects/libutempter
+license: LGPL-2.1

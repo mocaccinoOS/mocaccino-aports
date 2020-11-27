@@ -1,0 +1,9 @@
+name: sqlite-tcl
+version: "3.33.0"
+category: alpine
+description: Sqlite Tcl Extension Architecture (TEA)
+uri:
+  - https://www.sqlite.org/
+license: Public-Domain
+labels:
+  package.source: "https://www.sqlite.org/2020/sqlite-autoconf-3330000.tar.gz"

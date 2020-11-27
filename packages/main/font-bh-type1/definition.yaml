@@ -1,0 +1,25 @@
+name: font-bh-type1
+version: "1.0.3"
+category: alpine
+description: X.org bh Type1 fonts
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/font/font-bh-type1-1.0.3.tar.bz2"
+requires:
+  - category: alpine
+    name: "encodings"
+    version: '>=0'
+  - category: alpine
+    name: "font-alias"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontscale"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontdir"
+    version: '>=0'
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'

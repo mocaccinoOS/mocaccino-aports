@@ -1,0 +1,13 @@
+name: perl-b-cow
+version: "0.004"
+category: alpine
+description: B::COW additional B helpers to check COW status
+uri:
+  - https://metacpan.org/release/B-COW/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/B-COW-0.004.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

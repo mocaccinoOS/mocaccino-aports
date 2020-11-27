@@ -1,0 +1,9 @@
+name: lua5.2
+version: "5.2.4"
+category: alpine
+description: Powerful light-weight programming language
+uri:
+  - https://www.lua.org/
+license: MIT
+labels:
+  package.source: "https://www.lua.org/ftp/lua-5.2.4.tar.gz"

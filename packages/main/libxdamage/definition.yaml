@@ -1,0 +1,9 @@
+name: libxdamage
+version: "1.1.5"
+category: alpine
+description: X11 damaged region extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXdamage-1.1.5.tar.bz2"

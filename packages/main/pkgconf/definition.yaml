@@ -1,0 +1,9 @@
+name: pkgconf
+version: "1.7.3"
+category: alpine
+description: development framework configuration tools
+uri:
+  - https://git.sr.ht/~kaniini/pkgconf
+license: ISC
+labels:
+  package.source: "https://distfiles.dereferenced.org/pkgconf/pkgconf-1.7.3.tar.xz"

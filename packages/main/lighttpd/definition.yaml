@@ -1,0 +1,9 @@
+name: lighttpd
+version: "1.4.55"
+category: alpine
+description: Secure, fast, compliant and very flexible web-server
+uri:
+  - https://www.lighttpd.net
+license: BSD-3-Clause
+labels:
+  package.source: "https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.55.tar.xz"

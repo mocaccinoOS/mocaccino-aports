@@ -1,0 +1,13 @@
+name: perl-net-libidn
+version: "0.12"
+category: alpine
+description: Perl bindings for GNU Libidn
+uri:
+  - http://www.net-dns.org/
+license: Artistic-Perl-1.0 GPL+
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TH/THOR/Net-LibIDN-0.12.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

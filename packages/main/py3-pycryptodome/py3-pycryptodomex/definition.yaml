@@ -1,0 +1,7 @@
+name: py3-pycryptodomex
+version: "3.9.8"
+category: alpine
+description: Self-contained cryptographic library
+uri:
+  - https://www.pycryptodome.org
+license: BSD-2-Clause Unlicense

@@ -1,0 +1,7 @@
+name: perl-xml-rss-doc
+version: "1.62"
+category: alpine
+description: creates and updates RSS files
+uri:
+  - https://metacpan.org/release/XML-RSS/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

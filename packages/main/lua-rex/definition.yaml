@@ -1,0 +1,16 @@
+name: lua-rex
+version: "2.9.1"
+category: alpine
+description: Lua bindings to regular expression library pcre and posix
+uri:
+  - http://lrexlib.luaforge.net/
+license: MIT
+labels:
+  package.source: "lua-rex-2.9.1.tar.gz::https://github.com/rrthomas/lrexlib/archive/rel-2-9-1.tar.gz"
+requires:
+  - category: alpine
+    name: "lua-rex-pcre"
+    version: '>=0'
+  - category: alpine
+    name: "lua-rex-posix"
+    version: '>=0'

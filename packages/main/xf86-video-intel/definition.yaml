@@ -1,0 +1,13 @@
+name: xf86-video-intel
+version: "2.99.917_git20191210"
+category: alpine
+description: X.Org driver for Intel cards
+uri:
+  - https://xorg.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://github.com/freedesktop/xorg-xf86-video-intel/archive/f66d39544bb8339130c96d282a80f87ca1606caf.zip"
+requires:
+  - category: alpine
+    name: "mesa-dri-intel"
+    version: '>=0'

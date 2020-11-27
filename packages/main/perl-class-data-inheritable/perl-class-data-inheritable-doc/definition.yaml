@@ -1,0 +1,7 @@
+name: perl-class-data-inheritable-doc
+version: "0.08"
+category: alpine
+description: Inheritable, overridable class data
+uri:
+  - https://metacpan.org/release/Class-Data-Inheritable/
+license: GPL PerlArtistic

@@ -1,0 +1,13 @@
+name: py3-cparser
+version: "2.20"
+category: alpine
+description: C parser written in Python3
+uri:
+  - https://github.com/eliben/pycparser
+license: BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/pycparser/pycparser-2.20.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

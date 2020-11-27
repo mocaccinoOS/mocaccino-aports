@@ -1,0 +1,9 @@
+name: acf-jquery
+version: "0.4.3"
+category: alpine
+description: jquery libraries for ACF
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-jquery
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-jquery/acf-jquery-0.4.3.tar.xz"

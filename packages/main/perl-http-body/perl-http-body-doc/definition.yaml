@@ -1,0 +1,7 @@
+name: perl-http-body-doc
+version: "1.22"
+category: alpine
+description: HTTP::Body perl module
+uri:
+  - https://search.cpan.org/dist/HTTP-Body/
+license: GPL-2.0 or Artistic

@@ -1,0 +1,7 @@
+name: libnfnetlink-dev
+version: "1.0.1"
+category: alpine
+description: low-level library for netfilter related kernel/userspace communication
+uri:
+  - http://www.netfilter.org/projects/libnfnetlink/
+license: GPL-2.0-only

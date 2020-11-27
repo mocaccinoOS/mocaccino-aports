@@ -1,0 +1,9 @@
+name: dtach
+version: "0.9"
+category: alpine
+description: A program that emulates the detach feature of screen
+uri:
+  - http://dtach.sourceforge.net
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/project/dtach/dtach/0.9/dtach-0.9.tar.gz"

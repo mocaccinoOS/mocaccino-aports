@@ -1,0 +1,22 @@
+name: intltool
+version: "0.51.0"
+category: alpine
+description: The internationalization tool collection
+uri:
+  - http://freedesktop.org/wiki/Software/intltool
+license: GPL-2.0
+labels:
+  package.source: "https://edge.launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-xml-parser"
+    version: '>=0'
+  - category: alpine
+    name: "gettext"
+    version: '>=0'
+  - category: alpine
+    name: "file"
+    version: '>=0'

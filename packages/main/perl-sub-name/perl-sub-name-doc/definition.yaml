@@ -1,0 +1,7 @@
+name: perl-sub-name-doc
+version: "0.26"
+category: alpine
+description: (re)name a sub
+uri:
+  - https://metacpan.org/release/Sub-Name/
+license: GPL PerlArtistic

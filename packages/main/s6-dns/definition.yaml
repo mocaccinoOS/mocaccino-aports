@@ -1,0 +1,13 @@
+name: s6-dns
+version: "2.3.3.0"
+category: alpine
+description: skarnet.org's DNS client libraries and command-line DNS client utilities
+uri:
+  - http://skarnet.org/software/s6-dns/
+license: ISC
+labels:
+  package.source: "http://skarnet.org/software/s6-dns/s6-dns-2.3.3.0.tar.gz"
+requires:
+  - category: alpine
+    name: "skalibs"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: perl-devel-checklib
+version: "1.14"
+category: alpine
+description: Check if a library is installed
+uri:
+  - https://metacpan.org/release/MATTN/Devel-CheckLib-1.14
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MATTN/Devel-CheckLib-1.14.tar.gz"

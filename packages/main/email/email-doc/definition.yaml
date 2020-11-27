@@ -1,0 +1,7 @@
+name: email-doc
+version: "3.1.4"
+category: alpine
+description: command line SMTP client that's simple
+uri:
+  - http://www.cleancode.org/projects/email
+license: GPL-2.0-or-later

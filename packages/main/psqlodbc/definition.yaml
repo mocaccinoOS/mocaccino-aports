@@ -1,0 +1,9 @@
+name: psqlodbc
+version: "09.06.0410"
+category: alpine
+description: PostgreSQL ODBC driver
+uri:
+  - https://www.postgresql.org
+license: GPL
+labels:
+  package.source: "https://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-09.06.0410.tar.gz"

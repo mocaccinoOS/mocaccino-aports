@@ -1,0 +1,7 @@
+name: perl-net-smtp-tls-butmaintained-doc
+version: "0.24"
+category: alpine
+description: An SMTP client supporting TLS and AUTH (DEPRECATED, use Net::SMTPS instead)
+uri:
+  - https://metacpan.org/release/Net-SMTP-TLS-ButMaintained/
+license: GPL PerlArtistic

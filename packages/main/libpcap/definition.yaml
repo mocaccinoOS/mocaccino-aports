@@ -1,0 +1,9 @@
+name: libpcap
+version: "1.9.1"
+category: alpine
+description: A system-independent interface for user-level packet capture
+uri:
+  - https://www.tcpdump.org/
+license: BSD-3-Clause
+labels:
+  package.source: "https://www.tcpdump.org/release/libpcap-1.9.1.tar.gz"

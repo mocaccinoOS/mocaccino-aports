@@ -1,0 +1,31 @@
+name: perl-net-async-http
+version: "0.47"
+category: alpine
+description: use HTTP with C<IO::Async>
+uri:
+  - https://metacpan.org/release/Net-Async-HTTP/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Net-Async-HTTP-0.47.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-async"
+    version: '>=0'
+  - category: alpine
+    name: "perl-future"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-message"
+    version: '>=0'
+  - category: alpine
+    name: "perl-struct-dumb"
+    version: '>=0'
+  - category: alpine
+    name: "perl-metrics-any"
+    version: '>=0'

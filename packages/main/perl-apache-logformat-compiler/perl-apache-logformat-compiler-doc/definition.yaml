@@ -1,0 +1,7 @@
+name: perl-apache-logformat-compiler-doc
+version: "0.36"
+category: alpine
+description: Compile a log format string to perl-code
+uri:
+  - https://metacpan.org/release/Apache-LogFormat-Compiler
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

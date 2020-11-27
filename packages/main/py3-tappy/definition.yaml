@@ -1,0 +1,16 @@
+name: py3-tappy
+version: "3.0"
+category: alpine
+description: Python3 Test Anything Protocol (TAP) tools
+uri:
+  - https://github.com/python-tap/tappy
+license: BSD-2-Clause
+labels:
+  package.source: "py3-tappy-3.0.tar.gz::https://files.pythonhosted.org/packages/source/t/tap.py/tap.py-3.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: netcf-libs
+version: "0.2.8"
+category: alpine
+description: Cross-platform network configuration library
+uri:
+  - https://fedorahosted.org/released/netcf
+license: LGPL-2.0

@@ -1,0 +1,32 @@
+# Maintainer: Nathan Angelacos <nangel@alpinelinux.org>
+pkgname=byacc
+pkgver=20200910
+pkgrel=0
+pkgdesc="The Berkeley Yacc general-purpose parser generator"
+url="https://invisible-island.net/byacc/byacc.html"
+arch="all"
+license="Public-Domain"
+depends="!bison"
+subpackages="$pkgname-doc"
+source="https://invisible-mirror.net/archives/byacc/byacc-$pkgver.tgz"
+
+build() {
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--localstatedir=/var
+	make
+}
+
+check() {
+	make check
+}
+
+package() {
+	make DESTDIR="$pkgdir" install
+}
+
+sha512sums="491bbde2d5b0fdf2ad57bec5080112ad7c12ce3830b5e14f2289092aad1addae6edd4698368a9c8d69219a95ae5fa47eb32a95a2625841915297972591bebea3  byacc-20200910.tgz"

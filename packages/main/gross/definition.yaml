@@ -1,0 +1,9 @@
+name: gross
+version: "1.0.2"
+category: alpine
+description: Greylisting of suspicious sources
+uri:
+  - http://code.google.com/p/gross/
+license: BSD
+labels:
+  package.source: "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gross/gross-1.0.2.tar.gz"

@@ -1,0 +1,9 @@
+name: perl-devel-stacktrace
+version: "2.04"
+category: alpine
+description: An object representing a stack trace
+uri:
+  - https://metacpan.org/release/Devel-StackTrace/
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz"

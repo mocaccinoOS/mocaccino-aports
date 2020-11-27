@@ -1,0 +1,7 @@
+name: userspace-rcu-doc
+version: "0.12.1"
+category: alpine
+description: Userspace RCU (read-copy-update) library
+uri:
+  - http://liburcu.org/
+license: LGPL-2.1-or-later

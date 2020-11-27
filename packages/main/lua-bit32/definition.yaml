@@ -1,0 +1,9 @@
+name: lua-bit32
+version: "5.3.0"
+category: alpine
+description: A lua library providing bitwise operations
+uri:
+  - https://github.com/keplerproject/lua-compat-5.2
+license: MIT
+labels:
+  package.source: "lua-bit32-5.3.0.tar.gz::https://github.com/keplerproject/lua-compat-5.2/archive/bitlib-5.3.0.tar.gz"

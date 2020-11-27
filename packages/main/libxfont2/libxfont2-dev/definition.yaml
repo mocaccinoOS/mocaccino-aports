@@ -1,0 +1,7 @@
+name: libxfont2-dev
+version: "2.0.4"
+category: alpine
+description: X.Org X11 libXfont2 runtime library
+uri:
+  - https://www.x.org
+license: MIT

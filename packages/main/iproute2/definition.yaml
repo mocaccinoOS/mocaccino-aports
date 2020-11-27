@@ -1,0 +1,9 @@
+name: iproute2
+version: "5.9.0"
+category: alpine
+description: IP Routing Utilities
+uri:
+  - https://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://kernel.org/pub/linux/utils/net/iproute2/iproute2-5.9.0.tar.xz"

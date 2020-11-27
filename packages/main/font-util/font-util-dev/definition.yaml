@@ -1,0 +1,7 @@
+name: font-util-dev
+version: "1.3.2"
+category: alpine
+description: X.org font utilities
+uri:
+  - http://xorg.freedesktop.org/
+license: custom

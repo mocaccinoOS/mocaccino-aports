@@ -1,0 +1,7 @@
+name: liblockfile-doc
+version: "1.16"
+category: alpine
+description: Shared library with NFS-safe locking functions
+uri:
+  - https://github.com/miquels/liblockfile
+license: LGPL-2.0-or-later and GPL-2.0-or-later

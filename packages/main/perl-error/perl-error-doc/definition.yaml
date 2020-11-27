@@ -1,0 +1,7 @@
+name: perl-error-doc
+version: "0.17029"
+category: alpine
+description: Perl module error/exception handling in an OO-ish way
+uri:
+  - https://metacpan.org/release/Error
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,7 @@
+name: aconf-mod-dnsmasq
+version: "0.8.1"
+category: alpine
+description: Alpine Configurator
+uri:
+  - https://git.alpinelinux.org/cgit/user/kunkku/aconf/
+license: BSD

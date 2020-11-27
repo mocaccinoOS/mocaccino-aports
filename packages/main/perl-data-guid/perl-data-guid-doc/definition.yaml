@@ -1,0 +1,7 @@
+name: perl-data-guid-doc
+version: "0.049"
+category: alpine
+description: globally unique identifiers
+uri:
+  - https://metacpan.org/release/Data-GUID/
+license: GPL PerlArtistic

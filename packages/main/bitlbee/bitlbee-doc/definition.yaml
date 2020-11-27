@@ -1,0 +1,7 @@
+name: bitlbee-doc
+version: "3.6"
+category: alpine
+description: An IRC to other chat networks gateway
+uri:
+  - https://www.bitlbee.org/
+license: GPL-2.0-or-later

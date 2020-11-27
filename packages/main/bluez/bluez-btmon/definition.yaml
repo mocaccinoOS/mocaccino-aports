@@ -1,0 +1,7 @@
+name: bluez-btmon
+version: "5.55"
+category: alpine
+description: Tools for the Bluetooth protocol stack
+uri:
+  - http://www.bluez.org/
+license: GPL-2.0-or-later

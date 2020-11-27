@@ -1,0 +1,31 @@
+name: perl-html-mason
+version: "1.59"
+category: alpine
+description: High-performance, dynamic web site authoring system
+uri:
+  - https://metacpan.org/release/HTML-Mason/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/HTML-Mason-1.59.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-cache-cache"
+    version: '>=0'
+  - category: alpine
+    name: "perl-log-any"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'
+  - category: alpine
+    name: "perl-class-container"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-validate"
+    version: '>=0'
+  - category: alpine
+    name: "perl-exception-class"
+    version: '>=0'
+  - category: alpine
+    name: "perl-cgi"
+    version: '>=0'

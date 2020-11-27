@@ -1,0 +1,9 @@
+name: unionfs-fuse
+version: "2.1"
+category: alpine
+description: Union Filesystem in Userspace
+uri:
+  - https://github.com/rpodgorny/unionfs-fuse
+license: BSD-3-Clause
+labels:
+  package.source: "unionfs-fuse-2.1.tar.gz::https://github.com/rpodgorny/unionfs-fuse/archive/v2.1.tar.gz"

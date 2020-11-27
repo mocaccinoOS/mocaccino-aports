@@ -1,0 +1,9 @@
+name: fontconfig
+version: "2.13.1"
+category: alpine
+description: Library for configuring and customizing font access
+uri:
+  - https://www.freedesktop.org/wiki/Software/fontconfig
+license: MIT
+labels:
+  package.source: "https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.13.1.tar.gz"

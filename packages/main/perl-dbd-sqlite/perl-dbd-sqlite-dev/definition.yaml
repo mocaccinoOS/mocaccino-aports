@@ -1,0 +1,7 @@
+name: perl-dbd-sqlite-dev
+version: "1.66"
+category: alpine
+description: Perl CPAN DBD::SQLite module
+uri:
+  - https://metacpan.org/release/DBD-SQLite
+license: GPL PerlArtistic

@@ -1,0 +1,13 @@
+name: py3-more-itertools
+version: "8.5.0"
+category: alpine
+description: More routines for operating on iterables, beyond itertools.
+uri:
+  - https://github.com/erikrose/more-itertools
+license: MIT
+labels:
+  package.source: "more-itertools-8.5.0.tar.gz::https://github.com/erikrose/more-itertools/archive/8.5.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

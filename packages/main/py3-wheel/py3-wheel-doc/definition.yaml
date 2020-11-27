@@ -1,0 +1,7 @@
+name: py3-wheel-doc
+version: "0.35.1"
+category: alpine
+description: A built-package format for Python
+uri:
+  - https://github.com/pypa/wheel
+license: MIT

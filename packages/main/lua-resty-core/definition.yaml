@@ -1,0 +1,16 @@
+name: lua-resty-core
+version: "0.1.21"
+category: alpine
+description: New FFI-based API for lua-nginx-module
+uri:
+  - https://github.com/openresty/lua-resty-core
+license: BSD-2-Clause
+labels:
+  package.source: "https://github.com/openresty/lua-resty-core/archive/v0.1.21/lua-resty-core-0.1.21.tar.gz"
+requires:
+  - category: alpine
+    name: "luajit"
+    version: '>=0'
+  - category: alpine
+    name: "lua-resty-lrucache"
+    version: '>=0'

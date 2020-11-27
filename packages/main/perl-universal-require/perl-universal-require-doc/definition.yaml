@@ -1,0 +1,7 @@
+name: perl-universal-require-doc
+version: "0.18"
+category: alpine
+description: Require() modules from a variable
+uri:
+  - https://metacpan.org/release/UNIVERSAL-require/
+license: GPL+ or Artistic

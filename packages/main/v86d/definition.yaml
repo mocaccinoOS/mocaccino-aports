@@ -1,0 +1,9 @@
+name: v86d
+version: "0.1.10"
+category: alpine
+description: Userspace helper for uvesafb that runs x86 code in an emulated environment
+uri:
+  - https://github.com/mjanusz/v86d
+license: GPL-2.0
+labels:
+  package.source: "v86d-0.1.10.tar.gz::https://github.com/mjanusz/v86d/archive/v86d-0.1.10.tar.gz"

@@ -1,0 +1,7 @@
+name: gvpe-doc
+version: "3.1"
+category: alpine
+description: GNU Virtual Private Ethernet
+uri:
+  - http://software.schmorp.de/pkg/gvpe.html
+license: GPL-2.0

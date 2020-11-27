@@ -1,0 +1,7 @@
+name: perl-extutils-helpers-doc
+version: "0.026"
+category: alpine
+description: Various portability utilities for module builders
+uri:
+  - https://metacpan.org/release/ExtUtils-Helpers/
+license: GPL PerlArtistic

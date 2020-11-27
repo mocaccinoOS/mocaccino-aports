@@ -1,0 +1,13 @@
+name: libxkbcommon
+version: "1.0.3"
+category: alpine
+description: keyboard handling library
+uri:
+  - https://www.xkbcommon.org/
+license: MIT
+labels:
+  package.source: "libxkbcommon-1.0.3.tar.gz::https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.0.3.tar.gz"
+requires:
+  - category: alpine
+    name: "xkeyboard-config"
+    version: '>=0'

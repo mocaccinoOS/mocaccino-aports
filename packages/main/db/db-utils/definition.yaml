@@ -1,0 +1,7 @@
+name: db-utils
+version: "5.3.28"
+category: alpine
+description: The Berkeley DB embedded database system
+uri:
+  - https://www.oracle.com/technology/software/products/berkeley-db/index.html
+license: custom

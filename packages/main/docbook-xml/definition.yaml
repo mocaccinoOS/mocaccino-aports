@@ -1,0 +1,13 @@
+name: docbook-xml
+version: "4.5"
+category: alpine
+description: A widely used XML scheme for writing documentation and help
+uri:
+  - http://scrollkeeper.sourceforge.net/docbook.shtml
+license: MIT
+labels:
+  package.source: "https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip"
+requires:
+  - category: alpine
+    name: "libxml2-utils"
+    version: '>=0'

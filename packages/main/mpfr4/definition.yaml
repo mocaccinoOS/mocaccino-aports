@@ -1,0 +1,9 @@
+name: mpfr4
+version: "4.1.0"
+category: alpine
+description: multiple-precision floating-point library
+uri:
+  - https://www.mpfr.org/
+license: LGPL-3.0-or-later
+labels:
+  package.source: "https://www.mpfr.org/mpfr-4.1.0/mpfr-4.1.0.tar.xz"

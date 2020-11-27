@@ -1,0 +1,9 @@
+name: python3
+version: "3.8.6"
+category: alpine
+description: A high-level scripting language
+uri:
+  - https://www.python.org/
+license: PSF-2.0
+labels:
+  package.source: "https://www.python.org/ftp/python/3.8.6/Python-3.8.6.tar.xz"

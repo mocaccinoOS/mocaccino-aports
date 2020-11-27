@@ -1,0 +1,7 @@
+name: perl-test-cpan-meta-doc
+version: "0.25"
+category: alpine
+description: Validate your CPAN META.json files
+uri:
+  - https://metacpan.org/release/Test-CPAN-Meta/
+license: Artistic-2

@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libgpg-error-dev
+    version: '>=0'
+  - category: alpine
+    name: libassuan-dev
+    version: '>=0'
+  - category: alpine
+    name: gcr-dev
+    version: '>=0'
+  - category: alpine
+    name: libsecret-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

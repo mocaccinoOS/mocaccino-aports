@@ -1,0 +1,16 @@
+name: perl-www-robotrules
+version: "6.02"
+category: alpine
+description: WWW::RobotRules perl module
+uri:
+  - https://metacpan.org/release/WWW-RobotRules/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'

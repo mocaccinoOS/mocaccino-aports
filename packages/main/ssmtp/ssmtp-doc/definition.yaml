@@ -1,0 +1,7 @@
+name: ssmtp-doc
+version: "2.64"
+category: alpine
+description: Extremely simple MTA to get mail off the system to a mail hub
+uri:
+  - https://packages.debian.org/stable/mail/ssmtp
+license: GPL-2.0

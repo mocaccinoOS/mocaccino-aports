@@ -1,0 +1,7 @@
+name: mailcap-doc
+version: "2.1.49"
+category: alpine
+description: Helper application and MIME type associations for file types
+uri:
+  - https://pagure.io/mailcap
+license: Public-Domain and MIT

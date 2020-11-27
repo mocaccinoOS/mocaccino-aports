@@ -1,0 +1,7 @@
+name: fftw-double-libs
+version: "3.3.8"
+category: alpine
+description: Discrete Fourier transform (DFT) library
+uri:
+  - http://www.fftw.org
+license: GPL-2.0-or-later

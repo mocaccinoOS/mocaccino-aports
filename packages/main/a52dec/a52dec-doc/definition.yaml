@@ -1,0 +1,7 @@
+name: a52dec-doc
+version: "0.7.4"
+category: alpine
+description: A free library for decoding ATSC A/52 streams.
+uri:
+  - http://liba52.sourceforge.net/
+license: GPL-2.0-or-later

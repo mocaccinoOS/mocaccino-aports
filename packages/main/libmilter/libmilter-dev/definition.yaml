@@ -1,0 +1,7 @@
+name: libmilter-dev
+version: "1.0.2"
+category: alpine
+description: Sendmail Mail Filter API (Milter)
+uri:
+  - http://www.sendmail.com/sm/open_source
+license: Sendmail

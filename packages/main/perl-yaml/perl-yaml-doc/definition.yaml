@@ -1,0 +1,7 @@
+name: perl-yaml-doc
+version: "1.30"
+category: alpine
+description: YAML Ain't Markup Language (tm)
+uri:
+  - https://metacpan.org/release/YAML
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

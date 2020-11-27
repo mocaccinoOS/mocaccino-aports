@@ -1,0 +1,7 @@
+name: lua5.3-ldbus
+version: "20150430"
+category: alpine
+description: Lua D-Bus bindings
+uri:
+  - https://github.com/daurnimator/ldbus
+license: MIT

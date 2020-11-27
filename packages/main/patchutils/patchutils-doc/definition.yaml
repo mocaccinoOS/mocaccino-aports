@@ -1,0 +1,7 @@
+name: patchutils-doc
+version: "0.4.2"
+category: alpine
+description: A collection of programs for manipulating patch files
+uri:
+  - http://cyberelk.net/tim/patchutils/
+license: GPL-2.0-or-later

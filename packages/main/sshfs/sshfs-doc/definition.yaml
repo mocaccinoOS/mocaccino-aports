@@ -1,0 +1,7 @@
+name: sshfs-doc
+version: "3.7.1"
+category: alpine
+description: FUSE client based on the SSH File Transfer Protocol
+uri:
+  - https://github.com/libfuse/sshfs
+license: GPL-2.0-or-later

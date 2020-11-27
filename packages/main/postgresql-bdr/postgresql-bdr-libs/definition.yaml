@@ -1,0 +1,7 @@
+name: postgresql-bdr-libs
+version: "9.4.14_p1"
+category: alpine
+description: A sophisticated object-relational DBMS with bidirectional replication support (BDR)
+uri:
+  - https://www.2ndquadrant.com/en/resources/postgres-bdr-2ndquadrant/
+license: PostgreSQL

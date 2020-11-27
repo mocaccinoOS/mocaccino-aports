@@ -1,0 +1,7 @@
+name: freeradius-rest
+version: "3.0.21"
+category: alpine
+description: RADIUS (Remote Authentication Dial-In User Service) server
+uri:
+  - https://freeradius.org/
+license: GPL-2.0-or-later

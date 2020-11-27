@@ -1,0 +1,13 @@
+name: perl-devel-globaldestruction
+version: "0.14"
+category: alpine
+description: unknown
+uri:
+  - https://metacpan.org/release/Devel-GlobalDestruction/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestruction-0.14.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-sub-exporter-progressive"
+    version: '>=0'

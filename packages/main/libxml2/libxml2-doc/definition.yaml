@@ -1,0 +1,7 @@
+name: libxml2-doc
+version: "2.9.10"
+category: alpine
+description: XML parsing library, version 2
+uri:
+  - http://www.xmlsoft.org/
+license: MIT

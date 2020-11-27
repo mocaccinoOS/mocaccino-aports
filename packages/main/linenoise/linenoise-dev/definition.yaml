@@ -1,0 +1,7 @@
+name: linenoise-dev
+version: "1.0"
+category: alpine
+description: Minimal replacement for readline
+uri:
+  - https://github.com/antirez/linenoise
+license: BSD-2-Clause-NetBSD

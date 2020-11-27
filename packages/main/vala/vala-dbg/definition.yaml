@@ -1,0 +1,7 @@
+name: vala-dbg
+version: "0.50.2"
+category: alpine
+description: Compiler for the GObject type system
+uri:
+  - https://wiki.gnome.org/Projects/Vala
+license: LGPL-2.0-or-later

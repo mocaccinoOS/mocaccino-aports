@@ -1,0 +1,7 @@
+name: nagios-plugins-ssl_validity
+version: "2.3.2"
+category: alpine
+description: Plugins for Nagios to check services on hosts
+uri:
+  - https://nagios-plugins.org
+license: GPL-3.0-only

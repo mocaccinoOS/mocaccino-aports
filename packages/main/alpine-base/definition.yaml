@@ -1,0 +1,37 @@
+name: alpine-base
+version: "3.13.0_alpha20200917"
+category: alpine
+description: Meta package for minimal alpine base
+uri:
+  - https://alpinelinux.org
+license: MIT
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "alpine-baselayout"
+    version: '>=0'
+  - category: alpine
+    name: "alpine-conf"
+    version: '>=0'
+  - category: alpine
+    name: "apk-tools"
+    version: '>=0'
+  - category: alpine
+    name: "busybox"
+    version: '>=0'
+  - category: alpine
+    name: "busybox-suid"
+    version: '>=0'
+  - category: alpine
+    name: "busybox-initscripts"
+    version: '>=0'
+  - category: alpine
+    name: "openrc"
+    version: '>=0'
+  - category: alpine
+    name: "libc-utils"
+    version: '>=0'
+  - category: alpine
+    name: "alpine-keys"
+    version: '>=0'

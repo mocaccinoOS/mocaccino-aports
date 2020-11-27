@@ -1,0 +1,9 @@
+name: opennhrp
+version: "0.14.1"
+category: alpine
+description: NBMA Next Hop Resolution Protocol daemon
+uri:
+  - https://sourceforge.net/projects/opennhrp
+license: GPL-2.0
+labels:
+  package.source: "https://downloads.sourceforge.net/opennhrp/opennhrp-0.14.1.tar.bz2"

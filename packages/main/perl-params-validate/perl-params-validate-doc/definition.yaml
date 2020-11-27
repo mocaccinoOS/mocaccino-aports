@@ -1,0 +1,7 @@
+name: perl-params-validate-doc
+version: "1.30"
+category: alpine
+description: Validate method/function parameters
+uri:
+  - https://metacpan.org/release/Params-Validate/
+license: Artistic-2.0

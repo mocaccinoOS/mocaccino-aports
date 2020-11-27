@@ -1,0 +1,7 @@
+name: automake-doc
+version: "1.16.3"
+category: alpine
+description: A GNU tool for automatically creating Makefiles
+uri:
+  - https://www.gnu.org/software/automake
+license: GPL-2.0-or-later MIT Public-Domain

@@ -1,0 +1,7 @@
+name: libice-doc
+version: "1.0.10"
+category: alpine
+description: X11 Inter-Client Exchange library
+uri:
+  - http://xorg.freedesktop.org/
+license: X11

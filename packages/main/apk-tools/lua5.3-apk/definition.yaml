@@ -1,0 +1,7 @@
+name: lua5.3-apk
+version: "2.12.0"
+category: alpine
+description: Alpine Package Keeper - package manager for alpine
+uri:
+  - https://gitlab.alpinelinux.org/alpine/apk-tools
+license: GPL-2.0-only

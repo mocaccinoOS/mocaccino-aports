@@ -1,0 +1,7 @@
+name: perl-text-autoformat-doc
+version: "1.75"
+category: alpine
+description: Text::Autoformat perl module
+uri:
+  - https://metacpan.org/release/Text-Autoformat
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

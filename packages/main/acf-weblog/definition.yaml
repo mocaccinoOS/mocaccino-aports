@@ -1,0 +1,25 @@
+name: acf-weblog
+version: "0.11.1"
+category: alpine
+description: ACF for web proxy (squid and dansguardian) logfiles
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-weblog
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-weblog/acf-weblog-0.11.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-sql-postgres"
+    version: '>=0'
+  - category: alpine
+    name: "wget"
+    version: '>=0'
+  - category: alpine
+    name: "postgresql-client"
+    version: '>=0'
+  - category: alpine
+    name: "lua-subprocess"
+    version: '>=0'

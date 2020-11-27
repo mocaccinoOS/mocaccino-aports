@@ -1,0 +1,9 @@
+name: sipsak
+version: "0.9.7"
+category: alpine
+description: SIP swiss army knife
+uri:
+  - https://github.com/nils-ohlmeier/sipsak
+license: GPL-2.0-or-later
+labels:
+  package.source: "sipsak-0.9.7.tar.gz::https://github.com/nils-ohlmeier/sipsak/archive/0.9.7.tar.gz"

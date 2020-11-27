@@ -1,0 +1,7 @@
+name: lua-posix-doc
+version: "33.4.0"
+category: alpine
+description: POSIX library for Lua 5.3
+uri:
+  - https://github.com/luaposix/luaposix
+license: MIT

@@ -1,0 +1,7 @@
+name: bc-doc
+version: "1.07.1"
+category: alpine
+description: An arbitrary precision numeric processing language (calculator)
+uri:
+  - https://www.gnu.org/software/bc/bc.html
+license: GPL-2.0-or-later

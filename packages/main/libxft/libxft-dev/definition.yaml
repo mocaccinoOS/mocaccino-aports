@@ -1,0 +1,7 @@
+name: libxft-dev
+version: "2.3.3"
+category: alpine
+description: FreeType-based font drawing library for X
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

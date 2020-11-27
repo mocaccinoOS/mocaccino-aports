@@ -1,0 +1,7 @@
+name: xf86-video-ati-doc
+version: "19.1.0"
+category: alpine
+description: ATI video driver
+uri:
+  - https://xorg.freedesktop.org/wiki/
+license: MIT

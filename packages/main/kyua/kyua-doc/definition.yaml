@@ -1,0 +1,7 @@
+name: kyua-doc
+version: "0.13"
+category: alpine
+description: testing framework for infrastructure software
+uri:
+  - https://github.com/jmmv/kyua
+license: BSD-3-Clause

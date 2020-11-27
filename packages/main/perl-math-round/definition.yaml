@@ -1,0 +1,13 @@
+name: perl-math-round
+version: "0.07"
+category: alpine
+description: Math::Round perl module
+uri:
+  - https://metacpan.org/release/Math-Round/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GR/GROMMEL/Math-Round-0.07.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

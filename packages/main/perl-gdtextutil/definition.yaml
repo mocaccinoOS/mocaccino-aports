@@ -1,0 +1,13 @@
+name: perl-gdtextutil
+version: "0.86"
+category: alpine
+description: text utilities for GD
+uri:
+  - https://metacpan.org/release/GDTextUtil/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MV/MVERB/GDTextUtil-0.86.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-gd"
+    version: '>=0'

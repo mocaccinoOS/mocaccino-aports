@@ -1,0 +1,9 @@
+name: dmidecode
+version: "3.3"
+category: alpine
+description: A utility for reporting system hardware as described by BIOS
+uri:
+  - http://www.nongnu.org/dmidecode
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://download.savannah.gnu.org/releases/dmidecode/dmidecode-3.3.tar.xz"

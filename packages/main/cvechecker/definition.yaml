@@ -1,0 +1,22 @@
+name: cvechecker
+version: "4.0"
+category: alpine
+description: A local CVE checker tool
+uri:
+  - https://github.com/sjvermeu/cvechecker/wiki
+license: GPL-3.0
+labels:
+  package.source: "cvechecker-4.0.zip::https://github.com/sjvermeu/cvechecker/archive/cvechecker-4.0.zip"
+requires:
+  - category: alpine
+    name: "gawk"
+    version: '>=0'
+  - category: alpine
+    name: "wget"
+    version: '>=0'
+  - category: alpine
+    name: "libxslt"
+    version: '>=0'
+  - category: alpine
+    name: "jq"
+    version: '>=0'

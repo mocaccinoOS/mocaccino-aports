@@ -1,0 +1,7 @@
+name: xmlrpc-c-client
+version: "1.51.06"
+category: alpine
+description: This library provides a modular implementation of XML-RPC for C and C++
+uri:
+  - http://xmlrpc-c.sourceforge.net/
+license: BSD-3-Clause AND MIT

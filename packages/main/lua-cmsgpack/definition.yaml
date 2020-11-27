@@ -1,0 +1,9 @@
+name: lua-cmsgpack
+version: "0.4.0"
+category: alpine
+description: MessagePack C implementation for Lua
+uri:
+  - https://github.com/antirez/lua-cmsgpack
+license: BSD-2-Clause
+labels:
+  package.source: "lua-cmsgpack-0.4.0.tar.gz::https://github.com/antirez/lua-cmsgpack/archive/0.4.0.tar.gz"

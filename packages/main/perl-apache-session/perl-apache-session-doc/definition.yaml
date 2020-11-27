@@ -1,0 +1,7 @@
+name: perl-apache-session-doc
+version: "1.94"
+category: alpine
+description: A persistence framework for session data
+uri:
+  - https://metacpan.org/release/Apache-Session/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

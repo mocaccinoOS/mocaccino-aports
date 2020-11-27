@@ -1,0 +1,9 @@
+name: tinyproxy
+version: "1.10.0"
+category: alpine
+description: Lightweight HTTP proxy
+uri:
+  - https://tinyproxy.github.io/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://github.com/tinyproxy/tinyproxy/releases/download/1.10.0/tinyproxy-1.10.0.tar.gz"

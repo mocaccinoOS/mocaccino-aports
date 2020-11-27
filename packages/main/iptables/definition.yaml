@@ -1,0 +1,9 @@
+name: iptables
+version: "1.8.6"
+category: alpine
+description: Linux kernel firewall, NAT and packet mangling tools
+uri:
+  - https://www.netfilter.org/projects/iptables/index.html
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://www.netfilter.org/projects/iptables/files/iptables-1.8.6.tar.bz2"

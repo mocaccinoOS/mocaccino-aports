@@ -1,0 +1,9 @@
+name: czmq
+version: "4.2.0"
+category: alpine
+description: High-level C binding for ZeroMQ
+uri:
+  - http://czmq.zeromq.org/
+license: MPL-2.0
+labels:
+  package.source: "czmq-4.2.0.tar.gz::https://github.com/zeromq/czmq/archive/v4.2.0.tar.gz"

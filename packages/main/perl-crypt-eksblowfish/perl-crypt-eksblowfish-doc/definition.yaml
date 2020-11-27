@@ -1,0 +1,7 @@
+name: perl-crypt-eksblowfish-doc
+version: "0.009"
+category: alpine
+description: the Eksblowfish block cipher
+uri:
+  - https://metacpan.org/release/Crypt-Eksblowfish/
+license: GPL PerlArtistic

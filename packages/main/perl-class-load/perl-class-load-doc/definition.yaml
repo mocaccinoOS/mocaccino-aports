@@ -1,0 +1,7 @@
+name: perl-class-load-doc
+version: "0.25"
+category: alpine
+description: A working (require Class::Name) and more
+uri:
+  - https://metacpan.org/release/Class-Load/
+license: GPL PerlArtistic

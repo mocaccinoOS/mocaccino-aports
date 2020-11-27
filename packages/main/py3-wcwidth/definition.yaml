@@ -1,0 +1,13 @@
+name: py3-wcwidth
+version: "0.2.5"
+category: alpine
+description: Measures number of Terminal column cells of wide-character codes
+uri:
+  - https://pypi.python.org/pypi/wcwidth
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/w/wcwidth/wcwidth-0.2.5.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

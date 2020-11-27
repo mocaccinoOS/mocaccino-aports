@@ -1,0 +1,7 @@
+name: usbutils-doc
+version: "013"
+category: alpine
+description: USB Device Utilities
+uri:
+  - http://linux-usb.sourceforge.net/
+license: GPL-2.0-or-later

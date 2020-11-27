@@ -1,0 +1,9 @@
+name: tcl
+version: "8.6.10"
+category: alpine
+description: The Tcl scripting language
+uri:
+  - http://tcl.sourceforge.net/
+license: TCL
+labels:
+  package.source: "https://downloads.sourceforge.net/sourceforge/tcl/tcl8.6.10-src.tar.gz"

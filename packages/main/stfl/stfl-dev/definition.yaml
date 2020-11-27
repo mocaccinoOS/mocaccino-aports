@@ -1,0 +1,7 @@
+name: stfl-dev
+version: "0.24"
+category: alpine
+description: The Structured Terminal Forms Language/Library
+uri:
+  - http://www.clifford.at/stfl/
+license: LGPL-3.0-or-later

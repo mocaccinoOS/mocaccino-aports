@@ -1,0 +1,7 @@
+name: termrec-doc
+version: "0.19"
+category: alpine
+description: termrec is a program for recording videos of terminal output
+uri:
+  - http://angband.pl/termrec.html
+license: LGPL-3.0-only

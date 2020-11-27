@@ -1,0 +1,7 @@
+name: pingu-doc
+version: "1.5"
+category: alpine
+description: Small daemon that pings hosts and executes a script when status change
+uri:
+  - https://git.alpinelinux.org/cgit/pingu
+license: GPL

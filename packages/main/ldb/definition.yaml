@@ -1,0 +1,9 @@
+name: ldb
+version: "2.2.0"
+category: alpine
+description: A schema-less, ldap like, API and database
+uri:
+  - https://ldb.samba.org/
+license: LGPL-3.0-or-later
+labels:
+  package.source: "https://www.samba.org/ftp/pub/ldb/ldb-2.2.0.tar.gz"

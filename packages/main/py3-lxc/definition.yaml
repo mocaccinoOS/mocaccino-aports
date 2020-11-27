@@ -1,0 +1,13 @@
+name: py3-lxc
+version: "3.0.4"
+category: alpine
+description: Python3 bindings for LXC
+uri:
+  - https://linuxcontainers.org
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://linuxcontainers.org/downloads/lxc/python3-lxc-3.0.4.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: ix
+version: "0.7"
+category: alpine
+description: Helper script to paste things to http://sprunge.us
+uri:
+  - http://sprunge.us
+license: GPL-2.0-only

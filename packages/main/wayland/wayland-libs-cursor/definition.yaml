@@ -1,0 +1,7 @@
+name: wayland-libs-cursor
+version: "1.18.0"
+category: alpine
+description: A computer display server protocol
+uri:
+  - https://wayland.freedesktop.org
+license: MIT

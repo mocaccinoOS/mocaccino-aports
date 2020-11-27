@@ -1,0 +1,9 @@
+name: xcb-util-keysyms
+version: "0.4.0"
+category: alpine
+description: X C-language Binding - X constants and keycodes
+uri:
+  - https://xcb.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.gz"

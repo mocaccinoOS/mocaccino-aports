@@ -1,0 +1,13 @@
+name: dansguardian
+version: "2.12.0.3"
+category: alpine
+description: Web content filter
+uri:
+  - http://dansguardian.org
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/project/dansguardian/dansguardian-2.12.0.3.tar.bz2"
+requires:
+  - category: alpine
+    name: "logrotate"
+    version: '>=0'

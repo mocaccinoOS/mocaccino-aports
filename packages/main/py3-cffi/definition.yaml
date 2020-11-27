@@ -1,0 +1,13 @@
+name: py3-cffi
+version: "1.14.4"
+category: alpine
+description: Foreign function interface for calling C code from Python3
+uri:
+  - http://cffi.readthedocs.org/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/c/cffi/cffi-1.14.4.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-cparser"
+    version: '>=0'

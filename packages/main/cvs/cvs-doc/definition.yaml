@@ -1,0 +1,7 @@
+name: cvs-doc
+version: "1.12.13"
+category: alpine
+description: Concurrent Versions System
+uri:
+  - https://www.nongnu.org/cvs/
+license: GPL-2.0-or-later

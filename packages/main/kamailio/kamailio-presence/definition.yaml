@@ -1,0 +1,7 @@
+name: kamailio-presence
+version: "5.4.2.20201127"
+category: alpine
+description: Open Source SIP Server
+uri:
+  - https://www.kamailio.org/
+license: GPL-2.0-or-later

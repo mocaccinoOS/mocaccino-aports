@@ -1,0 +1,19 @@
+name: nikto
+version: "2.1.6"
+category: alpine
+description: A web application security scanner
+uri:
+  - https://www.cirt.net/Nikto2
+license: GPL-2.0
+labels:
+  package.source: "nikto-2.1.6.tar.gz::https://github.com/sullo/nikto/archive/2.1.6.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "nmap"
+    version: '>=0'
+  - category: alpine
+    name: "openssl"
+    version: '>=0'

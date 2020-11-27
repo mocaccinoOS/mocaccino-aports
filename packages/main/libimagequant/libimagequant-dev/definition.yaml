@@ -1,0 +1,7 @@
+name: libimagequant-dev
+version: "2.12.6"
+category: alpine
+description: Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.
+uri:
+  - https://pngquant.org/lib/
+license: GPL-3.0-or-later

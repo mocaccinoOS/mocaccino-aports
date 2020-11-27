@@ -1,0 +1,7 @@
+name: rabbitmq-c-dev
+version: "0.10.0"
+category: alpine
+description: RabbitMQ C client
+uri:
+  - https://github.com/alanxz/rabbitmq-c
+license: MIT

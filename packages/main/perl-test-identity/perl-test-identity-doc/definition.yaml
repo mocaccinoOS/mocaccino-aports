@@ -1,0 +1,7 @@
+name: perl-test-identity-doc
+version: "0.01"
+category: alpine
+description: assert the referential identity of a reference
+uri:
+  - https://metacpan.org/release/Test-Identity/
+license: GPL PerlArtistic

@@ -1,0 +1,7 @@
+name: ansible-base-doc
+version: "2.10.3"
+category: alpine
+description: A configuration-management, deployment, task-execution, and multinode orchestration framework
+uri:
+  - https://ansible.com/
+license: GPL-3.0-or-later

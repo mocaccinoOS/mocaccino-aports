@@ -1,0 +1,7 @@
+name: nmap-ncat
+version: "7.91"
+category: alpine
+description: A network exploration tool and security/port scanner
+uri:
+  - https://nmap.org
+license: custom

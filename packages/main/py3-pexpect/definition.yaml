@@ -1,0 +1,16 @@
+name: py3-pexpect
+version: "4.8.0"
+category: alpine
+description: Make Python a better tool for controlling and automating other programs
+uri:
+  - http://pexpect.readthedocs.org/en/stable
+license: ISC
+labels:
+  package.source: "py3-pexpect-4.8.0.tar.gz::https://github.com/pexpect/pexpect/archive/4.8.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-ptyprocess"
+    version: '>=0'

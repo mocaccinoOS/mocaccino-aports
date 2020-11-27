@@ -1,0 +1,7 @@
+name: c-ares-doc
+version: "1.17.1"
+category: alpine
+description: An asynchronously DNS/names resolver library
+uri:
+  - https://c-ares.haxx.se/
+license: MIT

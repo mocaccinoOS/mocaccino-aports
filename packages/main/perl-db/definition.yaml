@@ -1,0 +1,13 @@
+name: perl-db
+version: "0.64"
+category: alpine
+description: Perl extension for Berkeley DB version 2, 3 or 4
+uri:
+  - https://metacpan.org/release/BerkeleyDB/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PM/PMQS/BerkeleyDB-0.64.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

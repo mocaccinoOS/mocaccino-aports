@@ -1,0 +1,7 @@
+name: libxaw-doc
+version: "1.0.13"
+category: alpine
+description: X Athena Widget Set
+uri:
+  - https://www.x.org
+license: MIT

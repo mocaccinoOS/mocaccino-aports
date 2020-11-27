@@ -1,0 +1,7 @@
+name: lsof-doc
+version: "4.94.0"
+category: alpine
+description: LiSt Open Files
+uri:
+  - https://github.com/lsof-org/lsof
+license: lsof

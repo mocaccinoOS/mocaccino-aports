@@ -1,0 +1,7 @@
+name: putty-doc
+version: "0.74"
+category: alpine
+description: SSH and telnet client
+uri:
+  - https://www.chiark.greenend.org.uk/~sgtatham/putty/
+license: MIT

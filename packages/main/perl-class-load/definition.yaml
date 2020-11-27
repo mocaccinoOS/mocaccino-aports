@@ -1,0 +1,28 @@
+name: perl-class-load
+version: "0.25"
+category: alpine
+description: A working (require Class::Name) and more
+uri:
+  - https://metacpan.org/release/Class-Load/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Load-0.25.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-data-optlist"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-runtime"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-implementation"
+    version: '>=0'
+  - category: alpine
+    name: "perl-try-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-namespace-clean"
+    version: '>=0'
+  - category: alpine
+    name: "perl-package-stash"
+    version: '>=0'

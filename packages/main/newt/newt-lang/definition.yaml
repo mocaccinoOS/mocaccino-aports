@@ -1,0 +1,7 @@
+name: newt-lang
+version: "0.52.21"
+category: alpine
+description: Redhat's Newt windowing toolkit development files
+uri:
+  - https://pagure.io/newt/
+license: LGPL-2.0

@@ -1,0 +1,19 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: dbus-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

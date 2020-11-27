@@ -1,0 +1,7 @@
+name: perl-dbd-odbc-doc
+version: "1.61"
+category: alpine
+description: Perl CPAN DBD::ODBC module
+uri:
+  - https://metacpan.org/release/DBD-ODBC/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

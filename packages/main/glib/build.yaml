@@ -1,0 +1,43 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: bzip2-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-utils
+    version: '>=0'
+  - category: alpine
+    name: libxslt
+    version: '>=0'
+  - category: alpine
+    name: docbook-xml
+    version: '>=0'
+  - category: alpine
+    name: docbook-xsl
+    version: '>=0'
+  - category: alpine
+    name: pcre-dev
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libffi-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

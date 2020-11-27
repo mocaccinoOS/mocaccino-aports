@@ -1,0 +1,7 @@
+name: zfs-doc
+version: "0.8.5"
+category: alpine
+description: ZFS for Linux
+uri:
+  - http://zfsonlinux.org
+license: CDDL-1.0

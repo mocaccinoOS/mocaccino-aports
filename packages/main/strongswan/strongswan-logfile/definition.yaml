@@ -1,0 +1,7 @@
+name: strongswan-logfile
+version: "5.9.1"
+category: alpine
+description: IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
+uri:
+  - https://www.strongswan.org/
+license: GPL-2.0-or-later WITH OpenSSL-Exception

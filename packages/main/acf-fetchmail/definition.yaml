@@ -1,0 +1,16 @@
+name: acf-fetchmail
+version: "0.9.0"
+category: alpine
+description: A web-based system administration interface for fetchmail
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-fetchmail
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-fetchmail/acf-fetchmail-0.9.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "fetchmail"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-data-hexdump-doc
+version: "0.02"
+category: alpine
+description: Hexadecial Dumper
+uri:
+  - https://metacpan.org/release/Data-HexDump/
+license: GPL PerlArtistic

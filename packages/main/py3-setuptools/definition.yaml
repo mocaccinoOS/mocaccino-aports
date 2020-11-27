@@ -1,0 +1,22 @@
+name: py3-setuptools
+version: "50.3.2"
+category: alpine
+description: Collection of enhancements to the Python3 distutils
+uri:
+  - https://pypi.python.org/pypi/setuptools
+license: MIT
+labels:
+  package.source: "setuptools-50.3.2.tar.gz::https://github.com/pypa/setuptools/archive/v50.3.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-ordered-set"
+    version: '>=0'
+  - category: alpine
+    name: "py3-appdirs"
+    version: '>=0'
+  - category: alpine
+    name: "py3-packaging"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: lsblk
+version: "2.36.1"
+category: alpine
+description: Random collection of Linux utilities
+uri:
+  - https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license: |-
+  GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND
+  	LGPL-2.1-or-later AND BSD-3-Clause AND BSD-4-Clause-UC AND Public-Domain

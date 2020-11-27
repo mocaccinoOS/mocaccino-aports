@@ -1,0 +1,19 @@
+name: perl-crypt-openssl-rsa
+version: "0.31"
+category: alpine
+description: RSA encoding and decoding, using the openSSL libraries
+uri:
+  - http://search.cpan.org/~perler/
+license: Perl Artistic GPL
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TODDR/Crypt-OpenSSL-RSA-0.31.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-crypt-openssl-random"
+    version: '>=0'
+  - category: alpine
+    name: "perl-crypt-openssl-guess"
+    version: '>=0'

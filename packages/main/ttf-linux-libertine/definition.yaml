@@ -1,0 +1,22 @@
+name: ttf-linux-libertine
+version: "5.3.0"
+category: alpine
+description: Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage
+uri:
+  - http://linuxlibertine.sourceforge.net/
+license: GPL custom:OFL
+labels:
+  package.source: "https://downloads.sourceforge.net/project/linuxlibertine/linuxlibertine/5.3.0/LinLibertineTTF_5.3.0_2012_07_02.tgz"
+requires:
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'
+  - category: alpine
+    name: "encodings"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontdir"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontscale"
+    version: '>=0'

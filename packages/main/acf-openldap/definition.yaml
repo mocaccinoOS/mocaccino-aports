@@ -1,0 +1,19 @@
+name: acf-openldap
+version: "1.0.1"
+category: alpine
+description: ACF module for OpenLDAP
+uri:
+  - http://git.alpinelinux.org/cgit/user/alacerda/acf-openldap/
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-openldap/acf-openldap-1.0.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "openldap"
+    version: '>=0'
+  - category: alpine
+    name: "openldap-back-bdb"
+    version: '>=0'

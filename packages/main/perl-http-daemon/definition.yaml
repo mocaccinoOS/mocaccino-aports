@@ -1,0 +1,19 @@
+name: perl-http-daemon
+version: "6.12"
+category: alpine
+description: HTTP::Daemon perl module
+uri:
+  - https://metacpan.org/release/HTTP-Daemon
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.12.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-date"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-message"
+    version: '>=0'

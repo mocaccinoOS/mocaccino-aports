@@ -1,0 +1,9 @@
+name: apr-util
+version: "1.6.1"
+category: alpine
+description: The Apache Portable Runtime Utility Library
+uri:
+  - http://apr.apache.org/
+license: Apache-2.0
+labels:
+  package.source: "https://www.apache.org/dist/apr/apr-util-1.6.1.tar.bz2"

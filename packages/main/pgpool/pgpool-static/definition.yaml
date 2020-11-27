@@ -1,0 +1,7 @@
+name: pgpool-static
+version: "4.1.4"
+category: alpine
+description: A connection pooling/replication server for PostgreSQL
+uri:
+  - https://www.pgpool.net/
+license: pgpool-II

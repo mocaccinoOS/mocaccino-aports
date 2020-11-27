@@ -1,0 +1,13 @@
+name: py3-jinja2
+version: "2.11.2"
+category: alpine
+description: A small but fast and easy to use stand-alone python template engine
+uri:
+  - https://palletsprojects.com/p/jinja/
+license: BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/J/Jinja2/Jinja2-2.11.2.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-markupsafe"
+    version: '>=0'

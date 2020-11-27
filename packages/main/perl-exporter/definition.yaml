@@ -1,0 +1,13 @@
+name: perl-exporter
+version: "5.74"
+category: alpine
+description: Implements default import method for modules
+uri:
+  - https://metacpan.org/release/Exporter
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TODDR/Exporter-5.74.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

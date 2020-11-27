@@ -1,0 +1,28 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libvorbis-dev
+    version: '>=0'
+  - category: alpine
+    name: libogg-dev
+    version: '>=0'
+  - category: alpine
+    name: sdl-dev
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

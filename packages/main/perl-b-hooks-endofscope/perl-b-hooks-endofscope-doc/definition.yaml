@@ -1,0 +1,7 @@
+name: perl-b-hooks-endofscope-doc
+version: "0.24"
+category: alpine
+description: Execute code after a scope finished compilation
+uri:
+  - https://metacpan.org/release/B-Hooks-EndOfScope/
+license: GPL PerlArtistic

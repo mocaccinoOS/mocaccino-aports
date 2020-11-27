@@ -1,0 +1,49 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: keyutils-dev
+    version: '>=0'
+  - category: alpine
+    name: krb5-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libevent-dev
+    version: '>=0'
+  - category: alpine
+    name: libtirpc-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: lvm2-dev
+    version: '>=0'
+  - category: alpine
+    name: musl-libintl
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: perl-test-eol
+version: "2.00"
+category: alpine
+description: Check the correct line endings in your project
+uri:
+  - https://metacpan.org/release/Test-EOL/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-EOL-2.00.tar.gz"

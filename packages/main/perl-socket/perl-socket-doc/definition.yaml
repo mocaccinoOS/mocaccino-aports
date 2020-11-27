@@ -1,0 +1,7 @@
+name: perl-socket-doc
+version: "2.030"
+category: alpine
+description: networking constants and support functions
+uri:
+  - https://metacpan.org/release/Socket/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

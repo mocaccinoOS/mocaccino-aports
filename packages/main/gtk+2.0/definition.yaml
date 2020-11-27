@@ -1,0 +1,16 @@
+name: gtk+2.0
+version: "2.24.32"
+category: alpine
+description: The GTK+ Toolkit (v2)
+uri:
+  - https://www.gtk.org/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.32.tar.xz"
+requires:
+  - category: alpine
+    name: "shared-mime-info"
+    version: '>=0'
+  - category: alpine
+    name: "gtk-update-icon-cache"
+    version: '>=0'

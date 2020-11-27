@@ -1,0 +1,7 @@
+name: wget-doc
+version: "1.20.3"
+category: alpine
+description: A network utility to retrieve files from the Web
+uri:
+  - https://www.gnu.org/software/wget/wget.html
+license: GPL-3.0-or-later WITH OpenSSL-Exception

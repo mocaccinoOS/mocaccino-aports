@@ -1,0 +1,13 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: m4
+    version: '>=0'
+  - category: alpine
+    name: help2man
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

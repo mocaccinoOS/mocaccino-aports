@@ -1,0 +1,7 @@
+name: hunspell-en-doc
+version: "2019.10.06"
+category: alpine
+description: English hunspell dictionaries
+uri:
+  - http://wordlist.aspell.net/dicts/
+license: LGPL-2.0-or-later scowl

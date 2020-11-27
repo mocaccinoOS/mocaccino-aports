@@ -1,0 +1,9 @@
+name: btrfs-progs
+version: "5.9"
+category: alpine
+description: BTRFS filesystem utilities
+uri:
+  - https://btrfs.wiki.kernel.org
+license: GPL-2.0-or-later LGPL-3.0-or-later
+labels:
+  package.source: "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v5.9.tar.xz"

@@ -1,0 +1,7 @@
+name: perl-clone-doc
+version: "0.45"
+category: alpine
+description: Clone perl module
+uri:
+  - https://metacpan.org/release/Clone
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

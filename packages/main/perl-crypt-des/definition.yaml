@@ -1,0 +1,9 @@
+name: perl-crypt-des
+version: "2.07"
+category: alpine
+description: unknown
+uri:
+  - https://metacpan.org/release/Crypt-DES/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DP/DPARIS/Crypt-DES-2.07.tar.gz"

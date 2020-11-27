@@ -1,0 +1,7 @@
+name: unrar-doc
+version: "5.9.4"
+category: alpine
+description: RAR uncompression program
+uri:
+  - https://www.rarlab.com
+license: custom

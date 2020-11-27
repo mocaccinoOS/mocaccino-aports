@@ -1,0 +1,13 @@
+name: putty
+version: "0.74"
+category: alpine
+description: SSH and telnet client
+uri:
+  - https://www.chiark.greenend.org.uk/~sgtatham/putty/
+license: MIT
+labels:
+  package.source: "http://the.earth.li/~sgtatham/putty/0.74/putty-0.74.tar.gz"
+requires:
+  - category: alpine
+    name: "ncurses-terminfo-base"
+    version: '>=0'

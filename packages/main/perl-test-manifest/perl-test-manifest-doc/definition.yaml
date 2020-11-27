@@ -1,0 +1,7 @@
+name: perl-test-manifest-doc
+version: "2.021"
+category: alpine
+description: Interact with a t/test_manifest file
+uri:
+  - https://metacpan.org/release/Test-Manifest/
+license: GPL PerlArtistic

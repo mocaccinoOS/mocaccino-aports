@@ -1,0 +1,16 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: file
+    version: '>=0'
+  - category: alpine
+    name: libmagic
+    version: '>=0'
+  - category: alpine
+    name: grep
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

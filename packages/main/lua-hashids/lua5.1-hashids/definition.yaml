@@ -1,0 +1,7 @@
+name: lua5.1-hashids
+version: "1.0.6"
+category: alpine
+description: A Lua implementation of hashids
+uri:
+  - https://github.com/leihog/hashids.lua
+license: MIT

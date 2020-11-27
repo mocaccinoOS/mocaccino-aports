@@ -1,0 +1,7 @@
+name: perl-stream-buffered-doc
+version: "0.03"
+category: alpine
+description: Temporary buffer to save bytes
+uri:
+  - https://metacpan.org/release/Stream-Buffered/
+license: GPL PerlArtistic

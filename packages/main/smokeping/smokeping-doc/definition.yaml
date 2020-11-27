@@ -1,0 +1,7 @@
+name: smokeping-doc
+version: "2.7.3"
+category: alpine
+description: Smokeping network latency monitoring
+uri:
+  - https://oss.oetiker.ch/smokeping/
+license: GPL

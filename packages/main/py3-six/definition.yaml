@@ -1,0 +1,13 @@
+name: py3-six
+version: "1.15.0"
+category: alpine
+description: Python 2 and 3 compatibility library
+uri:
+  - https://pypi.python.org/pypi/six
+license: MIT
+labels:
+  package.source: "py3-six-1.15.0.tar.gz::https://github.com/benjaminp/six/archive/1.15.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

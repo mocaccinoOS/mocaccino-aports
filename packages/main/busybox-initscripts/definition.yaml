@@ -1,0 +1,16 @@
+name: busybox-initscripts
+version: "3.2"
+category: alpine
+description: Init scripts for busybox daemons
+uri:
+  - https://git.alpinelinux.org/aports/tree/main/busybox-initscripts
+license: GPL-2.0-only
+labels:
+  package.source: "acpid.initd crond.initd dnsd.initd httpd.initd inetd.initd klogd.initd"
+requires:
+  - category: alpine
+    name: "busybox"
+    version: '>=0'
+  - category: alpine
+    name: "openrc>=0.24.1-r6"
+    version: '>=0'

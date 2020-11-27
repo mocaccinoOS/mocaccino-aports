@@ -1,0 +1,7 @@
+name: memcached-dev
+version: "1.6.9"
+category: alpine
+description: Distributed memory object caching system
+uri:
+  - https://memcached.org/
+license: BSD-3-Clause

@@ -1,0 +1,7 @@
+name: nasm-doc
+version: "2.15.05"
+category: alpine
+description: 80x86 assembler designed for portability and modularity
+uri:
+  - https://www.nasm.us
+license: BSD-2-Clause

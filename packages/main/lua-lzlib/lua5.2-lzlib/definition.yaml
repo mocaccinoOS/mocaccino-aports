@@ -1,0 +1,7 @@
+name: lua5.2-lzlib
+version: "0.4.3"
+category: alpine
+description: Lua bindings to the ZLib compression library
+uri:
+  - https://github.com/LuaDist/lzlib
+license: MIT

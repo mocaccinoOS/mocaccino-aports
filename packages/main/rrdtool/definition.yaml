@@ -1,0 +1,13 @@
+name: rrdtool
+version: "1.7.2"
+category: alpine
+description: Data logging and graphing application
+uri:
+  - http://www.rrdtool.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://oss.oetiker.ch/rrdtool/pub/rrdtool-1.7.2.tar.gz"
+requires:
+  - category: alpine
+    name: "font-sony-misc"
+    version: '>=0'

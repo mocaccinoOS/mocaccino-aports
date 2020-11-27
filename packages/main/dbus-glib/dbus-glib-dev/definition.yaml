@@ -1,0 +1,7 @@
+name: dbus-glib-dev
+version: "0.110"
+category: alpine
+description: GLib bindings for DBUS
+uri:
+  - http://www.freedesktop.org/wiki/Software/DBusBindings
+license: GPL-2.0-or-later

@@ -1,0 +1,9 @@
+name: installkernel
+version: "3.5"
+category: alpine
+description: Alpine Linux Kernel install script
+uri:
+  - https://git.alpinelinux.org/cgit/aports/tree/main/installkernel
+license: GPL-2.0
+labels:
+  package.source: "installkernel"

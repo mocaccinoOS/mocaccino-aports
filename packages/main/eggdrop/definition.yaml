@@ -1,0 +1,13 @@
+name: eggdrop
+version: "1.8.4"
+category: alpine
+description: World's most popular Open Source IRC bot
+uri:
+  - https://eggheads.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "eggdrop-1.8.4.tar.gz::https://github.com/eggheads/eggdrop/archive/v1.8.4.tar.gz"
+requires:
+  - category: alpine
+    name: "tcl"
+    version: '>=0'

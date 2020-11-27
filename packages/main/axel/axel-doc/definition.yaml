@@ -1,0 +1,7 @@
+name: axel-doc
+version: "2.17.10"
+category: alpine
+description: A multiple-connection concurrent downloader
+uri:
+  - https://github.com/axel-download-accelerator/axel
+license: GPL-2.0-or-later WITH OpenSSL-Exception

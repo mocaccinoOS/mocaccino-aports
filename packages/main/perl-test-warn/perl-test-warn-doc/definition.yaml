@@ -1,0 +1,7 @@
+name: perl-test-warn-doc
+version: "0.36"
+category: alpine
+description: Perl extension to test methods for warnings
+uri:
+  - https://metacpan.org/release/Test-Warn
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

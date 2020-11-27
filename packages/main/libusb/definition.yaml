@@ -1,0 +1,9 @@
+name: libusb
+version: "1.0.23"
+category: alpine
+description: Library that enables userspace access to USB devices
+uri:
+  - https://libusb.info/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://github.com/libusb/libusb/releases/download/v1.0.23/libusb-1.0.23.tar.bz2"

@@ -1,0 +1,40 @@
+name: aconf
+version: "0.8.1"
+category: alpine
+description: Alpine Configurator
+uri:
+  - https://git.alpinelinux.org/cgit/user/kunkku/aconf/
+license: BSD
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/aconf/aconf-0.8.1.tar.xz"
+requires:
+  - category: alpine
+    name: "lua5.3-augeas"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-b64"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-cjson"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-file-magic"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-openrc"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-ossl"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-posix"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-stringy"
+    version: '>=0'
+  - category: alpine
+    name: "uwsgi"
+    version: '>=0'
+  - category: alpine
+    name: "uwsgi-lua"
+    version: '>=0'

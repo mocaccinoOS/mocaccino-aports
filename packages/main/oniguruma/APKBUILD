@@ -1,0 +1,44 @@
+# Contributor: Carlo Landmeter <clandmeter@gmail.com>
+# Maintainer: Francesco Colista <fcolista@alpinelinux.org>
+pkgname=oniguruma
+pkgver=6.9.6
+pkgrel=0
+pkgdesc="a regular expressions library"
+url="https://github.com/kkos/oniguruma"
+arch="all"
+license="BSD-2-Clause"
+makedepends="automake autoconf libtool"
+subpackages="$pkgname-dev"
+source="$pkgver-$pkgver.tar.gz::https://github.com/kkos/oniguruma/archive/v$pkgver.tar.gz"
+
+# secfixes:
+#   6.9.5-r2:
+#     - CVE-2020-26159
+
+prepare() {
+	default_prepare
+	autoreconf -vfi
+}
+
+build() {
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--infodir=/usr/share/info \
+		--localstatedir=/var \
+		--enable-posix-api
+	make
+}
+
+check() {
+	make check
+}
+
+package() {
+	make DESTDIR="$pkgdir" install
+}
+
+sha512sums="883fc148718166929a2db4b22c3c1aa4673fcc20d0373a21ace01b7ed4314be1ee588bf2b7aac408c4e3d7d9716d11b8d8bcb98e360468f878d413813e5c4f3a  6.9.6-6.9.6.tar.gz"

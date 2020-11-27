@@ -1,0 +1,7 @@
+name: perl-log-any-doc
+version: "1.708"
+category: alpine
+description: Bringing loggers and listeners together
+uri:
+  - https://metacpan.org/release/Log-Any
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

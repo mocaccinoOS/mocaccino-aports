@@ -1,0 +1,7 @@
+name: nodejs-doc
+version: "12.19.0"
+category: alpine
+description: JavaScript runtime built on V8 engine - LTS version
+uri:
+  - https://nodejs.org/
+license: MIT

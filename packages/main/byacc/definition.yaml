@@ -1,0 +1,13 @@
+name: byacc
+version: "20200910"
+category: alpine
+description: The Berkeley Yacc general-purpose parser generator
+uri:
+  - https://invisible-island.net/byacc/byacc.html
+license: Public-Domain
+labels:
+  package.source: "https://invisible-mirror.net/archives/byacc/byacc-20200910.tgz"
+requires:
+  - category: alpine
+    name: "!bison"
+    version: '>=0'

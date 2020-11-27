@@ -1,0 +1,7 @@
+name: perl-cpan-meta-check-doc
+version: "0.014"
+category: alpine
+description: Verify requirements in a CPAN::Meta object
+uri:
+  - https://metacpan.org/release/CPAN-Meta-Check/
+license: GPL PerlArtistic

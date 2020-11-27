@@ -1,0 +1,9 @@
+name: libxv
+version: "1.0.11"
+category: alpine
+description: X11 Video extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXv-1.0.11.tar.bz2"

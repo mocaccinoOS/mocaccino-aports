@@ -1,0 +1,13 @@
+name: perl-term-readkey
+version: "2.38"
+category: alpine
+description: Change terminal modes, and perform non-blocking reads
+uri:
+  - https://metacpan.org/release/TermReadKey/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/TermReadKey-2.38.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

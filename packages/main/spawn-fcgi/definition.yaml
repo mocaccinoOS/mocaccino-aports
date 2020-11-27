@@ -1,0 +1,9 @@
+name: spawn-fcgi
+version: "1.6.4"
+category: alpine
+description: Spawn FastCGI applications
+uri:
+  - http://redmine.lighttpd.net/projects/spawn-fcgi/
+license: BSD-3-Clause
+labels:
+  package.source: "https://www.lighttpd.net/download/spawn-fcgi-1.6.4.tar.bz2"

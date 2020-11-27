@@ -1,0 +1,13 @@
+name: patchutils
+version: "0.4.2"
+category: alpine
+description: A collection of programs for manipulating patch files
+uri:
+  - http://cyberelk.net/tim/patchutils/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://cyberelk.net/tim/data/patchutils/stable/patchutils-0.4.2.tar.xz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

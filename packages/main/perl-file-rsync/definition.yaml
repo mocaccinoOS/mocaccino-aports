@@ -1,0 +1,13 @@
+name: perl-file-rsync
+version: "0.76"
+category: alpine
+description: Perl rsync client
+uri:
+  - https://metacpan.org/pod/File::RsyncP
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CB/CBARRATT/File-RsyncP-0.76.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: libdaemon-doc
+version: "0.14"
+category: alpine
+description: A lightweight C library which eases the writing of UNIX daemons
+uri:
+  - http://0pointer.de/lennart/projects/libdaemon/
+license: LGPL

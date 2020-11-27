@@ -1,0 +1,7 @@
+name: gst-plugins-base-lang
+version: "1.18.1"
+category: alpine
+description: GStreamer streaming media framework base plug-ins
+uri:
+  - https://gstreamer.freedesktop.org
+license: GPL-2.0-or-later LGPL-2.0-or-later

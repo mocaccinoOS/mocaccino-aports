@@ -1,0 +1,13 @@
+name: gnupg
+version: "2.2.25"
+category: alpine
+description: GNU Privacy Guard 2 - a PGP replacement tool
+uri:
+  - https://www.gnupg.org/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.25.tar.bz2"
+requires:
+  - category: alpine
+    name: "pinentry"
+    version: '>=0'

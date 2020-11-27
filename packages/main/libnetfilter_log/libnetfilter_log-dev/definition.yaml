@@ -1,0 +1,7 @@
+name: libnetfilter_log-dev
+version: "1.0.1"
+category: alpine
+description: interface to packets that have been logged by the kernel packet filter
+uri:
+  - http://www.netfilter.org/projects/libnetfilter_log/
+license: GPL-2.0

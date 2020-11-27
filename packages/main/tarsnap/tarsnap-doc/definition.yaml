@@ -1,0 +1,7 @@
+name: tarsnap-doc
+version: "1.0.39"
+category: alpine
+description: Online backups for the truly paranoid
+uri:
+  - https://www.tarsnap.com/
+license: custom

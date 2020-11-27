@@ -1,0 +1,13 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: apache2-dev
+    version: '>=0'
+  - category: alpine
+    name: krb5-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

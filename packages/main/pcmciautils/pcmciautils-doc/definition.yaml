@@ -1,0 +1,7 @@
+name: pcmciautils-doc
+version: "018"
+category: alpine
+description: Utilities for inserting and removing PCMCIA cards
+uri:
+  - http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html
+license: GPL

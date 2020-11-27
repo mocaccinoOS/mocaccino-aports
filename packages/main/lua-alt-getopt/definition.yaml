@@ -1,0 +1,9 @@
+name: lua-alt-getopt
+version: "0.7"
+category: alpine
+description: Lua module for processing options similar to getopt_long(3)
+uri:
+  - https://github.com/LuaDist/alt-getopt
+license: MIT
+labels:
+  package.source: "alt-getopt-0.7.tar.gz::https://github.com/LuaDist/alt-getopt/archive/0.7.tar.gz"

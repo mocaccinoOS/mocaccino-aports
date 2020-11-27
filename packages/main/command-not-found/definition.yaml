@@ -1,0 +1,9 @@
+name: command-not-found
+version: "0.3"
+category: alpine
+description: friendly command not found handling
+uri:
+  - https://github.com/kaniini/command-not-found
+license: MIT
+labels:
+  package.source: "command-not-found-0.3.tar.gz::https://github.com/kaniini/command-not-found/archive/v0.3/command-not-found-0.3.tar.gz"

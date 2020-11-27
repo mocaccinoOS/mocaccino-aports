@@ -1,0 +1,7 @@
+name: charybdis-openrc
+version: "4.1.2"
+category: alpine
+description: A highly-scalable IRCv3-compliant IRC daemon
+uri:
+  - https://github.com/charybdis-ircd/charybdis
+license: GPL-2.0-or-later

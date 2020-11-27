@@ -1,0 +1,7 @@
+name: lua5.3-ldap
+version: "1.2.5"
+category: alpine
+description: Lua binding to LDAP
+uri:
+  - https://github.com/lualdap/lualdap
+license: MIT

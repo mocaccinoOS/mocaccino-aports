@@ -1,0 +1,13 @@
+name: py3-fixtures
+version: "3.0.0"
+category: alpine
+description: Fixtures, reusable state for writing clean tests and more.
+uri:
+  - https://pypi.python.org/pypi/fixtures/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/f/fixtures/fixtures-3.0.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

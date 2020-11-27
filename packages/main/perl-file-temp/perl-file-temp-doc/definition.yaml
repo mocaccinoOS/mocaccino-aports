@@ -1,0 +1,7 @@
+name: perl-file-temp-doc
+version: "0.2311"
+category: alpine
+description: return name and handle of a temporary file safely
+uri:
+  - https://metacpan.org/release/File-Temp/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

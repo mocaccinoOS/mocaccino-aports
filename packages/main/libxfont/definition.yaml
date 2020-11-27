@@ -1,0 +1,9 @@
+name: libxfont
+version: "1.5.4"
+category: alpine
+description: X11 font rasterisation library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/archive/individual/lib/libXfont-1.5.4.tar.bz2"

@@ -1,0 +1,13 @@
+name: py3-sphinxcontrib-devhelp
+version: "1.0.2"
+category: alpine
+description: Sphinx devhelp extension
+uri:
+  - https://pypi.python.org/pypi/sphinxcontrib-devhelp
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-devhelp/sphinxcontrib-devhelp-1.0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

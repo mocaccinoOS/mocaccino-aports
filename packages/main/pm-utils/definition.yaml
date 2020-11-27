@@ -1,0 +1,16 @@
+name: pm-utils
+version: "1.4.1"
+category: alpine
+description: small collection of scripts that handle suspend and resume on behalf of HAL
+uri:
+  - https://pm-utils.freedesktop.org/wiki/
+license: GPL-2.0-only
+labels:
+  package.source: "https://pm-utils.freedesktop.org/releases/pm-utils-1.4.1.tar.gz"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "kbd"
+    version: '>=0'

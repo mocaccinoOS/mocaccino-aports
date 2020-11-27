@@ -1,0 +1,13 @@
+name: softhsm
+version: "2.6.1"
+category: alpine
+description: 'cryptographic store accessible through a PKCS #11'
+uri:
+  - https://www.opendnssec.org/softhsm/
+license: BSD-2-Clause
+labels:
+  package.source: "https://dist.opendnssec.org/source/softhsm-2.6.1.tar.gz"
+requires:
+  - category: alpine
+    name: "sqlite"
+    version: '>=0'

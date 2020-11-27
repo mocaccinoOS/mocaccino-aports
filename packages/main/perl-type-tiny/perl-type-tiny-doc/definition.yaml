@@ -1,0 +1,7 @@
+name: perl-type-tiny-doc
+version: "1.012000"
+category: alpine
+description: tiny, yet Moo(se)-compatible type constraint
+uri:
+  - https://metacpan.org/release/Type-Tiny/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

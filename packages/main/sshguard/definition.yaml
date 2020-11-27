@@ -1,0 +1,13 @@
+name: sshguard
+version: "2.4.1"
+category: alpine
+description: Protects hosts from brute-force attacks against SSH and other services
+uri:
+  - https://www.sshguard.net/
+license: ISC
+labels:
+  package.source: "https://downloads.sourceforge.net/project/sshguard/sshguard/2.4.1/sshguard-2.4.1.tar.gz"
+requires:
+  - category: alpine
+    name: "iptables"
+    version: '>=0'

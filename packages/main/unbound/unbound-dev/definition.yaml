@@ -1,0 +1,7 @@
+name: unbound-dev
+version: "1.12.0"
+category: alpine
+description: Unbound is a validating, recursive, and caching DNS resolver
+uri:
+  - http://unbound.net/
+license: BSD-3-Clause

@@ -1,0 +1,7 @@
+name: hunspell-pt-doc
+version: "20190329"
+category: alpine
+description: Portuguese hunspell dictionaries
+uri:
+  - http://natura.di.uminho.pt/download/sources/Dictionaries/hunspell/
+license: GPL-2.0-or-later AND LGPL-2.1-or-later AND MPL-1.1

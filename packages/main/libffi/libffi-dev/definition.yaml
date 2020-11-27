@@ -1,0 +1,7 @@
+name: libffi-dev
+version: "3.3"
+category: alpine
+description: A portable, high level programming interface to various calling conventions.
+uri:
+  - https://sourceware.org/libffi
+license: MIT

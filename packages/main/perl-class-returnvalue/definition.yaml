@@ -1,0 +1,16 @@
+name: perl-class-returnvalue
+version: "0.55"
+category: alpine
+description: Class::ReturnValue perl module
+uri:
+  - https://metacpan.org/release/Class-ReturnValue/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JE/JESSE/Class-ReturnValue-0.55.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-devel-stacktrace"
+    version: '>=0'

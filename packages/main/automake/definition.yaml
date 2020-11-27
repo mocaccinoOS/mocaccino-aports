@@ -1,0 +1,13 @@
+name: automake
+version: "1.16.3"
+category: alpine
+description: A GNU tool for automatically creating Makefiles
+uri:
+  - https://www.gnu.org/software/automake
+license: GPL-2.0-or-later MIT Public-Domain
+labels:
+  package.source: "https://ftp.gnu.org/gnu/automake/automake-1.16.3.tar.xz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

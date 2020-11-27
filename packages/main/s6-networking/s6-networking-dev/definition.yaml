@@ -1,0 +1,7 @@
+name: s6-networking-dev
+version: "2.3.2.0"
+category: alpine
+description: skarnet.org's UCSPI Unix and TCP tools, access control tools, and network time management utilities.
+uri:
+  - http://skarnet.org/software/s6-networking/
+license: ISC

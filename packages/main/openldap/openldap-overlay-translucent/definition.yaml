@@ -1,0 +1,7 @@
+name: openldap-overlay-translucent
+version: "2.4.54"
+category: alpine
+description: LDAP Server
+uri:
+  - https://www.openldap.org/
+license: custom

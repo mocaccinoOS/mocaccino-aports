@@ -1,0 +1,13 @@
+name: perl-yaml
+version: "1.30"
+category: alpine
+description: YAML Ain't Markup Language (tm)
+uri:
+  - https://metacpan.org/release/YAML
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TI/TINITA/YAML-1.30.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

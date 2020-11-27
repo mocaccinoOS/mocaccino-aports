@@ -1,0 +1,7 @@
+name: perl-html-formattext-withlinks-andtables-doc
+version: "0.07"
+category: alpine
+description: Perl module for HTML-FormatText-WithLinks-AndTables
+uri:
+  - https://metacpan.org/release/HTML-FormatText-WithLinks-AndTables/
+license: GPL PerlArtistic

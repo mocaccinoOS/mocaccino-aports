@@ -1,0 +1,7 @@
+name: apkbuild-pypi
+version: "3.7.0_rc1"
+category: alpine
+description: Script to build Alpine Packages
+uri:
+  - https://git.alpinelinux.org/cgit/abuild/
+license: GPL-2.0-only

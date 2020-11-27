@@ -1,0 +1,25 @@
+name: xmlto
+version: "0.0.28"
+category: alpine
+description: Convert xml to many other formats
+uri:
+  - https://pagure.io/xmlto/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2"
+requires:
+  - category: alpine
+    name: "libxslt"
+    version: '>=0'
+  - category: alpine
+    name: "perl-yaml-syck"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-pod"
+    version: '>=0'
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "docbook-xsl"
+    version: '>=0'

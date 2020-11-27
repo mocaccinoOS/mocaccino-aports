@@ -1,0 +1,7 @@
+name: opensmtpd-doc
+version: "6.7.1p1"
+category: alpine
+description: Secure, reliable, lean, and easy-to configure SMTP server
+uri:
+  - https://www.opensmtpd.org/
+license: ISC

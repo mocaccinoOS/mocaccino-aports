@@ -1,0 +1,9 @@
+name: gc
+version: "8.0.4"
+category: alpine
+description: A garbage collector for C and C++
+uri:
+  - https://hboehm.info/gc/
+license: custom:GPL-like
+labels:
+  package.source: "http://hboehm.info/gc/gc_source/gc-8.0.4.tar.gz"

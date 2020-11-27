@@ -1,0 +1,16 @@
+name: perl-gdgraph
+version: "1.54"
+category: alpine
+description: Produces charts with GD
+uri:
+  - https://metacpan.org/release/GDGraph/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RU/RUZ/GDGraph-1.54.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-gdtextutil"
+    version: '>=0'
+  - category: alpine
+    name: "perl-gd"
+    version: '>=0'

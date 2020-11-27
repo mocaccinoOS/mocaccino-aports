@@ -1,0 +1,13 @@
+name: perl-extutils-installpaths
+version: "0.012"
+category: alpine
+description: Build.PL install path logic made easy
+uri:
+  - https://metacpan.org/release/ExtUtils-InstallPaths/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-extutils-config"
+    version: '>=0'

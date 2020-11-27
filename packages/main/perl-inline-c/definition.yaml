@@ -1,0 +1,9 @@
+name: perl-inline-c
+version: "0.81"
+category: alpine
+description: Perl module for Inline-C
+uri:
+  - https://metacpan.org/pod/distribution/Inline-C/lib/Inline/C.pod
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TI/TINITA/Inline-C-0.81.tar.gz"

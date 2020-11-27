@@ -1,0 +1,28 @@
+name: docbook2x
+version: "0.8.8"
+category: alpine
+description: DocBook converter to UNIX manpage and GNU Texinfo format
+uri:
+  - http://docbook2x.sourceforge.net
+license: MIT
+labels:
+  package.source: "https://downloads.sourceforge.net/docbook2x/docbook2X-0.8.8.tar.gz"
+requires:
+  - category: alpine
+    name: "texinfo"
+    version: '>=0'
+  - category: alpine
+    name: "openjade"
+    version: '>=0'
+  - category: alpine
+    name: "docbook-xml"
+    version: '>=0'
+  - category: alpine
+    name: "docbook-xsl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-xml-sax"
+    version: '>=0'
+  - category: alpine
+    name: "libxslt"
+    version: '>=0'

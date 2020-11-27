@@ -1,0 +1,7 @@
+name: libxfont-dev
+version: "1.5.4"
+category: alpine
+description: X11 font rasterisation library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom

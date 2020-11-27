@@ -1,0 +1,7 @@
+name: rhash-dev
+version: "1.4.0"
+category: alpine
+description: Utility for calculation and verification of hash sums and magnet links
+uri:
+  - http://rhash.anz.ru
+license: 0BSD

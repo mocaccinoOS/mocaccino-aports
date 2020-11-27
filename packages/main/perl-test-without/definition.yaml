@@ -1,0 +1,13 @@
+name: perl-test-without
+version: "0.10"
+category: alpine
+description: Test::Without perl module
+uri:
+  - https://metacpan.org/pod/Test::Without
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJRAY/Test-Without-0.10.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

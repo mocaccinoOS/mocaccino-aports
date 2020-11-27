@@ -1,0 +1,9 @@
+name: aspell-en
+version: "2019.10.06"
+category: alpine
+description: English dictionary for aspell
+uri:
+  - http://aspell.net/
+license: custom
+labels:
+  package.source: "https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2019.10.06-0.tar.bz2"

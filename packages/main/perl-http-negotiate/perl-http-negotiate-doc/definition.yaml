@@ -1,0 +1,7 @@
+name: perl-http-negotiate-doc
+version: "6.01"
+category: alpine
+description: HTTP::Negotiate perl module
+uri:
+  - https://metacpan.org/release/HTTP-Negotiate/
+license: GPL-2.0 or Artistic

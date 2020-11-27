@@ -1,0 +1,7 @@
+name: perl-devel-stacktrace-ashtml-doc
+version: "0.15"
+category: alpine
+description: Devel::StackTrace::AsHTML perl module
+uri:
+  - https://metacpan.org/release/Devel-StackTrace-AsHTML/
+license: GPL-2.0 or Artistic

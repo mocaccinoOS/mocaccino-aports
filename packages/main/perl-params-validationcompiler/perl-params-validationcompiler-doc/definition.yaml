@@ -1,0 +1,7 @@
+name: perl-params-validationcompiler-doc
+version: "0.30"
+category: alpine
+description: Params::ValidationCompiler perl module
+uri:
+  - https://metacpan.org/release/Params-ValidationCompiler
+license: Artistic-2.0

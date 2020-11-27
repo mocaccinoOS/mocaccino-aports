@@ -1,0 +1,7 @@
+name: perl-html-mason-doc
+version: "1.59"
+category: alpine
+description: High-performance, dynamic web site authoring system
+uri:
+  - https://metacpan.org/release/HTML-Mason/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

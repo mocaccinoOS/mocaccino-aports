@@ -1,0 +1,7 @@
+name: powertop-doc
+version: "2.13"
+category: alpine
+description: Power consumption monitor
+uri:
+  - https://01.org/powertop
+license: GPL-2.0-only

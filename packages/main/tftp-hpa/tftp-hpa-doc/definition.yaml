@@ -1,0 +1,7 @@
+name: tftp-hpa-doc
+version: "5.2"
+category: alpine
+description: Official tftp server
+uri:
+  - https://www.kernel.org/pub/software/network/tftp/
+license: BSD

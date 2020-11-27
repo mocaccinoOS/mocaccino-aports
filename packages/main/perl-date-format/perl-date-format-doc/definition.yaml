@@ -1,0 +1,7 @@
+name: perl-date-format-doc
+version: "2.33"
+category: alpine
+description: Perl - Date formating subroutines
+uri:
+  - https://metacpan.org/release/TimeDate
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

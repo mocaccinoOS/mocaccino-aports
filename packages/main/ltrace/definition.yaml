@@ -1,0 +1,9 @@
+name: ltrace
+version: "0.7.3"
+category: alpine
+description: Tracks runtime library calls in dynamically linked programs
+uri:
+  - https://www.ltrace.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://www.ltrace.org/ltrace_0.7.3.orig.tar.bz2"

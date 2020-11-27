@@ -1,0 +1,49 @@
+name: perl-datetime-locale
+version: "1.28"
+category: alpine
+description: DateTime::Locale perl module
+uri:
+  - https://search.cpan.org/dist/DateTime-Locale
+license: Artistic-1.0-Perl GPL-1.0-or-later
+labels:
+  package.source: "https://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/DateTime-Locale-1.28.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-cpan-meta-check"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dist-checkconflicts"
+    version: '>=0'
+  - category: alpine
+    name: "perl-file-sharedir"
+    version: '>=0'
+  - category: alpine
+    name: "perl-file-sharedir-install"
+    version: '>=0'
+  - category: alpine
+    name: "perl-list-moreutils"
+    version: '>=0'
+  - category: alpine
+    name: "perl-namespace-autoclean"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-validate"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-validationcompiler"
+    version: '>=0'
+  - category: alpine
+    name: "perl-scalar-list-utils"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-fatal"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-requires"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-warnings"
+    version: '>=0'

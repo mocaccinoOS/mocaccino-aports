@@ -1,0 +1,19 @@
+name: swish-e
+version: "2.4.7"
+category: alpine
+description: Simple Web Indexing System for Humans - Enhanced
+uri:
+  - http://www.swish-e.org/
+license: GPL
+labels:
+  package.source: "https://distfiles.macports.org/swish-e/swish-e-2.4.7.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-tagset"
+    version: '>=0'
+  - category: alpine
+    name: "perl-libwww"
+    version: '>=0'

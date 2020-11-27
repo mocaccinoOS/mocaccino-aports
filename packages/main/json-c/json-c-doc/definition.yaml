@@ -1,0 +1,7 @@
+name: json-c-doc
+version: "0.15"
+category: alpine
+description: A JSON implementation in C
+uri:
+  - https://github.com/json-c/json-c/wiki
+license: MIT

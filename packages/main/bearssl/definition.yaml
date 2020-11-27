@@ -1,0 +1,9 @@
+name: bearssl
+version: "0.6"
+category: alpine
+description: The BearSSL implementation of the SSL/TLS protocol
+uri:
+  - https://bearssl.org/
+license: MIT
+labels:
+  package.source: "https://bearssl.org/bearssl-0.6.tar.gz bearssl-brssl-dynamic.patch"

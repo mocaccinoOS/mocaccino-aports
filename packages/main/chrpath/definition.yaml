@@ -1,0 +1,9 @@
+name: chrpath
+version: "0.16"
+category: alpine
+description: Modify rpath of compiled programs
+uri:
+  - https://tracker.debian.org/pkg/chrpath
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://alioth-archive.debian.org/releases/chrpath/chrpath/0.16/chrpath-0.16.tar.gz"

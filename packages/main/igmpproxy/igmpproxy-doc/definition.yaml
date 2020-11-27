@@ -1,0 +1,7 @@
+name: igmpproxy-doc
+version: "0.2.1"
+category: alpine
+description: A simple dynamic Multicast Routing Daemon using only IGMP signalling
+uri:
+  - https://sourceforge.net/projects/igmpproxy/
+license: GPL-2.0-or-later

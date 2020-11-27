@@ -1,0 +1,7 @@
+name: lua5.2-b64
+version: "0.1"
+category: alpine
+description: Lua base64 implementation with support for urlsafe
+uri:
+  - https://github.com/ncopa/lua-b64
+license: MIT

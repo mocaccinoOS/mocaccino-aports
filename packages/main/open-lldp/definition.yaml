@@ -1,0 +1,9 @@
+name: open-lldp
+version: "0.9.46"
+category: alpine
+description: Open Source implementation of the IEEE standard 802.1AB Link Layer Discovery Protocol (LLDP)
+uri:
+  - http://www.open-lldp.org
+license: GPL-2.0-only
+labels:
+  package.source: "http://ftp-osl.osuosl.org/pub/open-lldp/open-lldp-0.9.46.tar.gz"

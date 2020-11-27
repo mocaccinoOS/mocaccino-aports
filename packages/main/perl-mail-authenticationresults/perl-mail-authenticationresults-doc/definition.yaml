@@ -1,0 +1,7 @@
+name: perl-mail-authenticationresults-doc
+version: "1.20200824.1"
+category: alpine
+description: Object Oriented Authentication-Results Headers
+uri:
+  - https://metacpan.org/release/Mail-AuthenticationResults/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

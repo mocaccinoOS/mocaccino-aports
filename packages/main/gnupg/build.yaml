@@ -1,0 +1,40 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: gnutls-dev
+    version: '>=0'
+  - category: alpine
+    name: libksba-dev
+    version: '>=0'
+  - category: alpine
+    name: libgcrypt-dev
+    version: '>=0'
+  - category: alpine
+    name: libgpg-error-dev
+    version: '>=0'
+  - category: alpine
+    name: npth-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libassuan-dev
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: bzip2-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: libusb-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

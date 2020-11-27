@@ -1,0 +1,7 @@
+name: drbd-utils-openrc
+version: "9.12.2"
+category: alpine
+description: Network-based RAID 1
+uri:
+  - https://www.drbd.org
+license: GPL-2.0-or-later

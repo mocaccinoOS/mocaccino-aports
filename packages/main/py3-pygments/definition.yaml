@@ -1,0 +1,16 @@
+name: py3-pygments
+version: "2.7.2"
+category: alpine
+description: Syntax highlighting package written in Python
+uri:
+  - https://pygments.org/
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/P/Pygments/Pygments-2.7.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

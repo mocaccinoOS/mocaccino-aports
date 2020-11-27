@@ -1,0 +1,13 @@
+name: perl-class-mix
+version: "0.006"
+category: alpine
+description: Dynamic class mixing
+uri:
+  - https://metacpan.org/release/Class-Mix/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Class-Mix-0.006.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-params-classify"
+    version: '>=0'

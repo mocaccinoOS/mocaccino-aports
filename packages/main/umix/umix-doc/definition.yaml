@@ -1,0 +1,7 @@
+name: umix-doc
+version: "1.0.2"
+category: alpine
+description: Program for adjusting soundcard volumes
+uri:
+  - http://umix.sf.net
+license: GPL-2.0-or-later

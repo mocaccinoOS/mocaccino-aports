@@ -1,0 +1,7 @@
+name: mariadb-connector-c-dev
+version: "3.1.11"
+category: alpine
+description: The MariaDB Native Client library (C driver)
+uri:
+  - https://mariadb.org/
+license: LGPL-2.1-or-later

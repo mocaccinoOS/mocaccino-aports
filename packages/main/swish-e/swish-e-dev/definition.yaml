@@ -1,0 +1,7 @@
+name: swish-e-dev
+version: "2.4.7"
+category: alpine
+description: Simple Web Indexing System for Humans - Enhanced
+uri:
+  - http://www.swish-e.org/
+license: GPL

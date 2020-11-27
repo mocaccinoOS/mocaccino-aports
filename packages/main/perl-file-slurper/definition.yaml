@@ -1,0 +1,9 @@
+name: perl-file-slurper
+version: "0.012"
+category: alpine
+description: A simple, sane and efficient module to slurp a file
+uri:
+  - https://metacpan.org/release/File-Slurper
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEONT/File-Slurper-0.012.tar.gz"

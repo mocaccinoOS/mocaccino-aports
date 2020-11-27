@@ -1,0 +1,13 @@
+name: py3-asn1crypto
+version: "1.4.0"
+category: alpine
+description: Python3 ASN.1 library with a focus on performance and a pythonic API
+uri:
+  - https://github.com/wbond/asn1crypto
+license: MIT
+labels:
+  package.source: "asn1crypto-1.4.0.tar.gz::https://github.com/wbond/asn1crypto/archive/1.4.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

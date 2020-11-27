@@ -1,0 +1,7 @@
+name: keyutils-doc
+version: "1.6.3"
+category: alpine
+description: Linux Key Management Utilities
+uri:
+  - http://people.redhat.com/~dhowells/keyutils/
+license: GPL-2.0-or-later LGPL-2.0-or-later

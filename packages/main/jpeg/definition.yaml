@@ -1,0 +1,13 @@
+name: jpeg
+version: "9d"
+category: alpine
+description: Wrapper for libjpeg-turbo
+uri:
+  - https://www.ijg.org/
+license: AS-IS
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "libjpeg-turbo-utils"
+    version: '>=0'

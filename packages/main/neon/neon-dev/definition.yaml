@@ -1,0 +1,7 @@
+name: neon-dev
+version: "0.31.2"
+category: alpine
+description: HTTP and WebDAV client library with a C interface
+uri:
+  - https://notroj.github.io/neon/
+license: LGPL-2.0-or-later

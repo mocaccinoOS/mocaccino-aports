@@ -1,0 +1,7 @@
+name: cmake-bash-completion
+version: "3.18.4"
+category: alpine
+description: Cross-platform, open-source make system
+uri:
+  - https://www.cmake.org/
+license: BSD-3-Clause

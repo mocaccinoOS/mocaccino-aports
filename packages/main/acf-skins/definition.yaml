@@ -1,0 +1,9 @@
+name: acf-skins
+version: "0.6.0"
+category: alpine
+description: Skins for ACF
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-skins
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-skins/acf-skins-0.6.0.tar.xz"

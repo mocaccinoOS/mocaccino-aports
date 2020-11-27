@@ -1,0 +1,7 @@
+name: libpaper-doc
+version: "1.1.28"
+category: alpine
+description: Library for handling paper characteristics
+uri:
+  - http://packages.debian.org/unstable/source/libpaper
+license: GPL-2.0-only

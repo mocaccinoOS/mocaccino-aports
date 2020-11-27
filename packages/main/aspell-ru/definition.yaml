@@ -1,0 +1,9 @@
+name: aspell-ru
+version: "0.99f7"
+category: alpine
+description: Russian dictionary for aspell
+uri:
+  - http://aspell.net/
+license: GPL-2.0
+labels:
+  package.source: "https://ftp.gnu.org/gnu/aspell/dict/ru/aspell6-ru-0.99f7-1.tar.bz2"

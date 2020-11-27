@@ -1,0 +1,13 @@
+name: py3-alabaster
+version: "0.7.12"
+category: alpine
+description: Modified Kr Sphinx doc theme
+uri:
+  - https://github.com/bitprophet/alabaster
+license: BSD-3-Clause
+labels:
+  package.source: "alabaster-0.7.12.tar.gz::https://github.com/bitprophet/alabaster/archive/0.7.12.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

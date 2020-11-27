@@ -1,0 +1,7 @@
+name: libepoxy-dev
+version: "1.5.4"
+category: alpine
+description: Direct Rendering Manager runtime library
+uri:
+  - https://github.com/anholt/libepoxy
+license: MIT

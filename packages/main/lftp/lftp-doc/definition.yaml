@@ -1,0 +1,7 @@
+name: lftp-doc
+version: "4.9.2"
+category: alpine
+description: Sophisticated ftp/http client
+uri:
+  - https://lftp.tech
+license: GPL-3.0-or-later

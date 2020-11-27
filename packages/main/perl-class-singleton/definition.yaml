@@ -1,0 +1,9 @@
+name: perl-class-singleton
+version: "1.5"
+category: alpine
+description: Base class for creating singleton objects
+uri:
+  - https://metacpan.org/release/Class-Singleton/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.5.tar.gz"

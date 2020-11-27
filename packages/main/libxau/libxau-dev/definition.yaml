@@ -1,0 +1,7 @@
+name: libxau-dev
+version: "1.0.9"
+category: alpine
+description: X11 authorisation library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

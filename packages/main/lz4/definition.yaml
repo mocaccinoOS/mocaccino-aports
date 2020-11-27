@@ -1,0 +1,9 @@
+name: lz4
+version: "1.9.2"
+category: alpine
+description: LZ4 is lossless compression algorithm with fast decoder @ multiple GB/s per core.
+uri:
+  - https://github.com/lz4/lz4
+license: BSD-2-Clause GPL-2.0-only
+labels:
+  package.source: "lz4-1.9.2.tar.gz::https://github.com/lz4/lz4/archive/v1.9.2.tar.gz"

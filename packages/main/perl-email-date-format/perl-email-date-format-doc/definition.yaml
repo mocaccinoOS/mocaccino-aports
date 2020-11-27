@@ -1,0 +1,7 @@
+name: perl-email-date-format-doc
+version: "1.005"
+category: alpine
+description: produce RFC 2822 date strings
+uri:
+  - https://metacpan.org/release/Email-Date-Format/
+license: GPL PerlArtistic

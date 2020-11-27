@@ -1,0 +1,7 @@
+name: libltdl-static
+version: "2.4.6"
+category: alpine
+description: A generic library support script
+uri:
+  - https://www.gnu.org/software/libtool
+license: LGPL-2.0+

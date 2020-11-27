@@ -1,0 +1,19 @@
+name: alpine-sdk
+version: "1.0"
+category: alpine
+description: Alpine Software Development Kit meta package
+uri:
+  - http://dev.alpinelinux.org/cgit
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-3.9.0.tar.bz2"
+requires:
+  - category: alpine
+    name: "abuild"
+    version: '>=0'
+  - category: alpine
+    name: "build-base"
+    version: '>=0'
+  - category: alpine
+    name: "git"
+    version: '>=0'

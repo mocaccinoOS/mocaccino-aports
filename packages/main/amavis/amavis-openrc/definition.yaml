@@ -1,0 +1,7 @@
+name: amavis-openrc
+version: "2.12.1"
+category: alpine
+description: High-performance interface between mailer (MTA) and content checkers
+uri:
+  - https://gitlab.com/amavis/amavis
+license: GPL-2.0-or-later BSD

@@ -1,0 +1,7 @@
+name: dnsmasq-dnssec
+version: "2.82"
+category: alpine
+description: A lightweight DNS, DHCP, RA, TFTP and PXE server
+uri:
+  - http://www.thekelleys.org.uk/dnsmasq/
+license: GPL-2.0-only OR GPL-3.0-only

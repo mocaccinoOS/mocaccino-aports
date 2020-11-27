@@ -1,0 +1,7 @@
+name: sqlite-tcl-doc
+version: "3.33.0"
+category: alpine
+description: Sqlite Tcl Extension Architecture (TEA)
+uri:
+  - https://www.sqlite.org/
+license: Public-Domain

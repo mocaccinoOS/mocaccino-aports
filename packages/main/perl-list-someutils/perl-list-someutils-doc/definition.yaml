@@ -1,0 +1,7 @@
+name: perl-list-someutils-doc
+version: "0.58"
+category: alpine
+description: Provide the stuff missing in List::Util
+uri:
+  - https://metacpan.org/release/List-SomeUtils
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,7 @@
+name: rng-tools-openrc
+version: "6.10"
+category: alpine
+description: A random number generator daemon
+uri:
+  - https://github.com/nhorman/rng-tools
+license: GPL-2.0-or-later

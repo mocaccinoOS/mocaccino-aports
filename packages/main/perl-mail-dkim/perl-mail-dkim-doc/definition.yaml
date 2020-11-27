@@ -1,0 +1,7 @@
+name: perl-mail-dkim-doc
+version: "1.20200907"
+category: alpine
+description: Signs/verifies Internet mail with DKIM/DomainKey signatures
+uri:
+  - https://metacpan.org/pod/Mail::DKIM
+license: Artistic-Perl-1.0 GPL+

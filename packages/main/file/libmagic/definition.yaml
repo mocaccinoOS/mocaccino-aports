@@ -1,0 +1,7 @@
+name: libmagic
+version: "5.39"
+category: alpine
+description: File type identification utility
+uri:
+  - https://www.darwinsys.com/file
+license: BSD-2-Clause

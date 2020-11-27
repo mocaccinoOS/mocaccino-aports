@@ -1,0 +1,19 @@
+name: acf-chrony
+version: "0.8.0"
+category: alpine
+description: A web-based system administration interface for chrony
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-chrony
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-chrony/acf-chrony-0.8.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-posix"
+    version: '>=0'
+  - category: alpine
+    name: "chrony"
+    version: '>=0'

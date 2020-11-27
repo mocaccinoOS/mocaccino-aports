@@ -1,0 +1,7 @@
+name: tiff-tools
+version: "4.1.0"
+category: alpine
+description: Provides support for the Tag Image File Format or TIFF
+uri:
+  - http://www.libtiff.org
+license: libtiff

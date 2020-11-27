@@ -1,0 +1,7 @@
+name: jack-example-clients
+version: "1.9.16"
+category: alpine
+description: The Jack Audio Connection Kit
+uri:
+  - http://www.jackaudio.org
+license: GPL-2.0 GPL-2.0-or-later LGPL-2.0-or-later

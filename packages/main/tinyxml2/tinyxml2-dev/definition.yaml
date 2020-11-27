@@ -1,0 +1,7 @@
+name: tinyxml2-dev
+version: "8.0.0"
+category: alpine
+description: Simple, small and efficient C++ XML parser
+uri:
+  - http://www.grinninglizard.com/tinyxml2
+license: Zlib

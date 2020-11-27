@@ -1,0 +1,7 @@
+name: perl-extutils-pkgconfig-doc
+version: "1.16"
+category: alpine
+description: simplistic interface to pkg-config
+uri:
+  - https://metacpan.org/release/ExtUtils-PkgConfig/
+license: GPL PerlArtistic

@@ -1,0 +1,9 @@
+name: sntpc
+version: "0.9"
+category: alpine
+description: Simple NTP client
+uri:
+  - https://git.alpinelinux.org/cgit/hosted/sntpc/
+license: GPL-2.0-only
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/sntpc/sntpc-0.9.tar.xz"

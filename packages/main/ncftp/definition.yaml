@@ -1,0 +1,9 @@
+name: ncftp
+version: "3.2.6"
+category: alpine
+description: A set of free application programs implementing FTP
+uri:
+  - http://www.ncftp.com/
+license: ClArtistic
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/ncftp/ncftp-3.2.6-src.tar.xz"

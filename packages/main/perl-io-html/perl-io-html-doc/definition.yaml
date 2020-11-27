@@ -1,0 +1,7 @@
+name: perl-io-html-doc
+version: "1.004"
+category: alpine
+description: Open an HTML file with automatic charset detection
+uri:
+  - https://metacpan.org/release/IO-HTML/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

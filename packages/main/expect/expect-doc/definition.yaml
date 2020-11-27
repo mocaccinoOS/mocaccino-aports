@@ -1,0 +1,7 @@
+name: expect-doc
+version: "5.45.4"
+category: alpine
+description: A tool for automating interactive applications
+uri:
+  - http://www.nist.gov/el/msid/expect.cfm
+license: custom

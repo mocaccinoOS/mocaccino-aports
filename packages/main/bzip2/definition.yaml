@@ -1,0 +1,9 @@
+name: bzip2
+version: "1.0.8"
+category: alpine
+description: A high-quality data compression program
+uri:
+  - http://sources.redhat.com/bzip2
+license: bzip2-1.0.6
+labels:
+  package.source: "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"

@@ -1,0 +1,9 @@
+name: perl-test-refcount
+version: "0.10"
+category: alpine
+description: assert reference counts on objects
+uri:
+  - https://metacpan.org/release/Test-Refcount
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Refcount-0.10.tar.gz"

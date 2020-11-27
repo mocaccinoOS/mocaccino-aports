@@ -1,0 +1,7 @@
+name: libnetfilter_cthelper-dev
+version: "1.0.0"
+category: alpine
+description: A Netfilter netlink library for connection tracking helpers
+uri:
+  - http://www.netfilter.org/projects/libnetfilter_cthelper/index.html
+license: GPL-2.0

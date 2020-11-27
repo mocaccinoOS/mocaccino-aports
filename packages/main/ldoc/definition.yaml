@@ -1,0 +1,16 @@
+name: ldoc
+version: "1.4.6"
+category: alpine
+description: Documentation tool for Lua
+uri:
+  - https://github.com/stevedonovan/LDoc
+license: MIT
+labels:
+  package.source: "LDoc-1.4.6.tar.gz::https://github.com/stevedonovan/LDoc/archive/1.4.6.tar.gz"
+requires:
+  - category: alpine
+    name: "lua-penlight"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3"
+    version: '>=0'

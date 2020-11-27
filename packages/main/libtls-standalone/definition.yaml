@@ -1,0 +1,13 @@
+name: libtls-standalone
+version: "2.9.1"
+category: alpine
+description: libtls extricated from libressl sources
+uri:
+  - https://www.libressl.org/
+license: ISC
+labels:
+  package.source: "https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-2.9.1.tar.gz"
+requires:
+  - category: alpine
+    name: "ca-certificates-bundle"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: open-isns-lib
+version: "0.100"
+category: alpine
+description: iSNS server and client for Linux
+uri:
+  - https://github.com/open-iscsi/open-isns
+license: LGPL-2.1-or-later

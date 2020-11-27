@@ -1,0 +1,9 @@
+name: esh
+version: "0.3.0"
+category: alpine
+description: Simple template system based on shell
+uri:
+  - https://github.com/jirutka/esh
+license: MIT
+labels:
+  package.source: "https://github.com/jirutka/esh/archive/v0.3.0/esh-0.3.0.tar.gz"

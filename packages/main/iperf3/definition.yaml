@@ -1,0 +1,9 @@
+name: iperf3
+version: "3.9"
+category: alpine
+description: A tool to measure IP bandwidth using UDP or TCP
+uri:
+  - https://github.com/esnet/iperf
+license: BSD-3-Clause
+labels:
+  package.source: "iperf3-3.9.tar.gz::https://github.com/esnet/iperf/archive/3.9.tar.gz"

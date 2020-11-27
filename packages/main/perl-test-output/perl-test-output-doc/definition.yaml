@@ -1,0 +1,7 @@
+name: perl-test-output-doc
+version: "1.031"
+category: alpine
+description: Utilities to test STDOUT and STDERR messages.
+uri:
+  - https://metacpan.org/release/Test-Output/
+license: GPL PerlArtistic

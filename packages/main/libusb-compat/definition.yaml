@@ -1,0 +1,9 @@
+name: libusb-compat
+version: "0.1.5"
+category: alpine
+description: Compatility for older libusb
+uri:
+  - http://libusb.sourceforge.net/
+license: LGPL-2.1+
+labels:
+  package.source: "https://downloads.sourceforge.net/libusb/libusb-compat-0.1.5.tar.bz2"

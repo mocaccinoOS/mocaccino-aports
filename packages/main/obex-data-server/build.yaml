@@ -1,0 +1,22 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: dbus-glib-dev
+    version: '>=0'
+  - category: alpine
+    name: openobex-dev
+    version: '>=0'
+  - category: alpine
+    name: gtk+-dev
+    version: '>=0'
+  - category: alpine
+    name: libusb-compat-dev
+    version: '>=0'
+  - category: alpine
+    name: bluez-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

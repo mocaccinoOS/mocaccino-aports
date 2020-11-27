@@ -1,0 +1,7 @@
+name: lua5.1-struct
+version: "0.2"
+category: alpine
+description: Library for Converting Data to and from C Structs for Lua
+uri:
+  - http://www.inf.puc-rio.br/~roberto/struct/
+license: MIT

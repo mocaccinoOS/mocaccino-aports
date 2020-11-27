@@ -1,0 +1,7 @@
+name: xf86-video-vmware-doc
+version: "13.3.0"
+category: alpine
+description: X.org VMWare video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

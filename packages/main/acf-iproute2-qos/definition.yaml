@@ -1,0 +1,19 @@
+name: acf-iproute2-qos
+version: "0.4.0"
+category: alpine
+description: ACF module for iproute2-qos
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-iproute2-qos
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-iproute2-qos/acf-iproute2-qos-0.4.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "iproute2-qos"
+    version: '>=0'
+  - category: alpine
+    name: "acf-alpine-baselayout>=0.5.7"
+    version: '>=0'

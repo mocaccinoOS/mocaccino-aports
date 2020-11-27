@@ -1,0 +1,7 @@
+name: highlight-doc
+version: "3.59"
+category: alpine
+description: Fast and flexible source code highlighter
+uri:
+  - http://www.andre-simon.de/doku/highlight/highlight.html
+license: GPL-3.0-or-later

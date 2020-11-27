@@ -1,0 +1,9 @@
+name: gstreamer
+version: "1.18.1"
+category: alpine
+description: GStreamer streaming media framework
+uri:
+  - https://gstreamer.freedesktop.org
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.1.tar.xz"

@@ -1,0 +1,7 @@
+name: snownews-lang
+version: "1.5.12"
+category: alpine
+description: Snownews is a text mode RSS/RDF newsreader
+uri:
+  - https://kiza.eu/software/snownews/
+license: GPL

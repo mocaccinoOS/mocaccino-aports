@@ -1,0 +1,7 @@
+name: fakeroot-doc
+version: "1.25.3"
+category: alpine
+description: Gives a fake root environment, useful for building packages as a non-privileged user
+uri:
+  - https://packages.debian.org/fakeroot
+license: GPL-3.0-or-later

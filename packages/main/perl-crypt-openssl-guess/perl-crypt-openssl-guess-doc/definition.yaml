@@ -1,0 +1,7 @@
+name: perl-crypt-openssl-guess-doc
+version: "0.11"
+category: alpine
+description: Guess OpenSSL include path
+uri:
+  - https://metacpan.org/release/Crypt-OpenSSL-Guess/
+license: GPL PerlArtistic

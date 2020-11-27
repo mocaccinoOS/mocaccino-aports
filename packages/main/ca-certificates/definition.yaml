@@ -1,0 +1,9 @@
+name: ca-certificates
+version: "20191127"
+category: alpine
+description: Common CA certificates PEM files from Mozilla
+uri:
+  - https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
+license: MPL-2.0 AND MIT
+labels:
+  package.source: "https://gitlab.alpinelinux.org/alpine/ca-certificates/-/archive/20191127/ca-certificates-20191127.tar.bz2"

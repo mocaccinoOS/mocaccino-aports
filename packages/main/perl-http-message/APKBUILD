@@ -1,0 +1,41 @@
+# Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
+# Maintainer: Kiyoshi Aman <kiyoshi.aman@gmail.com>
+pkgname=perl-http-message
+_pkgreal=HTTP-Message
+pkgver=6.26
+pkgrel=1
+pkgdesc="HTTP style messages"
+url="https://metacpan.org/release/HTTP-Message"
+arch="noarch"
+license="GPL-1.0-or-later OR Artistic-1.0-Perl"
+depends="perl perl-lwp-mediatypes perl-encode-locale perl-http-date perl-uri
+	perl-io-html"
+makedepends="perl-dev"
+checkdepends="perl-try-tiny"
+subpackages="$pkgname-doc"
+source="https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-$pkgver.tar.gz"
+
+builddir="$srcdir/$_pkgreal-$pkgver"
+
+prepare() {
+	default_prepare
+
+	export CFLAGS=$(perl -MConfig -E 'say $Config{ccflags}')
+	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
+}
+
+build() {
+	export CFLAGS=$(perl -MConfig -E 'say $Config{ccflags}')
+	make
+}
+
+check() {
+	make test
+}
+
+package() {
+	make DESTDIR="$pkgdir" install
+	find "$pkgdir" \( -name perllocal.pod -o -name .packlist \) -delete
+}
+
+sha512sums="4528f431be603c5d9102919f138d2b81363d3ea0bda2ad4ee684ecf1f834366821c3460a2bcb8e0dae42e9d12d69281b0862457d6c90c1d95f8339c11cab625d  HTTP-Message-6.26.tar.gz"

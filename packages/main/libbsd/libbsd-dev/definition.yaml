@@ -1,0 +1,7 @@
+name: libbsd-dev
+version: "0.10.0"
+category: alpine
+description: commonly-used BSD functions not implemented by all libcs
+uri:
+  - https://libbsd.freedesktop.org/
+license: BSD

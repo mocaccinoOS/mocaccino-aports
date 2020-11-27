@@ -1,0 +1,7 @@
+name: libassuan-doc
+version: "2.5.4"
+category: alpine
+description: IPC library used by some GnuPG related software
+uri:
+  - https://www.gnupg.org/software/libassuan/index.html
+license: LGPL-2.1-or-later

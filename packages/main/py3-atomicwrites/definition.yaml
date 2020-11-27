@@ -1,0 +1,13 @@
+name: py3-atomicwrites
+version: "1.4.0"
+category: alpine
+description: Powerful Python3 library for atomic file writes
+uri:
+  - https://github.com/untitaker/python-atomicwrites
+license: MIT
+labels:
+  package.source: "https://github.com/untitaker/python-atomicwrites/archive/1.4.0/python-atomicwrites-1.4.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

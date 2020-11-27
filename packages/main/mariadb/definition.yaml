@@ -1,0 +1,13 @@
+name: mariadb
+version: "10.5.6"
+category: alpine
+description: A fast SQL database server
+uri:
+  - https://www.mariadb.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.mariadb.org/interstitial/mariadb-10.5.6/source/mariadb-10.5.6.tar.gz"
+requires:
+  - category: alpine
+    name: "mariadb-common"
+    version: '>=0'

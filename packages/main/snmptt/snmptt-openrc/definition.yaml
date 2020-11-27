@@ -1,0 +1,7 @@
+name: snmptt-openrc
+version: "1.4.2"
+category: alpine
+description: Translates traps received from snmptrapd into easy to understand messages
+uri:
+  - http://www.snmptt.org
+license: GPL-2.0-or-later

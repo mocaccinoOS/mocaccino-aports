@@ -1,0 +1,16 @@
+name: perl-net-dns-resolver-programmable
+version: "0.009"
+category: alpine
+description: Programmable DNS resolver perl class for offline emulation of DNS
+uri:
+  - https://metacpan.org/pod/Net::DNS::Resolver::Programmable
+license: Perl Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/B/BI/BIGPRESH/Net-DNS-Resolver-Programmable-0.009.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-dns"
+    version: '>=0'

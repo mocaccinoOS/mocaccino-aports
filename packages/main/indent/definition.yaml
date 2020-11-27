@@ -1,0 +1,9 @@
+name: indent
+version: "2.2.12"
+category: alpine
+description: An indenting utility
+uri:
+  - https://www.gnu.org/software/indent/
+license: GPL-3.0-or-later BSD
+labels:
+  package.source: "https://ftpmirror.gnu.org/indent/indent-2.2.12.tar.gz"

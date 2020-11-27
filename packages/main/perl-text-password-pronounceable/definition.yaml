@@ -1,0 +1,13 @@
+name: perl-text-password-pronounceable
+version: "0.30"
+category: alpine
+description: Text::Password::Pronounceable perl module
+uri:
+  - https://metacpan.org/release/Text-Password-Pronounceable/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TS/TSIBLEY/Text-Password-Pronounceable-0.30.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

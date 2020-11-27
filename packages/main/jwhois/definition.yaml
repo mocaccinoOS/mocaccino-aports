@@ -1,0 +1,9 @@
+name: jwhois
+version: "4.0"
+category: alpine
+description: WHOIS/RWHOIS client
+uri:
+  - https://www.gnu.org/software/jwhois/
+license: GPL
+labels:
+  package.source: "https://ftp.gnu.org/gnu/jwhois/jwhois-4.0.tar.gz"

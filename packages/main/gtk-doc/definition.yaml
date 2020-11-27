@@ -1,0 +1,28 @@
+name: gtk-doc
+version: "1.33.1"
+category: alpine
+description: Documentation tool for public library API
+uri:
+  - https://www.gtk.org/gtk-doc/
+license: GPL-2.0-or-later AND GFDL-1.1-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/gtk-doc/1.33/gtk-doc-1.33.1.tar.xz"
+requires:
+  - category: alpine
+    name: "docbook-xsl"
+    version: '>=0'
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'
+  - category: alpine
+    name: "pkgconf"
+    version: '>=0'
+  - category: alpine
+    name: "glib-dev"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pygments"
+    version: '>=0'

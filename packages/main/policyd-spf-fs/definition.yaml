@@ -1,0 +1,9 @@
+name: policyd-spf-fs
+version: "23"
+category: alpine
+description: Policy daemon for checking SPF records in postfix
+uri:
+  - http://www.freestone.net/software/policyd-spf-fs/
+license: GPL
+labels:
+  package.source: "http://www.freestone.net/ftp/policyd-spf-fs/policyd-spf-fs_23.tar.gz"

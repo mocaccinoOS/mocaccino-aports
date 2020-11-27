@@ -1,0 +1,9 @@
+name: yaml
+version: "0.2.5"
+category: alpine
+description: YAML 1.1 parser and emitter written in C
+uri:
+  - https://pyyaml.org/wiki/LibYAML
+license: MIT
+labels:
+  package.source: "http://pyyaml.org/download/libyaml/yaml-0.2.5.tar.gz"

@@ -1,0 +1,13 @@
+name: perl-test-mockobject
+version: "1.20200122"
+category: alpine
+description: Perl Mock part of an object or class
+uri:
+  - https://metacpan.org/release/Test-MockObject/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-1.20200122.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: lua-filesize
+version: "0.1.1"
+category: alpine
+description: Generate human readable string describing the size of files
+uri:
+  - https://github.com/starius/lua-filesize
+license: MIT
+labels:
+  package.source: "filesize-0.1.1.tar.gz::https://github.com/starius/lua-filesize/archive/0.1.1.tar.gz"

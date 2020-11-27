@@ -1,0 +1,7 @@
+name: uwsgi-dumbloop
+version: "2.0.19.1"
+category: alpine
+description: uWSGI application container server
+uri:
+  - http://projects.unbit.it/uwsgi/
+license: custom

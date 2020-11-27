@@ -1,0 +1,9 @@
+name: redis
+version: "6.0.9"
+category: alpine
+description: Advanced key-value store
+uri:
+  - https://redis.io/
+license: BSD-3-Clause
+labels:
+  package.source: "http://download.redis.io/releases/redis-6.0.9.tar.gz"

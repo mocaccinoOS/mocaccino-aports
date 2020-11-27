@@ -1,0 +1,9 @@
+name: libxfixes
+version: "5.0.3"
+category: alpine
+description: X11 miscellaneous 'fixes' extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXfixes-5.0.3.tar.bz2"

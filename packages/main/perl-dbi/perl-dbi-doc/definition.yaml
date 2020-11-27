@@ -1,0 +1,7 @@
+name: perl-dbi-doc
+version: "1.643"
+category: alpine
+description: Database independent interface for Perl
+uri:
+  - https://metacpan.org/release/DBI
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

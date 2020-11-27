@@ -1,0 +1,7 @@
+name: powerpc-utils-doc
+version: "1.3.6"
+category: alpine
+description: Maintenance utilities for PowerPC platforms
+uri:
+  - https://github.com/nfont/powerpc-utils
+license: GPL-2.0+

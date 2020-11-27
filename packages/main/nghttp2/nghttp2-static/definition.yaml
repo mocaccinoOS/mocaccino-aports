@@ -1,0 +1,7 @@
+name: nghttp2-static
+version: "1.42.0"
+category: alpine
+description: Experimental HTTP/2 client, server and proxy
+uri:
+  - https://nghttp2.org
+license: MIT

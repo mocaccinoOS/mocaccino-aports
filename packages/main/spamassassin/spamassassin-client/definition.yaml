@@ -1,0 +1,7 @@
+name: spamassassin-client
+version: "3.4.4"
+category: alpine
+description: 'The Powerful #1 Open-Source Spam Filter'
+uri:
+  - https://metacpan.org/pod/Mail::SpamAssassin
+license: Apache-2.0

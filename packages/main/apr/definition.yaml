@@ -1,0 +1,9 @@
+name: apr
+version: "1.7.0"
+category: alpine
+description: The Apache Portable Runtime
+uri:
+  - http://apr.apache.org/
+license: Apache-2.0
+labels:
+  package.source: "https://www.apache.org/dist/apr/apr-1.7.0.tar.bz2"

@@ -1,0 +1,9 @@
+name: perl-devel-symdump
+version: "2.18"
+category: alpine
+description: dump symbol names or the symbol table
+uri:
+  - https://metacpan.org/release/Devel-Symdump/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AN/ANDK/Devel-Symdump-2.18.tar.gz"

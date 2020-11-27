@@ -1,0 +1,7 @@
+name: perl-test-mockobject-doc
+version: "1.20200122"
+category: alpine
+description: Perl Mock part of an object or class
+uri:
+  - https://metacpan.org/release/Test-MockObject/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

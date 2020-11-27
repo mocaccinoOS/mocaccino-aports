@@ -1,0 +1,13 @@
+name: perl-net-ip
+version: "1.26"
+category: alpine
+description: Perl extension for manipulating IPv4/IPv6 addresses
+uri:
+  - http://search.cpan.org/~manu/Net-IP-1.25/
+license: Artistic-Perl-1.0 GPL+
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MANU/Net-IP-1.26.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

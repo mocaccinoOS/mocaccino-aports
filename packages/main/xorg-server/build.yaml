@@ -1,0 +1,85 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libepoxy-dev
+    version: '>=0'
+  - category: alpine
+    name: libxfont2-dev
+    version: '>=0'
+  - category: alpine
+    name: mesa-dev
+    version: '>=0'
+  - category: alpine
+    name: libpciaccess-dev
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: xorgproto
+    version: '>=0'
+  - category: alpine
+    name: xtrans
+    version: '>=0'
+  - category: alpine
+    name: libxshmfence-dev
+    version: '>=0'
+  - category: alpine
+    name: pixman-dev
+    version: '>=0'
+  - category: alpine
+    name: xkbcomp-dev
+    version: '>=0'
+  - category: alpine
+    name: libxkbfile-dev
+    version: '>=0'
+  - category: alpine
+    name: nettle-dev
+    version: '>=0'
+  - category: alpine
+    name: wayland-dev
+    version: '>=0'
+  - category: alpine
+    name: wayland-protocols
+    version: '>=0'
+  - category: alpine
+    name: libdrm-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxau-dev
+    version: '>=0'
+  - category: alpine
+    name: eudev-dev
+    version: '>=0'
+  - category: alpine
+    name: libxcb-dev
+    version: '>=0'
+  - category: alpine
+    name: xcb-util-dev
+    version: '>=0'
+  - category: alpine
+    name: xcb-util-image-dev
+    version: '>=0'
+  - category: alpine
+    name: xcb-util-keysyms-dev
+    version: '>=0'
+  - category: alpine
+    name: xcb-util-renderutil-dev
+    version: '>=0'
+  - category: alpine
+    name: xcb-util-wm-dev
+    version: '>=0'
+  - category: alpine
+    name: libxdmcp-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

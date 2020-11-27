@@ -1,0 +1,7 @@
+name: acf-lib-lua5.1
+version: "0.11.0"
+category: alpine
+description: Lua libraries for ACF
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-lib
+license: GPL-2.0

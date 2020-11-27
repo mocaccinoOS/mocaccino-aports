@@ -1,0 +1,9 @@
+name: iperf
+version: "2.0.13"
+category: alpine
+description: A tool to measure IP bandwidth using UDP or TCP
+uri:
+  - http://iperf2.sourceforge.net/
+license: NCSA
+labels:
+  package.source: "https://sourceforge.net/projects/iperf2/files/iperf-2.0.13.tar.gz"

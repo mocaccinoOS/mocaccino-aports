@@ -1,0 +1,7 @@
+name: lighttpd-doc
+version: "1.4.55"
+category: alpine
+description: Secure, fast, compliant and very flexible web-server
+uri:
+  - https://www.lighttpd.net
+license: BSD-3-Clause

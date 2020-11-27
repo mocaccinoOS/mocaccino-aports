@@ -1,0 +1,7 @@
+name: hiredis-dev
+version: "1.0.0"
+category: alpine
+description: Minimalistic C client library for Redis
+uri:
+  - https://github.com/redis/hiredis
+license: BSD-3-Clause

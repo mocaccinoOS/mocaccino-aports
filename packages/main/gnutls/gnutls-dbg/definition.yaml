@@ -1,0 +1,7 @@
+name: gnutls-dbg
+version: "3.6.15"
+category: alpine
+description: TLS protocol implementation
+uri:
+  - https://www.gnutls.org/
+license: LGPL-2.1-or-later

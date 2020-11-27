@@ -1,0 +1,7 @@
+name: smartmontools-openrc
+version: "7.1"
+category: alpine
+description: Control and monitor S.M.A.R.T. enabled hard drives
+uri:
+  - https://www.smartmontools.org/
+license: GPL-2.0-or-later

@@ -1,0 +1,7 @@
+name: cups-dev
+version: "2.3.3"
+category: alpine
+description: The CUPS Printing System
+uri:
+  - https://www.cups.org/
+license: GPL-2.0-only

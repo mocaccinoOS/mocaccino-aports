@@ -1,0 +1,13 @@
+name: py3-funcsigs
+version: "1.0.2"
+category: alpine
+description: Python3 function signatures from PEP362 for Python 3.2+
+uri:
+  - http://funcsigs.readthedocs.org
+license: Apache-2.0
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/f/funcsigs/funcsigs-1.0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

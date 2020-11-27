@@ -1,0 +1,7 @@
+name: ruby-json
+version: "2.7.2"
+category: alpine
+description: An object-oriented language for quick and easy programming
+uri:
+  - https://www.ruby-lang.org/
+license: Ruby AND BSD-2-Clause AND MIT

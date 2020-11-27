@@ -1,0 +1,7 @@
+name: mdadm-doc
+version: "4.1"
+category: alpine
+description: a tool for managing Linux Software RAID arrays
+uri:
+  - https://neil.brown.name/blog/mdadm
+license: GPL-2.0-only

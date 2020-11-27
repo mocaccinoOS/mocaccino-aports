@@ -1,0 +1,7 @@
+name: harfbuzz-static
+version: "2.7.2"
+category: alpine
+description: Text shaping library
+uri:
+  - https://freedesktop.org/wiki/Software/HarfBuzz
+license: MIT

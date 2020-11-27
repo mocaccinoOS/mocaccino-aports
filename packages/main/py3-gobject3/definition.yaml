@@ -1,0 +1,13 @@
+name: py3-gobject3
+version: "3.38.0"
+category: alpine
+description: Python bindings for the GObject library
+uri:
+  - https://wiki.gnome.org/Projects/PyGObject/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/pygobject/3.38/pygobject-3.38.0.tar.xz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: procps
+version: "3.3.16"
+category: alpine
+description: Utilities for monitoring your system and processes on your system
+uri:
+  - https://gitlab.com/procps-ng/procps
+license: GPL-2.0 LGPL-2.1+
+labels:
+  package.source: "procps-3.3.16.tar.gz::https://gitlab.com/procps-ng/procps/repository/archive.tar.gz?ref=v3.3.16"

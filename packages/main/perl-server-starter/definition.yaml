@@ -1,0 +1,9 @@
+name: perl-server-starter
+version: "0.35"
+category: alpine
+description: a superdaemon for hot-deploying server programs
+uri:
+  - https://metacpan.org/release/Server-Starter/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KA/KAZUHO/Server-Starter-0.35.tar.gz"

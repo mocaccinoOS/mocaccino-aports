@@ -1,0 +1,9 @@
+name: makedepend
+version: "1.0.6"
+category: alpine
+description: utility for making makefile dependencies
+uri:
+  - http://www.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/util/makedepend-1.0.6.tar.bz2"

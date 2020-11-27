@@ -1,0 +1,7 @@
+name: speex-doc
+version: "1.2.0"
+category: alpine
+description: an audio compression format designed for speech
+uri:
+  - https://www.speex.org/
+license: BSD-3-Clause

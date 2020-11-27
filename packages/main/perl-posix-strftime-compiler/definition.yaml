@@ -1,0 +1,13 @@
+name: perl-posix-strftime-compiler
+version: "0.42"
+category: alpine
+description: GNU C library compatible strftime for loggers and servers
+uri:
+  - https://metacpan.org/release/POSIX-strftime-Compiler/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/POSIX-strftime-Compiler-0.42.tar.gz"
+requires:
+  - category: alpine
+    name: "tzdata"
+    version: '>=0'

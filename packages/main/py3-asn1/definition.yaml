@@ -1,0 +1,13 @@
+name: py3-asn1
+version: "0.4.8"
+category: alpine
+description: Python3 ASN1 library
+uri:
+  - http://snmplabs.com/pyasn1/
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/pyasn1/pyasn1-0.4.8.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

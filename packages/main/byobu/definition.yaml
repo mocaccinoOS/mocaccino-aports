@@ -1,0 +1,16 @@
+name: byobu
+version: "5.133"
+category: alpine
+description: An enhancement of the GNU Screen
+uri:
+  - https://launchpad.net/byobu
+license: GPL-3.0
+labels:
+  package.source: "https://launchpad.net/byobu/trunk/5.133/+download/byobu_5.133.orig.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "tmux"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: py3-filelock
+version: "3.0.12"
+category: alpine
+description: A platform independent file lock for Python3
+uri:
+  - https://github.com/benediktschmitt/py-filelock
+license: Unlicense
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/f/filelock/filelock-3.0.12.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

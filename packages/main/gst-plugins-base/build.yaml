@@ -1,0 +1,64 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: alsa-lib-dev
+    version: '>=0'
+  - category: alpine
+    name: cdparanoia-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: gobject-introspection-dev
+    version: '>=0'
+  - category: alpine
+    name: gstreamer-dev
+    version: '>=0'
+  - category: alpine
+    name: gtk+3.0-dev
+    version: '>=0'
+  - category: alpine
+    name: libice-dev
+    version: '>=0'
+  - category: alpine
+    name: libogg-dev
+    version: '>=0'
+  - category: alpine
+    name: libsm-dev
+    version: '>=0'
+  - category: alpine
+    name: libtheora-dev
+    version: '>=0'
+  - category: alpine
+    name: libvorbis-dev
+    version: '>=0'
+  - category: alpine
+    name: libxv-dev
+    version: '>=0'
+  - category: alpine
+    name: mesa-dev
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: opus-dev
+    version: '>=0'
+  - category: alpine
+    name: orc-compiler
+    version: '>=0'
+  - category: alpine
+    name: orc-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

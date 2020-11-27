@@ -1,0 +1,7 @@
+name: rtapd-dbg
+version: "1.7"
+category: alpine
+description: daemon for routing packets to rtnppd
+uri:
+  - https://sourceforge.net/projects/rtnppd/
+license: GPL

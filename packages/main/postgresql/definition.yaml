@@ -1,0 +1,16 @@
+name: postgresql
+version: "12.5"
+category: alpine
+description: A sophisticated object-relational DBMS
+uri:
+  - https://www.postgresql.org/
+license: PostgreSQL
+labels:
+  package.source: "https://ftp.postgresql.org/pub/source/v12.5/postgresql-12.5.tar.bz2"
+requires:
+  - category: alpine
+    name: "postgresql-client"
+    version: '>=0'
+  - category: alpine
+    name: "tzdata"
+    version: '>=0'

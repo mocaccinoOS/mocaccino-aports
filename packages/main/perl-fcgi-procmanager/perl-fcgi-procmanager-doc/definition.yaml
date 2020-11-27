@@ -1,0 +1,7 @@
+name: perl-fcgi-procmanager-doc
+version: "0.28"
+category: alpine
+description: Functions for managing FastCGI applications
+uri:
+  - https://metacpan.org/release/FCGI-ProcManager/
+license: GPL-2.0 or Artistic

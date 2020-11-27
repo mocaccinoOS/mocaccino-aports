@@ -1,0 +1,7 @@
+name: debootstrap-doc
+version: "1.0.123"
+category: alpine
+description: Debian/Ubuntu bootstrap scripts
+uri:
+  - https://packages.qa.debian.org/d/debootstrap.html
+license: MIT

@@ -1,0 +1,7 @@
+name: intltool-doc
+version: "0.51.0"
+category: alpine
+description: The internationalization tool collection
+uri:
+  - http://freedesktop.org/wiki/Software/intltool
+license: GPL-2.0

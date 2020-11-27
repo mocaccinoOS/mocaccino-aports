@@ -1,0 +1,31 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-extutils-pkgconfig
+    version: '>=0'
+  - category: alpine
+    name: gd-dev
+    version: '>=0'
+  - category: alpine
+    name: libjpeg-turbo-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libpng-dev
+    version: '>=0'
+  - category: alpine
+    name: freetype-dev
+    version: '>=0'
+  - category: alpine
+    name: libwebp-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

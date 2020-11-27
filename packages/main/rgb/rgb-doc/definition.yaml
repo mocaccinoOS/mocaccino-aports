@@ -1,0 +1,7 @@
+name: rgb-doc
+version: "1.0.6"
+category: alpine
+description: X.org utility to display an RGB color-name database
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

@@ -1,0 +1,7 @@
+name: lvm2-openrc
+version: "2.02.187"
+category: alpine
+description: Logical Volume Manager 2 utilities
+uri:
+  - https://sourceware.org/lvm2/
+license: GPL-2.0-only LGPL-2.1-only

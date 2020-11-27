@@ -1,0 +1,7 @@
+name: goaccess-lang
+version: "1.4.2"
+category: alpine
+description: Real-time web log analyzer and interactive viewer
+uri:
+  - https://goaccess.io/
+license: GPL-2.0-or-later

@@ -1,0 +1,9 @@
+name: pjproject
+version: "2.9"
+category: alpine
+description: CLI Softphone
+uri:
+  - https://www.pjsip.org/pjsua.htm
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://www.pjsip.org/release/2.9/pjproject-2.9.tar.bz2"

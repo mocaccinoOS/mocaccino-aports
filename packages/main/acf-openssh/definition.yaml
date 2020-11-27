@@ -1,0 +1,16 @@
+name: acf-openssh
+version: "0.11.2"
+category: alpine
+description: A web-based system administration interface for openssh
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-openssh
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-openssh/acf-openssh-0.11.2.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "openssh"
+    version: '>=0'

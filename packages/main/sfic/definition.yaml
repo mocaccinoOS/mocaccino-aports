@@ -1,0 +1,9 @@
+name: sfic
+version: "0.1.7"
+category: alpine
+description: Small and Simple File Integrity Checker
+uri:
+  - http://sfic.sourceforge.net/
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/sfic/sfic-0.1.7.tar.gz"

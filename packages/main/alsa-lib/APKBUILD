@@ -1,0 +1,43 @@
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+pkgname=alsa-lib
+pkgver=1.2.4
+pkgrel=1
+pkgdesc="Advanced Linux Sound Architecture (ALSA) library"
+url="http://www.alsa-project.org"
+arch="all"
+license="LGPL-2.1-or-later"
+subpackages="$pkgname-dev $pkgname-dbg"
+makedepends="linux-headers"
+source="ftp://ftp.alsa-project.org/pub/lib/alsa-lib-$pkgver.tar.bz2
+	remove-test.patch
+	fix-dlo.patch"
+
+build() {
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--disable-python \
+		--disable-static \
+		--disable-resmgr \
+		--enable-rawmidi \
+		--enable-seq \
+		--enable-aload \
+		--disable-dependency-tracking \
+		--without-versioned
+	make
+	rm -rf "$builddir"/include/sound/*
+	printf "all:\ncheck:\ninstall:\n" > "$builddir"/include/sound/Makefile
+}
+
+check() {
+	make check
+}
+
+package() {
+	make -j1 DESTDIR="$pkgdir" install
+}
+
+sha512sums="12086952dc8f16f1cb6946517858e17b1c3276aeda9ff5703a84bb38aa78eb4c4e9cb4485c5b3f21f174fdbd976b3bcbbc481e85cb2460652858490df51ae844  alsa-lib-1.2.4.tar.bz2
+e15318431fe2d5bd1e42ef793f223e3e5995890d7befe6daa3d7456ccf5cb2f51eb79171539cecae13032a9b8a798ea35e04c89b27c7ef9567e2c03fb8db4512  remove-test.patch
+60899bc1cef971c7d0b10d916fa5ab6c2495011991c33d47241c9947230f043b7f6a2e177ca2112448669a36b55e16e7208d3e38b0ca5ae5d1784fef6142881a  fix-dlo.patch"

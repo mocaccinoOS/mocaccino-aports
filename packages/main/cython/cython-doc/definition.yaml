@@ -1,0 +1,7 @@
+name: cython-doc
+version: "0.29.21"
+category: alpine
+description: Cython is an optimising static compiler for both the Python & the extended Cython programming languages.
+uri:
+  - https://cython.org/
+license: Apache-2.0

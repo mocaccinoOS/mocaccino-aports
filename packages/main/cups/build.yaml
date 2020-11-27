@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libgcrypt-dev
+    version: '>=0'
+  - category: alpine
+    name: gnutls-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libpaper-dev
+    version: '>=0'
+  - category: alpine
+    name: dbus-dev
+    version: '>=0'
+  - category: alpine
+    name: libjpeg-turbo-dev
+    version: '>=0'
+  - category: alpine
+    name: avahi-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: libusb-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

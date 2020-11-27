@@ -1,0 +1,7 @@
+name: gzip-doc
+version: "1.10"
+category: alpine
+description: Popular data compression program
+uri:
+  - https://www.gnu.org/software/gzip/
+license: GPL-3.0-or-later

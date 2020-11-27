@@ -1,0 +1,9 @@
+name: perl-text-soundex
+version: "3.05"
+category: alpine
+description: Implementation of the soundex algorithm
+uri:
+  - https://metacpan.org/release/Text-Soundex/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Text-Soundex-3.05.tar.gz"

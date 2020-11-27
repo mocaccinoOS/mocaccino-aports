@@ -1,0 +1,9 @@
+name: conntrack-tools
+version: "1.4.6"
+category: alpine
+description: Connection tracking userspace tools
+uri:
+  - http://conntrack-tools.netfilter.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://www.netfilter.org/projects/conntrack-tools/files/conntrack-tools-1.4.6.tar.bz2"

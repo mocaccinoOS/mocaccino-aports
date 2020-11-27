@@ -1,0 +1,7 @@
+name: fping-doc
+version: "5.0"
+category: alpine
+description: A utility to ping multiple hosts at once
+uri:
+  - https://fping.org/
+license: MIT

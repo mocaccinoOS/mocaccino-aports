@@ -1,0 +1,13 @@
+name: krb5
+version: "1.18.3"
+category: alpine
+description: The Kerberos network authentication system
+uri:
+  - https://web.mit.edu/kerberos/www/
+license: MIT
+labels:
+  package.source: "https://web.mit.edu/kerberos/dist/krb5/1.18/krb5-1.18.3.tar.gz"
+requires:
+  - category: alpine
+    name: "krb5-conf"
+    version: '>=0'

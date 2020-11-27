@@ -1,0 +1,13 @@
+name: docs
+version: "0.2"
+category: alpine
+description: Meta package for pulling in all documentation
+uri:
+  - https://alpinelinux.org
+license: MIT
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.096.tar.gz"
+requires:
+  - category: alpine
+    name: "mandoc"
+    version: '>=0'

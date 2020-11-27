@@ -1,0 +1,13 @@
+name: ruby-augeas
+version: "0.5.0"
+category: alpine
+description: Augeas bindings for Ruby
+uri:
+  - http://rubygems.org/gems/ruby-augeas
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://rubygems.org/downloads/ruby-augeas-0.5.0.gem"
+requires:
+  - category: alpine
+    name: "ruby"
+    version: '>=0'

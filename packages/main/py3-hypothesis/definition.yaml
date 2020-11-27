@@ -1,0 +1,16 @@
+name: py3-hypothesis
+version: "5.41.3"
+category: alpine
+description: Advanced property-based (QuickCheck-like) testing for Python
+uri:
+  - https://hypothesis.works/
+license: MPL-2.0
+labels:
+  package.source: "py-hypothesis-5.41.3.tar.gz::https://github.com/HypothesisWorks/hypothesis-python/archive/hypothesis-python-5.41.3.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-attrs"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sortedcontainers"
+    version: '>=0'

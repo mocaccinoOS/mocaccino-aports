@@ -1,0 +1,7 @@
+name: p7zip-doc
+version: "16.02"
+category: alpine
+description: command-line port of the 7zip compression utility
+uri:
+  - http://p7zip.sourceforge.net
+license: LGPL-2.0-or-later

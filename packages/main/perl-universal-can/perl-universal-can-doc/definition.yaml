@@ -1,0 +1,7 @@
+name: perl-universal-can-doc
+version: "1.20140328"
+category: alpine
+description: work around buggy code calling UNIVERSAL::can() as a function
+uri:
+  - https://metacpan.org/release/UNIVERSAL-can/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

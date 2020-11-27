@@ -1,0 +1,7 @@
+name: py3-dbus-doc
+version: "1.2.16"
+category: alpine
+description: Python3 bindings for DBUS
+uri:
+  - http://www.freedesktop.org/wiki/Software/DBusBindings
+license: MIT

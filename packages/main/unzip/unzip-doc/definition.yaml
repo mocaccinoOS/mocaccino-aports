@@ -1,0 +1,7 @@
+name: unzip-doc
+version: "6.0"
+category: alpine
+description: Extract PKZIP-compatible .zip files
+uri:
+  - http://www.info-zip.org/UnZip.html
+license: custom

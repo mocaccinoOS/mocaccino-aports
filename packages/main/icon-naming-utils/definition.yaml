@@ -1,0 +1,13 @@
+name: icon-naming-utils
+version: "0.8.90"
+category: alpine
+description: Maps the new names of icons for Tango to the legacy names used by the GNOME and KDE desktops.
+uri:
+  - http://tango.freedesktop.org/
+license: GPL-2.0
+labels:
+  package.source: "http://tango.freedesktop.org/releases/icon-naming-utils-0.8.90.tar.bz2"
+requires:
+  - category: alpine
+    name: "perl-xml-simple"
+    version: '>=0'

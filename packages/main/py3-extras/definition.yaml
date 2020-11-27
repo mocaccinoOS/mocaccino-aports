@@ -1,0 +1,13 @@
+name: py3-extras
+version: "1.0.0"
+category: alpine
+description: Useful extra bits for Python - things that shold be in the standard library
+uri:
+  - https://pypi.python.org/pypi/extras/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/e/extras/extras-1.0.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

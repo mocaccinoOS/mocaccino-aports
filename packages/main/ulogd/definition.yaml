@@ -1,0 +1,9 @@
+name: ulogd
+version: "2.0.7"
+category: alpine
+description: Userspace logging daemon for netfilter/iptables related logging
+uri:
+  - https://netfilter.org/projects/ulogd/
+license: GPL-2.0-only
+labels:
+  package.source: "https://www.netfilter.org/projects/ulogd/files/ulogd-2.0.7.tar.bz2"

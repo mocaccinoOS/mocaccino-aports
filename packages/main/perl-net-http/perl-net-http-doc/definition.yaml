@@ -1,0 +1,7 @@
+name: perl-net-http-doc
+version: "6.19"
+category: alpine
+description: Net::HTTP perl module
+uri:
+  - https://search.cpan.org/dist/Net-HTTP/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

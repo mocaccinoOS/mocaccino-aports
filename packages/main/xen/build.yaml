@@ -1,0 +1,94 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: e2fsprogs-dev
+    version: '>=0'
+  - category: alpine
+    name: gettext
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: dev86
+    version: '>=0'
+  - category: alpine
+    name: texinfo
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: pciutils-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: yajl-dev
+    version: '>=0'
+  - category: alpine
+    name: libnl3-dev
+    version: '>=0'
+  - category: alpine
+    name: spice-dev
+    version: '>=0'
+  - category: alpine
+    name: gnutls-dev
+    version: '>=0'
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: libaio-dev
+    version: '>=0'
+  - category: alpine
+    name: lzo-dev
+    version: '>=0'
+  - category: alpine
+    name: xz-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: argp-standalone
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: dnsmasq
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

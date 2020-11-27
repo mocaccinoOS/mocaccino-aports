@@ -1,0 +1,13 @@
+name: perl-pod-parser
+version: "1.63"
+category: alpine
+description: Modules for parsing/translating POD format documents
+uri:
+  - https://metacpan.org/release/Pod-Parser/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

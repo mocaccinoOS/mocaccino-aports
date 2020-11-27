@@ -1,0 +1,7 @@
+name: xen-doc
+version: "4.14.0"
+category: alpine
+description: Xen hypervisor
+uri:
+  - https://www.xenproject.org/
+license: GPL-2.0-only

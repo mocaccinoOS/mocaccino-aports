@@ -1,0 +1,7 @@
+name: zlib-dev
+version: "1.2.11"
+category: alpine
+description: A compression/decompression Library
+uri:
+  - https://zlib.net/
+license: Zlib

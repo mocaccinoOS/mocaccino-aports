@@ -1,0 +1,9 @@
+name: xf86-video-siliconmotion
+version: "1.7.9"
+category: alpine
+description: Silicon Motion video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/driver/xf86-video-siliconmotion-1.7.9.tar.bz2"

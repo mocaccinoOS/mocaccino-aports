@@ -1,0 +1,9 @@
+name: smartmontools
+version: "7.1"
+category: alpine
+description: Control and monitor S.M.A.R.T. enabled hard drives
+uri:
+  - https://www.smartmontools.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/sourceforge/smartmontools/smartmontools-7.1.tar.gz"

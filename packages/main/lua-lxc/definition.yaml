@@ -1,0 +1,9 @@
+name: lua-lxc
+version: "3.0.2"
+category: alpine
+description: Lua bindings for LXC
+uri:
+  - https://linuxcontainers.org
+license: LGPL-2.1
+labels:
+  package.source: "https://linuxcontainers.org/downloads/lxc/lua-lxc-3.0.2.tar.gz"

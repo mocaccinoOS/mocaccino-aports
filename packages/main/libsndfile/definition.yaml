@@ -1,0 +1,9 @@
+name: libsndfile
+version: "1.0.29"
+category: alpine
+description: A C library for reading and writing files containing sampled sound
+uri:
+  - http://www.mega-nerd.com/libsndfile
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://github.com/erikd/libsndfile/releases/download/v1.0.29/libsndfile-1.0.29.tar.bz2"

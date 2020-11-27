@@ -1,0 +1,7 @@
+name: nss-pam-ldapd-openrc
+version: "0.9.11"
+category: alpine
+description: An nsswitch module which uses directory servers
+uri:
+  - https://arthurdejong.org/nss-pam-ldapd/
+license: LGPL-2.0-or-later

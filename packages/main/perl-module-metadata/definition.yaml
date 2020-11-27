@@ -1,0 +1,9 @@
+name: perl-module-metadata
+version: "1.000037"
+category: alpine
+description: Gather package and POD information from perl module files
+uri:
+  - https://metacpan.org/release/Module-Metadata
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Module-Metadata-1.000037.tar.gz"

@@ -1,0 +1,7 @@
+name: mkfontscale-doc
+version: "1.2.1"
+category: alpine
+description: Scalable font index generator for X
+uri:
+  - http://xorg.freedesktop.org
+license: MIT

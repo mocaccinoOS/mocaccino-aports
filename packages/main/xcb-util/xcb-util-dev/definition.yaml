@@ -1,0 +1,7 @@
+name: xcb-util-dev
+version: "0.4.0"
+category: alpine
+description: Utility libraries for X C-language Binding
+uri:
+  - https://xcb.freedesktop.org/
+license: MIT

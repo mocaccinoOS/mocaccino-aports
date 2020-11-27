@@ -1,0 +1,7 @@
+name: nsd-dbg
+version: "4.3.3"
+category: alpine
+description: Authoritative only, high performance and simple DNS server
+uri:
+  - https://www.nlnetlabs.nl/projects/nsd
+license: BSD-3-Clause

@@ -1,0 +1,9 @@
+name: spice-protocol
+version: "0.14.3"
+category: alpine
+description: Spice protocol header files
+uri:
+  - http://www.spice-space.org/
+license: BSD-3-Clause LGPL-2.1-or-later
+labels:
+  package.source: "https://www.spice-space.org/download/releases/spice-protocol-0.14.3.tar.xz"

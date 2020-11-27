@@ -1,0 +1,7 @@
+name: perl-carp-doc
+version: "1.50"
+category: alpine
+description: alternative warn and die for modules
+uri:
+  - https://metacpan.org/release/Carp
+license: GPL-1.0-or-later OR Artisitc-1.0-Perl

@@ -1,0 +1,58 @@
+name: network-extras
+version: "1.2"
+category: alpine
+description: Meta package to pull in ppp, vlan, bonding, bridge and wifi support
+uri:
+  - http://alpinelinux.org
+license: GPL
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "bridge"
+    version: '>=0'
+  - category: alpine
+    name: "bonding"
+    version: '>=0'
+  - category: alpine
+    name: "vlan"
+    version: '>=0'
+  - category: alpine
+    name: "wpa_supplicant"
+    version: '>=0'
+  - category: alpine
+    name: "wireless-tools"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-atm"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-chat"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-daemon"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-l2tp"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-minconn"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-passprompt"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-passwordfd"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-pppoe"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-radius"
+    version: '>=0'
+  - category: alpine
+    name: "ppp-winbind"
+    version: '>=0'
+  - category: alpine
+    name: "usb-modeswitch"
+    version: '>=0'

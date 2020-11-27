@@ -1,0 +1,7 @@
+name: linux-octeon-dev
+version: "5.4.70"
+category: alpine
+description: Linux lts kernel (for Octeon)
+uri:
+  - http://kernel.org
+license: GPL-2.0

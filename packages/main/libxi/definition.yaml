@@ -1,0 +1,9 @@
+name: libxi
+version: "1.7.10"
+category: alpine
+description: X11 Input extension library
+uri:
+  - https://www.x.org
+license: MIT AND X11
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXi-1.7.10.tar.bz2"

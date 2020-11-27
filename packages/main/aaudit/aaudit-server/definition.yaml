@@ -1,0 +1,7 @@
+name: aaudit-server
+version: "0.7.2"
+category: alpine
+description: Alpine Auditor
+uri:
+  - https://alpinelinux.org
+license: Unknown

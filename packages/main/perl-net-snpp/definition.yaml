@@ -1,0 +1,13 @@
+name: perl-net-snpp
+version: "1.17"
+category: alpine
+description: Perl Simple Network Pager Protocol Client
+uri:
+  - http://search.cpan.org/~tobeya/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TOBEYA/Net-SNPP-1.17.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

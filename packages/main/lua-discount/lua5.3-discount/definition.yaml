@@ -1,0 +1,7 @@
+name: lua5.3-discount
+version: "1.2.10.1"
+category: alpine
+description: Markdown implementation in C for Lua
+uri:
+  - http://asbradbury.org/projects/lua-discount
+license: custom

@@ -1,0 +1,7 @@
+name: varnish-dbg
+version: "6.5.1"
+category: alpine
+description: High-performance HTTP accelerator
+uri:
+  - https://www.varnish-cache.org/
+license: BSD-2-Clause

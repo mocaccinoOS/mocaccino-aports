@@ -1,0 +1,31 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: libpcap-dev
+    version: '>=0'
+  - category: alpine
+    name: mariadb-connector-c-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_log-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

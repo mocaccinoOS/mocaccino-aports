@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: rlog-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: fuse-dev
+    version: '>=0'
+  - category: alpine
+    name: boost-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: alpine
+    name: tinyxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

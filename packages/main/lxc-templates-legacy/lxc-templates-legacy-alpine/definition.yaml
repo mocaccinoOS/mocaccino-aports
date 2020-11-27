@@ -1,0 +1,7 @@
+name: lxc-templates-legacy-alpine
+version: "3.0.3"
+category: alpine
+description: Legacy LXC container templates
+uri:
+  - https://linuxcontainers.org
+license: LGPL-2.1

@@ -1,0 +1,7 @@
+name: libidn-doc
+version: "1.35"
+category: alpine
+description: Encode/Decode library for internationalized domain names
+uri:
+  - https://www.gnu.org/software/libidn
+license: GPL-2.0-or-later GPL-3.0-or-later LGPL-3.0-or-later

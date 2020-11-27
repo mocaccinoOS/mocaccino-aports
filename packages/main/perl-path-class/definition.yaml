@@ -1,0 +1,9 @@
+name: perl-path-class
+version: "0.37"
+category: alpine
+description: Cross-platform path specification manipulation
+uri:
+  - https://metacpan.org/release/Path-Class/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Path-Class-0.37.tar.gz"

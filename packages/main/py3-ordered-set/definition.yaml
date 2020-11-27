@@ -1,0 +1,13 @@
+name: py3-ordered-set
+version: "4.0.2"
+category: alpine
+description: MutableSet that remembers its order
+uri:
+  - https://github.com/LuminosoInsight/ordered-set
+license: MIT
+labels:
+  package.source: "https://pypi.io/packages/source/o/ordered-set/ordered-set-4.0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

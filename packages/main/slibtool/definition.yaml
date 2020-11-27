@@ -1,0 +1,9 @@
+name: slibtool
+version: "0.5.28"
+category: alpine
+description: Surrogate libtool implementation written in C
+uri:
+  - https://git.midipix.org/cgit.cgi/slibtool
+license: MIT
+labels:
+  package.source: "https://midipix.org/dl/slibtool/slibtool-0.5.28.tar.xz"

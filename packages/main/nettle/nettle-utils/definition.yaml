@@ -1,0 +1,7 @@
+name: nettle-utils
+version: "3.6"
+category: alpine
+description: A low-level cryptographic library
+uri:
+  - https://www.lysator.liu.se/~nisse/nettle/
+license: LGPL-2.0-or-later

@@ -1,0 +1,13 @@
+name: dejagnu
+version: "1.6.2"
+category: alpine
+description: A framework for testing other programs
+uri:
+  - https://www.gnu.org/software/dejagnu/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/pub/gnu/dejagnu/dejagnu-1.6.2.tar.gz"
+requires:
+  - category: alpine
+    name: "expect"
+    version: '>=0'

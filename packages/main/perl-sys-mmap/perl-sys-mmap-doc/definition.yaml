@@ -1,0 +1,7 @@
+name: perl-sys-mmap-doc
+version: "0.20"
+category: alpine
+description: Uses mmap to map in a file as a Perl variable
+uri:
+  - https://metacpan.org/pod/Sys::Mmap
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

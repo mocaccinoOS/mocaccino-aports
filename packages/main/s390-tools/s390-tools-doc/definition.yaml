@@ -1,0 +1,7 @@
+name: s390-tools-doc
+version: "2.14.0"
+category: alpine
+description: Tools for use with the s390 Linux kernel and device drivers
+uri:
+  - https://github.com/ibm-s390-tools/s390-tools
+license: MIT

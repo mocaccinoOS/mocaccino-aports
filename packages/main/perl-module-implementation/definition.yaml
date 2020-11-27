@@ -1,0 +1,19 @@
+name: perl-module-implementation
+version: "0.09"
+category: alpine
+description: Loads one of several alternate underlying implementations for a module
+uri:
+  - https://metacpan.org/release/Module-Implementation/
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-module-runtime"
+    version: '>=0'
+  - category: alpine
+    name: "perl-try-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-taint"
+    version: '>=0'

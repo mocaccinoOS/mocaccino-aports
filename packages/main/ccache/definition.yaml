@@ -1,0 +1,9 @@
+name: ccache
+version: "3.7.12"
+category: alpine
+description: fast C/C++ compiler cache
+uri:
+  - https://ccache.dev/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://github.com/ccache/ccache/releases/download/v3.7.12/ccache-3.7.12.tar.xz"

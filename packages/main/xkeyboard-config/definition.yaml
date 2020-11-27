@@ -1,0 +1,9 @@
+name: xkeyboard-config
+version: "2.31"
+category: alpine
+description: X keyboard configuration files
+uri:
+  - http://www.freedesktop.org/wiki/Software/XKeyboardConfig
+license: MIT
+labels:
+  package.source: "https://www.x.org/archive/individual/data/xkeyboard-config/xkeyboard-config-2.31.tar.bz2"

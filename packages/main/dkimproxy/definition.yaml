@@ -1,0 +1,19 @@
+name: dkimproxy
+version: "1.4.1"
+category: alpine
+description: SMTP-proxy that signs and/or verifies emails, using the Mail::DKIM module
+uri:
+  - http://dkimproxy.sourceforge.net/
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/dkimproxy/dkimproxy-1.4.1.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-mail-dkim"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-server"
+    version: '>=0'
+  - category: alpine
+    name: "perl-error"
+    version: '>=0'

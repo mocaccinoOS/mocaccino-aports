@@ -1,0 +1,9 @@
+name: fprobe-ulog
+version: "1.2"
+category: alpine
+description: netfilter-based tool that collect network traffic
+uri:
+  - https://github.com/opoplawski/fprobe-ulog
+license: GPL
+labels:
+  package.source: "https://github.com/opoplawski/fprobe-ulog/releases/download/v1.2/fprobe-ulog-1.2.tar.gz"

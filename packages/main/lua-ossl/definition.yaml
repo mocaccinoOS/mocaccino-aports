@@ -1,0 +1,9 @@
+name: lua-ossl
+version: "20200709"
+category: alpine
+description: A comprehensive OpenSSL Lua module
+uri:
+  - http://25thandclement.com/~william/projects/luaossl.html
+license: MIT
+labels:
+  package.source: "luaossl-20200709.tar.gz::https://github.com/wahern/luaossl/archive/rel-20200709.tar.gz"

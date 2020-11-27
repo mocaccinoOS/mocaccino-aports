@@ -1,0 +1,7 @@
+name: luajit-doc
+version: "2.2.0"
+category: alpine
+description: Integration fork of the original LuaJIT
+uri:
+  - https://github.com/moonjit/moonjit
+license: MIT

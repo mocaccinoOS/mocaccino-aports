@@ -1,0 +1,7 @@
+name: oidentd-openrc
+version: "2.5.0"
+category: alpine
+description: Configurable IDENT server that supports NAT/IP masq
+uri:
+  - https://oidentd.janikrabe.com
+license: GPL-2.0-only

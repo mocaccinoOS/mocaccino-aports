@@ -1,0 +1,7 @@
+name: perl-digest-hmac-doc
+version: "1.03"
+category: alpine
+description: Keyed-Hashing for Message Authentication Perl module
+uri:
+  - http://search.cpan.org/~gaas/Digest-HMAC-1.01/
+license: GPL PerlArtistic

@@ -1,0 +1,9 @@
+name: darkhttpd
+version: "1.12"
+category: alpine
+description: A simple, single-threaded, static content webserver
+uri:
+  - https://unix4lyfe.org/darkhttpd/
+license: ISC
+labels:
+  package.source: "https://unix4lyfe.org/darkhttpd/darkhttpd-1.12.tar.bz2"

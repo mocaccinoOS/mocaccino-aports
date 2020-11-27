@@ -1,0 +1,7 @@
+name: perl-metrics-any-doc
+version: "0.06"
+category: alpine
+description: abstract collection of monitoring metrics
+uri:
+  - https://metacpan.org/release/Metrics-Any/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

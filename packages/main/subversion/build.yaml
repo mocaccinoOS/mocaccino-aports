@@ -1,0 +1,46 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: apache2-dev
+    version: '>=0'
+  - category: alpine
+    name: apr-util-dev
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: e2fsprogs-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: lz4-dev
+    version: '>=0'
+  - category: alpine
+    name: neon-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: serf-dev
+    version: '>=0'
+  - category: alpine
+    name: swig
+    version: '>=0'
+  - category: alpine
+    name: boost-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: unfs3
+version: "0.9.22"
+category: alpine
+description: user-space implementation of the NFSv3 server specification
+uri:
+  - http://unfs3.sourceforge.net/
+license: BSD-3-Clause
+labels:
+  package.source: "https://downloads.sourceforge.net/unfs3/unfs3-0.9.22.tar.gz"
+requires:
+  - category: alpine
+    name: "rpcbind"
+    version: '>=0'

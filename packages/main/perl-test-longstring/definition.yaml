@@ -1,0 +1,13 @@
+name: perl-test-longstring
+version: "0.17"
+category: alpine
+description: Tests strings for equality
+uri:
+  - https://metacpan.org/release/Test-LongString/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Test-LongString-0.17.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

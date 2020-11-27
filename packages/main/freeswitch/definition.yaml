@@ -1,0 +1,9 @@
+name: freeswitch
+version: "1.10.5"
+category: alpine
+description: A communications platform written in C from the ground up
+uri:
+  - http://www.freeswitch.org
+license: MPL-1.1
+labels:
+  package.source: "https://files.freeswitch.org/freeswitch-releases/freeswitch-1.10.5.-release.tar.xz"

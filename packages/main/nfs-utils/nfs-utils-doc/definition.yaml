@@ -1,0 +1,7 @@
+name: nfs-utils-doc
+version: "2.5.1"
+category: alpine
+description: kernel-mode NFS
+uri:
+  - https://linux-nfs.org/
+license: GPL-2.0-or-later BSD-3-Clause

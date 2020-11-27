@@ -1,0 +1,13 @@
+name: py3-sphinx_rtd_theme
+version: "0.4.3"
+category: alpine
+description: Sphinx theme for readthedocs.org
+uri:
+  - https://github.com/snide/sphinx_rtd_theme
+license: MIT
+labels:
+  package.source: "sphinx_rtd_theme-0.4.3.tar.gz::https://github.com/snide/sphinx_rtd_theme/archive/0.4.3.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

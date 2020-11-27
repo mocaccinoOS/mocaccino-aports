@@ -1,0 +1,9 @@
+name: sofia-sip
+version: "1.13.2"
+category: alpine
+description: RFC3261 compliant SIP User-Agent library
+uri:
+  - https://github.com/freeswitch/sofia-sip
+license: LGPL-2.1-only
+labels:
+  package.source: "sofia-sip-1.13.2.tar.gz::https://github.com/freeswitch/sofia-sip/archive/v1.13.2.tar.gz"

@@ -1,0 +1,9 @@
+name: perl-test-pod
+version: "1.52"
+category: alpine
+description: check for POD errors in files
+uri:
+  - https://metacpan.org/release/Test-Pod/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Pod-1.52.tar.gz"

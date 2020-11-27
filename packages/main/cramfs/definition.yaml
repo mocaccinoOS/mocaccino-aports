@@ -1,0 +1,9 @@
+name: cramfs
+version: "1.1"
+category: alpine
+description: Linux filesystem designed to be simple, small, and to compress things well
+uri:
+  - https://sourceforge.net/projects/cramfs/
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/cramfs/cramfs-1.1.tar.gz"

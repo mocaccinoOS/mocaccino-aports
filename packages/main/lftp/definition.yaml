@@ -1,0 +1,9 @@
+name: lftp
+version: "4.9.2"
+category: alpine
+description: Sophisticated ftp/http client
+uri:
+  - https://lftp.tech
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz"

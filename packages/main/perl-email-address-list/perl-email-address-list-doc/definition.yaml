@@ -1,0 +1,7 @@
+name: perl-email-address-list-doc
+version: "0.06"
+category: alpine
+description: RFC close address list parsing
+uri:
+  - https://metacpan.org/release/Email-Address-List/
+license: GPL+ or Artistic

@@ -1,0 +1,16 @@
+name: acf-ppp
+version: "0.5.0"
+category: alpine
+description: A web-based system administration interface for ppp
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-ppp
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-ppp/acf-ppp-0.5.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "ppp"
+    version: '>=0'

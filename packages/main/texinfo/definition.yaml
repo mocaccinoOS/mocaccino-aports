@@ -1,0 +1,13 @@
+name: texinfo
+version: "6.7"
+category: alpine
+description: Utilities to work with and produce manuals, ASCII text, and on-line documentation from a single source file
+uri:
+  - https://www.gnu.org/software/texinfo/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/texinfo/texinfo-6.7.tar.xz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

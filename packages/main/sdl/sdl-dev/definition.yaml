@@ -1,0 +1,7 @@
+name: sdl-dev
+version: "1.2.15"
+category: alpine
+description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+uri:
+  - http://www.libsdl.org
+license: LGPL-2.1-or-later

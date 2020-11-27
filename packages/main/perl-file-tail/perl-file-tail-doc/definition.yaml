@@ -1,0 +1,7 @@
+name: perl-file-tail-doc
+version: "1.3"
+category: alpine
+description: Perl extension for reading from continously updated files
+uri:
+  - https://metacpan.org/release/File-Tail/
+license: GPL PerlArtistic

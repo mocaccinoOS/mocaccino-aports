@@ -1,0 +1,7 @@
+name: libpri-dev
+version: "1.6.0"
+category: alpine
+description: Primary Rate ISDN (PRI) library
+uri:
+  - https://github.com/asterisk/libpri
+license: GPL-2.0-only

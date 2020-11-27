@@ -1,0 +1,22 @@
+name: py3-virtualenv
+version: "20.1.0"
+category: alpine
+description: Virtual Python3 Environment builder
+uri:
+  - https://www.virtualenv.org/en/latest/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/v/virtualenv/virtualenv-20.1.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-distlib"
+    version: '>=0'
+  - category: alpine
+    name: "py3-filelock"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

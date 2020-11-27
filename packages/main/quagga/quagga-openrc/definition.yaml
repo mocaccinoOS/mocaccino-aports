@@ -1,0 +1,7 @@
+name: quagga-openrc
+version: "1.2.4"
+category: alpine
+description: A free routing daemon replacing Zebra supporting RIP, OSPF, BGP and NHRP
+uri:
+  - http://quagga.net/
+license: GPL-2.0-or-later

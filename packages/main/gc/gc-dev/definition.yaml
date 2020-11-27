@@ -1,0 +1,7 @@
+name: gc-dev
+version: "8.0.4"
+category: alpine
+description: A garbage collector for C and C++
+uri:
+  - https://hboehm.info/gc/
+license: custom:GPL-like

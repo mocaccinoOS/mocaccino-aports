@@ -1,0 +1,13 @@
+name: py3-yaml
+version: "5.3.1"
+category: alpine
+description: Python3 bindings for YAML
+uri:
+  - http://pyyaml.org
+license: MIT
+labels:
+  package.source: "PyYAML-5.3.1.tar.gz::https://github.com/yaml/pyyaml/archive/5.3.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

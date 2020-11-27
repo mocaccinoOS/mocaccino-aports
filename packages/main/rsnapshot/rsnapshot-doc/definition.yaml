@@ -1,0 +1,7 @@
+name: rsnapshot-doc
+version: "1.4.3"
+category: alpine
+description: Local and remote filesystem snapshot utility
+uri:
+  - http://www.rsnapshot.org/
+license: GPL-2.0-or-later

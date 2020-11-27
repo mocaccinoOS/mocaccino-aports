@@ -1,0 +1,16 @@
+name: lua-soap
+version: "3.0"
+category: alpine
+description: Lua library to ease the use of SOAP
+uri:
+  - http://tomasguisasola.github.io/luasoap/
+license: MIT
+labels:
+  package.source: "https://github.com/tomasguisasola/luasoap/archive/v3_0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua-expat"
+    version: '>=0'
+  - category: alpine
+    name: "lua-socket"
+    version: '>=0'

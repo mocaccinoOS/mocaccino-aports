@@ -1,0 +1,13 @@
+name: cpufrequtils
+version: "008"
+category: alpine
+description: Userspace tools for the kernel cpufreq subsystem
+uri:
+  - https://www.kernel.org/pub/linux/utils/kernel/cpufreq/cpufrequtils.html
+license: GPL-2.0
+labels:
+  package.source: "https://sources.archlinux.org/other/cpufrequtils/cpufrequtils-008.tar.bz2"
+requires:
+  - category: alpine
+    name: "sysfsutils"
+    version: '>=0'

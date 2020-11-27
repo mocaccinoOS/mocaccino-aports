@@ -1,0 +1,7 @@
+name: lksctp-tools-doc
+version: "1.0.18"
+category: alpine
+description: User-space access to Linux Kernel SCTP
+uri:
+  - http://lksctp.sourceforge.net
+license: GPL-2.0-only AND LGPL-2.1-or-later

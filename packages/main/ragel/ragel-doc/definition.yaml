@@ -1,0 +1,7 @@
+name: ragel-doc
+version: "6.10"
+category: alpine
+description: Finite state machine compiler
+uri:
+  - http://www.complang.org/ragel/
+license: GPL-2.0-or-later

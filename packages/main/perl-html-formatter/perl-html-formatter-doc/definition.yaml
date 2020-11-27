@@ -1,0 +1,7 @@
+name: perl-html-formatter-doc
+version: "2.16"
+category: alpine
+description: Base class for HTML formatters
+uri:
+  - https://metacpan.org/release/HTML-Formatter/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

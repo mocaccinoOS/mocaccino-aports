@@ -1,0 +1,7 @@
+name: perl-package-anon-doc
+version: "0.05"
+category: alpine
+description: Anonymous packages
+uri:
+  - https://metacpan.org/release/Package-Anon/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

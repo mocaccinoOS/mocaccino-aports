@@ -1,0 +1,9 @@
+name: libxrender
+version: "0.9.10"
+category: alpine
+description: X Rendering Extension client library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXrender-0.9.10.tar.bz2"

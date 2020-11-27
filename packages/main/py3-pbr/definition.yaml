@@ -1,0 +1,16 @@
+name: py3-pbr
+version: "5.5.1"
+category: alpine
+description: Python3 Build Reasonableness
+uri:
+  - https://pypi.python.org/pypi/pbr
+license: Apache-2.0
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/pbr/pbr-5.5.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

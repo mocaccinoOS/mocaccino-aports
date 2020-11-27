@@ -1,0 +1,16 @@
+name: xvfb-run
+version: "1.20.7.3"
+category: alpine
+description: A wrapper for the Xvfb command which simplifies the task of running commands.
+uri:
+  - https://salsa.debian.org/xorg-team/xserver/xorg-server/tree/debian-unstable/debian/local
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://salsa.debian.org/xorg-team/xserver/xorg-server/raw/xorg-server-2_1.20.7-3/debian/local/xvfb-run"
+requires:
+  - category: alpine
+    name: "xvfb"
+    version: '>=0'
+  - category: alpine
+    name: "coreutils"
+    version: '>=0'

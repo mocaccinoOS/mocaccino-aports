@@ -1,0 +1,9 @@
+name: freeswitch-sounds-ru-RU-elena-32000
+version: "1.0.12"
+category: alpine
+description: Sounds for freeswitch English
+uri:
+  - http://files.freeswitch.org/
+license: unknown
+labels:
+  package.source: "http://files.freeswitch.org/freeswitch-sounds-ru-RU-elena-32000-1.0.12.tar.gz"

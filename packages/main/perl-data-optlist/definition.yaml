@@ -1,0 +1,19 @@
+name: perl-data-optlist
+version: "0.110"
+category: alpine
+description: Data::OptList perl module
+uri:
+  - https://metacpan.org/release/Data-OptList/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Data-OptList-0.110.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-util"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-install"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-text-reform-doc
+version: "1.20"
+category: alpine
+description: Text::Reform perl module
+uri:
+  - https://metacpan.org/release/Text-Reform
+license: GPL-1.0-or-later or Artistic-1.0-Perl

@@ -1,0 +1,7 @@
+name: s6-portable-utils-doc
+version: "2.2.3.0"
+category: alpine
+description: skarnet.org's tiny portable generic utilities
+uri:
+  - http://skarnet.org/software/s6-portable-utils/
+license: ISC

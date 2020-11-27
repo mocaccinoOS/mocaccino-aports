@@ -1,0 +1,13 @@
+name: perl-apache-logformat-compiler
+version: "0.36"
+category: alpine
+description: Compile a log format string to perl-code
+uri:
+  - https://metacpan.org/release/Apache-LogFormat-Compiler
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-posix-strftime-compiler"
+    version: '>=0'

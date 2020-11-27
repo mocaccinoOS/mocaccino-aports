@@ -1,0 +1,9 @@
+name: umurmur
+version: "0.2.17"
+category: alpine
+description: Minimalistic Mumble server primarily targeted to run on routers
+uri:
+  - https://umurmur.net/
+license: BSD-3-Clause
+labels:
+  package.source: "umurmur-0.2.17.tar.gz::https://github.com/umurmur/umurmur/archive/0.2.17.tar.gz"

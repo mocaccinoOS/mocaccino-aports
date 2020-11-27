@@ -1,0 +1,9 @@
+name: spirv-tools
+version: "2020.3"
+category: alpine
+description: API and commands for processing SPIR-V modules
+uri:
+  - https://github.com/KhronosGroup/SPIRV-Tools
+license: Apache-2.0
+labels:
+  package.source: "spirv-tools-2020.3.tar.gz::https://github.com/KhronosGroup/SPIRV-Tools/archive/v2020.3.tar.gz"

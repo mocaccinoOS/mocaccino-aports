@@ -1,0 +1,9 @@
+name: open-iscsi
+version: "2.1.2"
+category: alpine
+description: High performance, transport independent, multi-platform iSCSI initiator
+uri:
+  - https://www.open-iscsi.com
+license: GPL-2.0-only
+labels:
+  package.source: "open-iscsi-2.1.2.tar.gz::https://github.com/open-iscsi/open-iscsi/archive/2.1.2.tar.gz"

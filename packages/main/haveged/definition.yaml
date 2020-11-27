@@ -1,0 +1,9 @@
+name: haveged
+version: "1.9.13"
+category: alpine
+description: Entropy harvesting daemon using CPU timings
+uri:
+  - https://www.issihosts.com/haveged/
+license: GPL-3.0-or-later
+labels:
+  package.source: "haveged-1.9.13.tar.gz::https://github.com/jirka-h/haveged/archive/v1.9.13.tar.gz"

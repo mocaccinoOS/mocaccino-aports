@@ -1,0 +1,9 @@
+name: ncurses
+version: "6.2_p20201121"
+category: alpine
+description: Console display library
+uri:
+  - https://invisible-island.net/ncurses/
+license: MIT
+labels:
+  package.source: "https://invisible-mirror.net/archives/ncurses/current/ncurses-6.2-20201121.tgz"

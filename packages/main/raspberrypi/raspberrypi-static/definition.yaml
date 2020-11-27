@@ -1,0 +1,7 @@
+name: raspberrypi-static
+version: "0.20200813"
+category: alpine
+description: Raspberry Pi support tools
+uri:
+  - https://github.com/raspberrypi/userland
+license: BSD-3-Clause

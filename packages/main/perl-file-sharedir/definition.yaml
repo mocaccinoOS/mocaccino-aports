@@ -1,0 +1,16 @@
+name: perl-file-sharedir
+version: "1.118"
+category: alpine
+description: Locate per-dist and per-module shared files
+uri:
+  - https://metacpan.org/release/File-ShareDir/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.118.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-class-inspector"
+    version: '>=0'

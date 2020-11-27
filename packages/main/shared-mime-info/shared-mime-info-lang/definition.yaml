@@ -1,0 +1,7 @@
+name: shared-mime-info-lang
+version: "1.15"
+category: alpine
+description: Freedesktop.org Shared MIME Info
+uri:
+  - http://freedesktop.org/Software/shared-mime-info
+license: GPL-2.0-or-later

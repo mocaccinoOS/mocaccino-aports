@@ -1,0 +1,7 @@
+name: makedepend-doc
+version: "1.0.6"
+category: alpine
+description: utility for making makefile dependencies
+uri:
+  - http://www.freedesktop.org/
+license: MIT

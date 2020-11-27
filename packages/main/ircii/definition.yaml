@@ -1,0 +1,9 @@
+name: ircii
+version: "20190117"
+category: alpine
+description: Universal IRC for Unix systems
+uri:
+  - http://www.eterna.com.au/ircii/
+license: BSD-3-Clause
+labels:
+  package.source: "http://ircii.warped.com/ircii-20190117.tar.bz2"

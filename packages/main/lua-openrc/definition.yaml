@@ -1,0 +1,9 @@
+name: lua-openrc
+version: "0.2"
+category: alpine
+description: Lua module for OpenRC
+uri:
+  - https://github.com/ncopa/lua-openrc
+license: GPL
+labels:
+  package.source: "lua-openrc-0.2.tar.gz::https://github.com/ncopa/lua-openrc/archive/v0.2.tar.gz"

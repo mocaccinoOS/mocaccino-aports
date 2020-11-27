@@ -1,0 +1,7 @@
+name: dev86-doc
+version: "0.16.21"
+category: alpine
+description: A real mode 80x86 assembler and linker
+uri:
+  - https://github.com/lkundrak/dev86/
+license: GPL-2.0-or-later AND LGPL-2.0-or-later

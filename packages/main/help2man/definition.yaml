@@ -1,0 +1,13 @@
+name: help2man
+version: "1.47.16"
+category: alpine
+description: Create simple man pages from --help output
+uri:
+  - https://www.gnu.org/software/help2man
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/help2man/help2man-1.47.16.tar.xz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

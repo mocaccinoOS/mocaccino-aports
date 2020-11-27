@@ -1,0 +1,7 @@
+name: run-parts-doc
+version: "4.11.2"
+category: alpine
+description: run-parts from the debianutils package
+uri:
+  - https://packages.qa.debian.org/d/debianutils.html
+license: GPL-2.0-or-later

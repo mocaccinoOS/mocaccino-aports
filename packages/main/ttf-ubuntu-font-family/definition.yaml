@@ -1,0 +1,9 @@
+name: ttf-ubuntu-font-family
+version: "0.83"
+category: alpine
+description: Ubuntu font family
+uri:
+  - http://font.ubuntu.com/
+license: Custom
+labels:
+  package.source: "https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip"

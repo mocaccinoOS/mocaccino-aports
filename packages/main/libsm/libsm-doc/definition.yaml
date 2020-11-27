@@ -1,0 +1,7 @@
+name: libsm-doc
+version: "1.2.3"
+category: alpine
+description: X11 Session Management library
+uri:
+  - https://xorg.freedesktop.org/
+license: MIT

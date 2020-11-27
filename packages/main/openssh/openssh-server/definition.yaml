@@ -1,0 +1,7 @@
+name: openssh-server
+version: "8.4_p1"
+category: alpine
+description: Port of OpenBSD's free SSH release
+uri:
+  - https://www.openssh.com/portable.html
+license: BSD

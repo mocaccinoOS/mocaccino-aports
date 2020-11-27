@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: util-macros
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libxi-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrandr-dev
+    version: '>=0'
+  - category: alpine
+    name: libxinerama-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

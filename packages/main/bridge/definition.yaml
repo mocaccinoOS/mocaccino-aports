@@ -1,0 +1,9 @@
+name: bridge
+version: "1.5"
+category: alpine
+description: Scripts for configuring network bridge interfaces
+uri:
+  - https://wiki.alpinelinux.org/wiki/Bridge
+license: GPL-2.0-or-later
+labels:
+  package.source: "bridge.pre-up"

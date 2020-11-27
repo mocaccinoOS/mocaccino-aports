@@ -1,0 +1,43 @@
+name: abuild
+version: "3.7.0_rc1"
+category: alpine
+description: Script to build Alpine Packages
+uri:
+  - https://git.alpinelinux.org/cgit/abuild/
+license: GPL-2.0-only
+labels:
+  package.source: "https://git.alpinelinux.org/abuild/snapshot/abuild-3.7.0_rc1.tar.xz"
+requires:
+  - category: alpine
+    name: "fakeroot"
+    version: '>=0'
+  - category: alpine
+    name: "scanelf"
+    version: '>=0'
+  - category: alpine
+    name: "openssl"
+    version: '>=0'
+  - category: alpine
+    name: "apk-tools>=2.0.7-r1"
+    version: '>=0'
+  - category: alpine
+    name: "libc-utils"
+    version: '>=0'
+  - category: alpine
+    name: "attr"
+    version: '>=0'
+  - category: alpine
+    name: "tar"
+    version: '>=0'
+  - category: alpine
+    name: "pkgconf"
+    version: '>=0'
+  - category: alpine
+    name: "patch"
+    version: '>=0'
+  - category: alpine
+    name: "lzip"
+    version: '>=0'
+  - category: alpine
+    name: "curl"
+    version: '>=0'

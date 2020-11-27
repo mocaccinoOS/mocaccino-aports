@@ -1,0 +1,9 @@
+name: libnl
+version: "1.1.4"
+category: alpine
+description: Library for applications dealing with netlink sockets
+uri:
+  - https://www.infradead.org/~tgr/libnl/
+license: LGPL-2.1-only
+labels:
+  package.source: "https://www.infradead.org/~tgr/libnl/files/libnl-1.1.4.tar.gz"

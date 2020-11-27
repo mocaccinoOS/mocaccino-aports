@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: byacc
+    version: '>=0'
+  - category: alpine
+    name: hiredis-dev
+    version: '>=0'
+  - category: alpine
+    name: json-c-dev
+    version: '>=0'
+  - category: alpine
+    name: gengetopt
+    version: '>=0'
+  - category: alpine
+    name: libpcap-dev
+    version: '>=0'
+  - category: alpine
+    name: gmp-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

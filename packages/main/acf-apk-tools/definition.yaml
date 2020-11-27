@@ -1,0 +1,19 @@
+name: acf-apk-tools
+version: "0.11.0"
+category: alpine
+description: ACF module for apk
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-apk-tools
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-apk-tools/acf-apk-tools-0.11.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-posix"
+    version: '>=0'
+  - category: alpine
+    name: "apk-tools"
+    version: '>=0'

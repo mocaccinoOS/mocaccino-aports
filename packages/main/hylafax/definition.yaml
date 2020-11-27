@@ -1,0 +1,19 @@
+name: hylafax
+version: "6.0.7"
+category: alpine
+description: Sends and receives faxes
+uri:
+  - http://www.hylafax.org/
+license: MIT
+labels:
+  package.source: "ftp://ftp.hylafax.org/source/hylafax-6.0.7.tar.gz"
+requires:
+  - category: alpine
+    name: "ghostscript"
+    version: '>=0'
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "tiff-tools"
+    version: '>=0'

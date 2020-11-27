@@ -1,0 +1,7 @@
+name: sendpage-doc
+version: "1.0.3"
+category: alpine
+description: SNPP server, client, queueing engine, modem control and TAP system
+uri:
+  - http://www.sendpage.org
+license: GPL

@@ -1,0 +1,9 @@
+name: lua-pty
+version: "1.2.2"
+category: alpine
+description: Lua module to control other programs via PTYs.
+uri:
+  - https://www.tset.de/lpty/
+license: MIT
+labels:
+  package.source: "http://www.tset.de/downloads/lpty-1.2.2-1.tar.gz"

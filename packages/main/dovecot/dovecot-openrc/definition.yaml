@@ -1,0 +1,7 @@
+name: dovecot-openrc
+version: "2.3.11.3"
+category: alpine
+description: IMAP and POP3 server
+uri:
+  - https://www.dovecot.org/
+license: LGPL-2.0-or-later

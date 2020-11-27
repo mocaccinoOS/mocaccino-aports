@@ -1,0 +1,9 @@
+name: isl22
+version: "0.22"
+category: alpine
+description: An Integer Set Library for the Polyhedral Model
+uri:
+  - http://isl.gforge.inria.fr/
+license: MIT
+labels:
+  package.source: "http://isl.gforge.inria.fr/isl-0.22.tar.bz2"

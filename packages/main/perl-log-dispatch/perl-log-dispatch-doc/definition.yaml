@@ -1,0 +1,7 @@
+name: perl-log-dispatch-doc
+version: "2.70"
+category: alpine
+description: Dispatches messages to one or more outputs
+uri:
+  - https://metacpan.org/release/Log-Dispatch/
+license: Artistic-2.0

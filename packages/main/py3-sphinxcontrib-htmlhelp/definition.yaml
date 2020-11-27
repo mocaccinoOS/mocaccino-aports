@@ -1,0 +1,13 @@
+name: py3-sphinxcontrib-htmlhelp
+version: "1.0.3"
+category: alpine
+description: Sphinx htmlhelp extension
+uri:
+  - https://pypi.python.org/pypi/sphinxcontrib-htmlhelp
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-htmlhelp/sphinxcontrib-htmlhelp-1.0.3.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

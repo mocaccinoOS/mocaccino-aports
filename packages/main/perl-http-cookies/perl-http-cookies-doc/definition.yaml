@@ -1,0 +1,7 @@
+name: perl-http-cookies-doc
+version: "6.09"
+category: alpine
+description: HTTP cookie jars
+uri:
+  - https://metacpan.org/release/HTTP-Cookies
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

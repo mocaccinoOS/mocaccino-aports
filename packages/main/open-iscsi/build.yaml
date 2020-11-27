@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: kmod-dev
+    version: '>=0'
+  - category: alpine
+    name: libmount
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: open-isns-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

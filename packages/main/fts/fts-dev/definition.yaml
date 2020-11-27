@@ -1,0 +1,7 @@
+name: fts-dev
+version: "1.2.7"
+category: alpine
+description: Provides the fts(3) functions, which are missing in musl libc
+uri:
+  - https://github.com/pullmoll/musl-fts/
+license: BSD-3-Clause

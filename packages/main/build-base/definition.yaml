@@ -1,0 +1,34 @@
+name: build-base
+version: "0.5"
+category: alpine
+description: Meta package for build base
+uri:
+  - http://dev.alpinelinux.org/cgit
+license: none
+labels:
+  package.source: "bridge.pre-up"
+requires:
+  - category: alpine
+    name: "binutils"
+    version: '>=0'
+  - category: alpine
+    name: "file"
+    version: '>=0'
+  - category: alpine
+    name: "gcc"
+    version: '>=0'
+  - category: alpine
+    name: "g++"
+    version: '>=0'
+  - category: alpine
+    name: "make"
+    version: '>=0'
+  - category: alpine
+    name: "libc-dev"
+    version: '>=0'
+  - category: alpine
+    name: "fortify-headers"
+    version: '>=0'
+  - category: alpine
+    name: "patch"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: libdrm
+version: "2.4.103"
+category: alpine
+description: Userspace interface to kernel DRM services
+uri:
+  - https://dri.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://gitlab.freedesktop.org/mesa/drm/-/archive/libdrm-2.4.103/drm-libdrm-2.4.103.tar.gz"

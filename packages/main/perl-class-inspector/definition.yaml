@@ -1,0 +1,13 @@
+name: perl-class-inspector
+version: "1.36"
+category: alpine
+description: Class::Inspector perl module
+uri:
+  - https://metacpan.org/release/Class-Inspector/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-encode-hanextra-doc
+version: "0.23"
+category: alpine
+description: Perl module for Encode-HanExtra
+uri:
+  - https://metacpan.org/release/Encode-HanExtra/
+license: GPL PerlArtistic

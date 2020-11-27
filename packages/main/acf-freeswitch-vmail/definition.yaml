@@ -1,0 +1,22 @@
+name: acf-freeswitch-vmail
+version: "0.6.2"
+category: alpine
+description: ACF for a web interface for freeswitch voicemail
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-freeswitch-vmail
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-freeswitch-vmail/acf-freeswitch-vmail-0.6.2.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-sql-sqlite3"
+    version: '>=0'
+  - category: alpine
+    name: "lua-socket"
+    version: '>=0'
+  - category: alpine
+    name: "freeswitch"
+    version: '>=0'

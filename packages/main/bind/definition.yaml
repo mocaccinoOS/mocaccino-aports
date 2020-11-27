@@ -1,0 +1,16 @@
+name: bind
+version: "9.16.8"
+category: alpine
+description: The ISC DNS server
+uri:
+  - https://www.isc.org/
+license: MPL-2.0
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "dns-root-hints"
+    version: '>=0'
+  - category: alpine
+    name: "bind-tools"
+    version: '>=0'

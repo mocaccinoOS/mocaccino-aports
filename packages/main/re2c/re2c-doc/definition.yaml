@@ -1,0 +1,7 @@
+name: re2c-doc
+version: "1.3"
+category: alpine
+description: Tool for writing fast and flexible scanners in C from regular expressions
+uri:
+  - http://www.re2c.org
+license: Public-Domain

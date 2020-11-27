@@ -1,0 +1,70 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: g++
+    version: '>=0'
+  - category: alpine
+    name: paxmark
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: texinfo
+    version: '>=0'
+  - category: alpine
+    name: gawk
+    version: '>=0'
+  - category: alpine
+    name: zip
+    version: '>=0'
+  - category: alpine
+    name: gmp-dev
+    version: '>=0'
+  - category: alpine
+    name: mpfr-dev
+    version: '>=0'
+  - category: alpine
+    name: mpc1-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libucontext-dev
+    version: '>=0'
+  - category: alpine
+    name: gcc-gnat-bootstrap
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: gmp-dev
+    version: '>=0'
+  - category: alpine
+    name: mpfr-dev
+    version: '>=0'
+  - category: alpine
+    name: mpc1-dev
+    version: '>=0'
+  - category: alpine
+    name: isl-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: '!gettext-dev'
+    version: '>=0'
+  - category: alpine
+    name: libucontext-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

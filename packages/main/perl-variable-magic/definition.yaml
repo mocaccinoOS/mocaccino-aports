@@ -1,0 +1,9 @@
+name: perl-variable-magic
+version: "0.62"
+category: alpine
+description: Associate user-defined magic to variables from Perl.
+uri:
+  - https://metacpan.org/release/Variable-Magic/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.62.tar.gz"

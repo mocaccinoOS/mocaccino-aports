@@ -1,0 +1,22 @@
+name: perl-package-anon
+version: "0.05"
+category: alpine
+description: Anonymous packages
+uri:
+  - https://metacpan.org/release/Package-Anon/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AU/AUGGY/Package-Anon-0.05.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-package-stash"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-name"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-identify"
+    version: '>=0'
+  - category: alpine
+    name: "perl-b-hooks-endofscope"
+    version: '>=0'

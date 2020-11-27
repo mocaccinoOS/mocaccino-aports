@@ -1,0 +1,9 @@
+name: libsrtp
+version: "2.3.0"
+category: alpine
+description: An implementation of the Secure Real-time Transport Protocol (SRTP)
+uri:
+  - http://srtp.sourceforge.net
+license: BSD-3-Clause
+labels:
+  package.source: "libsrtp-2.3.0.tar.gz::https://github.com/cisco/libsrtp/archive/v2.3.0.tar.gz"

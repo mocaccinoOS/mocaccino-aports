@@ -1,0 +1,7 @@
+name: sbsigntool-doc
+version: "0.9.4"
+category: alpine
+description: Secure Boot signing tools
+uri:
+  - https://git.kernel.org/pub/scm/linux/kernel/git/jejb/sbsigntools.git/
+license: GPL-3.0-only WITH OpenSSL-Exception

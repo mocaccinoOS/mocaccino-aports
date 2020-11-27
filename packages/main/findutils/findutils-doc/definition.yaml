@@ -1,0 +1,7 @@
+name: findutils-doc
+version: "4.7.0"
+category: alpine
+description: GNU utilities for finding files
+uri:
+  - https://www.gnu.org/software/findutils/
+license: GPL-3.0-or-later

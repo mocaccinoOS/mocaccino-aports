@@ -1,0 +1,7 @@
+name: freeradius-client-dev
+version: "1.1.7"
+category: alpine
+description: FreeRADIUS Client Software
+uri:
+  - https://freeradius.org/sub_projects/
+license: BSD

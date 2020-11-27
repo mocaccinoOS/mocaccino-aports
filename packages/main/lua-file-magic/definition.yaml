@@ -1,0 +1,13 @@
+name: lua-file-magic
+version: "0.2"
+category: alpine
+description: Lua binding to libmagic
+uri:
+  - https://github.com/ncopa/lua-file-magic
+license: LGPL
+labels:
+  package.source: "lua-file-magic-0.2.tar.gz::https://github.com/ncopa/lua-file-magic/archive/v0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

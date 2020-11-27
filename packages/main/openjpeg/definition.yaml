@@ -1,0 +1,9 @@
+name: openjpeg
+version: "2.3.1"
+category: alpine
+description: Open-source implementation of JPEG2000 image codec
+uri:
+  - https://www.openjpeg.org/
+license: BSD-2-Clause-NetBSD
+labels:
+  package.source: "openjpeg-2.3.1.tar.gz::https://github.com/uclouvain/openjpeg/archive/v2.3.1.tar.gz"

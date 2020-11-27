@@ -1,0 +1,37 @@
+# Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
+# Maintainer: Carlo Landmeter <clandmeter@gmail.com>
+pkgname=htop
+pkgver=3.0.2
+pkgrel=0
+pkgdesc="Interactive process viewer"
+url="https://htop.dev/"
+arch="all"
+license="GPL-2.0-or-later"
+makedepends="ncurses-dev python3 autoconf automake"
+subpackages="$pkgname-doc"
+options="!check" # no upstream/available test-suite
+source="$pkgname-$pkgver.tar.gz::https://github.com/htop-dev/htop/archive/$pkgver.tar.gz"
+
+prepare() {
+	default_prepare
+	./autogen.sh
+}
+
+build() {
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--localstatedir=/var \
+		--enable-cgroup \
+		--enable-taskstats
+	make
+}
+
+package() {
+	make DESTDIR="$pkgdir" install
+}
+
+sha512sums="5b578972e40e3229aa8b2bdc931c4c8bceaafd2a150b02e0257ab35a4fbac25852e959ecc472bd6747be57ea8734b59cc4b872a5ac829624cc80e1722c54d868  htop-3.0.2.tar.gz"

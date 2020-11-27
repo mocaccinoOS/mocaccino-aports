@@ -1,0 +1,7 @@
+name: xf86-video-xgixp-doc
+version: "1.8.1"
+category: alpine
+description: X.org XGIXP video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

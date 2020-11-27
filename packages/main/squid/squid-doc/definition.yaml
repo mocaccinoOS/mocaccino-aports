@@ -1,0 +1,7 @@
+name: squid-doc
+version: "5.0.4"
+category: alpine
+description: A full-featured Web proxy cache server.
+uri:
+  - http://www.squid-cache.org
+license: GPL-2.0

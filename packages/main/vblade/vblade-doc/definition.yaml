@@ -1,0 +1,7 @@
+name: vblade-doc
+version: "24"
+category: alpine
+description: A virtual AoE blade server
+uri:
+  - https://github.com/OpenAoE/vblade
+license: GPL-2.0-only

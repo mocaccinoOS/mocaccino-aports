@@ -1,0 +1,13 @@
+name: perl-gd
+version: "2.73"
+category: alpine
+description: Perl interface to the gd2 graphics library
+uri:
+  - https://metacpan.org/release/GD/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.73.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

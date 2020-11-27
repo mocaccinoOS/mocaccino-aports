@@ -1,0 +1,7 @@
+name: perl-digest-md5-doc
+version: "2.58"
+category: alpine
+description: Perl interface to the MD-5 algorithm
+uri:
+  - https://metacpan.org/release/Digest-MD5/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

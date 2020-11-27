@@ -1,0 +1,7 @@
+name: perl-xml-xpath-doc
+version: "1.44"
+category: alpine
+description: Parse and evaluate XPath statements.
+uri:
+  - https://metacpan.org/release/XML-XPath/
+license: Artistic-2.0

@@ -1,0 +1,9 @@
+name: libx11
+version: "1.7.0"
+category: alpine
+description: X11 client-side library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom:XFREE86
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libX11-1.7.0.tar.bz2"

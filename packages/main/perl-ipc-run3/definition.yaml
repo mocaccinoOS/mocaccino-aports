@@ -1,0 +1,13 @@
+name: perl-ipc-run3
+version: "0.048"
+category: alpine
+description: IPC::Run3 perl module
+uri:
+  - https://metacpan.org/pod/IPC::Run3
+license: GPL-2.0 or Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

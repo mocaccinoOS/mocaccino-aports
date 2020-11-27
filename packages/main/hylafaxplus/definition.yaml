@@ -1,0 +1,22 @@
+name: hylafaxplus
+version: "7.0.3"
+category: alpine
+description: Making the Premier Open-Source Fax Management System Even Better
+uri:
+  - http://hylafax.sourceforge.net
+license: MIT
+labels:
+  package.source: "https://downloads.sourceforge.net/hylafax/hylafax-7.0.3.tar.gz"
+requires:
+  - category: alpine
+    name: "ghostscript"
+    version: '>=0'
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "tiff-tools"
+    version: '>=0'
+  - category: alpine
+    name: "!hylafax"
+    version: '>=0'

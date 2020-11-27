@@ -1,0 +1,9 @@
+name: perl-module-refresh
+version: "0.17"
+category: alpine
+description: Refresh %INC files when updated on disk
+uri:
+  - https://metacpan.org/release/Module-Refresh/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AL/ALEXMV/Module-Refresh-0.17.tar.gz"

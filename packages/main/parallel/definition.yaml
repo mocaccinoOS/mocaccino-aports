@@ -1,0 +1,13 @@
+name: parallel
+version: "20201122"
+category: alpine
+description: Shell tool for executing jobs in parallel
+uri:
+  - https://www.gnu.org/software/parallel
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/parallel/parallel-20201122.tar.bz2"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

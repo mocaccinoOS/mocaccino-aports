@@ -1,0 +1,9 @@
+name: xcb-util-cursor
+version: "0.1.3"
+category: alpine
+description: X C-language Binding - cursor library (port of libXcursor)
+uri:
+  - https://gitlab.freedesktop.org/xorg/lib/libxcb-cursor
+license: MIT
+labels:
+  package.source: "https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.3.tar.gz"

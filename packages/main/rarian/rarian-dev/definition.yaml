@@ -1,0 +1,7 @@
+name: rarian-dev
+version: "0.8.1"
+category: alpine
+description: Documentation meta-data library, designed as a replacement for Scrollkeeper.
+uri:
+  - https://rarian.freedesktop.org/
+license: GPL-2.0+, LGPL-2.1+, Zlib

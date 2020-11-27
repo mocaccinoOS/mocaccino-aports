@@ -1,0 +1,9 @@
+name: sysfsutils
+version: "2.1.0"
+category: alpine
+description: System Utilities Based on Sysfs
+uri:
+  - https://github.com/linux-ras/sysfsutils
+license: GPL-2.0-only AND LGPL-2.1-only
+labels:
+  package.source: "https://github.com/linux-ras/sysfsutils/archive/sysfsutils-2_1_0.tar.gz"

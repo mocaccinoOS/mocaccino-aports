@@ -1,0 +1,7 @@
+name: perl-yaml-libyaml-doc
+version: "0.82"
+category: alpine
+description: Perl YAML Serialization using XS and libyaml
+uri:
+  - https://metacpan.org/release/YAML-LibYAML
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

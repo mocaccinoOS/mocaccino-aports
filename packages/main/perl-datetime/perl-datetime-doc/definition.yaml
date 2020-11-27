@@ -1,0 +1,7 @@
+name: perl-datetime-doc
+version: "1.53"
+category: alpine
+description: A date and time object for Perl
+uri:
+  - https://metacpan.org/release/DateTime/
+license: Artistic-2.0

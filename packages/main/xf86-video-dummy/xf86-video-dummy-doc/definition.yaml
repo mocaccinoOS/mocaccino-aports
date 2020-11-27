@@ -1,0 +1,7 @@
+name: xf86-video-dummy-doc
+version: "0.3.8"
+category: alpine
+description: X.Org driver for dummy cards
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

@@ -1,0 +1,7 @@
+name: eudev-doc
+version: "3.2.9"
+category: alpine
+description: OpenRC compatible fork of systemd-udev
+uri:
+  - https://wiki.gentoo.org/wiki/Project:Eudev
+license: GPL-2.0-only

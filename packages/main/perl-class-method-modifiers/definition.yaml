@@ -1,0 +1,13 @@
+name: perl-class-method-modifiers
+version: "2.13"
+category: alpine
+description: Provides Moose-like method modifiers
+uri:
+  - https://metacpan.org/release/Class-Method-Modifiers/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-2.13.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-params-validate"
+    version: '>=0'

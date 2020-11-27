@@ -1,0 +1,7 @@
+name: perl-net-cidr-lite-doc
+version: "0.21"
+category: alpine
+description: Perl extension for merging IPv4 or IPv6 CIDR addresses
+uri:
+  - http://search.cpan.org/~dougw/Net-CIDR-Lite-0.21/
+license: Artistic-Perl-1.0 GPL+

@@ -1,0 +1,13 @@
+name: perl-php-serialization
+version: "0.34"
+category: alpine
+description: Simple flexible means of converting the output of PHP's serialize() into the equivalent Perl memory structure, and vice versa.
+uri:
+  - http://search.cpan.org/~bobtfish/PHP-Serialization-0.34
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/B/BO/BOBTFISH/PHP-Serialization-0.34.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

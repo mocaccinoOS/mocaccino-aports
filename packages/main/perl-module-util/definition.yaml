@@ -1,0 +1,9 @@
+name: perl-module-util
+version: "1.09"
+category: alpine
+description: Module name tools and transformations
+uri:
+  - https://metacpan.org/release/Module-Util/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MATTLAW/Module-Util-1.09.tar.gz"

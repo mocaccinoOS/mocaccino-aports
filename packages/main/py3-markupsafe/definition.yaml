@@ -1,0 +1,13 @@
+name: py3-markupsafe
+version: "1.1.1"
+category: alpine
+description: Implements a XML/HTML/XHTML Markup safe string
+uri:
+  - https://github.com/mitsuhiko/markupsafe
+license: BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

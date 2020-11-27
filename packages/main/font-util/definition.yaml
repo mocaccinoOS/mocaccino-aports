@@ -1,0 +1,13 @@
+name: font-util
+version: "1.3.2"
+category: alpine
+description: X.org font utilities
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/font/font-util-1.3.2.tar.bz2"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

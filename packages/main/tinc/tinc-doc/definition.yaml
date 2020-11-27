@@ -1,0 +1,7 @@
+name: tinc-doc
+version: "1.0.36"
+category: alpine
+description: Virtual Private Network (VPN) daemon
+uri:
+  - https://www.tinc-vpn.org
+license: GPL-2.0-or-later WITH OpenSSL-Exception

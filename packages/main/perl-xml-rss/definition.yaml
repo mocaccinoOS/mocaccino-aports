@@ -1,0 +1,25 @@
+name: perl-xml-rss
+version: "1.62"
+category: alpine
+description: creates and updates RSS files
+uri:
+  - https://metacpan.org/release/XML-RSS/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-RSS-1.62.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-datetime-format-w3cdtf"
+    version: '>=0'
+  - category: alpine
+    name: "perl-xml-parser"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'
+  - category: alpine
+    name: "perl-datetime-format-mail"
+    version: '>=0'

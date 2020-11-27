@@ -1,0 +1,13 @@
+name: py3-pillow
+version: "7.2.0"
+category: alpine
+description: Python Imaging Library
+uri:
+  - https://python-pillow.org/
+license: custom:PIL
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/P/Pillow/Pillow-7.2.0.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-olefile"
+    version: '>=0'

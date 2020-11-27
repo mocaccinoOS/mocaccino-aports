@@ -1,0 +1,7 @@
+name: gtk+-dev
+version: "2.24.31"
+category: alpine
+description: metapackage for GTK+ runtime and development
+uri:
+  - https://www.gtk.org/
+license: LGPL-2.0-or-later

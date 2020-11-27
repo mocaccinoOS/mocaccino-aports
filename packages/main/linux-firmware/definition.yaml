@@ -1,0 +1,274 @@
+name: linux-firmware
+version: "20201118"
+category: alpine
+description: firmware files for linux
+uri:
+  - https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license: custom:multiple
+labels:
+  package.source: "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/snapshot/linux-firmware-20201118.tar.gz"
+requires:
+  - category: alpine
+    name: "linux-firmware-yamaha=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-yam=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-vxge=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-vicam=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ueagle-atm=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ttusb-budget=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-tigon=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ti-keystone=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ti-connectivity=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ti=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-tehuti=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-sxg=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-sun=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-slicoss=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-sb16=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rtw88=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rtlwifi=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rtl_nic=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rtl_bt=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rtl8192e=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rsi=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-rockchip=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-radeon=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-r128=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-qlogic=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-qed=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-qcom=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-qca=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ositech=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-nvidia=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-netronome=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-myricom=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-mwlwifi=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-mwl8k=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-mrvl=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-moxa=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-microchip=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-meson=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-mellanox=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-mediatek=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-matrox=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-liquidio=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-libertas=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-korg=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-keyspan_pda=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-keyspan=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-kaweth=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-isci=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-intel=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-inside-secure=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-imx=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-i915=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-go7007=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ess=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ene-ub6250=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-emi62=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-emi26=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-edgeport=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-e100=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-dsp56k=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-dpaa2=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-dabusb=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cypress=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cxgb4=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cxgb3=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cpia2=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cis=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cavium=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-cadence=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-brcm=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-bnx2x=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-bnx2=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-av7110=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-atusb=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-atmel=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ath9k_htc=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ath6k=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ath11k=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ath10k=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-ar3k=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-amdgpu=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-amd-ucode=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-amd=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-advansys=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-adaptec=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-acenic=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-3com=20201118-r0"
+    version: '>=0'
+  - category: alpine
+    name: "linux-firmware-other=20201118-r0"
+    version: '>=0'

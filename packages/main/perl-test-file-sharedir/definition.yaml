@@ -1,0 +1,25 @@
+name: perl-test-file-sharedir
+version: "1.001002"
+category: alpine
+description: Create a Fake ShareDir for your modules for testing.
+uri:
+  - https://metacpan.org/release/Test-File-ShareDir/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Test-File-ShareDir-1.001002.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-class-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-file-sharedir"
+    version: '>=0'
+  - category: alpine
+    name: "perl-file-copy-recursive"
+    version: '>=0'
+  - category: alpine
+    name: "perl-path-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-scope-guard"
+    version: '>=0'

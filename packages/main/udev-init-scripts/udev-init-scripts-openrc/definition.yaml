@@ -1,0 +1,7 @@
+name: udev-init-scripts-openrc
+version: "34"
+category: alpine
+description: udev startup scripts for openrc
+uri:
+  - https://gitweb.gentoo.org/repo/gentoo.git/tree/sys-fs/udev-init-scripts
+license: GPL-2.0-only

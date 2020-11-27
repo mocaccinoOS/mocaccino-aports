@@ -1,0 +1,7 @@
+name: gdl-lang
+version: "3.34.0"
+category: alpine
+description: Gnome Docking library
+uri:
+  - https://gitlab.gnome.org/GNOME/gdl
+license: LGPL-2.1-or-later

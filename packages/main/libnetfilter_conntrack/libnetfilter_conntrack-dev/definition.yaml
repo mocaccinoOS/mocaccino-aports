@@ -1,0 +1,7 @@
+name: libnetfilter_conntrack-dev
+version: "1.0.8"
+category: alpine
+description: programming interface (API) to the in-kernel connection tracking state table
+uri:
+  - http://www.netfilter.org/projects/libnetfilter_conntrack/
+license: GPL-2.0-or-later

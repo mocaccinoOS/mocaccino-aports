@@ -1,0 +1,37 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-static
+    version: '>=0'
+  - category: alpine
+    name: libseccomp-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-pam-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: docbook2x
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

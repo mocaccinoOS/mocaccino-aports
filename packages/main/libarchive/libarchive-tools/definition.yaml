@@ -1,0 +1,7 @@
+name: libarchive-tools
+version: "3.4.3"
+category: alpine
+description: library that can create and read several streaming archive formats
+uri:
+  - https://libarchive.org/
+license: BSD-2-Clause AND BSD-3-Clause AND Public-Domain

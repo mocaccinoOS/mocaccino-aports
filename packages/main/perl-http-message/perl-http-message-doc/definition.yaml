@@ -1,0 +1,7 @@
+name: perl-http-message-doc
+version: "6.26"
+category: alpine
+description: HTTP style messages
+uri:
+  - https://metacpan.org/release/HTTP-Message
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

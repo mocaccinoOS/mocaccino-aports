@@ -1,0 +1,7 @@
+name: perl-namespace-clean-doc
+version: "0.27"
+category: alpine
+description: Keep imports and functions out of your namespace
+uri:
+  - https://metacpan.org/release/namespace-clean/
+license: GPL PerlArtistic

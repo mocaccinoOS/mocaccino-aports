@@ -1,0 +1,9 @@
+name: lua-lzmq
+version: "0.4.4"
+category: alpine
+description: Lua bindings to ZeroMQ
+uri:
+  - https://github.com/zeromq/lzmq
+license: MIT
+labels:
+  package.source: "lua-lzmq-0.4.4.tar.gz::https://github.com/zeromq/lzmq/archive/v0.4.4.tar.gz"

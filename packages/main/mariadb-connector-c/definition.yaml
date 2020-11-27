@@ -1,0 +1,9 @@
+name: mariadb-connector-c
+version: "3.1.11"
+category: alpine
+description: The MariaDB Native Client library (C driver)
+uri:
+  - https://mariadb.org/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://downloads.mariadb.org/interstitial/connector-c-3.1.11/mariadb-connector-c-3.1.11-src.tar.gz"

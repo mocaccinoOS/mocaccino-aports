@@ -1,0 +1,7 @@
+name: perl-regexp-ipv6-doc
+version: "0.03"
+category: alpine
+description: Regexp::IPv6 perl module
+uri:
+  - https://metacpan.org/release/Regexp-IPv6/
+license: GPL-2.0 or Artistic

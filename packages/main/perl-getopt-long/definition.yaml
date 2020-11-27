@@ -1,0 +1,9 @@
+name: perl-getopt-long
+version: "2.52"
+category: alpine
+description: Module to handle parsing command line options
+uri:
+  - https://metacpan.org/release/Getopt-Long/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JV/JV/Getopt-Long-2.52.tar.gz"

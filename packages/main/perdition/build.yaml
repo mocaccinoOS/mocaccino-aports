@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: gdbm-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: popt-dev
+    version: '>=0'
+  - category: alpine
+    name: vanessa_adt-dev
+    version: '>=0'
+  - category: alpine
+    name: vanessa_logger-dev
+    version: '>=0'
+  - category: alpine
+    name: vanessa_socket-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

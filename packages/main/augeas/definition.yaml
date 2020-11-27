@@ -1,0 +1,9 @@
+name: augeas
+version: "1.12.0"
+category: alpine
+description: A configuration editing tool
+uri:
+  - http://augeas.net
+license: LGPL-2.0-or-later
+labels:
+  package.source: "http://download.augeas.net/augeas-1.12.0.tar.gz"

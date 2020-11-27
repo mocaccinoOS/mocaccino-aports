@@ -1,0 +1,7 @@
+name: iw-doc
+version: "5.9"
+category: alpine
+description: nl80211 based CLI configuration utility for wireless devices
+uri:
+  - https://wireless.kernel.org/en/users/Documentation/iw
+license: ISC

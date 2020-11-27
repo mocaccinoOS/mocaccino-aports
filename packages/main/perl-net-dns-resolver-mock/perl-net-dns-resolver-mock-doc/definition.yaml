@@ -1,0 +1,7 @@
+name: perl-net-dns-resolver-mock-doc
+version: "1.20200215"
+category: alpine
+description: Mock a DNS Resolver object for testing
+uri:
+  - https://metacpan.org/release/Net-DNS-Resolver-Mock/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

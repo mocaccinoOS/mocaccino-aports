@@ -1,0 +1,7 @@
+name: perl-datetime-format-w3cdtf-doc
+version: "0.07"
+category: alpine
+description: DateTime::Format::W3CDTF perl module
+uri:
+  - https://metacpan.org/release/DateTime-Format-W3CDTF/
+license: GPL-2.0 or Artistic

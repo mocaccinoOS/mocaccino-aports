@@ -1,0 +1,7 @@
+name: libotr-tools
+version: "4.1.1"
+category: alpine
+description: Off The Record Messaging, an encryption library for secure IM conversations
+uri:
+  - http://otr.cypherpunks.ca/
+license: LGPL-2.0-or-later

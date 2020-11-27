@@ -1,0 +1,9 @@
+name: cmocka
+version: "1.1.5"
+category: alpine
+description: An elegant unit testing framework for C with support for mock objects
+uri:
+  - https://cmocka.org/
+license: Apache-2.0
+labels:
+  package.source: "https://cmocka.org/files/1.1/cmocka-1.1.5.tar.xz"

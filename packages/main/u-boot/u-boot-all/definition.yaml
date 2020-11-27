@@ -1,0 +1,9 @@
+name: u-boot-all
+version: "2020.10"
+category: alpine
+description: u-boot bootloader common files
+uri:
+  - https://www.denx.de/wiki/U-Boot/
+license: |-
+  GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause eCos-2.0 IBM-pibs
+  	ISC LGPL-2.0-only LGPL-2.1-only X11

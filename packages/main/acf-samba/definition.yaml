@@ -1,0 +1,16 @@
+name: acf-samba
+version: "0.10.0"
+category: alpine
+description: A web-based system administration interface for samba
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-samba
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-samba/acf-samba-0.10.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "samba"
+    version: '>=0'

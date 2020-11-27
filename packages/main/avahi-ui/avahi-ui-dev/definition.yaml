@@ -1,0 +1,7 @@
+name: avahi-ui-dev
+version: "0.7"
+category: alpine
+description: Gtk user interface library for Avahi
+uri:
+  - http://www.avahi.org/
+license: LGPL-2.0-or-later

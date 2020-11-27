@@ -1,0 +1,13 @@
+name: heimdal
+version: "7.7.0"
+category: alpine
+description: Iplementation of Kerberos 5
+uri:
+  - https://github.com/heimdal/
+license: BSD-3-Clause
+labels:
+  package.source: "https://github.com/heimdal/heimdal/releases/download/heimdal-7.7.0/heimdal-7.7.0.tar.gz"
+requires:
+  - category: alpine
+    name: "krb5-conf"
+    version: '>=0'

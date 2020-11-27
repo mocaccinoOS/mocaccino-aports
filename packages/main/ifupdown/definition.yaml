@@ -1,0 +1,13 @@
+name: ifupdown
+version: "0.8.36"
+category: alpine
+description: high level tools to configure network interfaces
+uri:
+  - https://packages.debian.org/ifupdown
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://ftp.de.debian.org/debian/pool/main/i/ifupdown/ifupdown_0.8.36.tar.xz"
+requires:
+  - category: alpine
+    name: "run-parts"
+    version: '>=0'

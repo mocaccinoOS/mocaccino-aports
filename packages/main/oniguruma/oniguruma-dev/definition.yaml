@@ -1,0 +1,7 @@
+name: oniguruma-dev
+version: "6.9.6"
+category: alpine
+description: a regular expressions library
+uri:
+  - https://github.com/kkos/oniguruma
+license: BSD-2-Clause

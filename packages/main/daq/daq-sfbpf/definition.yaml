@@ -1,0 +1,7 @@
+name: daq-sfbpf
+version: "2.0.7"
+category: alpine
+description: Data Acquisition library - packet I/O library
+uri:
+  - https://www.snort.org/
+license: GPL-2.0-only

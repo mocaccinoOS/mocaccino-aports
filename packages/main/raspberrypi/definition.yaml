@@ -1,0 +1,9 @@
+name: raspberrypi
+version: "0.20200813"
+category: alpine
+description: Raspberry Pi support tools
+uri:
+  - https://github.com/raspberrypi/userland
+license: BSD-3-Clause
+labels:
+  package.source: "raspberrypi-f73fca015d421b763936667a0b58fe5024d59921.tar.gz::https://github.com/raspberrypi/userland/archive/f73fca015d421b763936667a0b58fe5024d59921.tar.gz"

@@ -1,0 +1,9 @@
+name: lua-sql
+version: "2.6.0"
+category: alpine
+description: Lua SQL drivers
+uri:
+  - https://keplerproject.github.io/luasql/
+license: MIT
+labels:
+  package.source: "luasql-2.6.0.tar.gz::https://github.com/keplerproject/luasql/archive/2.6.0.tar.gz"

@@ -1,0 +1,7 @@
+name: libeconf-dev
+version: "0.3.8"
+category: alpine
+description: Enhanced Config File Parser
+uri:
+  - https://github.com/openSUSE/libeconf
+license: MIT

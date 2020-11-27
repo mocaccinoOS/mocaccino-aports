@@ -1,0 +1,7 @@
+name: perl-device-serialport-doc
+version: "1.04"
+category: alpine
+description: Linux/POSIX emulation of Win32::SerialPort functions.
+uri:
+  - http://search.cpan.org/~cook/
+license: GPL PerlArtistic

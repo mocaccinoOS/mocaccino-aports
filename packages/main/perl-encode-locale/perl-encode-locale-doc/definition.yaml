@@ -1,0 +1,7 @@
+name: perl-encode-locale-doc
+version: "1.05"
+category: alpine
+description: Perl module - Determine the locale encoding
+uri:
+  - http://search.cpan.org/~gaas
+license: GPL PerlArtistic

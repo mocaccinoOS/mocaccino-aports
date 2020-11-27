@@ -1,0 +1,19 @@
+name: acf-alpine-conf
+version: "0.9.0"
+category: alpine
+description: A web-based system administration interface for alpine-conf
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-alpine-conf
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-alpine-conf/acf-alpine-conf-0.9.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-posix"
+    version: '>=0'
+  - category: alpine
+    name: "openssl"
+    version: '>=0'

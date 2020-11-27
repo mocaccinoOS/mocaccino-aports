@@ -1,0 +1,7 @@
+name: distcc-pump
+version: "3.3.3"
+category: alpine
+description: Ddistributed C, C++, Obj C compiler
+uri:
+  - https://github.com/distcc/distcc
+license: GPL-2.0

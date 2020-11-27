@@ -1,0 +1,13 @@
+name: kamailio
+version: "5.4.2"
+category: alpine
+description: Open Source SIP Server
+uri:
+  - https://www.kamailio.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "kamailio-5.4.2.tar.gz::https://github.com/kamailio/kamailio/archive/5.4.2.tar.gz"
+requires:
+  - category: alpine
+    name: "gawk"
+    version: '>=0'

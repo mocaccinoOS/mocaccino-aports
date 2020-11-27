@@ -1,0 +1,9 @@
+name: ttf-cantarell
+version: "0.201"
+category: alpine
+description: Humanist sans-serif font designed for on-screen reading
+uri:
+  - https://wiki.gnome.org/Projects/CantarellFonts
+license: OFL-1.1 AND Apache-2.0
+labels:
+  package.source: "https://download.gnome.org/sources/cantarell-fonts/0.201/cantarell-fonts-0.201.tar.xz"

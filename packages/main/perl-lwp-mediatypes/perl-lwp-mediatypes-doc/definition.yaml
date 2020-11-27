@@ -1,0 +1,7 @@
+name: perl-lwp-mediatypes-doc
+version: "6.04"
+category: alpine
+description: Perl module - guess media type for a file or a URL
+uri:
+  - http://search.cpan.org/~gaas
+license: GPL PerlArtistic

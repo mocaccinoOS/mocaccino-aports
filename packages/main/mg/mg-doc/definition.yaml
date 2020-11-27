@@ -1,0 +1,7 @@
+name: mg-doc
+version: "20200723"
+category: alpine
+description: microscopic EMACS style editor
+uri:
+  - https://github.com/hboetes/mg
+license: Public-Domain

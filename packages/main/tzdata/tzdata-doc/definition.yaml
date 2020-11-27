@@ -1,0 +1,7 @@
+name: tzdata-doc
+version: "2020d"
+category: alpine
+description: Timezone data
+uri:
+  - https://www.iana.org/time-zones
+license: Public-Domain

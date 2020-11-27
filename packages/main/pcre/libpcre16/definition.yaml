@@ -1,0 +1,7 @@
+name: libpcre16
+version: "8.44"
+category: alpine
+description: Perl-compatible regular expression library
+uri:
+  - http://pcre.sourceforge.net
+license: BSD-3-Clause

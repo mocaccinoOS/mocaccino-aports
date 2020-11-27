@@ -1,0 +1,7 @@
+name: perl-ipc-system-simple-doc
+version: "1.30"
+category: alpine
+description: Run commands simply, with detailed diagnostics
+uri:
+  - https://metacpan.org/release/IPC-System-Simple/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,7 @@
+name: xf86-video-nv-doc
+version: "2.1.21"
+category: alpine
+description: Nvidia video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

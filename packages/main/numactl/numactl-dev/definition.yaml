@@ -1,0 +1,7 @@
+name: numactl-dev
+version: "2.0.13"
+category: alpine
+description: Simple NUMA policy support
+uri:
+  - https://github.com/numactl/numactl
+license: LGPL-2.1-only

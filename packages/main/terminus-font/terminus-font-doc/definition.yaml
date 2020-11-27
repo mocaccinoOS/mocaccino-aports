@@ -1,0 +1,7 @@
+name: terminus-font-doc
+version: "4.48"
+category: alpine
+description: Monospace bitmap font (for X11 and console)
+uri:
+  - http://terminus-font.sourceforge.net/
+license: custom

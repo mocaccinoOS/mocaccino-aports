@@ -1,0 +1,9 @@
+name: lame
+version: "3.100"
+category: alpine
+description: An MP3 encoder and graphical frame analyzer
+uri:
+  - http://lame.sourceforge.net/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz"

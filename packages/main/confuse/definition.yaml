@@ -1,0 +1,9 @@
+name: confuse
+version: "3.3"
+category: alpine
+description: C library for parsing configuration files
+uri:
+  - https://github.com/martinh/libconfuse
+license: ISC
+labels:
+  package.source: "https://github.com/martinh/libconfuse/releases/download/v3.3/confuse-3.3.tar.xz"

@@ -1,0 +1,7 @@
+name: lua5.2-cqueues
+version: "20200726"
+category: alpine
+description: Lua event loop using coroutines
+uri:
+  - http://25thandclement.com/~william/projects/cqueues.html
+license: MIT

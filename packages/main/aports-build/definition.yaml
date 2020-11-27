@@ -1,0 +1,43 @@
+name: aports-build
+version: "1.5.1"
+category: alpine
+description: MQTT based build-on-git-push scripts for Alpine Linux
+uri:
+  - https://alpinelinux.org
+license: GPL-2.0
+labels:
+  package.source: "aports-build"
+requires:
+  - category: alpine
+    name: "abuild>2.20.0"
+    version: '>=0'
+  - category: alpine
+    name: "build-base"
+    version: '>=0'
+  - category: alpine
+    name: "mosquitto-clients"
+    version: '>=0'
+  - category: alpine
+    name: "openssh-client"
+    version: '>=0'
+  - category: alpine
+    name: "mqtt-exec"
+    version: '>=0'
+  - category: alpine
+    name: "rsync"
+    version: '>=0'
+  - category: alpine
+    name: "lua-aports>1.0.0"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-cjson"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-mqtt-publish"
+    version: '>=0'
+  - category: alpine
+    name: "pigz"
+    version: '>=0'
+  - category: alpine
+    name: "git"
+    version: '>=0'

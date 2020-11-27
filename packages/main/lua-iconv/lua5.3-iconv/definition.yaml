@@ -1,0 +1,7 @@
+name: lua5.3-iconv
+version: "7"
+category: alpine
+description: Lua binding to the POSIX 'iconv' library
+uri:
+  - http://ittner.github.io/lua-iconv/
+license: MIT

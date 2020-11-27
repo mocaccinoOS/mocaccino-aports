@@ -1,0 +1,7 @@
+name: perl-term-table-doc
+version: "0.015"
+category: alpine
+description: Format a header and rows into a table
+uri:
+  - https://metacpan.org/release/Term-Table
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

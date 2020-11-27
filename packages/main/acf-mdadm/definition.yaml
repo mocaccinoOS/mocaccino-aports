@@ -1,0 +1,16 @@
+name: acf-mdadm
+version: "0.5.0"
+category: alpine
+description: ACF module for mdadm
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-mdadm
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-mdadm/acf-mdadm-0.5.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "mdadm"
+    version: '>=0'

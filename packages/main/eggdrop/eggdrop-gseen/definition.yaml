@@ -1,0 +1,7 @@
+name: eggdrop-gseen
+version: "1.8.4"
+category: alpine
+description: World's most popular Open Source IRC bot
+uri:
+  - https://eggheads.org/
+license: GPL-2.0-or-later

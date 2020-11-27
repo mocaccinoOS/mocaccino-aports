@@ -1,0 +1,16 @@
+name: libtool
+version: "2.4.6"
+category: alpine
+description: A generic library support script
+uri:
+  - https://www.gnu.org/software/libtool
+license: LGPL-2.0+
+labels:
+  package.source: "https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.gz"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "libltdl"
+    version: '>=0'

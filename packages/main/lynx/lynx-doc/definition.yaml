@@ -1,0 +1,7 @@
+name: lynx-doc
+version: "2.8.9_p1"
+category: alpine
+description: Cross-platform text-based browser
+uri:
+  - https://lynx.invisible-island.net/
+license: GPL-2.0-only

@@ -1,0 +1,9 @@
+name: su-exec
+version: "0.2"
+category: alpine
+description: switch user and group id, setgroups and exec
+uri:
+  - https://github.com/ncopa/su-exec
+license: MIT
+labels:
+  package.source: "su-exec-0.2.tar.gz::https://github.com/ncopa/su-exec/archive/v0.2.tar.gz"

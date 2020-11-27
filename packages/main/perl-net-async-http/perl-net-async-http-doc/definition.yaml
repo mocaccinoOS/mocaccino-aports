@@ -1,0 +1,7 @@
+name: perl-net-async-http-doc
+version: "0.47"
+category: alpine
+description: use HTTP with C<IO::Async>
+uri:
+  - https://metacpan.org/release/Net-Async-HTTP/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

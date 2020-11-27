@@ -1,0 +1,7 @@
+name: ctags-doc
+version: "0_git20201010"
+category: alpine
+description: Generator of tags for all types of C/C++ languages
+uri:
+  - https://ctags.io/
+license: GPL-2.0-or-later

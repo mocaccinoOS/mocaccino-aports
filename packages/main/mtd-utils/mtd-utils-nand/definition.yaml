@@ -1,0 +1,7 @@
+name: mtd-utils-nand
+version: "2.1.2"
+category: alpine
+description: Utilities for handling MTD devices, and for dealing with FTL, NFTL JFFS2, etc.
+uri:
+  - http://www.linux-mtd.infradead.org/
+license: GPL-2.0-only

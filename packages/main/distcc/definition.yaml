@@ -1,0 +1,9 @@
+name: distcc
+version: "3.3.3"
+category: alpine
+description: Ddistributed C, C++, Obj C compiler
+uri:
+  - https://github.com/distcc/distcc
+license: GPL-2.0
+labels:
+  package.source: "https://github.com/distcc/distcc/releases/download/v3.3.3/distcc-3.3.3.tar.gz"

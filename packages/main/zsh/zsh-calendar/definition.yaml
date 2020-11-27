@@ -1,0 +1,7 @@
+name: zsh-calendar
+version: "5.8"
+category: alpine
+description: Very advanced and programmable command interpreter (shell)
+uri:
+  - https://www.zsh.org/
+license: custom

@@ -1,0 +1,7 @@
+name: perl-html-formattext-withlinks-doc
+version: "0.15"
+category: alpine
+description: HTML to text conversion with links as footnotes
+uri:
+  - https://metacpan.org/release/HTML-FormatText-WithLinks/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

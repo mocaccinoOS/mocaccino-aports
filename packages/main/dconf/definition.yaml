@@ -1,0 +1,9 @@
+name: dconf
+version: "0.38.0"
+category: alpine
+description: A low-level configuration system.
+uri:
+  - https://wiki.gnome.org/Projects/dconf
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/dconf/0.38/dconf-0.38.0.tar.xz"

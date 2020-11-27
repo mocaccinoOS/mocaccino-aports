@@ -1,0 +1,13 @@
+name: lsyncd
+version: "2.2.3"
+category: alpine
+description: Live Syncing (Mirror) Daemon
+uri:
+  - https://github.com/axkibe/lsyncd
+license: GPL-2.0-or-later
+labels:
+  package.source: "lsyncd-2.2.3.tar.gz::https://github.com/axkibe/lsyncd/archive/release-2.2.3.tar.gz"
+requires:
+  - category: alpine
+    name: "rsync"
+    version: '>=0'

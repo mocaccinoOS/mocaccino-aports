@@ -1,0 +1,19 @@
+name: d-feet
+version: "0.3.15"
+category: alpine
+description: A powerful D-Bus Debugger
+uri:
+  - https://wiki.gnome.org/action/show/Apps/DFeet
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/d-feet/0.3/d-feet-0.3.15.tar.xz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-gobject3"
+    version: '>=0'
+  - category: alpine
+    name: "gtk+3.0"
+    version: '>=0'

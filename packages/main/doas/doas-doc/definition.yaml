@@ -1,0 +1,7 @@
+name: doas-doc
+version: "6.8"
+category: alpine
+description: OpenBSD's temporary privilege escalation tool
+uri:
+  - https://github.com/Duncaen/OpenDoas
+license: BSD

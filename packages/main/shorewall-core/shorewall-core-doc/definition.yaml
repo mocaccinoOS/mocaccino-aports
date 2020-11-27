@@ -1,0 +1,7 @@
+name: shorewall-core-doc
+version: "5.2.8"
+category: alpine
+description: Core libraries for Shorewall
+uri:
+  - https://shorewall.org/
+license: GPL-2.0-or-later

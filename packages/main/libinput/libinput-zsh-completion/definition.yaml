@@ -1,0 +1,7 @@
+name: libinput-zsh-completion
+version: "1.16.3"
+category: alpine
+description: Library for handling input devices
+uri:
+  - https://www.freedesktop.org/wiki/Software/libinput
+license: MIT

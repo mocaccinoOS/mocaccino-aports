@@ -1,0 +1,9 @@
+name: libxcb
+version: "1.14"
+category: alpine
+description: X11 client-side library
+uri:
+  - https://xcb.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.14.tar.xz"

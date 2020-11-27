@@ -1,0 +1,9 @@
+name: libxkbfile
+version: "1.1.0"
+category: alpine
+description: X11 keyboard file manipulation library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libxkbfile-1.1.0.tar.bz2"

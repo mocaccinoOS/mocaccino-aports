@@ -1,0 +1,58 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: eventlog-dev
+    version: '>=0'
+  - category: alpine
+    name: file
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: hiredis-dev
+    version: '>=0'
+  - category: alpine
+    name: ivykis-dev>=0.42.4
+    version: '>=0'
+  - category: alpine
+    name: libdbi-dev
+    version: '>=0'
+  - category: alpine
+    name: json-c-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: pcre-dev
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: rabbitmq-c-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

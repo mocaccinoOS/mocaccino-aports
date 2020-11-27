@@ -1,0 +1,7 @@
+name: perl-ldap-doc
+version: "0.66"
+category: alpine
+description: LDAP client library
+uri:
+  - https://metacpan.org/release/perl-ldap/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

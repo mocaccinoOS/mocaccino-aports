@@ -1,0 +1,9 @@
+name: java-common
+version: "0.2"
+category: alpine
+description: Java common (updates java links)
+uri:
+  - https://git.alpinelinux.org/aports.git
+license: GPL-2.0
+labels:
+  package.source: ""

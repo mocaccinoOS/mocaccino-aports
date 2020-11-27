@@ -1,0 +1,7 @@
+name: awall-policies
+version: "1.8.1"
+category: alpine
+description: Alpine Wall
+uri:
+  - https://gitlab.alpinelinux.org/alpine/awall
+license: GPL-2.0

@@ -1,0 +1,7 @@
+name: subversion-bash-completion
+version: "1.14.0"
+category: alpine
+description: Replacement for CVS, another versioning system (svn)
+uri:
+  - https://subversion.apache.org/
+license: Apache-2.0 BSD

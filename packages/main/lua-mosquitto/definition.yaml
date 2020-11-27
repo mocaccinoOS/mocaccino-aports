@@ -1,0 +1,9 @@
+name: lua-mosquitto
+version: "0.3"
+category: alpine
+description: Bindings to libmosquitto for Lua
+uri:
+  - https://github.com/flukso/lua-mosquitto
+license: MIT
+labels:
+  package.source: "lua-mosquitto-0.3.tar.gz::https://github.com/flukso/lua-mosquitto/archive/v0.3.tar.gz"

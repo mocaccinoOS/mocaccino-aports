@@ -1,0 +1,7 @@
+name: dansguardian-doc
+version: "2.12.0.3"
+category: alpine
+description: Web content filter
+uri:
+  - http://dansguardian.org
+license: GPL

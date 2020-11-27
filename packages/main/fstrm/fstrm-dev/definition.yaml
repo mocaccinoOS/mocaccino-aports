@@ -1,0 +1,7 @@
+name: fstrm-dev
+version: "0.6.0"
+category: alpine
+description: Frame Streams implementation in C
+uri:
+  - https://github.com/farsightsec/fstrm
+license: MIT

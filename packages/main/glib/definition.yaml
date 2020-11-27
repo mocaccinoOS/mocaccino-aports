@@ -1,0 +1,9 @@
+name: glib
+version: "2.66.3"
+category: alpine
+description: Common C routines used by Gtk+ and other libs
+uri:
+  - https://developer.gnome.org/glib/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/glib/2.66/glib-2.66.3.tar.xz"

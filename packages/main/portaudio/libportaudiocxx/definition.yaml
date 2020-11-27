@@ -1,0 +1,7 @@
+name: libportaudiocxx
+version: "190600.20161030"
+category: alpine
+description: Cross platform, open-source, audio I/O library
+uri:
+  - http://www.portaudio.com/
+license: MIT

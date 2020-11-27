@@ -1,0 +1,46 @@
+name: dmvpn
+version: "1.4.0"
+category: alpine
+description: Dynamic Multipoint VPN
+uri:
+  - https://git.alpinelinux.org/cgit/dmvpn-tools/
+license: MIT
+labels:
+  package.source: "https://git.alpinelinux.org/cgit/dmvpn-tools//snapshot/dmvpn-tools-1.4.0.tar.bz2"
+requires:
+  - category: alpine
+    name: "augeas"
+    version: '>=0'
+  - category: alpine
+    name: "bind-tools"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-cqueues"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-lyaml"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-ossl"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-posix"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-struct"
+    version: '>=0'
+  - category: alpine
+    name: "lua-dmvpn"
+    version: '>=0'
+  - category: alpine
+    name: "quagga"
+    version: '>=0'
+  - category: alpine
+    name: "strongswan"
+    version: '>=0'
+  - category: alpine
+    name: "tunnel"
+    version: '>=0'

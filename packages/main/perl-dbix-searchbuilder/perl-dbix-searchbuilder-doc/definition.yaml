@@ -1,0 +1,7 @@
+name: perl-dbix-searchbuilder-doc
+version: "1.68"
+category: alpine
+description: Encapsulate SQL queries and rows in simple perl objects
+uri:
+  - https://metacpan.org/release/DBIx-SearchBuilder/
+license: GPL-1.0-or-later Artistic-1.0-Perl

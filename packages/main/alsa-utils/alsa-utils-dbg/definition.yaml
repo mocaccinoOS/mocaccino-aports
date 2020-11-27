@@ -1,0 +1,7 @@
+name: alsa-utils-dbg
+version: "1.2.4"
+category: alpine
+description: Advanced Linux Sound Architecture (ALSA) utilities
+uri:
+  - http://www.alsa-project.org
+license: GPL-2.0-or-later

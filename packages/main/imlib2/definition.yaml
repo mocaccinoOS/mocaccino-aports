@@ -1,0 +1,9 @@
+name: imlib2
+version: "1.7.0"
+category: alpine
+description: Image manipulation library
+uri:
+  - https://sourceforge.net/projects/enlightenment
+license: Imlib2
+labels:
+  package.source: "https://downloads.sourceforge.net/enlightenment/imlib2-1.7.0.tar.gz"

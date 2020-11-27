@@ -1,0 +1,9 @@
+name: coova-chilli
+version: "1.4"
+category: alpine
+description: CoovaChilli is an open source access controller for wireless LAN
+uri:
+  - http://www.coova.org/
+license: GPL-3.0-or-later
+labels:
+  package.source: "coova-chilli-1.4.tar.gz::https://github.com/coova/coova-chilli/archive/1.4.tar.gz"

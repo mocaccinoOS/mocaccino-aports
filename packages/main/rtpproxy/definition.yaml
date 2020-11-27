@@ -1,0 +1,9 @@
+name: rtpproxy
+version: "2.1.1"
+category: alpine
+description: RTP proxy
+uri:
+  - https://www.rtpproxy.org/
+license: BSD-2-CLause
+labels:
+  package.source: "rtpproxy-2.1.1.tar.gz::https://github.com/sippy/rtpproxy/archive/v2.1.1.tar.gz"

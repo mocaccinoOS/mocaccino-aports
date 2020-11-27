@@ -1,0 +1,7 @@
+name: diffutils-doc
+version: "3.7"
+category: alpine
+description: Show differences among files
+uri:
+  - https://www.gnu.org/software/diffutils/
+license: GPL-3.0-or-later

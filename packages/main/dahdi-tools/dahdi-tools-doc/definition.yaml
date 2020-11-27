@@ -1,0 +1,7 @@
+name: dahdi-tools-doc
+version: "3.1.0"
+category: alpine
+description: Digium Asterisk Hardware Device Interface management utilities
+uri:
+  - https://www.asterisk.org
+license: GPL-2.0-or-later

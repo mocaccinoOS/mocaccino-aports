@@ -1,0 +1,9 @@
+name: mailcap
+version: "2.1.49"
+category: alpine
+description: Helper application and MIME type associations for file types
+uri:
+  - https://pagure.io/mailcap
+license: Public-Domain and MIT
+labels:
+  package.source: "https://releases.pagure.org/mailcap/mailcap-2.1.49.tar.xz"

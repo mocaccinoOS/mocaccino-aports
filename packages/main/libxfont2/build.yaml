@@ -1,0 +1,40 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libxau-dev
+    version: '>=0'
+  - category: alpine
+    name: xcb-proto
+    version: '>=0'
+  - category: alpine
+    name: libfontenc-dev
+    version: '>=0'
+  - category: alpine
+    name: freetype-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: xtrans
+    version: '>=0'
+  - category: alpine
+    name: util-macros
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: xorgproto
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: xf86-video-rendition-doc
+version: "4.2.7"
+category: alpine
+description: Rendition video driver
+uri:
+  - https://xorg.freedesktop.org/
+license: MIT

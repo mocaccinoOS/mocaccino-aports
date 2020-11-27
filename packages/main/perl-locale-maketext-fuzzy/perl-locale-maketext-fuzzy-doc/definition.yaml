@@ -1,0 +1,7 @@
+name: perl-locale-maketext-fuzzy-doc
+version: "0.11"
+category: alpine
+description: Locale::Maketext::Fuzzy perl module
+uri:
+  - https://metacpan.org/release/Locale-Maketext-Fuzzy/
+license: GPL-2.0 or Artistic

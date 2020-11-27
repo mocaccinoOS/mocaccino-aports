@@ -1,0 +1,9 @@
+name: bcache-tools
+version: "1.1"
+category: alpine
+description: tools for managing bcache
+uri:
+  - https://bcache.evilpiepirate.org/
+license: GPL-2.0-only
+labels:
+  package.source: "https://git.kernel.org/pub/scm/linux/kernel/git/colyli/bcache-tools.git/snapshot/bcache-tools-1.1.tar.gz"

@@ -1,0 +1,9 @@
+name: libresample
+version: "0.1.3"
+category: alpine
+description: real-time library for sampling rate conversion
+uri:
+  - https://ccrma.stanford.edu/~jos/resample/Free_Resampling_Software.html
+license: LGPL-2.1-only
+labels:
+  package.source: "https://ccrma.stanford.edu/~jos/gz/libresample-0.1.3.tgz"

@@ -1,0 +1,7 @@
+name: mkinitfs-doc
+version: "3.4.5"
+category: alpine
+description: Tool to generate initramfs images for Alpine
+uri:
+  - https://git.alpinelinux.org/cgit/mkinitfs
+license: GPL-2.0-only

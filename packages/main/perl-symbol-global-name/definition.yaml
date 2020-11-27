@@ -1,0 +1,9 @@
+name: perl-symbol-global-name
+version: "0.05"
+category: alpine
+description: Finds name and type of a global variable
+uri:
+  - https://metacpan.org/release/Symbol-Global-Name/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AL/ALEXMV/Symbol-Global-Name-0.05.tar.gz"

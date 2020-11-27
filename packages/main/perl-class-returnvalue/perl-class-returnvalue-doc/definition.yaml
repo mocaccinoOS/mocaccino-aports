@@ -1,0 +1,7 @@
+name: perl-class-returnvalue-doc
+version: "0.55"
+category: alpine
+description: Class::ReturnValue perl module
+uri:
+  - https://metacpan.org/release/Class-ReturnValue/
+license: GPL-2.0 or Artistic

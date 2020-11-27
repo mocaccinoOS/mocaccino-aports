@@ -1,0 +1,7 @@
+name: libgpg-error-static
+version: "1.39"
+category: alpine
+description: Support library for libgcrypt
+uri:
+  - http://www.gnupg.org
+license: GPL-2.0-or-later LGPL-2.1-or-later

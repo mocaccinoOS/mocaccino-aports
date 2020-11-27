@@ -1,0 +1,9 @@
+name: xtables-addons
+version: "3.11"
+category: alpine
+description: Netfilter userspace extensions for iptables
+uri:
+  - http://xtables-addons.sourceforge.net/
+license: GPL-2.0-only
+labels:
+  package.source: "https://inai.de/files/xtables-addons/xtables-addons-3.11.tar.xz"

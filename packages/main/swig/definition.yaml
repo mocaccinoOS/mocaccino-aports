@@ -1,0 +1,13 @@
+name: swig
+version: "4.0.2"
+category: alpine
+description: A compiler that makes it easy to integrate C and C++ code with scripting languages
+uri:
+  - http://www.swig.org/
+license: GPL-3.0-only
+labels:
+  package.source: "https://downloads.sourceforge.net/swig/swig-4.0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "guile"
+    version: '>=0'

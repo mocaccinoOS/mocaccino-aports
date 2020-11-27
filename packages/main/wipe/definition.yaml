@@ -1,0 +1,9 @@
+name: wipe
+version: "2.3.1"
+category: alpine
+description: Secure file wiping utility
+uri:
+  - http://wipe.sourceforge.net/
+license: GPL-2.0
+labels:
+  package.source: "https://downloads.sourceforge.net/wipe/wipe-2.3.1.tar.bz2"

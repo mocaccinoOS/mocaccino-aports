@@ -1,0 +1,13 @@
+name: perl-test-fork
+version: "0.02"
+category: alpine
+description: test code which forks
+uri:
+  - https://metacpan.org/release/Test-Fork/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: skalibs-doc
+version: "2.9.3.0"
+category: alpine
+description: Set of general-purpose C programming libraries for skarnet.org software.
+uri:
+  - https://skarnet.org/software/skalibs/
+license: ISC

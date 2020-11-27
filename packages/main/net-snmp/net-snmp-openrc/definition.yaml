@@ -1,0 +1,7 @@
+name: net-snmp-openrc
+version: "5.9"
+category: alpine
+description: Simple Network Management Protocol
+uri:
+  - http://www.net-snmp.org/
+license: GPL

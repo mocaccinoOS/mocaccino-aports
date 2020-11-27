@@ -1,0 +1,7 @@
+name: lua5.2-ossl
+version: "20200709"
+category: alpine
+description: A comprehensive OpenSSL Lua module
+uri:
+  - http://25thandclement.com/~william/projects/luaossl.html
+license: MIT

@@ -1,0 +1,7 @@
+name: ccache-doc
+version: "3.7.12"
+category: alpine
+description: fast C/C++ compiler cache
+uri:
+  - https://ccache.dev/
+license: GPL-3.0-or-later

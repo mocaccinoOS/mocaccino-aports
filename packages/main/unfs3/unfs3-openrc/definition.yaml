@@ -1,0 +1,7 @@
+name: unfs3-openrc
+version: "0.9.22"
+category: alpine
+description: user-space implementation of the NFSv3 server specification
+uri:
+  - http://unfs3.sourceforge.net/
+license: BSD-3-Clause

@@ -1,0 +1,7 @@
+name: lua5.2-dev
+version: "5.2.4"
+category: alpine
+description: Powerful light-weight programming language
+uri:
+  - https://www.lua.org/
+license: MIT

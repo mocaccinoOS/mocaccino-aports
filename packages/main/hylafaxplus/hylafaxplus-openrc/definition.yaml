@@ -1,0 +1,7 @@
+name: hylafaxplus-openrc
+version: "7.0.3"
+category: alpine
+description: Making the Premier Open-Source Fax Management System Even Better
+uri:
+  - http://hylafax.sourceforge.net
+license: MIT

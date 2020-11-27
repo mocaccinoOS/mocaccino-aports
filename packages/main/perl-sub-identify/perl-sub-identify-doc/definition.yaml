@@ -1,0 +1,7 @@
+name: perl-sub-identify-doc
+version: "0.14"
+category: alpine
+description: Retrieve names of code references
+uri:
+  - https://metacpan.org/release/Sub-Identify/
+license: GPL PerlArtistic

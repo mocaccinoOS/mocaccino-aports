@@ -1,0 +1,16 @@
+name: acf-unbound
+version: "0.1.0"
+category: alpine
+description: A web-based system administration interface for unbound
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-unbound
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-unbound/acf-unbound-0.1.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "unbound"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: perl-boolean
+version: "0.46"
+category: alpine
+description: Boolean support for Perl
+uri:
+  - https://metacpan.org/release/boolean
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/I/IN/INGY/boolean-0.46.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

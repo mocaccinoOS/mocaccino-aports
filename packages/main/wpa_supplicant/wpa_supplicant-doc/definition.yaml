@@ -1,0 +1,7 @@
+name: wpa_supplicant-doc
+version: "2.9"
+category: alpine
+description: A utility providing key negotiation for WPA wireless networks
+uri:
+  - https://w1.fi/wpa_supplicant/
+license: BSD-3-Clause

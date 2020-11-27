@@ -1,0 +1,7 @@
+name: ngrep-dbg
+version: "1.47"
+category: alpine
+description: A grep-like utility that allows you to search for network packets on an interface
+uri:
+  - http://ngrep.sourceforge.net/
+license: custom

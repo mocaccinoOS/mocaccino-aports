@@ -1,0 +1,7 @@
+name: perl-test-tcp-doc
+version: "2.22"
+category: alpine
+description: Testing TCP program
+uri:
+  - https://metacpan.org/release/Test-TCP
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

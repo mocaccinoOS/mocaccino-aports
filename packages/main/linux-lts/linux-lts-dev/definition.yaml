@@ -1,0 +1,7 @@
+name: linux-lts-dev
+version: "5.4.80"
+category: alpine
+description: Linux lts kernel
+uri:
+  - https://www.kernel.org
+license: GPL-2.0

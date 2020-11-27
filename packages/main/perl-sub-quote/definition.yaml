@@ -1,0 +1,13 @@
+name: perl-sub-quote
+version: "2.006006"
+category: alpine
+description: Efficient generation of subroutines via string eval
+uri:
+  - https://metacpan.org/release/Sub-Quote
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006006.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

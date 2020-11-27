@@ -1,0 +1,7 @@
+name: libattr
+version: "2.4.48"
+category: alpine
+description: Utilities for managing filesystem extended attributes
+uri:
+  - https://savannah.nongnu.org/projects/attr
+license: GPL-2.0-or-later

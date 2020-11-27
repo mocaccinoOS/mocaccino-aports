@@ -1,0 +1,7 @@
+name: mc-lang
+version: "4.8.25"
+category: alpine
+description: Filemanager/shell that emulates Norton Commander
+uri:
+  - https://www.midnight-commander.org
+license: GPL-3.0-or-later

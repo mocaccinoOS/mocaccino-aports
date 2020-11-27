@@ -1,0 +1,9 @@
+name: libnetfilter_cttimeout
+version: "1.0.0"
+category: alpine
+description: Library for the connection tracking timeout infrastructure
+uri:
+  - http://www.netfilter.org/projects/libnetfilter_cttimeout/
+license: GPL-2.0
+labels:
+  package.source: "https://www.netfilter.org/projects/libnetfilter_cttimeout/files/libnetfilter_cttimeout-1.0.0.tar.bz2"

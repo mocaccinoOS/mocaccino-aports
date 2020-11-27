@@ -1,0 +1,7 @@
+name: syslinux-doc
+version: "6.04_pre1"
+category: alpine
+description: Boot loader for the Linux operating system
+uri:
+  - http://syslinux.org
+license: GPL

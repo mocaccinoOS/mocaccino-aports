@@ -1,0 +1,7 @@
+name: xf86-video-intel-doc
+version: "2.99.917_git20191210"
+category: alpine
+description: X.Org driver for Intel cards
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

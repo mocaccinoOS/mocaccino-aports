@@ -1,0 +1,7 @@
+name: bearssl-dev
+version: "0.6"
+category: alpine
+description: The BearSSL implementation of the SSL/TLS protocol
+uri:
+  - https://bearssl.org/
+license: MIT

@@ -1,0 +1,7 @@
+name: haveged-dev
+version: "1.9.13"
+category: alpine
+description: Entropy harvesting daemon using CPU timings
+uri:
+  - https://www.issihosts.com/haveged/
+license: GPL-3.0-or-later

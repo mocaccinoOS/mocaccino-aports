@@ -1,0 +1,16 @@
+name: perl-cgi
+version: "4.51"
+category: alpine
+description: Handle Common Gateway Interface requests and responses
+uri:
+  - https://metacpan.org/release/CGI
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/CGI-4.51.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: s6-openrc
+version: "2.9.2.0"
+category: alpine
+description: skarnet.org's small & secure supervision software suite.
+uri:
+  - https://skarnet.org/software/s6/
+license: ISC

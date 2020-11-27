@@ -1,0 +1,61 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libmnl-dev
+    version: '>=0'
+  - category: alpine
+    name: libpcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_acct-dev
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: libnfnetlink-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_conntrack-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_log-dev
+    version: '>=0'
+  - category: alpine
+    name: pkgconfig
+    version: '>=0'
+  - category: alpine
+    name: mariadb-connector-c-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

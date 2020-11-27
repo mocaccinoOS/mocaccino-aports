@@ -1,0 +1,7 @@
+name: xf86-video-sis-doc
+version: "0.12.0"
+category: alpine
+description: X.org SiS video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

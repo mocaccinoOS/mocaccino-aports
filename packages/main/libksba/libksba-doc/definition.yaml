@@ -1,0 +1,7 @@
+name: libksba-doc
+version: "1.5.0"
+category: alpine
+description: Libksba is a CMS and X.509 access library
+uri:
+  - https://www.gnupg.org/software/libksba/index.html
+license: GPL-2.0-or-later or GPL-3.0-or-later

@@ -1,0 +1,7 @@
+name: lua-inspect-doc
+version: "3.1.1"
+category: alpine
+description: Human-readable representation of Lua tables
+uri:
+  - https://github.com/kikito/inspect.lua
+license: MIT

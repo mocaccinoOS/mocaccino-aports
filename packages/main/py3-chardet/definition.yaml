@@ -1,0 +1,16 @@
+name: py3-chardet
+version: "3.0.4"
+category: alpine
+description: The Universal Character Encoding Detector
+uri:
+  - https://github.com/chardet/chardet/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/c/chardet/chardet-3.0.4.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

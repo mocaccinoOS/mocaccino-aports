@@ -1,0 +1,7 @@
+name: lua5.3-augeas
+version: "0.1.2"
+category: alpine
+description: Lua bindings for Augeas
+uri:
+  - https://git.alpinelinux.org/cgit/lua-augeas/
+license: LGPL

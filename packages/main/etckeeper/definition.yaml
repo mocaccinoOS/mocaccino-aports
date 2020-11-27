@@ -1,0 +1,16 @@
+name: etckeeper
+version: "1.18.15"
+category: alpine
+description: Store /etc in git.
+uri:
+  - http://etckeeper.branchable.com
+license: GPL-2.0-or-later
+labels:
+  package.source: "etckeeper-1.18.15.tar.gz::https://git.joeyh.name/index.cgi/etckeeper.git/snapshot/etckeeper-1.18.15.tar.gz"
+requires:
+  - category: alpine
+    name: "findutils"
+    version: '>=0'
+  - category: alpine
+    name: "git"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-common-sense-doc
+version: "3.75"
+category: alpine
+description: Implementation of sane defaults for Perl programs
+uri:
+  - https://metacpan.org/release/common-sense
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,22 @@
+name: wayland
+version: "1.18.0"
+category: alpine
+description: A computer display server protocol
+uri:
+  - https://wayland.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://wayland.freedesktop.org/releases/wayland-1.18.0.tar.xz"
+requires:
+  - category: alpine
+    name: "wayland-libs-client"
+    version: '>=0'
+  - category: alpine
+    name: "wayland-libs-cursor"
+    version: '>=0'
+  - category: alpine
+    name: "wayland-libs-egl"
+    version: '>=0'
+  - category: alpine
+    name: "wayland-libs-server"
+    version: '>=0'

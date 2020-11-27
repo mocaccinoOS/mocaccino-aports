@@ -1,0 +1,9 @@
+name: libgcrypt
+version: "1.8.7"
+category: alpine
+description: general purpose crypto library based on the code used in GnuPG
+uri:
+  - https://www.gnupg.org/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.7.tar.bz2"

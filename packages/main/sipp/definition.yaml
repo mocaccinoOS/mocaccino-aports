@@ -1,0 +1,9 @@
+name: sipp
+version: "3.6.0"
+category: alpine
+description: A test tool / traffic generator for the SIP protocol
+uri:
+  - https://github.com/SIPp/sipp
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://github.com/SIPp/sipp/releases/download/v3.6.0/sipp-3.6.0.tar.gz"

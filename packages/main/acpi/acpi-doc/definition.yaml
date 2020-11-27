@@ -1,0 +1,7 @@
+name: acpi-doc
+version: "1.7"
+category: alpine
+description: ACPI client for battery, power, and thermal readings
+uri:
+  - https://sourceforge.net/projects/acpiclient/files/acpiclient/
+license: GPL-2.0-or-later

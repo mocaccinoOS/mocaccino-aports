@@ -1,0 +1,7 @@
+name: perl-data-uuid-doc
+version: "1.226"
+category: alpine
+description: Globally/Universally Unique Identifiers (GUIDs/UUIDs)
+uri:
+  - https://metacpan.org/release/Data-UUID/
+license: osf-1990(variant)

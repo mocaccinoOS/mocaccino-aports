@@ -1,0 +1,37 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: bc
+    version: '>=0'
+  - category: alpine
+    name: grep
+    version: '>=0'
+  - category: alpine
+    name: iputils
+    version: '>=0'
+  - category: alpine
+    name: musl-utils
+    version: '>=0'
+  - category: alpine
+    name: procps
+    version: '>=0'
+  - category: alpine
+    name: psmisc
+    version: '>=0'
+  - category: alpine
+    name: sed
+    version: '>=0'
+  - category: alpine
+    name: usbutils
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

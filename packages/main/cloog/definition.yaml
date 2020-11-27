@@ -1,0 +1,9 @@
+name: cloog
+version: "0.20.0"
+category: alpine
+description: The Chunky Loop Generator
+uri:
+  - http://www.cloog.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://github.com/periscop/cloog/releases/download/cloog-0.20.0/cloog-0.20.0.tar.gz"

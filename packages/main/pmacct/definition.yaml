@@ -1,0 +1,9 @@
+name: pmacct
+version: "1.7.5"
+category: alpine
+description: Measure, account, classify, aggregate and export IPv4 and IPv6 traffic
+uri:
+  - http://www.pmacct.net/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://www.pmacct.net/pmacct-1.7.5.tar.gz"

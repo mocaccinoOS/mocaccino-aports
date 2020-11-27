@@ -1,0 +1,16 @@
+name: nodejs
+version: "12.19.0"
+category: alpine
+description: JavaScript runtime built on V8 engine - LTS version
+uri:
+  - https://nodejs.org/
+license: MIT
+labels:
+  package.source: "https://nodejs.org/dist/v12.19.0/node-v12.19.0.tar.gz"
+requires:
+  - category: alpine
+    name: "ca-certificates"
+    version: '>=0'
+  - category: alpine
+    name: "nghttp2-libs>=1.41"
+    version: '>=0'

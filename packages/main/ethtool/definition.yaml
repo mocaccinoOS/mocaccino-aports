@@ -1,0 +1,9 @@
+name: ethtool
+version: "5.9"
+category: alpine
+description: Utility for controlling network drivers and hardware
+uri:
+  - https://mirrors.edge.kernel.org/pub/software/network/ethtool/
+license: GPL-2.0-only
+labels:
+  package.source: "https://www.kernel.org/pub/software/network/ethtool/ethtool-5.9.tar.xz"

@@ -1,0 +1,7 @@
+name: asterisk-pgsql
+version: "18.0.0"
+category: alpine
+description: 'Asterisk: A Module Open Source PBX System'
+uri:
+  - https://www.asterisk.org/
+license: GPL-2.0-only WITH OpenSSL-Exception

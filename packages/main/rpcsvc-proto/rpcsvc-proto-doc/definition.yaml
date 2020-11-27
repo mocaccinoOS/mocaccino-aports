@@ -1,0 +1,7 @@
+name: rpcsvc-proto-doc
+version: "1.4.2"
+category: alpine
+description: rpcsvc protocol definitions from glibc
+uri:
+  - https://github.com/thkukuk/rpcsvc-proto
+license: BSD-3-Clause

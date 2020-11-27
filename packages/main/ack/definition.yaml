@@ -1,0 +1,16 @@
+name: ack
+version: "3.4.0"
+category: alpine
+description: A Perl-powered replacement for grep
+uri:
+  - https://beyondgrep.com/
+license: Artistic-2.0
+labels:
+  package.source: "https://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/ack-v3.4.0.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-file-next"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'

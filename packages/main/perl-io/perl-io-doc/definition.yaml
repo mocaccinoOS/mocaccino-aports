@@ -1,0 +1,7 @@
+name: perl-io-doc
+version: "1.42"
+category: alpine
+description: Perl core IO modules
+uri:
+  - https://metacpan.org/pod/IO
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

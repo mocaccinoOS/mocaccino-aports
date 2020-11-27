@@ -1,0 +1,7 @@
+name: softhsm-doc
+version: "2.6.1"
+category: alpine
+description: 'cryptographic store accessible through a PKCS #11'
+uri:
+  - https://www.opendnssec.org/softhsm/
+license: BSD-2-Clause

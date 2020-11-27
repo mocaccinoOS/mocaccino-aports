@@ -1,0 +1,16 @@
+name: perl-try-tiny
+version: "0.30"
+category: alpine
+description: minimal try/catch with proper preservation of /home/mudler/_git/aports/main/perl-try-tiny/APKBUILD
+uri:
+  - https://search.cpan.org/dist/Try-Tiny/
+license: MIT
+labels:
+  package.source: "https://search.cpan.org/CPAN/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-capture-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-pod-coverage"
+    version: '>=0'

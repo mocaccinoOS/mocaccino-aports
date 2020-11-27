@@ -1,0 +1,7 @@
+name: botan-dev
+version: "2.11.0"
+category: alpine
+description: Crypto and TLS for C++11
+uri:
+  - https://botan.randombit.net/
+license: BSD-2-Clause

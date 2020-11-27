@@ -1,0 +1,7 @@
+name: dmvpn-crl-dp
+version: "1.4.0"
+category: alpine
+description: Dynamic Multipoint VPN
+uri:
+  - https://git.alpinelinux.org/cgit/dmvpn-tools/
+license: MIT

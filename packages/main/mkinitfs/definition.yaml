@@ -1,0 +1,22 @@
+name: mkinitfs
+version: "3.4.5"
+category: alpine
+description: Tool to generate initramfs images for Alpine
+uri:
+  - https://git.alpinelinux.org/cgit/mkinitfs
+license: GPL-2.0-only
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/mkinitfs/mkinitfs-3.4.5.tar.xz"
+requires:
+  - category: alpine
+    name: "busybox>=1.28.2-r1"
+    version: '>=0'
+  - category: alpine
+    name: "apk-tools>=2.9.1"
+    version: '>=0'
+  - category: alpine
+    name: "lddtree>=1.25"
+    version: '>=0'
+  - category: alpine
+    name: "kmod"
+    version: '>=0'

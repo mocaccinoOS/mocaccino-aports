@@ -1,0 +1,7 @@
+name: gd-dev
+version: "2.3.0"
+category: alpine
+description: Library for the dynamic creation of images by programmers
+uri:
+  - https://libgd.github.io/
+license: custom

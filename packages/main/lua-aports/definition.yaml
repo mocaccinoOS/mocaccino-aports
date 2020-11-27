@@ -1,0 +1,22 @@
+name: lua-aports
+version: "1.0.1"
+category: alpine
+description: Lua modules for parsing aports tree
+uri:
+  - https://dev.alpinelinux.org/archive/lua-aports/
+license: MIT
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/lua-aports/lua-aports-1.0.1.tar.xz"
+requires:
+  - category: alpine
+    name: "lua5.2-cjson"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-filesystem"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-optarg"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2"
+    version: '>=0'

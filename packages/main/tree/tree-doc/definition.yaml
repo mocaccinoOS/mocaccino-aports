@@ -1,0 +1,7 @@
+name: tree-doc
+version: "1.8.0"
+category: alpine
+description: A recursive directory indented listing of files
+uri:
+  - http://mama.indstate.edu/users/ice/tree/
+license: GPL-2.0-or-later

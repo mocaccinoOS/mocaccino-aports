@@ -1,0 +1,7 @@
+name: perl-business-hours-doc
+version: "0.13"
+category: alpine
+description: Calculate business hours in a time period
+uri:
+  - https://metacpan.org/release/Business-Hours/
+license: GPL PerlArtistic

@@ -1,0 +1,9 @@
+name: jbig2dec
+version: "0.19"
+category: alpine
+description: JBIG2 image compression format decoder
+uri:
+  - https://jbig2dec.com/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9531/jbig2dec-0.19.tar.gz"

@@ -1,0 +1,7 @@
+name: ncftp-bookmarks
+version: "3.2.6"
+category: alpine
+description: A set of free application programs implementing FTP
+uri:
+  - http://www.ncftp.com/
+license: ClArtistic

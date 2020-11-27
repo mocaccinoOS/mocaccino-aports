@@ -1,0 +1,9 @@
+name: rtmpdump
+version: "2.4_git20190330"
+category: alpine
+description: A tool to download rtmp:// and rtmpe:// streams
+uri:
+  - http://rtmpdump.mplayerhq.hu/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/rtmpdump/rtmpdump-2.4_git20190330.tar.gz"

@@ -1,0 +1,7 @@
+name: perl-gdgraph-doc
+version: "1.54"
+category: alpine
+description: Produces charts with GD
+uri:
+  - https://metacpan.org/release/GDGraph/
+license: GPL PerlArtistic

@@ -1,0 +1,9 @@
+name: minicom
+version: "2.7.1"
+category: alpine
+description: menu driven communications program for terminals
+uri:
+  - https://tracker.debian.org/pkg/minicom
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://alioth-archive.debian.org/releases/minicom/Source/2.7.1/minicom-2.7.1.tar.gz"

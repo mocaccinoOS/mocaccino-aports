@@ -1,0 +1,7 @@
+name: perl-module-implementation-doc
+version: "0.09"
+category: alpine
+description: Loads one of several alternate underlying implementations for a module
+uri:
+  - https://metacpan.org/release/Module-Implementation/
+license: Artistic-2.0

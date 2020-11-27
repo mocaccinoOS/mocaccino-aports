@@ -1,0 +1,7 @@
+name: lua5.3-lyaml
+version: "6.2.6"
+category: alpine
+description: LibYAML binding for Lua
+uri:
+  - https://github.com/gvvaughan/lyaml
+license: MIT

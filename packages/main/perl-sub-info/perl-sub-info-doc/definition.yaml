@@ -1,0 +1,7 @@
+name: perl-sub-info-doc
+version: "0.002"
+category: alpine
+description: Tool for inspecting subroutines.
+uri:
+  - https://metacpan.org/release/Sub-Info/
+license: GPL PerlArtistic

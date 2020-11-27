@@ -1,0 +1,7 @@
+name: perl-filesys-notify-simple-doc
+version: "0.14"
+category: alpine
+description: Filesys::Notify::Simple perl module
+uri:
+  - https://metacpan.org/release/Filesys-Notify-Simple
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

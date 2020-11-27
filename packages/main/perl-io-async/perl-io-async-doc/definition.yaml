@@ -1,0 +1,7 @@
+name: perl-io-async-doc
+version: "0.77"
+category: alpine
+description: Asynchronous event-driven programming
+uri:
+  - https://metacpan.org/release/IO-Async
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,9 @@
+name: cvs
+version: "1.12.13"
+category: alpine
+description: Concurrent Versions System
+uri:
+  - https://www.nongnu.org/cvs/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/non-gnu/cvs/source/feature/1.12.13/cvs-1.12.13.tar.gz"

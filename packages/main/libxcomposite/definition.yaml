@@ -1,0 +1,9 @@
+name: libxcomposite
+version: "0.4.5"
+category: alpine
+description: X11 Composite extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXcomposite-0.4.5.tar.bz2"

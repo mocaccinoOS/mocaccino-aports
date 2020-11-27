@@ -1,0 +1,16 @@
+name: openvpn-ad-check
+version: "1.1"
+category: alpine
+description: Authenticate OpenVPN users against AD server and verify if they are member of a specific group.
+uri:
+  - https://sourceforge.net/p/openvpnadcheck
+license: GPL
+labels:
+  package.source: "https://sourceforge.net/projects/openvpnadcheck/files/openvpn-ad-check-1.1.tgz"
+requires:
+  - category: alpine
+    name: "openvpn"
+    version: '>=0'
+  - category: alpine
+    name: "lua-ldap"
+    version: '>=0'

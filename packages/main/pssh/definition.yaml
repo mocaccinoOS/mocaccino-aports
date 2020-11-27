@@ -1,0 +1,16 @@
+name: pssh
+version: "2.3.1"
+category: alpine
+description: 'PSSH provides parallel versions of OpenSSH and related tools: pssh, pscp, prsync, pnuke, and pslurp'
+uri:
+  - https://code.google.com/p/parallel-ssh/
+license: BSD-3-Clause
+labels:
+  package.source: "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/parallel-ssh/pssh-2.3.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "cmd"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: scstadmin-doc
+version: "2.2.0"
+category: alpine
+description: SCST administration tool written in perl
+uri:
+  - http://scst.sourceforge.net
+license: GPL-2.0

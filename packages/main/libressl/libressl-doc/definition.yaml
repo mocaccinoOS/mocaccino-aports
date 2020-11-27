@@ -1,0 +1,7 @@
+name: libressl-doc
+version: "3.1.4"
+category: alpine
+description: Version of the TLS/crypto stack forked from OpenSSL
+uri:
+  - http://www.libressl.org/
+license: custom

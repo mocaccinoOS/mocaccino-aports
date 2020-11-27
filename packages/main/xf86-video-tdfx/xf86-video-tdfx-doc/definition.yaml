@@ -1,0 +1,7 @@
+name: xf86-video-tdfx-doc
+version: "1.5.0"
+category: alpine
+description: 3Dfx video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

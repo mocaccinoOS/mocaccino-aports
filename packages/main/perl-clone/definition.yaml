@@ -1,0 +1,13 @@
+name: perl-clone
+version: "0.45"
+category: alpine
+description: Clone perl module
+uri:
+  - https://metacpan.org/release/Clone
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.45.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

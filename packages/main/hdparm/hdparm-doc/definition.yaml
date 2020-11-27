@@ -1,0 +1,7 @@
+name: hdparm-doc
+version: "9.60"
+category: alpine
+description: Utility for manipulating IDE device parameters
+uri:
+  - https://sourceforge.net/projects/hdparm
+license: BSD-2-Clause OR GPL-2.0-only

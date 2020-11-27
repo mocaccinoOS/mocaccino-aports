@@ -1,0 +1,13 @@
+name: lua-gversion
+version: "0.2.0"
+category: alpine
+description: Lua library for Gentoo-style versioning format
+uri:
+  - https://github.com/jirutka/gversion.lua
+license: MIT
+labels:
+  package.source: "lua-gversion-0.2.0.tar.gz::https://github.com/jirutka/gversion.lua/archive/v0.2.0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

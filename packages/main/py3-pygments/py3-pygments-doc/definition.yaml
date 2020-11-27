@@ -1,0 +1,7 @@
+name: py3-pygments-doc
+version: "2.7.2"
+category: alpine
+description: Syntax highlighting package written in Python
+uri:
+  - https://pygments.org/
+license: BSD-2-Clause

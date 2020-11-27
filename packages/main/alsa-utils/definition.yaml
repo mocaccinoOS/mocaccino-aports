@@ -1,0 +1,13 @@
+name: alsa-utils
+version: "1.2.4"
+category: alpine
+description: Advanced Linux Sound Architecture (ALSA) utilities
+uri:
+  - http://www.alsa-project.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.2.4.tar.bz2"
+requires:
+  - category: alpine
+    name: "dialog"
+    version: '>=0'

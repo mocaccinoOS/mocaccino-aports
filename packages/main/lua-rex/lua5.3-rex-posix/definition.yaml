@@ -1,0 +1,7 @@
+name: lua5.3-rex-posix
+version: "2.9.1"
+category: alpine
+description: Lua bindings to regular expression library pcre and posix
+uri:
+  - http://lrexlib.luaforge.net/
+license: MIT

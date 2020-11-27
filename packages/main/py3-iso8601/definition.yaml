@@ -1,0 +1,13 @@
+name: py3-iso8601
+version: "0.1.13"
+category: alpine
+description: Simple module to parse ISO 8601 dates
+uri:
+  - https://github.com/micktwomey/pyiso8601
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/i/iso8601/iso8601-0.1.13.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

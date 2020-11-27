@@ -1,0 +1,9 @@
+name: xinput
+version: "1.6.3"
+category: alpine
+description: Utility to configure and test XInput devices
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/archive/individual/app/xinput-1.6.3.tar.gz"

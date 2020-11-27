@@ -1,0 +1,7 @@
+name: f2fs-tools-dev
+version: "1.14.0"
+category: alpine
+description: Tools for the Flash-Friendly File System (F2FS)
+uri:
+  - http://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
+license: GPL-2.0-or-later LGPL-2.1-or-later

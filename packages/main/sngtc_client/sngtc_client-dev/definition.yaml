@@ -1,0 +1,7 @@
+name: sngtc_client-dev
+version: "1.3.9"
+category: alpine
+description: Sangoma Media Transcode client and lib
+uri:
+  - https://wiki.sangoma.com/Transcoding-distributed-install
+license: LGPL

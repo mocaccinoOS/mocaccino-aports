@@ -1,0 +1,13 @@
+name: perl-set-intspan
+version: "1.19"
+category: alpine
+description: Manages sets of integers, newsrc style
+uri:
+  - https://metacpan.org/release/Set-IntSpan
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/S/SW/SWMCD/Set-IntSpan-1.19.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

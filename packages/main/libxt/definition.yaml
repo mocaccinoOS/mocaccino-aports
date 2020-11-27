@@ -1,0 +1,9 @@
+name: libxt
+version: "1.2.0"
+category: alpine
+description: X11 toolkit intrinsics library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXt-1.2.0.tar.bz2"

@@ -1,0 +1,16 @@
+name: perl-xml-sax
+version: "1.02"
+category: alpine
+description: Simple API for XML
+uri:
+  - https://metacpan.org/release/XML-SAX
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-xml-sax-base"
+    version: '>=0'
+  - category: alpine
+    name: "perl-xml-namespacesupport"
+    version: '>=0'

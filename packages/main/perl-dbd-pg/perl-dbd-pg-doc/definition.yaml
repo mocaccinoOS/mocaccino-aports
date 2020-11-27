@@ -1,0 +1,7 @@
+name: perl-dbd-pg-doc
+version: "3.14.2"
+category: alpine
+description: DBI PostgreSQL interface
+uri:
+  - https://metacpan.org/release/DBD-Pg
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

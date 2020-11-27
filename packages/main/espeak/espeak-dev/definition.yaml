@@ -1,0 +1,7 @@
+name: espeak-dev
+version: "1.48.04"
+category: alpine
+description: Speech synthesizer for English and other languages
+uri:
+  - http://espeak.sourceforge.net/
+license: GPL-3.0

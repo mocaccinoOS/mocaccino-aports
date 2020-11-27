@@ -1,0 +1,13 @@
+name: perl-cpanel-json-xs
+version: "4.25"
+category: alpine
+description: cPanel fork of JSON::XS, fast and correct serializing
+uri:
+  - https://metacpan.org/release/Cpanel-JSON-XS/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RU/RURBAN/Cpanel-JSON-XS-4.25.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

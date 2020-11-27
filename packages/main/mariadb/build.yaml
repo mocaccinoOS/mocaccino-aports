@@ -1,0 +1,73 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: mariadb-connector-c-dev
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: libaio-dev
+    version: '>=0'
+  - category: alpine
+    name: libarchive-dev
+    version: '>=0'
+  - category: alpine
+    name: libevent-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: pcre2-dev
+    version: '>=0'
+  - category: alpine
+    name: readline-dev
+    version: '>=0'
+  - category: alpine
+    name: xz-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: linux-pam-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: perl-dbi
+    version: '>=0'
+  - category: alpine
+    name: perl-dbd-mysql
+    version: '>=0'
+  - category: alpine
+    name: perl-getopt-long
+    version: '>=0'
+  - category: alpine
+    name: perl-socket
+    version: '>=0'
+  - category: alpine
+    name: perl-term-readkey
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

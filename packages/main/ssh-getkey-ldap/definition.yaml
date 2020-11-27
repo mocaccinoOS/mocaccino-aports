@@ -1,0 +1,16 @@
+name: ssh-getkey-ldap
+version: "0.1.2"
+category: alpine
+description: A simple script to be used as AuthorizedKeysCommand in OpenSSH server to look up user's public keys in LDAP.
+uri:
+  - https://github.com/jirutka/ssh-getkey-ldap
+license: MIT
+labels:
+  package.source: "ssh-getkey-ldap-0.1.2.tar.gz::https://github.com/jirutka/ssh-getkey-ldap/archive/v0.1.2.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'
+  - category: alpine
+    name: "lua-ldap"
+    version: '>=0'

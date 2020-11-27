@@ -1,0 +1,7 @@
+name: gross-doc
+version: "1.0.2"
+category: alpine
+description: Greylisting of suspicious sources
+uri:
+  - http://code.google.com/p/gross/
+license: BSD

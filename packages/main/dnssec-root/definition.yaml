@@ -1,0 +1,9 @@
+name: dnssec-root
+version: "20190225"
+category: alpine
+description: The DNSSEC root key(s)
+uri:
+  - https://www.iana.org/dnssec/
+license: Public-Domain
+labels:
+  package.source: "dnssec-root-20190225.tar.gz::https://github.com/iana-org/get-trust-anchor/archive/67c11662510f5e2db6e6517228e80b794950c43f.tar.gz"

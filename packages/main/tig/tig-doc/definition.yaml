@@ -1,0 +1,7 @@
+name: tig-doc
+version: "2.5.1"
+category: alpine
+description: Text-mode interface for the git revision control system
+uri:
+  - https://jonas.github.io/tig/
+license: GPL-2.0-or-later

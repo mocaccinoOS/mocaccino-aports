@@ -1,0 +1,7 @@
+name: mt-st-bash-completion
+version: "1.4"
+category: alpine
+description: Linux SCSI tape driver aware magnetic tape control
+uri:
+  - https://github.com/iustin/mt-st
+license: GPL-2.0-or-later

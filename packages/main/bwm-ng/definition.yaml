@@ -1,0 +1,9 @@
+name: bwm-ng
+version: "0.6.2"
+category: alpine
+description: A small and simple console-based live bandwidth monitor
+uri:
+  - http://www.gropp.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "bwm-ng-0.6.2.tgz::https://github.com/vgropp/bwm-ng/archive/v0.6.2.tar.gz"

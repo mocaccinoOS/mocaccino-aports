@@ -1,0 +1,9 @@
+name: nfdump
+version: "1.6.22"
+category: alpine
+description: Tools to collect and process netflow data
+uri:
+  - https://github.com/phaag/nfdump
+license: BSD-3-Clause
+labels:
+  package.source: "nfdump-1.6.22.tar.gz::https://github.com/phaag/nfdump/archive/v1.6.22.tar.gz"

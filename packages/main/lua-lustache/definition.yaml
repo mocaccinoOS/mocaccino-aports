@@ -1,0 +1,13 @@
+name: lua-lustache
+version: "1.3.1"
+category: alpine
+description: Logic-less {{mustache}} templates with Lua
+uri:
+  - http://olivinelabs.com/lustache/
+license: MIT
+labels:
+  package.source: "lua-lustache-1.3.1.tar.gz::https://github.com/Olivine-Labs/lustache/archive/v1.3.1-0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: lua-lyaml
+version: "6.2.6"
+category: alpine
+description: LibYAML binding for Lua
+uri:
+  - https://github.com/gvvaughan/lyaml
+license: MIT
+labels:
+  package.source: "lyaml-6.2.6.tar.gz::https://github.com/gvvaughan/lyaml/archive/v6.2.6.tar.gz"

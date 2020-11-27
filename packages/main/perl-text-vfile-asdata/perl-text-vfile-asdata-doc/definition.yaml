@@ -1,0 +1,7 @@
+name: perl-text-vfile-asdata-doc
+version: "0.08"
+category: alpine
+description: parse vFile formatted files into data structures
+uri:
+  - https://metacpan.org/release/Text-vFile-asData/
+license: GPL PerlArtistic

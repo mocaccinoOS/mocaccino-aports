@@ -1,0 +1,7 @@
+name: orc-compiler
+version: "0.4.32"
+category: alpine
+description: The Oil Run-time Compiler
+uri:
+  - https://gstreamer.freedesktop.org/modules/orc.html
+license: BSD-2-Clause

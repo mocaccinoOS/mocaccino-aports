@@ -1,0 +1,13 @@
+name: rrdcollect
+version: "0.2.10"
+category: alpine
+description: Read system statistical data and feed it to RRDtool
+uri:
+  - http://rrdcollect.sourceforge.net/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/rrdcollect/rrdcollect-0.2.10.tar.bz2"
+requires:
+  - category: alpine
+    name: "rrdtool"
+    version: '>=0'

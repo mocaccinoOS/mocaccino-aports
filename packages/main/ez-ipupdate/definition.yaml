@@ -1,0 +1,9 @@
+name: ez-ipupdate
+version: "3.0.10"
+category: alpine
+description: utility for updating your host name for many of the dynamic DNS services (ez-ip.net, dyndns.org, etc)
+uri:
+  - http://ez-ipupdate.com/
+license: GPL
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/ez-ipupdate/ez-ipupdate-3.0.10.tar.gz"

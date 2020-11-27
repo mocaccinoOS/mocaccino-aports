@@ -1,0 +1,16 @@
+name: lua-dns
+version: "20080404"
+category: alpine
+description: a DNS client library written in Lua using LuaSocket
+uri:
+  - http://ztact.com/software/dns.lua
+license: GPL
+labels:
+  package.source: "dns.lua ztact.lua"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'
+  - category: alpine
+    name: "lua-socket"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: ifupdown-ng
+version: "0.10.1"
+category: alpine
+description: tools for managing network configuration
+uri:
+  - https://github.com/ifupdown-ng/ifupdown-ng
+license: ISC
+labels:
+  package.source: "https://distfiles.dereferenced.org/ifupdown-ng/ifupdown-ng-0.10.1.tar.xz"
+requires:
+  - category: alpine
+    name: "!vlan"
+    version: '>=0'

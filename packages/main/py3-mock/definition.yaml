@@ -1,0 +1,19 @@
+name: py3-mock
+version: "4.0.2"
+category: alpine
+description: Python3 Mocking and Patching Library for Testing
+uri:
+  - https://github.com/testing-cabal/mock
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/m/mock/mock-4.0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pbr"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'

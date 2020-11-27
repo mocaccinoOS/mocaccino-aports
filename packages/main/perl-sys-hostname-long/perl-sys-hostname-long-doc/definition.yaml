@@ -1,0 +1,7 @@
+name: perl-sys-hostname-long-doc
+version: "1.5"
+category: alpine
+description: Perl Module to get full hostname
+uri:
+  - http://search.cpan.org/~scott/
+license: Artistic-1.0-Perl GPL-1.0-or-later

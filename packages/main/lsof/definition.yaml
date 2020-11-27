@@ -1,0 +1,9 @@
+name: lsof
+version: "4.94.0"
+category: alpine
+description: LiSt Open Files
+uri:
+  - https://github.com/lsof-org/lsof
+license: lsof
+labels:
+  package.source: "lsof-4.94.0.tar.gz::https://github.com/lsof-org/lsof/archive/4.94.0/lsof-4.94.0.tar.gz"

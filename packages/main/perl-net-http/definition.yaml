@@ -1,0 +1,16 @@
+name: perl-net-http
+version: "6.19"
+category: alpine
+description: Net::HTTP perl module
+uri:
+  - https://search.cpan.org/dist/Net-HTTP/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://search.cpan.org/CPAN/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'

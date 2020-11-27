@@ -1,0 +1,9 @@
+name: gettext
+version: "0.20.2"
+category: alpine
+description: GNU locale utilities
+uri:
+  - https://www.gnu.org/software/gettext/gettext.html
+license: GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+labels:
+  package.source: "https://ftp.gnu.org/gnu/gettext/gettext-0.20.2.tar.xz"

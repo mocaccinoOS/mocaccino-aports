@@ -1,0 +1,9 @@
+name: libisoburn
+version: "1.5.2"
+category: alpine
+description: Library to enable creation and expansion of ISO-9660 filesystems
+uri:
+  - https://dev.lovelyhq.com/libburnia/web/wikis/home
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://files.libburnia-project.org/releases/libisoburn-1.5.2.tar.gz"

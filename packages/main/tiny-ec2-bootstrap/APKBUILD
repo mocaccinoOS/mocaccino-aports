@@ -1,0 +1,20 @@
+# Contributor: Jake Buchholz <tomalok@gmail.com>
+# Contributor: Mike Crute <mike@crute.us>
+# Maintainer: Mike Crute <mike@crute.us>
+pkgname=tiny-ec2-bootstrap
+pkgver=1.4.1
+pkgrel=0
+pkgdesc="A tiny EC2 instance bootstrapper that uses instance metadata"
+url="https://github.com/mcrute/tiny-ec2-bootstrap"
+arch="noarch"
+license="MIT"
+options="!check"  # no tests provided
+depends="openrc e2fsprogs-extra partx sfdisk"
+source="$pkgname-$pkgver.tar.gz::https://github.com/mcrute/tiny-ec2-bootstrap/archive/release-$pkgver.tar.gz"
+builddir="$srcdir/$pkgname-release-$pkgver"
+
+package() {
+	make PREFIX=$pkgdir install
+}
+
+sha512sums="17b59af93e82364cd2f9ca4383f5ba5420f2b835b0940aaf5635fc7bc6ecdc8d650732b0e247a8fb560bac6685765bab1367bdb94ae1176519c6c375f50259db  tiny-ec2-bootstrap-1.4.1.tar.gz"

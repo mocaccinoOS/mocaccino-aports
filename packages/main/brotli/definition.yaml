@@ -1,0 +1,9 @@
+name: brotli
+version: "1.0.9"
+category: alpine
+description: Generic lossless compressor
+uri:
+  - https://github.com/google/brotli
+license: MIT
+labels:
+  package.source: "brotli-1.0.9.tar.gz::https://github.com/google/brotli/archive/v1.0.9.tar.gz"

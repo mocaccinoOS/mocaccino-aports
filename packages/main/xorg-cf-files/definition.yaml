@@ -1,0 +1,9 @@
+name: xorg-cf-files
+version: "1.0.6"
+category: alpine
+description: Data files for the imake utility
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "http://xorg.freedesktop.org/releases/individual/util/xorg-cf-files-1.0.6.tar.bz2"

@@ -1,0 +1,9 @@
+name: doxygen
+version: "1.8.20"
+category: alpine
+description: A documentation system for C++, C, Java, IDL and PHP
+uri:
+  - http://www.doxygen.nl/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://doxygen.nl/files/doxygen-1.8.20.src.tar.gz"

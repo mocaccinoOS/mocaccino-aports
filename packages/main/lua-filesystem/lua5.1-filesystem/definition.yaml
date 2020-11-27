@@ -1,0 +1,7 @@
+name: lua5.1-filesystem
+version: "1.8.0"
+category: alpine
+description: Filesystem functions for Lua
+uri:
+  - http://keplerproject.github.io/luafilesystem/
+license: MIT

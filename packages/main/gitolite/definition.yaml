@@ -1,0 +1,16 @@
+name: gitolite
+version: "3.6.12"
+category: alpine
+description: Centralized git server, with very fine-grained access control and many powerful features
+uri:
+  - https://github.com/sitaramc/gitolite
+license: GPL-2.0-only
+labels:
+  package.source: "gitolite-3.6.12.tar.gz::https://github.com/sitaramc/gitolite/archive/v3.6.12.tar.gz"
+requires:
+  - category: alpine
+    name: "git"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'

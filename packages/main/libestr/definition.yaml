@@ -1,0 +1,9 @@
+name: libestr
+version: "0.1.11"
+category: alpine
+description: essentials for string handling (and a bit more)
+uri:
+  - https://libestr.adiscon.com/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "http://libestr.adiscon.com/files/download/libestr-0.1.11.tar.gz"

@@ -1,0 +1,9 @@
+name: libisofs
+version: "1.5.2"
+category: alpine
+description: Library to pack up hard disk files and directories into a ISO 9660 disk image
+uri:
+  - https://dev.lovelyhq.com/libburnia/web/wikis/home
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://files.libburnia-project.org/releases/libisofs-1.5.2.tar.gz"

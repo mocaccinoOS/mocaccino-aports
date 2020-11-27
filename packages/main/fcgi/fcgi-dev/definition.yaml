@@ -1,0 +1,7 @@
+name: fcgi-dev
+version: "2.4.2"
+category: alpine
+description: FAST CGI(fcgi) is a language independent, high performant extension to CGI
+uri:
+  - https://github.com/FastCGI-Archives/fcgi2
+license: custom

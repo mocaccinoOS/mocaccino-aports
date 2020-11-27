@@ -1,0 +1,7 @@
+name: freetype-dev
+version: "2.10.4"
+category: alpine
+description: TrueType font rendering library
+uri:
+  - https://www.freetype.org/
+license: FTL GPL-2.0-or-later

@@ -1,0 +1,7 @@
+name: lua5.3-optarg
+version: "0.2"
+category: alpine
+description: Simple command line option parser for Lua
+uri:
+  - https://github.com/ncopa/lua-optarg
+license: MIT

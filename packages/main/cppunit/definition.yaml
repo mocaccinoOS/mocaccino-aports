@@ -1,0 +1,9 @@
+name: cppunit
+version: "1.15.1"
+category: alpine
+description: C++ unit testing framework
+uri:
+  - http://www.freedesktop.org/wiki/Software/cppunit/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://dev-www.libreoffice.org/src/cppunit-1.15.1.tar.gz"

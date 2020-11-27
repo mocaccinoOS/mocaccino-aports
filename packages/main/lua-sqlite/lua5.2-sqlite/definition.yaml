@@ -1,0 +1,7 @@
+name: lua5.2-sqlite
+version: "0.9.5"
+category: alpine
+description: Sqlite3 Binding for Lua
+uri:
+  - http://lua.sqlite.org/index.cgi/home
+license: MIT

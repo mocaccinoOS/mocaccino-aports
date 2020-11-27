@@ -1,0 +1,9 @@
+name: xtrans
+version: "1.4.0"
+category: alpine
+description: X transport library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/xtrans-1.4.0.tar.bz2"

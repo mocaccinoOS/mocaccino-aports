@@ -1,0 +1,7 @@
+name: xf86-input-vmmouse-doc
+version: "13.1.0"
+category: alpine
+description: X.org VMware mouse input driver
+uri:
+  - https://xorg.freedesktop.org/
+license: MIT

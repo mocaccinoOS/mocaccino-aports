@@ -1,0 +1,9 @@
+name: ngircd
+version: "26"
+category: alpine
+description: Next Generation IRC Daemon
+uri:
+  - https://ngircd.barton.de/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://ngircd.barton.de/pub/ngircd/ngircd-26.tar.xz"

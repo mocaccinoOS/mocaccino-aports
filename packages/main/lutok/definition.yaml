@@ -1,0 +1,9 @@
+name: lutok
+version: "0.4"
+category: alpine
+description: lightweight C++ API for Lua
+uri:
+  - https://github.com/jmmv/lutok
+license: BSD-3-Clause
+labels:
+  package.source: "https://github.com/jmmv/lutok/releases/download/lutok-0.4/lutok-0.4.tar.gz"

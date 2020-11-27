@@ -1,0 +1,22 @@
+name: xinit
+version: "1.4.1"
+category: alpine
+description: X.Org initialisation program
+uri:
+  - http://xorg.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/app/xinit-1.4.1.tar.bz2"
+requires:
+  - category: alpine
+    name: "xauth"
+    version: '>=0'
+  - category: alpine
+    name: "mcookie"
+    version: '>=0'
+  - category: alpine
+    name: "xmodmap"
+    version: '>=0'
+  - category: alpine
+    name: "xrdb"
+    version: '>=0'

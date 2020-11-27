@@ -1,0 +1,7 @@
+name: irqbalance-openrc
+version: "1.7.0"
+category: alpine
+description: Daemon that distributes interrupts over the processors
+uri:
+  - https://github.com/Irqbalance/irqbalance
+license: GPL-2.0-or-later

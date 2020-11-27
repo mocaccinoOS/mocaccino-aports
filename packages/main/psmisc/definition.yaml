@@ -1,0 +1,9 @@
+name: psmisc
+version: "23.3"
+category: alpine
+description: A set of some small useful utilities that use the proc filesystem
+uri:
+  - http://psmisc.sourceforge.net/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/psmisc/psmisc-23.3.tar.xz"

@@ -1,0 +1,16 @@
+name: acf-dhcp
+version: "0.9.1"
+category: alpine
+description: A web-based system administration interface for dhcp
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-dhcp
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-dhcp/acf-dhcp-0.9.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "dhcp"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: perl-cpan-meta-check
+version: "0.014"
+category: alpine
+description: Verify requirements in a CPAN::Meta object
+uri:
+  - https://metacpan.org/release/CPAN-Meta-Check/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-module-metadata>=1.000023"
+    version: '>=0'

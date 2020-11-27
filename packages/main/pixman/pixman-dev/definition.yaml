@@ -1,0 +1,7 @@
+name: pixman-dev
+version: "0.40.0"
+category: alpine
+description: Low-level pixel manipulation library
+uri:
+  - https://gitlab.freedesktop.org/pixman
+license: MIT

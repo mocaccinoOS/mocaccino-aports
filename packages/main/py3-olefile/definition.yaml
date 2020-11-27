@@ -1,0 +1,9 @@
+name: py3-olefile
+version: "0.46"
+category: alpine
+description: Python module to read/write MS OLE2 files
+uri:
+  - https://www.decalage.info/olefile
+license: BSD-2-Clause
+labels:
+  package.source: "https://github.com/decalage2/olefile/releases/download/v0.46/olefile-0.46.tar.gz"

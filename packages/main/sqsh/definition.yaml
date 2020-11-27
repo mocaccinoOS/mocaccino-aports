@@ -1,0 +1,9 @@
+name: sqsh
+version: "2.5.16.1"
+category: alpine
+description: Sybase iSQL replacement
+uri:
+  - http://www.sqsh.org
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/project/sqsh/sqsh/sqsh-2.5/sqsh-2.5.16.1.tgz"

@@ -1,0 +1,7 @@
+name: xf86-video-nouveau-doc
+version: "1.0.16"
+category: alpine
+description: Open-source X.org drivers for nVidia video cards
+uri:
+  - https://nouveau.freedesktop.org/
+license: MIT

@@ -1,0 +1,7 @@
+name: perl-async-mergepoint-doc
+version: "0.04"
+category: alpine
+description: resynchronise diverged control flow
+uri:
+  - https://metacpan.org/release/Async-MergePoint
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

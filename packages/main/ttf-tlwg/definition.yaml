@@ -1,0 +1,9 @@
+name: ttf-tlwg
+version: "0.7.2"
+category: alpine
+description: The Thai TrueType fonts included here are Norasi and Garuda from the National Font project
+uri:
+  - https://linux.thai.net/projects/fonts-tlwg
+license: LPPL-1.3c AND GPL-2.0-only WITH Font-exception-2.0
+labels:
+  package.source: "https://linux.thai.net/pub/thailinux/software/fonts-tlwg/fonts/ttf-tlwg-0.7.2.tar.xz"

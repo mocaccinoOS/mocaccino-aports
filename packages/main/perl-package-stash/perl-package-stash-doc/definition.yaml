@@ -1,0 +1,7 @@
+name: perl-package-stash-doc
+version: "0.39"
+category: alpine
+description: Routines for manipulating stashes
+uri:
+  - https://metacpan.org/release/Package-Stash/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

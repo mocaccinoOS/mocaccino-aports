@@ -1,0 +1,55 @@
+name: py3-sphinx
+version: "3.2.1"
+category: alpine
+description: "Python\tDocumentation Generator"
+uri:
+  - http://sphinx.pocoo.org/
+license: BSD-2-Clause
+labels:
+  package.source: "py3-sphinx-3.2.1.tar.gz::https://github.com/sphinx-doc/sphinx/archive/v3.2.1.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-babel"
+    version: '>=0'
+  - category: alpine
+    name: "py3-docutils"
+    version: '>=0'
+  - category: alpine
+    name: "py3-imagesize"
+    version: '>=0'
+  - category: alpine
+    name: "py3-jinja2"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pygments"
+    version: '>=0'
+  - category: alpine
+    name: "py3-requests"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'
+  - category: alpine
+    name: "py3-snowballstemmer"
+    version: '>=0'
+  - category: alpine
+    name: "py3-alabaster"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sphinxcontrib-applehelp"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sphinxcontrib-devhelp"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sphinxcontrib-htmlhelp"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sphinxcontrib-jsmath"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sphinxcontrib-serializinghtml"
+    version: '>=0'
+  - category: alpine
+    name: "py3-sphinxcontrib-qthelp"
+    version: '>=0'

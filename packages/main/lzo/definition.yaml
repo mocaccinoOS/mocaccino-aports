@@ -1,0 +1,9 @@
+name: lzo
+version: "2.10"
+category: alpine
+description: LZO -- a real-time data compression library
+uri:
+  - http://www.oberhumer.com/opensource/lzo
+license: GPL
+labels:
+  package.source: "http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz"

@@ -1,0 +1,7 @@
+name: perl-data-optlist-doc
+version: "0.110"
+category: alpine
+description: Data::OptList perl module
+uri:
+  - https://metacpan.org/release/Data-OptList/
+license: GPL-2.0 or Artistic

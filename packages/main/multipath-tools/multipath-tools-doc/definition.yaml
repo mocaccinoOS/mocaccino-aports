@@ -1,0 +1,7 @@
+name: multipath-tools-doc
+version: "0.8.5"
+category: alpine
+description: Device Mapper Multipathing Driver
+uri:
+  - http://christophe.varoqui.free.fr
+license: LGPL-2.0-only

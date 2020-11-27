@@ -1,0 +1,7 @@
+name: perl-parse-recdescent-doc
+version: "1.967015"
+category: alpine
+description: Generate Recursive-Descent Parsers
+uri:
+  - http://search.cpan.org/~dconway/Parse-RecDescent-1.96.0/
+license: Artistic-Perl-1.0 GPL+

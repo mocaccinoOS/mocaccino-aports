@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: lua-asn1
+    version: '>=0'
+  - category: alpine
+    name: lighttpd
+    version: '>=0'
+  - category: alpine
+    name: lua5.2
+    version: '>=0'
+  - category: alpine
+    name: lua5.2-lyaml
+    version: '>=0'
+  - category: alpine
+    name: lua5.2-ossl
+    version: '>=0'
+  - category: alpine
+    name: lua5.2-posix
+    version: '>=0'
+  - category: alpine
+    name: lua5.2-sql-sqlite3
+    version: '>=0'
+  - category: alpine
+    name: lua5.2-stringy
+    version: '>=0'
+  - category: alpine
+    name: lua-asn1
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

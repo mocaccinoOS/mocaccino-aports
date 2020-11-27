@@ -1,0 +1,9 @@
+name: dtc
+version: "1.6.0"
+category: alpine
+description: Device Tree Compiler
+uri:
+  - https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://kernel.org/pub/software/utils/dtc/dtc-1.6.0.tar.xz"

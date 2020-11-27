@@ -1,0 +1,9 @@
+name: spandsp3
+version: "0_git20201102"
+category: alpine
+description: SpanDSP is a library of DSP functions for telephony
+uri:
+  - https://www.soft-switch.org/installing-spandsp.html
+license: LGPL-2.1-only
+labels:
+  package.source: "spandsp3-0_git20201102.tar.gz::https://github.com/freeswitch/spandsp/archive/6ec23e5a7e411a22d59e5678d12c4d2942c4a4b6.tar.gz"

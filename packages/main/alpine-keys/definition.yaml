@@ -1,0 +1,9 @@
+name: alpine-keys
+version: "2.2"
+category: alpine
+description: Public keys for Alpine Linux packages
+uri:
+  - https://alpinelinux.org
+license: MIT
+labels:
+  package.source: "mkmntdirs.c"

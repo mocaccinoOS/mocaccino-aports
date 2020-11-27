@@ -1,0 +1,13 @@
+name: py3-sortedcontainers
+version: "2.3.0"
+category: alpine
+description: Python library for sorting collections and containers
+uri:
+  - http://www.grantjenks.com/docs/sortedcontainers
+license: Apache-2.0
+labels:
+  package.source: "python-sortedcontainers-2.3.0.tar.gz::https://github.com/grantjenks/python-sortedcontainers/archive/v2.3.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: hylafax-doc
+version: "6.0.7"
+category: alpine
+description: Sends and receives faxes
+uri:
+  - http://www.hylafax.org/
+license: MIT

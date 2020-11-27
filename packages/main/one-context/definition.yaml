@@ -1,0 +1,13 @@
+name: one-context
+version: "0.5.5"
+category: alpine
+description: Contextualization scripts for OpenNebula guests
+uri:
+  - https://github.com/jirutka/one-context/
+license: MIT
+labels:
+  package.source: "https://github.com/jirutka/one-context/archive/v0.5.5/one-context-0.5.5.tar.gz"
+requires:
+  - category: alpine
+    name: "blkid"
+    version: '>=0'

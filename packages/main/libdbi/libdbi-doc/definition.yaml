@@ -1,0 +1,7 @@
+name: libdbi-doc
+version: "0.9.0"
+category: alpine
+description: Database independent abstraction layer for C
+uri:
+  - http://libdbi.sourceforge.net/
+license: LGPL-2.0-or-later

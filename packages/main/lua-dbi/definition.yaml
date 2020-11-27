@@ -1,0 +1,9 @@
+name: lua-dbi
+version: "0.7.2"
+category: alpine
+description: A database interface library for Lua
+uri:
+  - https://github.com/mwild1/luadbi
+license: MIT
+labels:
+  package.source: "https://github.com/mwild1/luadbi/archive/v0.7.2/luadbi.tar.gz"

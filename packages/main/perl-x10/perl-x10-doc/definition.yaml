@@ -1,0 +1,7 @@
+name: perl-x10-doc
+version: "0.04"
+category: alpine
+description: Perl module for X10
+uri:
+  - https://metacpan.org/release/X10/
+license: GPL-3.0-only

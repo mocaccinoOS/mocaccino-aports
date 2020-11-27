@@ -1,0 +1,7 @@
+name: ngircd-openrc
+version: "26"
+category: alpine
+description: Next Generation IRC Daemon
+uri:
+  - https://ngircd.barton.de/
+license: GPL-2.0-or-later

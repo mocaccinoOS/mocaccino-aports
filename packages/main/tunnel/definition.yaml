@@ -1,0 +1,9 @@
+name: tunnel
+version: "1.0"
+category: alpine
+description: Script for configuring tunnel interfaces
+uri:
+  - http://git.alpinelinux.org/cgit/aports/tree/testing/tunnel
+license: GPL-2
+labels:
+  package.source: "tunnel"

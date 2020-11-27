@@ -1,0 +1,9 @@
+name: lang
+version: "0.1"
+category: alpine
+description: Meta package for translations
+uri:
+  - https://alpinelinux.org
+license: GPL-2.0-only
+labels:
+  package.source: "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/snapshot/keyutils-1.6.3.tar.gz"

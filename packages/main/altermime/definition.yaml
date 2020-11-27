@@ -1,0 +1,9 @@
+name: altermime
+version: "0.3.11"
+category: alpine
+description: alterMIME - MIME encoded email pack alteration tool
+uri:
+  - https://pldaniels.com/altermime
+license: custom:altermime
+labels:
+  package.source: "https://pldaniels.com/altermime/altermime-0.3.11.tar.gz"

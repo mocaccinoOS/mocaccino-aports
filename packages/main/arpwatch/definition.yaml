@@ -1,0 +1,9 @@
+name: arpwatch
+version: "2.1a15"
+category: alpine
+description: Ethernet monitoring program
+uri:
+  - http://www-nrg.ee.lbl.gov/
+license: BSD-4-Clause-Shortened
+labels:
+  package.source: "ftp://ftp.ee.lbl.gov/arpwatch-2.1a15.tar.gz"

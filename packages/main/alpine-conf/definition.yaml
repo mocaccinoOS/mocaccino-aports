@@ -1,0 +1,16 @@
+name: alpine-conf
+version: "3.9.0"
+category: alpine
+description: Alpine configuration management scripts
+uri:
+  - https://git.alpinelinux.org/alpine-conf/about
+license: MIT
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-3.9.0.tar.bz2"
+requires:
+  - category: alpine
+    name: "openrc>=0.24.1-r6"
+    version: '>=0'
+  - category: alpine
+    name: "busybox>=1.26.1-r3"
+    version: '>=0'

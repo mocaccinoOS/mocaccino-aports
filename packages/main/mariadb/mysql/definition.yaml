@@ -1,0 +1,7 @@
+name: mysql
+version: "10.5.6"
+category: alpine
+description: A fast SQL database server
+uri:
+  - https://www.mariadb.org/
+license: GPL-2.0-or-later

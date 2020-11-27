@@ -1,0 +1,7 @@
+name: perl-crypt-x509-doc
+version: "0.53"
+category: alpine
+description: Parse a X.509 certificate
+uri:
+  - https://metacpan.org/release/Crypt-X509/
+license: Artistic-1.0-Perl

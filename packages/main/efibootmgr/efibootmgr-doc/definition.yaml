@@ -1,0 +1,7 @@
+name: efibootmgr-doc
+version: "17"
+category: alpine
+description: Linux user-space application to modify the Intel Extensible Firmware Interface
+uri:
+  - https://github.com/rhboot/efibootmgr
+license: GPL-2.0

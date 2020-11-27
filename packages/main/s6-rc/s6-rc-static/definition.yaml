@@ -1,0 +1,7 @@
+name: s6-rc-static
+version: "0.5.2.0"
+category: alpine
+description: Service manager for s6-based systems
+uri:
+  - http://skarnet.org/software/s6-rc/
+license: ISC

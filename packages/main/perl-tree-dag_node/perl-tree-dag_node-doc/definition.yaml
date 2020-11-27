@@ -1,0 +1,7 @@
+name: perl-tree-dag_node-doc
+version: "1.31"
+category: alpine
+description: An N-ary tree
+uri:
+  - https://metacpan.org/release/Tree-DAG_Node/
+license: Artistic-2.0

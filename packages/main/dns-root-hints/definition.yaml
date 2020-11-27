@@ -1,0 +1,16 @@
+name: dns-root-hints
+version: "2019073000"
+category: alpine
+description: The DNS root hint(s)
+uri:
+  - https://www.internic.net/domain
+license: Public-Domain
+labels:
+  package.source: "verisign-grs-nstld-key.asc named.root named.root.sig"
+requires:
+  - category: alpine
+    name: "curl"
+    version: '>=0'
+  - category: alpine
+    name: "gnupg"
+    version: '>=0'

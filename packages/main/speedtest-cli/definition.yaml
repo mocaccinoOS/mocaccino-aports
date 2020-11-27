@@ -1,0 +1,16 @@
+name: speedtest-cli
+version: "2.1.2"
+category: alpine
+description: Command line interface for testing internet bandwidth using speedtest.net
+uri:
+  - https://github.com/sivel/speedtest-cli
+license: Apache-2.0
+labels:
+  package.source: "speedtest-cli-2.1.2.tar.gz::https://github.com/sivel/speedtest-cli/archive/v2.1.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

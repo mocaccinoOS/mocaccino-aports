@@ -1,0 +1,22 @@
+name: ttf-freefont
+version: "20120503"
+category: alpine
+description: A set of free high-quality TrueType fonts covering the UCS character set
+uri:
+  - http://www.nongnu.org/freefont/
+license: GPL-3.0+ with exception
+labels:
+  package.source: "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip"
+requires:
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'
+  - category: alpine
+    name: "encodings"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontdir"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontscale"
+    version: '>=0'

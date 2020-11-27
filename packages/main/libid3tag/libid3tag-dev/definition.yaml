@@ -1,0 +1,7 @@
+name: libid3tag-dev
+version: "0.15.1b"
+category: alpine
+description: MAD ID3 tagger for MP3 audio files
+uri:
+  - http://www.underbit.com/products/mad/
+license: GPL-2.0+

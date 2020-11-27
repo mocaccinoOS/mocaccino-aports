@@ -1,0 +1,7 @@
+name: lua5.2-maxminddb
+version: "0.1"
+category: alpine
+description: libmaxminddb bindings for Lua
+uri:
+  - https://github.com/fabled/lua-maxminddb
+license: MIT

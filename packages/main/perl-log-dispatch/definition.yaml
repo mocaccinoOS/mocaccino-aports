@@ -1,0 +1,34 @@
+name: perl-log-dispatch
+version: "2.70"
+category: alpine
+description: Dispatches messages to one or more outputs
+uri:
+  - https://metacpan.org/release/Log-Dispatch/
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Log-Dispatch-2.70.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-runtime"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dist-checkconflicts"
+    version: '>=0'
+  - category: alpine
+    name: "perl-devel-globaldestruction"
+    version: '>=0'
+  - category: alpine
+    name: "perl-namespace-autoclean"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-validationcompiler"
+    version: '>=0'
+  - category: alpine
+    name: "perl-try-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-specio"
+    version: '>=0'

@@ -1,0 +1,16 @@
+name: py3-pynacl
+version: "1.4.0"
+category: alpine
+description: Python3 binding to the Networking and Cryptography (NaCl) library
+uri:
+  - https://github.com/pyca/pynacl
+license: Apache-2.0
+labels:
+  package.source: "py3-pynacl-1.4.0.tar.gz::https://github.com/pyca/pynacl/archive/1.4.0.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-cffi"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'

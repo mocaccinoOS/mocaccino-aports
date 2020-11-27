@@ -1,0 +1,13 @@
+name: perl-net-ssleay
+version: "1.88"
+category: alpine
+description: Perl extension for using OpenSSL
+uri:
+  - https://metacpan.org/release/Net-SSLeay
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

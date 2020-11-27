@@ -1,0 +1,7 @@
+name: nspr-dev
+version: "4.29"
+category: alpine
+description: Netscape Portable Runtime
+uri:
+  - https://www.mozilla.org/projects/nspr/
+license: GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0

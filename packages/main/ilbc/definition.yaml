@@ -1,0 +1,9 @@
+name: ilbc
+version: "0.0.1"
+category: alpine
+description: Internet Low Bitrate Codec - FreeSwitch
+uri:
+  - https://freeswitch.org/stash/projects/SD/repos/libilbc/browse
+license: BSD
+labels:
+  package.source: "http://files.freeswitch.org/downloads/libs/ilbc-0.0.1.tar.gz"

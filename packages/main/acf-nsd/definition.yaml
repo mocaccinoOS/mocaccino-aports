@@ -1,0 +1,16 @@
+name: acf-nsd
+version: "0.0.1"
+category: alpine
+description: A web-based system administration interface for nsd
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-nsd
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-nsd/acf-nsd-0.0.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "nsd"
+    version: '>=0'

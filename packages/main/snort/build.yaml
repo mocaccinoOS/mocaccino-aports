@@ -1,0 +1,46 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: pcre-dev
+    version: '>=0'
+  - category: alpine
+    name: libpcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libnet-dev
+    version: '>=0'
+  - category: alpine
+    name: libdnet-dev
+    version: '>=0'
+  - category: alpine
+    name: daq-dev
+    version: '>=0'
+  - category: alpine
+    name: daq-static
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libtirpc-dev
+    version: '>=0'
+  - category: alpine
+    name: xz-dev
+    version: '>=0'
+  - category: alpine
+    name: libnfnetlink-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_queue-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

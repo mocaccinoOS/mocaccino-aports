@@ -1,0 +1,7 @@
+name: apcupsd-openrc
+version: "3.14.14"
+category: alpine
+description: A Daemon to control APC UPSes
+uri:
+  - http://www.apcupsd.org
+license: GPL-2.0-only

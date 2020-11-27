@@ -1,0 +1,9 @@
+name: musl-nscd
+version: "1.0.3"
+category: alpine
+description: Implementation of nscd for nsswitch modules for musl
+uri:
+  - https://github.com/pikhq/musl-nscd
+license: MIT
+labels:
+  package.source: ""

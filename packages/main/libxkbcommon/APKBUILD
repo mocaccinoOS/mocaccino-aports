@@ -1,0 +1,55 @@
+# Contributor: Leo <thinkabit.ukim@gmail.com>
+# Maintainer: Leo <thinkabit.ukim@gmail.com>
+pkgname=libxkbcommon
+pkgver=1.0.3
+pkgrel=0
+pkgdesc="keyboard handling library"
+url="https://www.xkbcommon.org/"
+arch="all"
+license="MIT"
+depends="xkeyboard-config"
+depends_dev="libxkbcommon-x11=$pkgver-r$pkgrel"
+makedepends="
+	bison
+	wayland-dev
+	wayland-protocols
+	libxcb-dev
+	meson
+	libxml2-dev
+	"
+checkdepends="bash"
+subpackages="$pkgname-static $pkgname-dev $pkgname-x11 xkbcli xkbcli-doc"
+source="$pkgname-$pkgver.tar.gz::https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-$pkgver.tar.gz"
+builddir="$srcdir/libxkbcommon-xkbcommon-$pkgver"
+
+build() {
+	abuild-meson \
+		-Denable-wayland=true \
+		-Denable-docs=false \
+		-Denable-x11=true \
+		-Ddefault_library=both \
+		build
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+}
+
+check() {
+	meson test --no-rebuild -v -C build
+}
+
+package() {
+	DESTDIR="$pkgdir" meson install --no-rebuild -C build
+}
+
+x11() {
+	pkgdesc="$pkgdesc (x11 support)"
+	mkdir -p "$subpkgdir"/usr/lib
+	mv "$pkgdir"/usr/lib/*x11*.so.* "$subpkgdir"/usr/lib
+}
+
+xkbcli() {
+	pkgdesc="xkb command-line tool with interactive debugger"
+	amove usr/bin/xkbcli
+	amove usr/libexec/xkbcommon/xkbcli*
+}
+
+sha512sums="9dce0be6477bb709b56462c9d348c29419a82b25a66d9b6cedde4437d1a5eac974ab8d892f7bc2721582ffd6a933f04a1750935fe9943e71202b64e2b0d6aee9  libxkbcommon-1.0.3.tar.gz"

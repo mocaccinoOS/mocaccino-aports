@@ -1,0 +1,13 @@
+name: cgdb
+version: "0.7.1"
+category: alpine
+description: The Curses Debugger
+uri:
+  - http://cgdb.sourceforge.net/
+license: GPL-2.0
+labels:
+  package.source: "http://cgdb.me/files/cgdb-0.7.1.tar.gz"
+requires:
+  - category: alpine
+    name: "gdb"
+    version: '>=0'

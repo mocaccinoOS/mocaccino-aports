@@ -1,0 +1,9 @@
+name: nsd
+version: "4.3.3"
+category: alpine
+description: Authoritative only, high performance and simple DNS server
+uri:
+  - https://www.nlnetlabs.nl/projects/nsd
+license: BSD-3-Clause
+labels:
+  package.source: "https://www.nlnetlabs.nl/downloads/nsd/nsd-4.3.3.tar.gz"

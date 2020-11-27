@@ -1,0 +1,7 @@
+name: lua5.3-doc
+version: "5.3.6"
+category: alpine
+description: Powerful light-weight programming language
+uri:
+  - https://www.lua.org/
+license: MIT

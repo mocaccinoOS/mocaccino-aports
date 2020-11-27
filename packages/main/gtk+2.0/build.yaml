@@ -1,0 +1,82 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: atk-dev
+    version: '>=0'
+  - category: alpine
+    name: cairo-dev
+    version: '>=0'
+  - category: alpine
+    name: intltool
+    version: '>=0'
+  - category: alpine
+    name: libxdamage-dev
+    version: '>=0'
+  - category: alpine
+    name: pango-dev
+    version: '>=0'
+  - category: alpine
+    name: cups-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: gdk-pixbuf-dev
+    version: '>=0'
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: gobject-introspection-dev
+    version: '>=0'
+  - category: alpine
+    name: gtk-doc
+    version: '>=0'
+  - category: alpine
+    name: hicolor-icon-theme
+    version: '>=0'
+  - category: alpine
+    name: libice-dev
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxcomposite-dev
+    version: '>=0'
+  - category: alpine
+    name: libxcursor-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libxfixes-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrandr-dev
+    version: '>=0'
+  - category: alpine
+    name: libxi-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

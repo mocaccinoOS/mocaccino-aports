@@ -1,0 +1,7 @@
+name: pcre2-doc
+version: "10.35"
+category: alpine
+description: Perl-compatible regular expression library
+uri:
+  - https://pcre.org/
+license: BSD-3-Clause

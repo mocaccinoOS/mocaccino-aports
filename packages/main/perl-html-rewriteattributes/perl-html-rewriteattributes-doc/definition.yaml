@@ -1,0 +1,7 @@
+name: perl-html-rewriteattributes-doc
+version: "0.05"
+category: alpine
+description: Concise attribute rewriting
+uri:
+  - https://metacpan.org/release/HTML-RewriteAttributes/
+license: GPL PerlArtistic

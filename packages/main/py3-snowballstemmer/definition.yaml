@@ -1,0 +1,13 @@
+name: py3-snowballstemmer
+version: "2.0.0"
+category: alpine
+description: Snowball stemming library collection for Python3
+uri:
+  - https://github.com/shibukawa/snowball_py
+license: BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/snowballstemmer/snowballstemmer-2.0.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

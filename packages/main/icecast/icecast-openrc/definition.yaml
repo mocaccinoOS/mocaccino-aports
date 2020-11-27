@@ -1,0 +1,7 @@
+name: icecast-openrc
+version: "2.4.4"
+category: alpine
+description: Open source media server
+uri:
+  - http://www.icecast.org
+license: GPL

@@ -1,0 +1,7 @@
+name: at-spi2-core-doc
+version: "2.38.0"
+category: alpine
+description: Protocol definitions and daemon for D-Bus at-spi
+uri:
+  - https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license: LGPL-2.0-or-later

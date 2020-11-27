@@ -1,0 +1,7 @@
+name: meson-vim
+version: "0.56.0"
+category: alpine
+description: Fast and user friendly build system
+uri:
+  - https://mesonbuild.com
+license: Apache-2.0

@@ -1,0 +1,7 @@
+name: libtirpc-static
+version: "1.2.6"
+category: alpine
+description: Transport Independent RPC library (SunRPC replacement)
+uri:
+  - https://sourceforge.net/projects/libtirpc
+license: BSD-3-Clause

@@ -1,0 +1,103 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: atk-dev
+    version: '>=0'
+  - category: alpine
+    name: gdk-pixbuf-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: libepoxy-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libxi-dev
+    version: '>=0'
+  - category: alpine
+    name: libxinerama-dev
+    version: '>=0'
+  - category: alpine
+    name: wayland-protocols
+    version: '>=0'
+  - category: alpine
+    name: wayland-libs-client
+    version: '>=0'
+  - category: alpine
+    name: wayland-libs-cursor
+    version: '>=0'
+  - category: alpine
+    name: libxkbcommon-dev
+    version: '>=0'
+  - category: alpine
+    name: cups-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: gobject-introspection-dev
+    version: '>=0'
+  - category: alpine
+    name: libice-dev
+    version: '>=0'
+  - category: alpine
+    name: tiff-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: at-spi2-atk-dev
+    version: '>=0'
+  - category: alpine
+    name: cairo-dev
+    version: '>=0'
+  - category: alpine
+    name: fontconfig-dev
+    version: '>=0'
+  - category: alpine
+    name: pango-dev
+    version: '>=0'
+  - category: alpine
+    name: wayland-dev
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxcomposite-dev
+    version: '>=0'
+  - category: alpine
+    name: libxcursor-dev
+    version: '>=0'
+  - category: alpine
+    name: libxdamage-dev
+    version: '>=0'
+  - category: alpine
+    name: libxfixes-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrandr-dev
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: gtk-doc
+    version: '>=0'
+  - category: alpine
+    name: iso-codes-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

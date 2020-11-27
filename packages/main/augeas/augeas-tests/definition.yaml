@@ -1,0 +1,7 @@
+name: augeas-tests
+version: "1.12.0"
+category: alpine
+description: A configuration editing tool
+uri:
+  - http://augeas.net
+license: LGPL-2.0-or-later

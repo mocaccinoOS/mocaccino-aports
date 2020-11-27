@@ -1,0 +1,43 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: freetype-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libsm-dev
+    version: '>=0'
+  - category: alpine
+    name: tiff-dev
+    version: '>=0'
+  - category: alpine
+    name: giflib-dev
+    version: '>=0'
+  - category: alpine
+    name: bzip2-dev
+    version: '>=0'
+  - category: alpine
+    name: libpng-dev
+    version: '>=0'
+  - category: alpine
+    name: libid3tag-dev
+    version: '>=0'
+  - category: alpine
+    name: libjpeg-turbo-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: libwebp-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

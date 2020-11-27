@@ -1,0 +1,13 @@
+name: nagios
+version: "4.4.6"
+category: alpine
+description: Popular monitoring tool
+uri:
+  - https://www.nagios.org/
+license: GPL-2.0-only
+labels:
+  package.source: "https://downloads.sourceforge.net/nagios/nagios-4.4.6.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

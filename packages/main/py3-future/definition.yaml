@@ -1,0 +1,16 @@
+name: py3-future
+version: "0.18.2"
+category: alpine
+description: Easy, clean, reliable Python 2/3 compatibility
+uri:
+  - http://python-future.org/
+license: MIT
+labels:
+  package.source: "py3-future-0.18.2.tar.gz::https://pypi.io/packages/source/f/future/future-0.18.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

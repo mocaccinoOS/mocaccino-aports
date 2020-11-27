@@ -1,0 +1,7 @@
+name: perl-heap-doc
+version: "0.80"
+category: alpine
+description: Perl extensions for keeping data partially sorted
+uri:
+  - https://metacpan.org/release/Heap/
+license: GPL PerlArtistic

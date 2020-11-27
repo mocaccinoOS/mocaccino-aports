@@ -1,0 +1,7 @@
+name: perl-importer-doc
+version: "0.026"
+category: alpine
+description: Alternative but compatible interface to modules that export symbols.
+uri:
+  - https://metacpan.org/release/Importer
+license: PerlArtistic

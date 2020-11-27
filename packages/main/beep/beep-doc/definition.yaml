@@ -1,0 +1,7 @@
+name: beep-doc
+version: "1.4.9"
+category: alpine
+description: A terminal bell
+uri:
+  - https://github.com/spkr-beep/beep
+license: GPL-2.0-or-later

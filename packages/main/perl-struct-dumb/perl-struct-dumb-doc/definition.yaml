@@ -1,0 +1,7 @@
+name: perl-struct-dumb-doc
+version: "0.12"
+category: alpine
+description: Make simple lightweight record-like structures
+uri:
+  - https://metacpan.org/release/Struct-Dumb/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

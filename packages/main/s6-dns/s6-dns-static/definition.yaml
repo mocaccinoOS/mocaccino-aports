@@ -1,0 +1,7 @@
+name: s6-dns-static
+version: "2.3.3.0"
+category: alpine
+description: skarnet.org's DNS client libraries and command-line DNS client utilities
+uri:
+  - http://skarnet.org/software/s6-dns/
+license: ISC

@@ -1,0 +1,7 @@
+name: xf86-input-synaptics-doc
+version: "1.9.1"
+category: alpine
+description: X.org synaptics input driver
+uri:
+  - https://www.x.org
+license: MIT

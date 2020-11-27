@@ -1,0 +1,9 @@
+name: libao
+version: "1.2.2"
+category: alpine
+description: Cross-platform audio output library and plugins
+uri:
+  - http://www.xiph.org/ao
+license: GPL-2.0-or-later
+labels:
+  package.source: "libao-1.2.2.tar.gz::https://github.com/xiph/libao/archive/1.2.2.tar.gz"

@@ -1,0 +1,13 @@
+name: net-tools
+version: "1.60_git20140218"
+category: alpine
+description: Linux networking base tools
+uri:
+  - https://sourceforge.net/projects/net-tools/
+license: GPL-2.0
+labels:
+  package.source: "https://downloads.sourceforge.net/project/net-tools/net-tools-1.60.tar.bz2"
+requires:
+  - category: alpine
+    name: "mii-tool"
+    version: '>=0'

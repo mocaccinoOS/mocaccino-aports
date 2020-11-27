@@ -1,0 +1,13 @@
+name: utmps
+version: "0.0.3.2"
+category: alpine
+description: A secure utmp/wtmp implementation
+uri:
+  - https://skarnet.org/software/utmps/
+license: ISC
+labels:
+  package.source: "https://skarnet.org/software/utmps/utmps-0.0.3.2.tar.gz"
+requires:
+  - category: alpine
+    name: "s6-ipcserver"
+    version: '>=0'

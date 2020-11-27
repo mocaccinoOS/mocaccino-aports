@@ -1,0 +1,25 @@
+name: shorewall6
+version: "5.2.8"
+category: alpine
+description: Files for the IPV6 Shorewall Firewall
+uri:
+  - https://shorewall.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://shorewall.org/pub/shorewall/5.2/shorewall-5.2.8/shorewall6-5.2.8.tar.bz2"
+requires:
+  - category: alpine
+    name: "shorewall-core"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "ip6tables"
+    version: '>=0'
+  - category: alpine
+    name: "iproute2"
+    version: '>=0'
+  - category: alpine
+    name: "perl-socket6"
+    version: '>=0'

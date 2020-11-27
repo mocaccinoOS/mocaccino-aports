@@ -1,0 +1,7 @@
+name: perl-file-slurp-doc
+version: "9999.32"
+category: alpine
+description: Simple and Efficient Reading/Writing/Modifying of Complete Files
+uri:
+  - https://metacpan.org/release/File-Slurp
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

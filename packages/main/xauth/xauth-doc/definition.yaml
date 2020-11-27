@@ -1,0 +1,7 @@
+name: xauth-doc
+version: "1.1"
+category: alpine
+description: X.Org authorization settings program
+uri:
+  - http://xorg.freedesktop.org/
+license: custom

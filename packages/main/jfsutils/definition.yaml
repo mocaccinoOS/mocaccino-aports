@@ -1,0 +1,9 @@
+name: jfsutils
+version: "1.1.15"
+category: alpine
+description: JFS filesystem utilities
+uri:
+  - http://jfs.sourceforge.net
+license: GPL-3.0-or-later
+labels:
+  package.source: "http://jfs.sourceforge.net/project/pub/jfsutils-1.1.15.tar.gz"

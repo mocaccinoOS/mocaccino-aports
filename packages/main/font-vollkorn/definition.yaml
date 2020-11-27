@@ -1,0 +1,9 @@
+name: font-vollkorn
+version: "4.105"
+category: alpine
+description: Vollkorn typeface by Friedrich Althausen
+uri:
+  - http://vollkorn-typeface.com/
+license: OFL
+labels:
+  package.source: "font-vollkorn-4.105.zip::http://vollkorn-typeface.com/download/vollkorn-4-105.zip"

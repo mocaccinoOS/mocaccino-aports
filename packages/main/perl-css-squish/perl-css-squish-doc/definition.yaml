@@ -1,0 +1,7 @@
+name: perl-css-squish-doc
+version: "0.10"
+category: alpine
+description: CSS::Squish perl module
+uri:
+  - https://metacpan.org/release/CSS-Squish/
+license: GPL-2.0 or Artistic

@@ -1,0 +1,13 @@
+name: perl-term-table
+version: "0.015"
+category: alpine
+description: Format a header and rows into a table
+uri:
+  - https://metacpan.org/release/Term-Table
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.015.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-importer"
+    version: '>=0'

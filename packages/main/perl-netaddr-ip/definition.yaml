@@ -1,0 +1,13 @@
+name: perl-netaddr-ip
+version: "4.079"
+category: alpine
+description: Perl extension for managing IPv4 and IPv6 addresses and subnets
+uri:
+  - http://search.cpan.org/~miker/NetAddr-IP-4.079/
+license: GPL-2.0 and Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MI/MIKER/NetAddr-IP-4.079.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

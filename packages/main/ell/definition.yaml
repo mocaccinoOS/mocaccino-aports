@@ -1,0 +1,9 @@
+name: ell
+version: "0.33"
+category: alpine
+description: Linux library for embedded development
+uri:
+  - https://01.org/ell
+license: GPL-2.0-only
+labels:
+  package.source: "https://mirrors.edge.kernel.org/pub/linux/libs/ell/ell-0.33.tar.gz"

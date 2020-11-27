@@ -1,0 +1,7 @@
+name: mosquitto-openrc
+version: "1.6.12"
+category: alpine
+description: An open source MQTT broker
+uri:
+  - https://mosquitto.org/
+license: EPL-1.0

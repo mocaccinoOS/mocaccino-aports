@@ -1,0 +1,9 @@
+name: libdnet
+version: "1.12"
+category: alpine
+description: A simplified, portable interface to several low-level networking routines
+uri:
+  - https://github.com/dugsong/libdnet
+license: BSD-3-Clause
+labels:
+  package.source: "https://github.com/dugsong/libdnet/archive/libdnet-1.12.tar.gz"

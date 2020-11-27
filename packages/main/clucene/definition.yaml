@@ -1,0 +1,9 @@
+name: clucene
+version: "2.3.3.4"
+category: alpine
+description: A C++ port of Lucene
+uri:
+  - http://www.sourceforge.net/projects/clucene
+license: LGPL-2.0-or-later or Apache-2.0
+labels:
+  package.source: "https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz"

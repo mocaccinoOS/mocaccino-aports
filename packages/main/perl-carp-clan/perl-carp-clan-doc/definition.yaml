@@ -1,0 +1,7 @@
+name: perl-carp-clan-doc
+version: "6.08"
+category: alpine
+description: Perl - Report errors from perspective of caller of a 'clan' of modules
+uri:
+  - https://metacpan.org/pod/Carp::Clan
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

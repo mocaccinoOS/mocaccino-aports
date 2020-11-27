@@ -1,0 +1,7 @@
+name: clamav-libunrar
+version: "0.103.0"
+category: alpine
+description: An anti-virus toolkit for UNIX eis-ng backport
+uri:
+  - https://www.clamav.net/
+license: GPL-2.0-only WITH OpenSSL-Exception

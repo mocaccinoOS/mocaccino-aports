@@ -1,0 +1,16 @@
+name: perl-convert-color
+version: "0.11"
+category: alpine
+description: color space conversions and named lookups
+uri:
+  - https://metacpan.org/release/Convert-Color/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Convert-Color-0.11.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-list-utilsby"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-pluggable"
+    version: '>=0'

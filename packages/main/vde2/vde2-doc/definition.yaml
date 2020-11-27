@@ -1,0 +1,7 @@
+name: vde2-doc
+version: "2.3.2"
+category: alpine
+description: 'VDE: Virtual Distributed Ethernet. User mode networking for QEMU, UML, etc.'
+uri:
+  - http://vde.sf.net
+license: GPL

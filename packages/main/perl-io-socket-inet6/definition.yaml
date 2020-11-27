@@ -1,0 +1,13 @@
+name: perl-io-socket-inet6
+version: "2.72"
+category: alpine
+description: Object interface for AF_INET|AF_INET6 domain sockets
+uri:
+  - https://metacpan.org/pod/IO::Socket::INET6
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/IO-Socket-INET6-2.72.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-socket6"
+    version: '>=0'

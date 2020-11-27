@@ -1,0 +1,19 @@
+name: perl-test-script
+version: "1.26"
+category: alpine
+description: Basic cross-platform tests for scripts
+uri:
+  - https://metacpan.org/release/Test-Script
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Test-Script-1.26.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-ipc-run3"
+    version: '>=0'
+  - category: alpine
+    name: "perl-probe-perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-simple"
+    version: '>=0'

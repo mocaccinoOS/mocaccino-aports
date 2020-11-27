@@ -1,0 +1,76 @@
+name: amavis
+version: "2.12.1"
+category: alpine
+description: High-performance interface between mailer (MTA) and content checkers
+uri:
+  - https://gitlab.com/amavis/amavis
+license: GPL-2.0-or-later BSD
+labels:
+  package.source: "https://gitlab.com/amavis/amavis/-/archive/v2.12.1/amavis-v2.12.1.tar.gz"
+requires:
+  - category: alpine
+    name: "sed"
+    version: '>=0'
+  - category: alpine
+    name: "file"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-archive-zip"
+    version: '>=0'
+  - category: alpine
+    name: "perl-carp"
+    version: '>=0'
+  - category: alpine
+    name: "perl-convert-tnef"
+    version: '>=0'
+  - category: alpine
+    name: "perl-compress-raw-zlib"
+    version: '>=0'
+  - category: alpine
+    name: "perl-convert-uulib"
+    version: '>=0'
+  - category: alpine
+    name: "perl-digest-md5"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io"
+    version: '>=0'
+  - category: alpine
+    name: "perl-exporter"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-stringy"
+    version: '>=0'
+  - category: alpine
+    name: "perl-mime-tools"
+    version: '>=0'
+  - category: alpine
+    name: "perl-mailtools"
+    version: '>=0'
+  - category: alpine
+    name: "perl-socket"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-libidn"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-server"
+    version: '>=0'
+  - category: alpine
+    name: "perl-time-hires"
+    version: '>=0'
+  - category: alpine
+    name: "perl-unix-syslog"
+    version: '>=0'
+  - category: alpine
+    name: "perl-mail-dkim"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-socket-inet6"
+    version: '>=0'
+  - category: alpine
+    name: "perl-mail-spamassassin"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: ciwiki-doc
+version: "2.0.5"
+category: alpine
+description: personal lightweight wiki written in C
+uri:
+  - http://ciwiki.sourceforge.net/
+license: GPL-2.0-or-later

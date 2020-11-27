@@ -1,0 +1,7 @@
+name: awstats-doc
+version: "7.8"
+category: alpine
+description: Free real-time logfile analyzer to get advanced statistics
+uri:
+  - http://awstats.sourceforge.net/
+license: GPL-3.0-or-later

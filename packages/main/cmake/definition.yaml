@@ -1,0 +1,9 @@
+name: cmake
+version: "3.18.4"
+category: alpine
+description: Cross-platform, open-source make system
+uri:
+  - https://www.cmake.org/
+license: BSD-3-Clause
+labels:
+  package.source: "https://www.cmake.org/files/v3.18/cmake-3.18.4.tar.gz"

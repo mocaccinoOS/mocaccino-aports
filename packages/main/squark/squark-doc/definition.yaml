@@ -1,0 +1,7 @@
+name: squark-doc
+version: "0.6.1"
+category: alpine
+description: Squid User Authentication and Rating Kit
+uri:
+  - https://git.alpinelinux.org/cgit/squark/
+license: GPL-2.0-only

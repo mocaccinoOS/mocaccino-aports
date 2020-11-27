@@ -1,0 +1,7 @@
+name: sqlite-dev
+version: "3.33.0"
+category: alpine
+description: C library that implements an SQL database engine
+uri:
+  - https://www.sqlite.org/
+license: Public-Domain

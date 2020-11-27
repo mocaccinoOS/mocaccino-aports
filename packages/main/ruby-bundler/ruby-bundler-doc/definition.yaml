@@ -1,0 +1,7 @@
+name: ruby-bundler-doc
+version: "2.1.4"
+category: alpine
+description: Manage an application's gem dependencies
+uri:
+  - https://bundler.io/
+license: MIT

@@ -1,0 +1,40 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: cairo-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: gobject-introspection-dev
+    version: '>=0'
+  - category: alpine
+    name: help2man
+    version: '>=0'
+  - category: alpine
+    name: fontconfig-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: harfbuzz-dev
+    version: '>=0'
+  - category: alpine
+    name: libxft-dev
+    version: '>=0'
+  - category: alpine
+    name: fribidi-dev
+    version: '>=0'
+  - category: alpine
+    name: gtk-doc
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-mozilla-ca-doc
+version: "20200520"
+category: alpine
+description: Mozilla's CA cert bundle in PEM format
+uri:
+  - https://metacpan.org/release/Mozilla-CA
+license: GPL PerlArtistic

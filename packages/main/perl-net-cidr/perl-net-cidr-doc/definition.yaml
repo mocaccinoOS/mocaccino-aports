@@ -1,0 +1,7 @@
+name: perl-net-cidr-doc
+version: "0.20"
+category: alpine
+description: Manipulate IPv4/IPv6 netblocks in CIDR notation
+uri:
+  - https://metacpan.org/release/Net-CIDR
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

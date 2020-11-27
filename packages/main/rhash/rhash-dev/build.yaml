@@ -1,0 +1,7 @@
+requires:
+  - category: alpine
+    name: rhash
+    version: '>=0'
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh

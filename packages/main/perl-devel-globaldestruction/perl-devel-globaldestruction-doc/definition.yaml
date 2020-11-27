@@ -1,0 +1,7 @@
+name: perl-devel-globaldestruction-doc
+version: "0.14"
+category: alpine
+description: unknown
+uri:
+  - https://metacpan.org/release/Devel-GlobalDestruction/
+license: GPL PerlArtistic

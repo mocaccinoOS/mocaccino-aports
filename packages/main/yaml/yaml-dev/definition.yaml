@@ -1,0 +1,7 @@
+name: yaml-dev
+version: "0.2.5"
+category: alpine
+description: YAML 1.1 parser and emitter written in C
+uri:
+  - https://pyyaml.org/wiki/LibYAML
+license: MIT

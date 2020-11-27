@@ -1,0 +1,7 @@
+name: lua5.1-dbi-postgresql
+version: "0.7.2"
+category: alpine
+description: A database interface library for Lua
+uri:
+  - https://github.com/mwild1/luadbi
+license: MIT

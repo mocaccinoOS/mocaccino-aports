@@ -1,0 +1,7 @@
+name: perl-xml-simple-doc
+version: "2.25"
+category: alpine
+description: Simple XML parser for Perl
+uri:
+  - https://metacpan.org/release/XML-Simple
+license: Artistic-1.0-Perl

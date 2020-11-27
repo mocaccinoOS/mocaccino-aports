@@ -1,0 +1,13 @@
+name: perl-io-tty
+version: "1.15"
+category: alpine
+description: Pseudo ttys and constants
+uri:
+  - https://metacpan.org/release/IO-Tty/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TODDR/IO-Tty-1.15.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: yajl
+version: "2.1.0"
+category: alpine
+description: Yet Another JSON Library (YAJL)
+uri:
+  - http://lloyd.github.com/yajl/
+license: MIT
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/yajl/yajl-2.1.0.tar.gz"

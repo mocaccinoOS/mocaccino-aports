@@ -1,0 +1,13 @@
+name: lua-inspect
+version: "3.1.1"
+category: alpine
+description: Human-readable representation of Lua tables
+uri:
+  - https://github.com/kikito/inspect.lua
+license: MIT
+labels:
+  package.source: "lua-inspect-3.1.1.tar.gz::https://github.com/kikito/inspect.lua/archive/v3.1.1.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

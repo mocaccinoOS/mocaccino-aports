@@ -1,0 +1,7 @@
+name: perl-net-openssh-doc
+version: "0.80"
+category: alpine
+description: Perl SSH client package implemented on top of OpenSSH
+uri:
+  - https://metacpan.org/release/Net-OpenSSH/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

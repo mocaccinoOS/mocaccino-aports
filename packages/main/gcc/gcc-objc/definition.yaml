@@ -1,0 +1,7 @@
+name: gcc-objc
+version: "10.2.1_pre0"
+category: alpine
+description: The GNU Compiler Collection
+uri:
+  - https://gcc.gnu.org
+license: GPL-2.0-or-later LGPL-2.1-or-later

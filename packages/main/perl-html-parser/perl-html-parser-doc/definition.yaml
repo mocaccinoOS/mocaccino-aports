@@ -1,0 +1,7 @@
+name: perl-html-parser-doc
+version: "3.75"
+category: alpine
+description: HTML parser class
+uri:
+  - https://metacpan.org/release/HTML-Parser/
+license: Artistic-1.0-Perl or GPL-1.0-or-later

@@ -1,0 +1,7 @@
+name: perl-json-doc
+version: "4.02"
+category: alpine
+description: Perl module implementing a JSON encoder/decoder
+uri:
+  - https://metacpan.org/release/JSON
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

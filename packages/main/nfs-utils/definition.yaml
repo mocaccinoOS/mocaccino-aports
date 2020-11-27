@@ -1,0 +1,13 @@
+name: nfs-utils
+version: "2.5.1"
+category: alpine
+description: kernel-mode NFS
+uri:
+  - https://linux-nfs.org/
+license: GPL-2.0-or-later BSD-3-Clause
+labels:
+  package.source: "https://www.kernel.org/pub/linux/utils/nfs-utils/2.5.1/nfs-utils-2.5.1.tar.xz"
+requires:
+  - category: alpine
+    name: "rpcbind"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: unrar
+version: "5.9.4"
+category: alpine
+description: RAR uncompression program
+uri:
+  - https://www.rarlab.com
+license: custom
+labels:
+  package.source: "https://www.rarlab.com/rar/unrarsrc-5.9.4.tar.gz"

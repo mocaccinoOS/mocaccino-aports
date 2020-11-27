@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: texinfo
+    version: '>=0'
+  - category: alpine
+    name: help2man
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: readline-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

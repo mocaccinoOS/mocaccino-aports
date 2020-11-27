@@ -1,0 +1,16 @@
+name: lua-penlight
+version: "1.7.0"
+category: alpine
+description: Lua libraries for extended operations on tables, lists and strings
+uri:
+  - http://stevedonovan.github.io/Penlight
+license: MIT
+labels:
+  package.source: "penlight-1.7.0.tar.gz::https://github.com/stevedonovan/Penlight/archive/1.7.0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'
+  - category: alpine
+    name: "lua-filesystem"
+    version: '>=0'

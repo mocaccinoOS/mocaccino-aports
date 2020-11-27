@@ -1,0 +1,7 @@
+name: eventlog-dev
+version: "0.2.13"
+category: alpine
+description: API to format and send structured log messages
+uri:
+  - https://www.balabit.com/support/community/products/
+license: BSD-3-Clause

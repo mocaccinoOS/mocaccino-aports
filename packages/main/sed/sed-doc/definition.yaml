@@ -1,0 +1,7 @@
+name: sed-doc
+version: "4.8"
+category: alpine
+description: GNU stream editor
+uri:
+  - https://www.gnu.org/software/sed
+license: GPL-3.0-or-later

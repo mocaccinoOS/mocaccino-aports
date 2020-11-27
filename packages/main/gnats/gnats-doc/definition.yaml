@@ -1,0 +1,7 @@
+name: gnats-doc
+version: "4.2.0"
+category: alpine
+description: The GNU Bug Tracking System
+uri:
+  - https://www.gnu.org/software/gnats/
+license: GPL-3.0

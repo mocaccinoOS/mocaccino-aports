@@ -1,0 +1,13 @@
+name: py3-sphinxcontrib-applehelp
+version: "1.0.2"
+category: alpine
+description: Sphinx applehelp extension
+uri:
+  - https://pypi.python.org/pypi/sphinxcontrib-applehelp
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-applehelp/sphinxcontrib-applehelp-1.0.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

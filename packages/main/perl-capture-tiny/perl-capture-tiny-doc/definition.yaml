@@ -1,0 +1,7 @@
+name: perl-capture-tiny-doc
+version: "0.48"
+category: alpine
+description: Capture STDOUT and STDERR from Perl, XS or external programs
+uri:
+  - https://metacpan.org/release/Capture-Tiny/
+license: Apache-2.0

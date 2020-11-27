@@ -1,0 +1,7 @@
+name: libunwind-dev
+version: "1.5.0"
+category: alpine
+description: Portable and efficient C programming interface (API) to determine the call-chain of a program
+uri:
+  - https://www.nongnu.org/libunwind/
+license: MIT

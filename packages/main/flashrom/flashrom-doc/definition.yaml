@@ -1,0 +1,7 @@
+name: flashrom-doc
+version: "1.2"
+category: alpine
+description: A utility for identifying, reading, writing, verifying and erasing flash chips
+uri:
+  - https://www.flashrom.org/Flashrom
+license: GPL-2.0-or-later

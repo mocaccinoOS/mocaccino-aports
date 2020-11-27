@@ -1,0 +1,7 @@
+name: perl-io-stringy-doc
+version: "2.113"
+category: alpine
+description: A Perl module for I/O on in-core objects like strings and arrays
+uri:
+  - https://metacpan.org/pod/IO::Stringy
+license: Artistic-Perl-1.0 OR GPL-1.0-or-later

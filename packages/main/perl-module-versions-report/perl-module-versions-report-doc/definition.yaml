@@ -1,0 +1,7 @@
+name: perl-module-versions-report-doc
+version: "1.06"
+category: alpine
+description: Module::Versions::Report perl module
+uri:
+  - https://metacpan.org/release/Module-Versions-Report/
+license: GPL-2.0 or Artistic

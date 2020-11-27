@@ -1,0 +1,7 @@
+name: libfontenc-dev
+version: "1.1.4"
+category: alpine
+description: X11 font encoding library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

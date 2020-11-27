@@ -1,0 +1,13 @@
+name: linux-octeon
+version: "5.4.70"
+category: alpine
+description: Linux lts kernel (for Octeon)
+uri:
+  - http://kernel.org
+license: GPL-2.0
+labels:
+  package.source: "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz"
+requires:
+  - category: alpine
+    name: "mkinitfs"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-convert-binhex-doc
+version: "1.125"
+category: alpine
+description: Extract data from Macintosh BinHex files
+uri:
+  - https://metacpan.org/release/Convert-BinHex/
+license: Artistic-1.0 GPL+

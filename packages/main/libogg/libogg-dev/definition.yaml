@@ -1,0 +1,7 @@
+name: libogg-dev
+version: "1.3.4"
+category: alpine
+description: Ogg bitstream and framing library
+uri:
+  - https://xiph.org/ogg/
+license: BSD-3-Clause

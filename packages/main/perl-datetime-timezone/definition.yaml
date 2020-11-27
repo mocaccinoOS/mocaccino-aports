@@ -1,0 +1,31 @@
+name: perl-datetime-timezone
+version: "2.44"
+category: alpine
+description: Time zone object base class and factory
+uri:
+  - https://metacpan.org/release/DateTime-TimeZone/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.44.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-validationcompiler"
+    version: '>=0'
+  - category: alpine
+    name: "perl-specio"
+    version: '>=0'
+  - category: alpine
+    name: "perl-class-singleton"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-runtime"
+    version: '>=0'
+  - category: alpine
+    name: "perl-try-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-namespace-autoclean"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: utmps-dev
+version: "0.0.3.2"
+category: alpine
+description: A secure utmp/wtmp implementation
+uri:
+  - https://skarnet.org/software/utmps/
+license: ISC

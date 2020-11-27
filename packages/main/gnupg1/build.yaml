@@ -1,0 +1,28 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: libassuan
+    version: '>=0'
+  - category: alpine
+    name: libksba-dev
+    version: '>=0'
+  - category: alpine
+    name: libgcrypt-dev
+    version: '>=0'
+  - category: alpine
+    name: libgpg-error-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libassuan-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

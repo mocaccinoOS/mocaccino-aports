@@ -1,0 +1,9 @@
+name: cutter
+version: "1.04"
+category: alpine
+description: A program that allows firewall administrators to abort TCP/IP connections
+uri:
+  - http://www.digitage.co.uk/digitage/software/linux-security/cutter
+license: GPL-2.0
+labels:
+  package.source: "http://www.digitage.co.uk/digitage/files/cutter/cutter-1.04.tgz"

@@ -1,0 +1,7 @@
+name: libevent-static
+version: "2.1.12"
+category: alpine
+description: An event notification library
+uri:
+  - https://libevent.org/
+license: BSD-3-Clause

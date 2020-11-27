@@ -1,0 +1,9 @@
+name: perl-config-grammar
+version: "1.13"
+category: alpine
+description: A grammar-based, user-friendly config parser
+uri:
+  - https://metacpan.org/release/Config-Grammar/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DS/DSCHWEI/Config-Grammar-1.13.tar.gz"

@@ -1,0 +1,9 @@
+name: libgpg-error
+version: "1.39"
+category: alpine
+description: Support library for libgcrypt
+uri:
+  - http://www.gnupg.org
+license: GPL-2.0-or-later LGPL-2.1-or-later
+labels:
+  package.source: "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.39.tar.bz2"

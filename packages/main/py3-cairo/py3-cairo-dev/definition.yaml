@@ -1,0 +1,7 @@
+name: py3-cairo-dev
+version: "1.20.0"
+category: alpine
+description: Python3 bindings for the cairo graphics library
+uri:
+  - http://cairographics.org/pycairo/
+license: LGPL-2.0-or-later

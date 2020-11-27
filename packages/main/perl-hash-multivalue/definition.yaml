@@ -1,0 +1,13 @@
+name: perl-hash-multivalue
+version: "0.16"
+category: alpine
+description: Hash::MultiValue perl module
+uri:
+  - https://metacpan.org/release/Hash-MultiValue/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/Hash-MultiValue-0.16.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: dhcp-server-ldap
+version: "4.4.2"
+category: alpine
+description: ISC Dynamic Host Configuration Protocol (DHCP)
+uri:
+  - https://www.isc.org/
+license: MPL-2.0

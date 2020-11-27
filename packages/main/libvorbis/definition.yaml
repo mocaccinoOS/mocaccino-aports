@@ -1,0 +1,9 @@
+name: libvorbis
+version: "1.3.7"
+category: alpine
+description: Vorbis codec library
+uri:
+  - https://xiph.org/vorbis
+license: BSD-3-Clause
+labels:
+  package.source: "https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.7.tar.xz"

@@ -1,0 +1,7 @@
+name: openobex-dev
+version: "1.7.2"
+category: alpine
+description: Implementation of the OBject EXchange (OBEX) protocol
+uri:
+  - http://dev.zuckschwerdt.org/openobex/
+license: GPL LGPL

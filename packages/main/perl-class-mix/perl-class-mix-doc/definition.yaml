@@ -1,0 +1,7 @@
+name: perl-class-mix-doc
+version: "0.006"
+category: alpine
+description: Dynamic class mixing
+uri:
+  - https://metacpan.org/release/Class-Mix/
+license: GPL PerlArtistic

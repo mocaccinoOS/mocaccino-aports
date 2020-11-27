@@ -1,0 +1,7 @@
+name: libtls-standalone-dbg
+version: "2.9.1"
+category: alpine
+description: libtls extricated from libressl sources
+uri:
+  - https://www.libressl.org/
+license: ISC

@@ -1,0 +1,7 @@
+name: cvechecker-doc
+version: "4.0"
+category: alpine
+description: A local CVE checker tool
+uri:
+  - https://github.com/sjvermeu/cvechecker/wiki
+license: GPL-3.0

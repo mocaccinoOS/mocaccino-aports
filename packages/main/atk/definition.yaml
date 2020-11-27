@@ -1,0 +1,9 @@
+name: atk
+version: "2.36.0"
+category: alpine
+description: A library providing a set of interfaces for accessibility
+uri:
+  - https://www.gtk.org/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/atk/2.36/atk-2.36.0.tar.xz"

@@ -1,0 +1,13 @@
+name: lua-b64
+version: "0.1"
+category: alpine
+description: Lua base64 implementation with support for urlsafe
+uri:
+  - https://github.com/ncopa/lua-b64
+license: MIT
+labels:
+  package.source: "lua-b64-0.1.tar.gz::https://github.com/ncopa/lua-b64/archive/v0.1.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

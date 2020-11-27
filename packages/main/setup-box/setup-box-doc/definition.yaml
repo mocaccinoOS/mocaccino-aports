@@ -1,0 +1,7 @@
+name: setup-box-doc
+version: "1.0.1"
+category: alpine
+description: A tool to setup a variety of Alpine Linux Environments
+uri:
+  - https://git.alpinelinux.org/cgit/alacerda/setup-box/
+license: MIT

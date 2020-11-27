@@ -1,0 +1,9 @@
+name: perl-params-classify
+version: "0.015"
+category: alpine
+description: argument type classification
+uri:
+  - https://metacpan.org/release/Params-Classify/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Params-Classify-0.015.tar.gz"

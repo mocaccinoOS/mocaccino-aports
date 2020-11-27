@@ -1,0 +1,16 @@
+name: gcc
+version: "10.2.1_pre0"
+category: alpine
+description: The GNU Compiler Collection
+uri:
+  - https://gcc.gnu.org
+license: GPL-2.0-or-later LGPL-2.1-or-later
+labels:
+  package.source: "https://dev.alpinelinux.org/~nenolod/gcc-10.2.1.tar.xz"
+requires:
+  - category: alpine
+    name: "binutils"
+    version: '>=0'
+  - category: alpine
+    name: "libgomp=10.2.1_pre0-r3"
+    version: '>=0'

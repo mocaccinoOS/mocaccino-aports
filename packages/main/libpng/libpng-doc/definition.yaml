@@ -1,0 +1,7 @@
+name: libpng-doc
+version: "1.6.37"
+category: alpine
+description: Portable Network Graphics library
+uri:
+  - http://www.libpng.org
+license: Libpng

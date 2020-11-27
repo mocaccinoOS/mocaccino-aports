@@ -1,0 +1,9 @@
+name: nghttp2
+version: "1.42.0"
+category: alpine
+description: Experimental HTTP/2 client, server and proxy
+uri:
+  - https://nghttp2.org
+license: MIT
+labels:
+  package.source: "https://github.com/nghttp2/nghttp2/releases/download/v1.42.0/nghttp2-1.42.0.tar.xz"

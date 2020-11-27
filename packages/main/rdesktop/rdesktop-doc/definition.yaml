@@ -1,0 +1,7 @@
+name: rdesktop-doc
+version: "1.9.0"
+category: alpine
+description: rdesktop is used to connect to windows terminal servers
+uri:
+  - https://www.rdesktop.org/
+license: GPL-3.0-or-later

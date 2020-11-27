@@ -1,0 +1,22 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: bash
+    version: '>=0'
+  - category: alpine
+    name: iptables-dev
+    version: '>=0'
+  - category: alpine
+    name: elfutils-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

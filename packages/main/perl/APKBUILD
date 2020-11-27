@@ -1,0 +1,171 @@
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+# Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
+# Contributor: Valery Kartel <valery.kartel@gmail.com>
+pkgname=perl
+pkgver=5.32.0
+pkgrel=0
+pkgdesc="Larry Wall's Practical Extraction and Report Language"
+url="https://www.perl.org/"
+arch="all"
+license="Artistic-Perl OR GPL-1.0-or-later"
+options="!check !fhs"
+depends_dev="perl-utils"
+makedepends="bzip2-dev zlib-dev"
+subpackages="$pkgname-doc $pkgname-dev $pkgname-utils::noarch miniperl"
+source="https://www.cpan.org/src/5.0/perl-$pkgver.tar.gz
+	musl-locale.patch
+	skip-test-due-to-busybox-ps.patch
+	musl-stack-size.patch
+	"
+
+# secfixes:
+#   5.30.3-r0:
+#     - CVE-2020-10543
+#     - CVE-2020-10878
+#     - CVE-2020-12723
+#   5.26.3-r0:
+#     - CVE-2018-18311
+#     - CVE-2018-18312
+#     - CVE-2018-18313
+#     - CVE-2018-18314
+#   5.26.2-r1:
+#     - CVE-2018-12015
+#   5.26.2-r0:
+#     - CVE-2018-6797
+#     - CVE-2018-6798
+#     - CVE-2018-6913
+#   5.26.1-r0:
+#     - CVE-2017-12837
+#     - CVE-2017-12883
+
+
+_privlib=/usr/share/perl5/core_perl
+_archlib=/usr/lib/perl5/core_perl
+
+prepare() {
+	chmod +w "$builddir"/*.c
+	default_prepare
+	sed	-e 's/less -R/less/g' \
+		-e 's/libswanted="\(.*\) nsl\(.*\)"/libswanted="\1\2"/g' \
+		-i ./Configure
+
+	# Ensure that we never accidentally bundle zlib or bzip2
+	rm -rf cpan/Compress-Raw-Zlib/zlib-src
+	rm -rf cpan/Compress-Raw-Bzip2/bzip2-src
+	sed -i '/\(bzip2\|zlib\)-src/d' MANIFEST
+}
+
+build() {
+	BUILD_ZLIB=0
+	BUILD_BZIP2=0
+	BZIP2_LIB=/usr/lib
+	BZIP2_INCLUDE=/usr/include
+
+	export BUILD_ZLIB BUILD_BZIP2 BZIP2_LIB BZIP2_INCLUDE
+	./Configure -des \
+		-Dcccdlflags='-fPIC' \
+		-Dcccdlflags='-fPIC' \
+		-Dccdlflags='-rdynamic' \
+		-Dprefix=/usr \
+		-Dprivlib=$_privlib \
+		-Darchlib=$_archlib \
+		-Dvendorprefix=/usr \
+		-Dvendorlib=/usr/share/perl5/vendor_perl \
+		-Dvendorarch=/usr/lib/perl5/vendor_perl \
+		-Dsiteprefix=/usr/local \
+		-Dsitelib=/usr/local/share/perl5/site_perl \
+		-Dsitearch=/usr/local/lib/perl5/site_perl \
+		-Dlocincpth=' ' \
+		-Doptimize="$CFLAGS" \
+		-Duselargefiles \
+		-Dusethreads \
+		-Duseshrplib \
+		-Dd_semctl_semun \
+		-Dman1dir=/usr/share/man/man1 \
+		-Dman3dir=/usr/share/man/man3 \
+		-Dinstallman1dir=/usr/share/man/man1 \
+		-Dinstallman3dir=/usr/share/man/man3 \
+		-Dman1ext='1' \
+		-Dman3ext='3pm' \
+		-Dcf_by='Alpine' \
+		-Ud_csh \
+		-Dusenm
+	make libperl.so && make
+}
+
+check() {
+	export CI=true
+	export LC_ALL=C
+	make test-notty
+}
+
+package() {
+	make DESTDIR="$pkgdir" install
+	if [ -n "$(find $pkgdir/usr/local -type f)" ]; then
+		error "files found under /usr/local"
+		return 1
+	fi
+	find "$pkgdir" -name '.*' -delete
+}
+
+miniperl() {
+	install -Dm755 "$builddir"/$subpkgname \
+		"$subpkgdir"/usr/bin/$subpkgname
+}
+
+doc() {
+	default_doc
+	local file; for file in $(find "$pkgdir" -name "*.pod"); do
+		file=${file#$pkgdir/}
+		mkdir -p "$subpkgdir"/${file%/*}
+		mv "$pkgdir"/$file "$subpkgdir"/$file
+	done
+}
+
+dev() {
+	mkdir -p "$subpkgdir"/usr/bin "$subpkgdir"/$_archlib "$subpkgdir"/$_privlib
+	mv "$pkgdir"/$_archlib/Devel "$subpkgdir"/$_archlib/
+	mv "$pkgdir"/$_privlib/Encode "$subpkgdir"/$_privlib/
+
+	mv "$pkgdir"/usr/bin/h2xs \
+		"$pkgdir"/usr/bin/perlivp \
+		"$pkgdir"/usr/bin/enc2xs \
+		"$pkgdir"/usr/bin/xsubpp \
+		"$subpkgdir"/usr/bin/
+
+	default_dev
+}
+
+utils() {
+	pkgdesc="$pkgdesc (misc utilities)"
+	depends="$pkgname"
+	mkdir -p "$subpkgdir"/usr/bin
+	local file
+	for file in \
+		corelist \
+		cpan \
+		encguess \
+		libnetcfg \
+		h2ph \
+		instmodsh \
+		json_pp \
+		perlbug \
+		perlthanks \
+		piconv \
+		pl2pm \
+		prove \
+		ptar \
+		ptardiff \
+		ptargrep \
+		shasum \
+		splain \
+		zipdetails
+	do
+		mv "$pkgdir"/usr/bin/$file "$subpkgdir"/usr/bin/
+	done
+}
+
+sha512sums="b00f3482f6961be043349a09445227e99472a8ae804919bfa0641de5bbd683249deb607f3b5c6c44ccfcf916408eac125132f9660191d574de0a9d1f17892bc1  perl-5.32.0.tar.gz
+a78b5fb1a2b6f60b401329cfd2d8349d4fdcc19628cde0e9b840b82e1a02e705f7d7413fe206aa13ed714ab93a65b62ac3d85dfd526ca8048621d5d89b22f0ef  musl-locale.patch
+4e7a3be3291a851b41e484daf5b87d5bc6e372a6f1aea7ad0718fec24fda3719286baa97045255d5d7c0a327a533ff6c32e1bf4d8436550f328fb9b5e602d727  skip-test-due-to-busybox-ps.patch
+c004d6612ec754e5947255a2e2d15b5581f187c32495aeeec9f4fa286919bd9f40c72b63db61e3f4004b09288af2063a6a14b67e5c289e9a8b23ebd7c216e16f  musl-stack-size.patch"

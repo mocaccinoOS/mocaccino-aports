@@ -1,0 +1,7 @@
+name: perl-test-script-doc
+version: "1.26"
+category: alpine
+description: Basic cross-platform tests for scripts
+uri:
+  - https://metacpan.org/release/Test-Script
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

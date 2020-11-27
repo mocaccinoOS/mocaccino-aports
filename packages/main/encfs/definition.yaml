@@ -1,0 +1,9 @@
+name: encfs
+version: "1.9.5"
+category: alpine
+description: EncFS provides an encrypted filesystem in user-space
+uri:
+  - https://vgough.github.io/encfs/
+license: GPL-3.0-only
+labels:
+  package.source: "encfs-1.9.5.tar.gz::https://github.com/vgough/encfs/archive/v1.9.5.tar.gz"

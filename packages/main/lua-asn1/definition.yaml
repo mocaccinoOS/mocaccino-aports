@@ -1,0 +1,13 @@
+name: lua-asn1
+version: "2.2.0"
+category: alpine
+description: ASN.1 framework for Lua
+uri:
+  - https://github.com/kunkku/lua-asn1
+license: MIT
+labels:
+  package.source: "lua-asn1-2.2.0.tar.gz::https://github.com/kunkku/lua-asn1/archive/v2.2.0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua-stringy"
+    version: '>=0'

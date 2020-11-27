@@ -1,0 +1,13 @@
+name: rtapd
+version: "1.7"
+category: alpine
+description: daemon for routing packets to rtnppd
+uri:
+  - https://sourceforge.net/projects/rtnppd/
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/rtnppd/rtapd-1.7.tar.gz"
+requires:
+  - category: alpine
+    name: "rtnppd"
+    version: '>=0'

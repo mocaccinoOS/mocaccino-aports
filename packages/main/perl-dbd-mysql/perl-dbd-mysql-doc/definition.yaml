@@ -1,0 +1,7 @@
+name: perl-dbd-mysql-doc
+version: "4.050"
+category: alpine
+description: Perl CPAN DBD::Mysql module
+uri:
+  - http://search.cpan.org/~capttofu/DBD-mysql/
+license: GPL PerlArtistic

@@ -1,0 +1,9 @@
+name: bonding
+version: "2.6"
+category: alpine
+description: Scripts for network interface bonding
+uri:
+  - https://wiki.alpinelinux.org/wiki/Bonding
+license: GPL-2.0-or-later
+labels:
+  package.source: "bonding.pre-up bonding.up bonding.post-down"

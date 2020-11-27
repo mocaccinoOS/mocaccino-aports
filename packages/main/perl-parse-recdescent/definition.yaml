@@ -1,0 +1,13 @@
+name: perl-parse-recdescent
+version: "1.967015"
+category: alpine
+description: Generate Recursive-Descent Parsers
+uri:
+  - http://search.cpan.org/~dconway/Parse-RecDescent-1.96.0/
+license: Artistic-Perl-1.0 GPL+
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

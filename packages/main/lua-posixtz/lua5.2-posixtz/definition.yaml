@@ -1,0 +1,7 @@
+name: lua5.2-posixtz
+version: "0.5"
+category: alpine
+description: Lua module to extract POSIX timezone from tzdata
+uri:
+  - http://git.alpinelinux.org/cgit/posixtz.git/
+license: GPL-2.0

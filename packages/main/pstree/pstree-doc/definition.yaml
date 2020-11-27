@@ -1,0 +1,7 @@
+name: pstree-doc
+version: "2.39"
+category: alpine
+description: A small tool to list processes as a tree
+uri:
+  - http://www.thp.uni-duisburg.de/pstree/
+license: GPL

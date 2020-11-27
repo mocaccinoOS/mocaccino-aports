@@ -1,0 +1,16 @@
+name: perl-data-page
+version: "2.03"
+category: alpine
+description: help when paging through sets of results
+uri:
+  - https://metacpan.org/release/Data-Page/
+license: Artistic-1.0-Perl GPL-1.0-or-later
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Page-2.03.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-class-accessor-chained"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-exception"
+    version: '>=0'

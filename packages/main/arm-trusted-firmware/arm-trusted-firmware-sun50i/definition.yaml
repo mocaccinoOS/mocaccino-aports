@@ -1,0 +1,7 @@
+name: arm-trusted-firmware-sun50i
+version: "2.3"
+category: alpine
+description: ARM Trusted Firmware-A (TF-A)
+uri:
+  - https://github.com/ARM-software/arm-trusted-firmware
+license: BSD-3-Clause

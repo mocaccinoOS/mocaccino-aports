@@ -1,0 +1,22 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: xorg-server-dev
+    version: '>=0'
+  - category: alpine
+    name: util-macros
+    version: '>=0'
+  - category: alpine
+    name: mesa-dev
+    version: '>=0'
+  - category: alpine
+    name: libxi-dev
+    version: '>=0'
+  - category: alpine
+    name: xorgproto
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

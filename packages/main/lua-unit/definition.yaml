@@ -1,0 +1,13 @@
+name: lua-unit
+version: "3.3"
+category: alpine
+description: Unit-testing framework for Lua
+uri:
+  - https://github.com/bluebird75/luaunit
+license: BSD-2-Clause
+labels:
+  package.source: "https://github.com/bluebird75/luaunit/archive/LUAUNIT_V3_3.tar.gz"
+requires:
+  - category: alpine
+    name: "lua5.2"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: apache2-utils
+version: "2.4.46"
+category: alpine
+description: A high performance Unix-based HTTP server
+uri:
+  - https://httpd.apache.org/
+license: Apache-2.0

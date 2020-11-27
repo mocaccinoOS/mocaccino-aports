@@ -1,0 +1,9 @@
+name: sircbot
+version: "0.4"
+category: alpine
+description: Minimalistic IRC bot
+uri:
+  - https://git.alpinelinux.org/cgit/sircbot/
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/sircbot/sircbot-0.4.tar.xz"

@@ -1,0 +1,16 @@
+name: lxc-templates-legacy
+version: "3.0.3"
+category: alpine
+description: Legacy LXC container templates
+uri:
+  - https://linuxcontainers.org
+license: LGPL-2.1
+labels:
+  package.source: "https://linuxcontainers.org/downloads/lxc/lxc-templates-3.0.3.tar.gz"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "tar"
+    version: '>=0'

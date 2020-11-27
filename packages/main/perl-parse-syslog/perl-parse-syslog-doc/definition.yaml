@@ -1,0 +1,7 @@
+name: perl-parse-syslog-doc
+version: "1.10"
+category: alpine
+description: Perl module for Parse-Syslog
+uri:
+  - https://metacpan.org/release/Parse-Syslog/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

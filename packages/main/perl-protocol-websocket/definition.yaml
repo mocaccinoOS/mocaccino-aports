@@ -1,0 +1,13 @@
+name: perl-protocol-websocket
+version: "0.26"
+category: alpine
+description: WebSocket protocol
+uri:
+  - https://metacpan.org/release/Protocol-WebSocket
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/V/VT/VTI/Protocol-WebSocket-0.26.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

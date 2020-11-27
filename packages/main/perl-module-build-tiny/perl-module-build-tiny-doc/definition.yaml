@@ -1,0 +1,7 @@
+name: perl-module-build-tiny-doc
+version: "0.039"
+category: alpine
+description: A tiny replacement for Module::Build
+uri:
+  - https://metacpan.org/release/Module-Build-Tiny/
+license: GPL PerlArtistic

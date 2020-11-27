@@ -1,0 +1,7 @@
+name: readline-static
+version: "8.0.4"
+category: alpine
+description: GNU readline library
+uri:
+  - https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license: GPL-2.0-or-later

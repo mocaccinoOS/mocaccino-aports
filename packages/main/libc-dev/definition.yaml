@@ -1,0 +1,9 @@
+name: libc-dev
+version: "0.7.2"
+category: alpine
+description: Meta package to pull in correct libc
+uri:
+  - https://alpinelinux.org
+license: BSD-2-Clause AND BSD-3-Clause
+labels:
+  package.source: "sys-cdefs.h"

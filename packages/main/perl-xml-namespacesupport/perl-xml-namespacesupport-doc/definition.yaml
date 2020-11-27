@@ -1,0 +1,7 @@
+name: perl-xml-namespacesupport-doc
+version: "1.12"
+category: alpine
+description: Generic namespace helpers (ported from SAX2)
+uri:
+  - https://metacpan.org/release/XML-NamespaceSupport
+license: GPL

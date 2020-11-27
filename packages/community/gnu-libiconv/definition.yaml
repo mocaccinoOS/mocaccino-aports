@@ -1,0 +1,9 @@
+name: gnu-libiconv
+version: "1.15"
+category: alpine
+description: GNU charset conversion library for libc which doesn't implement it
+uri:
+  - https://www.gnu.org/software/libiconv
+license: LGPL
+labels:
+  package.source: "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.15.tar.gz"

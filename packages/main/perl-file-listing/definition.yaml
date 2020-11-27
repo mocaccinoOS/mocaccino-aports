@@ -1,0 +1,16 @@
+name: perl-file-listing
+version: "6.11"
+category: alpine
+description: Parse directory listing
+uri:
+  - https://metacpan.org/release/File-Listing/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Listing-6.11.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-date"
+    version: '>=0'

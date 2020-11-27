@@ -1,0 +1,19 @@
+name: po4a
+version: "0.61"
+category: alpine
+description: Tools for helping translation of documentation
+uri:
+  - https://po4a.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "po4a-0.61.tar.gz::https://github.com/mquinson/po4a/archive/v0.61.tar.gz"
+requires:
+  - category: alpine
+    name: "gettext"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-pod-parser"
+    version: '>=0'

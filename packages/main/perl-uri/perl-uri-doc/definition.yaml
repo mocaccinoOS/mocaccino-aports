@@ -1,0 +1,7 @@
+name: perl-uri-doc
+version: "5.05"
+category: alpine
+description: Uniform Resource Identifiers (absolute and relative)
+uri:
+  - https://metacpan.org/release/URI/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

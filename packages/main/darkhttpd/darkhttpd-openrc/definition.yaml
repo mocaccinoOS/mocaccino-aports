@@ -1,0 +1,7 @@
+name: darkhttpd-openrc
+version: "1.12"
+category: alpine
+description: A simple, single-threaded, static content webserver
+uri:
+  - https://unix4lyfe.org/darkhttpd/
+license: ISC

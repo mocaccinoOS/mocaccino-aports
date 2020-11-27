@@ -1,0 +1,16 @@
+name: acf-dovecot
+version: "0.6.0"
+category: alpine
+description: A web-based system administration interface for dovecot
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-dovecot
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-dovecot/acf-dovecot-0.6.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "dovecot"
+    version: '>=0'

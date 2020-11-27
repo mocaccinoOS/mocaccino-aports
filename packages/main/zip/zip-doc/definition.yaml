@@ -1,0 +1,7 @@
+name: zip-doc
+version: "3.0"
+category: alpine
+description: Creates PKZIP-compatible .zip files
+uri:
+  - http://www.info-zip.org/pub/infozip/Zip.html
+license: Info-ZIP

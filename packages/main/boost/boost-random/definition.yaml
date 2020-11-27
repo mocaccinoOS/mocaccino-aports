@@ -1,0 +1,7 @@
+name: boost-random
+version: "1.72.0"
+category: alpine
+description: Free peer-reviewed portable C++ source libraries
+uri:
+  - https://www.boost.org/
+license: custom

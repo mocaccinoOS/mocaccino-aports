@@ -1,0 +1,44 @@
+# Contributor: Natanael Copa <ncopa@alpinelinux.org>
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+pkgname=tmux
+pkgver=3.1c
+pkgrel=0
+pkgdesc="Tool to control multiple terminals from a single terminal"
+url="https://tmux.github.io"
+arch="all"
+license="ISC"
+depends="ncurses-terminfo-base"
+makedepends="autoconf automake libevent-dev ncurses-dev"
+subpackages="$pkgname-doc"
+source="https://github.com/tmux/tmux/releases/download/$pkgver/tmux-$pkgver.tar.gz"
+
+# secfixes:
+#   3.1c-r0:
+#     - CVE-2020-27347
+
+build() {
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--localstatedir=/var
+	make
+}
+
+check() {
+	make check
+}
+
+package() {
+	make DESTDIR="$pkgdir" install
+
+	install -D -m644 example_tmux.conf \
+		"$pkgdir"/usr/share/doc/$pkgname/examples/$pkgname.conf
+	local file; for file in CHANGES README; do
+		install -m644 "$file" "$pkgdir"/usr/share/doc/$pkgname/
+	done
+}
+
+sha512sums="aad2e6457dd350369f245f711f1936a575d0588b72e660d10e7abc7d373da0d322903b451ad00b96a3e0e6847ca855673da6a4c5447cea91fa756edd23659397  tmux-3.1c.tar.gz"

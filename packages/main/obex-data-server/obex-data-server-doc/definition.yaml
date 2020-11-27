@@ -1,0 +1,7 @@
+name: obex-data-server-doc
+version: "0.4.6"
+category: alpine
+description: D-Bus service for Obex access
+uri:
+  - http://wiki.muiline.com/obex-data-server
+license: GPL-2.0-or-later

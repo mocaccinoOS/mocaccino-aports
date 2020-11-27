@@ -1,0 +1,7 @@
+name: tmux-doc
+version: "3.1c"
+category: alpine
+description: Tool to control multiple terminals from a single terminal
+uri:
+  - https://tmux.github.io
+license: ISC

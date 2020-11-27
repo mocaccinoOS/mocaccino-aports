@@ -1,0 +1,7 @@
+name: xrandr-doc
+version: "1.5.1"
+category: alpine
+description: Command line interface to RandR extension
+uri:
+  - https://www.x.org/wiki/
+license: MIT

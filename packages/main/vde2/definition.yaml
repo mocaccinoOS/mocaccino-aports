@@ -1,0 +1,13 @@
+name: vde2
+version: "2.3.2"
+category: alpine
+description: 'VDE: Virtual Distributed Ethernet. User mode networking for QEMU, UML, etc.'
+uri:
+  - http://vde.sf.net
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/project/vde/vde2/2.3.2/vde2-2.3.2.tar.gz"
+requires:
+  - category: alpine
+    name: "openssl"
+    version: '>=0'

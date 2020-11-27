@@ -1,0 +1,16 @@
+name: acf-clamav
+version: "0.8.0"
+category: alpine
+description: A web-based system administration interface for clamav
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-clamav
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-clamav/acf-clamav-0.8.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "clamav"
+    version: '>=0'

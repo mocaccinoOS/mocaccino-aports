@@ -1,0 +1,7 @@
+name: perl-yaml-tiny-doc
+version: "1.73"
+category: alpine
+description: Read/Write YAML files with as little code as possible
+uri:
+  - https://metacpan.org/release/YAML-Tiny/
+license: GPL PerlArtistic

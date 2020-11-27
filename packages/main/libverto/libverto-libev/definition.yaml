@@ -1,0 +1,7 @@
+name: libverto-libev
+version: "0.3.1"
+category: alpine
+description: Main loop abstraction library
+uri:
+  - https://github.com/npmccallum/libverto
+license: MIT

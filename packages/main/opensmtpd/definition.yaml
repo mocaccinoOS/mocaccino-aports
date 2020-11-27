@@ -1,0 +1,16 @@
+name: opensmtpd
+version: "6.7.1p1"
+category: alpine
+description: Secure, reliable, lean, and easy-to configure SMTP server
+uri:
+  - https://www.opensmtpd.org/
+license: ISC
+labels:
+  package.source: "https://www.opensmtpd.org/archives/opensmtpd-6.7.1p1.tar.gz"
+requires:
+  - category: alpine
+    name: "!postfix"
+    version: '>=0'
+  - category: alpine
+    name: "ca-certificates"
+    version: '>=0'

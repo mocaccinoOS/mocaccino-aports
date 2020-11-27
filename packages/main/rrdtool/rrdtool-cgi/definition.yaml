@@ -1,0 +1,7 @@
+name: rrdtool-cgi
+version: "1.7.2"
+category: alpine
+description: Data logging and graphing application
+uri:
+  - http://www.rrdtool.org
+license: GPL-2.0-or-later

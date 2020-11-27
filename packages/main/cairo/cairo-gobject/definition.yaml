@@ -1,0 +1,7 @@
+name: cairo-gobject
+version: "1.16.0"
+category: alpine
+description: A vector graphics library
+uri:
+  - https://cairographics.org/
+license: LGPL-2.0-or-later MPL-1.1

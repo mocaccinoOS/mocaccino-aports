@@ -1,0 +1,16 @@
+name: lm-sensors
+version: "3.6.0"
+category: alpine
+description: Collection of user space tools for general SMBus access and hardware monitoring.
+uri:
+  - https://github.com/lm-sensors/lm-sensors
+license: LGPL-2.1-or-later AND GPL-2.0-or-later
+labels:
+  package.source: "lm-sensors-3.6.0.tar.gz::https://github.com/lm-sensors/lm-sensors/archive/V3-6-0.tar.gz"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "sysfsutils"
+    version: '>=0'

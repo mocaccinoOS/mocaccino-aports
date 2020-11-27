@@ -1,0 +1,37 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: asciidoc
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: docbook2x
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: gmp-dev
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: libmnl-dev
+    version: '>=0'
+  - category: alpine
+    name: libnftnl-dev
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: readline-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-cgi-fast-doc
+version: "2.15"
+category: alpine
+description: CGI Interface for Fast CGI
+uri:
+  - https://metacpan.org/release/CGI-Fast
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

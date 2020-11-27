@@ -1,0 +1,7 @@
+name: libical-dev
+version: "3.0.8"
+category: alpine
+description: Reference implementation of the iCalendar format
+uri:
+  - https://libical.github.io/libical/
+license: LGPL-2.1-only OR MPL-2.0

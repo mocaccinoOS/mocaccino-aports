@@ -1,0 +1,7 @@
+name: perl-text-csv-doc
+version: "2.00"
+category: alpine
+description: Manipulate comma-separated value strings
+uri:
+  - https://metacpan.org/release/Text-CSV
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

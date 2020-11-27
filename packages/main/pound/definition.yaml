@@ -1,0 +1,9 @@
+name: pound
+version: "2.8"
+category: alpine
+description: A reverse proxy, load balancer, and SSL wrapper
+uri:
+  - http://www.apsis.ch/pound/index_html
+license: GPL
+labels:
+  package.source: "http://www.apsis.ch/pound/Pound-2.8.tgz"

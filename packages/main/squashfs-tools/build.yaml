@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: xz-dev
+    version: '>=0'
+  - category: alpine
+    name: lzo-dev
+    version: '>=0'
+  - category: alpine
+    name: lz4-dev
+    version: '>=0'
+  - category: alpine
+    name: attr-dev
+    version: '>=0'
+  - category: alpine
+    name: zstd-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

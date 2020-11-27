@@ -1,0 +1,7 @@
+name: perl-time-hires-doc
+version: "1.9764"
+category: alpine
+description: High resolution alarm, sleep, gettimeofday, interval timers
+uri:
+  - http://search.cpan.org/~jhi/Time-HiRes/
+license: GPL-1.0-only Artistic-1.0-Perl

@@ -1,0 +1,7 @@
+name: audit-doc
+version: "2.8.5"
+category: alpine
+description: User space tools for 2.6 kernel auditing
+uri:
+  - https://people.redhat.com/sgrubb/audit/
+license: GPL-2.0-or-later

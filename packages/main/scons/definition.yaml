@@ -1,0 +1,13 @@
+name: scons
+version: "3.1.2"
+category: alpine
+description: Software construction system
+uri:
+  - http://www.scons.org
+license: MIT
+labels:
+  package.source: "https://downloads.sourceforge.net/scons/scons-3.1.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

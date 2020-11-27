@@ -1,0 +1,7 @@
+name: perl-authen-sasl-doc
+version: "2.16"
+category: alpine
+description: SASL Authentication framework for perl
+uri:
+  - https://metacpan.org/release/Authen-SASL
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

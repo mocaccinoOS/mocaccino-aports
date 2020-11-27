@@ -1,0 +1,7 @@
+name: perl-config-autoconf-doc
+version: "0.319"
+category: alpine
+description: Pure Perl implementation of some AutoConf macros
+uri:
+  - https://metacpan.org/release/Config-AutoConf
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

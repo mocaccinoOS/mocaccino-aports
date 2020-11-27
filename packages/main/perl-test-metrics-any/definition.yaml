@@ -1,0 +1,16 @@
+name: perl-test-metrics-any
+version: "0.01"
+category: alpine
+description: assert that code produces metrics via L<Metrics::Any>
+uri:
+  - https://metacpan.org/release/Test-Metrics-Any/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-metrics-any"
+    version: '>=0'

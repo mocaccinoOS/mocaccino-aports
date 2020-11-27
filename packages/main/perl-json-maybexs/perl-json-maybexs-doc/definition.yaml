@@ -1,0 +1,7 @@
+name: perl-json-maybexs-doc
+version: "1.004003"
+category: alpine
+description: Use L<Cpanel::JSON::XS> with a fallback to L<JSON::XS> and L<JSON::PP>
+uri:
+  - https://metacpan.org/release/JSON-MaybeXS/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

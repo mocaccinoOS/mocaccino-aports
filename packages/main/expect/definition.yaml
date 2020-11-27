@@ -1,0 +1,9 @@
+name: expect
+version: "5.45.4"
+category: alpine
+description: A tool for automating interactive applications
+uri:
+  - http://www.nist.gov/el/msid/expect.cfm
+license: custom
+labels:
+  package.source: "https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz"

@@ -1,0 +1,7 @@
+name: libshout-doc
+version: "2.4.4"
+category: alpine
+description: Library for accessing a shoutcast/icecast server
+uri:
+  - https://icecast.org/
+license: GPL-2.0-only

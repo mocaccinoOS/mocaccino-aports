@@ -1,0 +1,13 @@
+name: perl-tree-dag_node
+version: "1.31"
+category: alpine
+description: An N-ary tree
+uri:
+  - https://metacpan.org/release/Tree-DAG_Node/
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RS/RSAVAGE/Tree-DAG_Node-1.31.tgz"
+requires:
+  - category: alpine
+    name: "perl-file-slurp-tiny"
+    version: '>=0'

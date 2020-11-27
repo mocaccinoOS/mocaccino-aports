@@ -1,0 +1,13 @@
+name: perl-importer
+version: "0.026"
+category: alpine
+description: Alternative but compatible interface to modules that export symbols.
+uri:
+  - https://metacpan.org/release/Importer
+license: PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Importer-0.026.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

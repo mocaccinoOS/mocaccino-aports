@@ -1,0 +1,9 @@
+name: partimage
+version: "0.6.9"
+category: alpine
+description: Saves partitions having a supported filesystem to an image file
+uri:
+  - http://www.partimage.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/project/partimage/stable/0.6.9/partimage-0.6.9.tar.bz2"

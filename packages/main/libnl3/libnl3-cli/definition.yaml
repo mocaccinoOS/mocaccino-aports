@@ -1,0 +1,7 @@
+name: libnl3-cli
+version: "3.5.0"
+category: alpine
+description: Library for applications dealing with netlink sockets
+uri:
+  - http://www.infradead.org/~tgr/libnl/
+license: LGPL-2.1-or-later

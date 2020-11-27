@@ -1,0 +1,7 @@
+name: jansson-dev
+version: "2.13.1"
+category: alpine
+description: lightweight JSON library
+uri:
+  - http://www.digip.org/jansson/
+license: MIT

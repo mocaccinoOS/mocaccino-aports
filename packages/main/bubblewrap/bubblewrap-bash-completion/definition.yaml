@@ -1,0 +1,7 @@
+name: bubblewrap-bash-completion
+version: "0.4.1"
+category: alpine
+description: Unprivileged sandboxing tool
+uri:
+  - https://github.com/containers/bubblewrap
+license: LGPL-2.0-or-later

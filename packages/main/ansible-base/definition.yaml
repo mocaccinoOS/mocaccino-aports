@@ -1,0 +1,28 @@
+name: ansible-base
+version: "2.10.3"
+category: alpine
+description: A configuration-management, deployment, task-execution, and multinode orchestration framework
+uri:
+  - https://ansible.com/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://pypi.python.org/packages/source/a/ansible-base/ansible-base-2.10.3.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-jinja2"
+    version: '>=0'
+  - category: alpine
+    name: "py3-packaging"
+    version: '>=0'
+  - category: alpine
+    name: "py3-yaml"
+    version: '>=0'
+  - category: alpine
+    name: "py3-cryptography"
+    version: '>=0'
+  - category: alpine
+    name: "py3-paramiko"
+    version: '>=0'

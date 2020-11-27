@@ -1,0 +1,7 @@
+name: gnu-efi-dev
+version: "3.0.12"
+category: alpine
+description: Development Libraries and headers for EFI
+uri:
+  - ftp://ftp.hpl.hp.com/pub/linux-ia64
+license: BSD-3-Clause

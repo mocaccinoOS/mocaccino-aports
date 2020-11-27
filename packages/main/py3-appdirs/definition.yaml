@@ -1,0 +1,13 @@
+name: py3-appdirs
+version: "1.4.4"
+category: alpine
+description: A small Python module for determining appropriate platform-specific dirs.
+uri:
+  - https://pypi.org/project/appdirs/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/a/appdirs/appdirs-1.4.4.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

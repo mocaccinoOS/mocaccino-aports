@@ -1,0 +1,13 @@
+name: apk-cron
+version: "1.0"
+category: alpine
+description: Periodic software updates
+uri:
+  - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/apk-cron
+license: GPL-2.0-only
+labels:
+  package.source: "apk"
+requires:
+  - category: alpine
+    name: "apk-tools"
+    version: '>=0'

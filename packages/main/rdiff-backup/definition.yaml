@@ -1,0 +1,9 @@
+name: rdiff-backup
+version: "2.0.5"
+category: alpine
+description: Reverse differential backup tool
+uri:
+  - https://rdiff-backup.net/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://github.com/rdiff-backup/rdiff-backup/releases/download/v2.0.5/rdiff-backup-2.0.5.tar.gz"

@@ -1,0 +1,7 @@
+name: usb-modeswitch-doc
+version: "2.6.1"
+category: alpine
+description: A mode switching tool for controlling flip flop (multiple device) USB gear
+uri:
+  - http://www.draisberghof.de/usb_modeswitch/
+license: GPL-2.0-or-later

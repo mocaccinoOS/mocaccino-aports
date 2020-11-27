@@ -1,0 +1,16 @@
+name: sharutils
+version: "4.15.2"
+category: alpine
+description: Utilities for manipulating shell archives
+uri:
+  - https://www.gnu.org/software/sharutils/
+license: GPL-3.0+
+labels:
+  package.source: "https://ftp.gnu.org/gnu/sharutils/sharutils-4.15.2.tar.xz"
+requires:
+  - category: alpine
+    name: "bzip2"
+    version: '>=0'
+  - category: alpine
+    name: "xz"
+    version: '>=0'

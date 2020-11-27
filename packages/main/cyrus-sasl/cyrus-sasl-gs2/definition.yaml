@@ -1,0 +1,7 @@
+name: cyrus-sasl-gs2
+version: "2.1.27"
+category: alpine
+description: Cyrus Simple Authentication Service Layer (SASL)
+uri:
+  - https://www.cyrusimap.org/sasl/
+license: custom

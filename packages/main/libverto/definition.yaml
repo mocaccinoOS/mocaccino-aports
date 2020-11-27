@@ -1,0 +1,9 @@
+name: libverto
+version: "0.3.1"
+category: alpine
+description: Main loop abstraction library
+uri:
+  - https://github.com/npmccallum/libverto
+license: MIT
+labels:
+  package.source: "libverto-0.3.1.tar.gz::https://github.com/npmccallum/libverto/archive/0.3.1.tar.gz"

@@ -1,0 +1,7 @@
+name: gnokii-dev
+version: "0.6.31"
+category: alpine
+description: Tools and user space driver for use with mobile phones
+uri:
+  - https://www.gnokii.org/
+license: GPL-2.0-or-later

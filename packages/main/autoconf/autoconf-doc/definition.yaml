@@ -1,0 +1,7 @@
+name: autoconf-doc
+version: "2.69"
+category: alpine
+description: A GNU tool for automatically configuring source code
+uri:
+  - https://www.gnu.org/software/autoconf
+license: GPL-2.0-or-later

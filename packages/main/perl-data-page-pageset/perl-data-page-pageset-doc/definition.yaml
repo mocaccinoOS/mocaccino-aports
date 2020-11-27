@@ -1,0 +1,7 @@
+name: perl-data-page-pageset-doc
+version: "1.02"
+category: alpine
+description: change long page list to be shorter and well navigate
+uri:
+  - https://metacpan.org/release/Data-Page-Pageset/
+license: GPL PerlArtistic

@@ -1,0 +1,13 @@
+name: uwsgi
+version: "2.0.19.1"
+category: alpine
+description: uWSGI application container server
+uri:
+  - http://projects.unbit.it/uwsgi/
+license: custom
+labels:
+  package.source: "http://projects.unbit.it/downloads/uwsgi-2.0.19.1.tar.gz"
+requires:
+  - category: alpine
+    name: "mailcap"
+    version: '>=0'

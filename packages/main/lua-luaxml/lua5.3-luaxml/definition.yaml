@@ -1,0 +1,7 @@
+name: lua5.3-luaxml
+version: "130610"
+category: alpine
+description: A minimal set of functions for the processing of XML data in Lua
+uri:
+  - https://github.com/LuaDist2/luaxml
+license: MIT

@@ -1,0 +1,7 @@
+name: perl-cgi-emulate-psgi-doc
+version: "0.23"
+category: alpine
+description: PSGI adapter for CGI
+uri:
+  - https://metacpan.org/release/CGI-Emulate-PSGI/
+license: GPL PerlArtistic

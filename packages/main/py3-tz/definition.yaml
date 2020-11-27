@@ -1,0 +1,13 @@
+name: py3-tz
+version: "2020.4"
+category: alpine
+description: Python3 definitions of world timezone
+uri:
+  - http://pytz.sourceforge.net/
+license: MIT
+labels:
+  package.source: "https://pypi.io/packages/source/p/pytz/pytz-2020.4.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

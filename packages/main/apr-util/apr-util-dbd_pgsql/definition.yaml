@@ -1,0 +1,7 @@
+name: apr-util-dbd_pgsql
+version: "1.6.1"
+category: alpine
+description: The Apache Portable Runtime Utility Library
+uri:
+  - http://apr.apache.org/
+license: Apache-2.0

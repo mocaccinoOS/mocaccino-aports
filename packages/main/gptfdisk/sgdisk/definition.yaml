@@ -1,0 +1,7 @@
+name: sgdisk
+version: "1.0.5"
+category: alpine
+description: Text-mode partitioning tool that works on Globally Unique Identifier (GUID) Partition Table (GPT) disks
+uri:
+  - https://www.rodsbooks.com/gdisk
+license: GPL-2.0-or-later

@@ -1,0 +1,16 @@
+name: py3-docutils
+version: "0.16"
+category: alpine
+description: Documentation Utilities for Python3
+uri:
+  - https://pypi.python.org/pypi/docutils
+license: BSD-2-Clause AND GPL-3.0-or-later AND Python-2.0
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/d/docutils/docutils-0.16.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pillow"
+    version: '>=0'

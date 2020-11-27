@@ -1,0 +1,13 @@
+name: logcheck
+version: "1.3.20"
+category: alpine
+description: Bash scripts used to monitor system log files for anomalies
+uri:
+  - http://packages.debian.org/source/sid/logcheck
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://ftp.debian.org/debian/pool/main/l/logcheck/logcheck_1.3.20.tar.xz"
+requires:
+  - category: alpine
+    name: "lockfile-progs"
+    version: '>=0'

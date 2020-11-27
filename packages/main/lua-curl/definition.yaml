@@ -1,0 +1,9 @@
+name: lua-curl
+version: "0.3.11"
+category: alpine
+description: Lua bindings to cURL library
+uri:
+  - https://github.com/Lua-cURL/Lua-cURLv3
+license: MIT
+labels:
+  package.source: "lua-curl-0.3.11.tar.gz::https://github.com/Lua-cURL/Lua-cURLv3/archive/v0.3.11.tar.gz"

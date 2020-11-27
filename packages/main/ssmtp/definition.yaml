@@ -1,0 +1,9 @@
+name: ssmtp
+version: "2.64"
+category: alpine
+description: Extremely simple MTA to get mail off the system to a mail hub
+uri:
+  - https://packages.debian.org/stable/mail/ssmtp
+license: GPL-2.0
+labels:
+  package.source: "http://ftp.debian.org/debian/pool/main/s/ssmtp/ssmtp_2.64.orig.tar.bz2"

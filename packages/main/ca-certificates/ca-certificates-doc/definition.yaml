@@ -1,0 +1,7 @@
+name: ca-certificates-doc
+version: "20191127"
+category: alpine
+description: Common CA certificates PEM files from Mozilla
+uri:
+  - https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
+license: MPL-2.0 AND MIT

@@ -1,0 +1,19 @@
+name: debootstrap
+version: "1.0.123"
+category: alpine
+description: Debian/Ubuntu bootstrap scripts
+uri:
+  - https://packages.qa.debian.org/d/debootstrap.html
+license: MIT
+labels:
+  package.source: "http://ftp.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.123.tar.gz"
+requires:
+  - category: alpine
+    name: "debian-archive-keyring"
+    version: '>=0'
+  - category: alpine
+    name: "dpkg"
+    version: '>=0'
+  - category: alpine
+    name: "tar"
+    version: '>=0'

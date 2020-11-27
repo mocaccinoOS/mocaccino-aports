@@ -1,0 +1,7 @@
+name: pmacct-openrc
+version: "1.7.5"
+category: alpine
+description: Measure, account, classify, aggregate and export IPv4 and IPv6 traffic
+uri:
+  - http://www.pmacct.net/
+license: GPL-2.0-or-later

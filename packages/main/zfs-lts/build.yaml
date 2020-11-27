@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: e2fsprogs-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: libtirpc-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-lts-dev=5.4.80-r0
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: perl-xml-namespacesupport
+version: "1.12"
+category: alpine
+description: Generic namespace helpers (ported from SAX2)
+uri:
+  - https://metacpan.org/release/XML-NamespaceSupport
+license: GPL
+labels:
+  package.source: "http://www.cpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

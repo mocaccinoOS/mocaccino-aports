@@ -1,0 +1,7 @@
+name: apr-dev
+version: "1.7.0"
+category: alpine
+description: The Apache Portable Runtime
+uri:
+  - http://apr.apache.org/
+license: Apache-2.0

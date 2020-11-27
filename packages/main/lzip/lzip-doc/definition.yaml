@@ -1,0 +1,7 @@
+name: lzip-doc
+version: "1.21"
+category: alpine
+description: Lzip is a lossless data compressor
+uri:
+  - http://www.nongnu.org/lzip/lzip.html
+license: GPL-2.0-or-later

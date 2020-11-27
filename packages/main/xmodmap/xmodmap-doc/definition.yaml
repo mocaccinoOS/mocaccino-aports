@@ -1,0 +1,7 @@
+name: xmodmap-doc
+version: "1.0.10"
+category: alpine
+description: Utility for modifying keymaps and pointer button mappings in X
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

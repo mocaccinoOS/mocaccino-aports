@@ -1,0 +1,7 @@
+name: perl-role-tiny-doc
+version: "2.001004"
+category: alpine
+description: Roles. Like a nouvelle cuisine portion size slice of Moose.
+uri:
+  - https://metacpan.org/release/Role-Tiny
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

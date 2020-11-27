@@ -1,0 +1,9 @@
+name: arpon
+version: "3.0"
+category: alpine
+description: Arp handler inspectiON is a handler daemon with tools to handle all ARP aspects
+uri:
+  - http://arpon.sourceforge.net/
+license: BSD-2-Clause
+labels:
+  package.source: "https://downloads.sourceforge.net/project/arpon/arpon/ArpON-3.0-ng.tar.gz"

@@ -1,0 +1,7 @@
+name: thin-provisioning-tools-doc
+version: "0.7.1"
+category: alpine
+description: A suite of tools for manipulating the metadata of the dm-thin device-mapper target
+uri:
+  - https://github.com/jthornber/thin-provisioning-tools
+license: GPL-3.0

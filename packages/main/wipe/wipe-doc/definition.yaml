@@ -1,0 +1,7 @@
+name: wipe-doc
+version: "2.3.1"
+category: alpine
+description: Secure file wiping utility
+uri:
+  - http://wipe.sourceforge.net/
+license: GPL-2.0

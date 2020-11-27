@@ -1,0 +1,19 @@
+name: samba
+version: "4.13.2"
+category: alpine
+description: Tools to access a server's filespace and printers via SMB
+uri:
+  - https://www.samba.org/
+license: GPL-3.0-or-later LGPL-3.0-or-later
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "samba-server=4.13.2-r0"
+    version: '>=0'
+  - category: alpine
+    name: "samba-client=4.13.2-r0"
+    version: '>=0'
+  - category: alpine
+    name: "samba-common-tools=4.13.2-r0"
+    version: '>=0'

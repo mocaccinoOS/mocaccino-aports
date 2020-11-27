@@ -1,0 +1,9 @@
+name: proxychains-ng
+version: "4.14"
+category: alpine
+description: This tool provides proxy server support to any app.
+uri:
+  - https://github.com/rofl0r/proxychains-ng
+license: GPL-2.0
+labels:
+  package.source: "https://github.com/rofl0r/proxychains-ng/archive/v4.14.zip"

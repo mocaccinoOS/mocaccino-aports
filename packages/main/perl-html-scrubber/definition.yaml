@@ -1,0 +1,13 @@
+name: perl-html-scrubber
+version: "0.19"
+category: alpine
+description: Perl extension for scrubbing/sanitizing html
+uri:
+  - https://metacpan.org/release/HTML-Scrubber
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/N/NI/NIGELM/HTML-Scrubber-0.19.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'

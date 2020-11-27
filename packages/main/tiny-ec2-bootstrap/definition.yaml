@@ -1,0 +1,22 @@
+name: tiny-ec2-bootstrap
+version: "1.4.1"
+category: alpine
+description: A tiny EC2 instance bootstrapper that uses instance metadata
+uri:
+  - https://github.com/mcrute/tiny-ec2-bootstrap
+license: MIT
+labels:
+  package.source: "tiny-ec2-bootstrap-1.4.1.tar.gz::https://github.com/mcrute/tiny-ec2-bootstrap/archive/release-1.4.1.tar.gz"
+requires:
+  - category: alpine
+    name: "openrc"
+    version: '>=0'
+  - category: alpine
+    name: "e2fsprogs-extra"
+    version: '>=0'
+  - category: alpine
+    name: "partx"
+    version: '>=0'
+  - category: alpine
+    name: "sfdisk"
+    version: '>=0'

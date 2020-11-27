@@ -1,0 +1,7 @@
+name: graphviz-doc
+version: "2.44.0"
+category: alpine
+description: Graph Visualization Tools
+uri:
+  - https://www.graphviz.org/
+license: EPL-1.0

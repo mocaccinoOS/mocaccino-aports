@@ -1,0 +1,7 @@
+name: b43-fwcutter-doc
+version: "019"
+category: alpine
+description: Tool to extract firmware from Broadcom drivers
+uri:
+  - https://wireless.wiki.kernel.org/en/users/Drivers/b43
+license: BSD-2-Clause

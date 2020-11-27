@@ -1,0 +1,7 @@
+name: samba-client
+version: "4.13.2"
+category: alpine
+description: Tools to access a server's filespace and printers via SMB
+uri:
+  - https://www.samba.org/
+license: GPL-3.0-or-later LGPL-3.0-or-later

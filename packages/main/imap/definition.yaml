@@ -1,0 +1,9 @@
+name: imap
+version: "2007f"
+category: alpine
+description: An IMAP/POP server
+uri:
+  - http://www.washington.edu/imap
+license: Apache-2.0
+labels:
+  package.source: "http://ftp.ntua.gr/pub/net/mail/imap/imap-2007f.tar.gz"

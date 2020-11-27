@@ -1,0 +1,25 @@
+name: alpine-git-mirror-syncd
+version: "0.3.1"
+category: alpine
+description: Lua script that listens on MQTT and synchronizes Git mirrors when notified about changes
+uri:
+  - https://github.com/jirutka/alpine-git-mirror-syncd
+license: MIT
+labels:
+  package.source: "https://github.com/jirutka/alpine-git-mirror-syncd/archive/v0.3.1/alpine-git-mirror-syncd-0.3.1.tar.gz"
+requires:
+  - category: alpine
+    name: "ca-certificates"
+    version: '>=0'
+  - category: alpine
+    name: "git"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.1"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.1-cjson"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.1-mosquitto"
+    version: '>=0'

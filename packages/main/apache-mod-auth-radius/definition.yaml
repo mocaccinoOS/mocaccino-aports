@@ -1,0 +1,13 @@
+name: apache-mod-auth-radius
+version: "1.6.0"
+category: alpine
+description: Apache authentication module to become RADIUS client for AAA requests
+uri:
+  - http://freeradius.org/mod_auth_radius/
+license: BSD
+labels:
+  package.source: "1.6.0.tar.gz::https://github.com/FreeRADIUS/mod_auth_radius/archive/v1.6.0.tar.gz"
+requires:
+  - category: alpine
+    name: "apache2"
+    version: '>=0'

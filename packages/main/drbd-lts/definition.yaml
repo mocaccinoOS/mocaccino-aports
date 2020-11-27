@@ -1,0 +1,13 @@
+name: drbd-lts
+version: "5.4.80"
+category: alpine
+description: Network-based RAID 1 version 9
+uri:
+  - https://www.linbit.com/en/drbd-community/drbd-download/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://www.linbit.com/downloads/drbd/9.0/drbd-9.0.22-2.tar.gz"
+requires:
+  - category: alpine
+    name: "linux-lts=5.4.80-r0"
+    version: '>=0'

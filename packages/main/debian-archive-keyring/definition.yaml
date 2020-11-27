@@ -1,0 +1,13 @@
+name: debian-archive-keyring
+version: "2019.1"
+category: alpine
+description: GnuPG archive keys of the Debian archive
+uri:
+  - https://packages.debian.org/sid/debian-archive-keyring
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://deb.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2019.1_all.deb"
+requires:
+  - category: alpine
+    name: "gnupg"
+    version: '>=0'

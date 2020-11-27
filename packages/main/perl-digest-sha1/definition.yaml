@@ -1,0 +1,13 @@
+name: perl-digest-sha1
+version: "2.13"
+category: alpine
+description: Perl interface to the SHA-1 algorithm
+uri:
+  - https://metacpan.org/release/Digest-SHA1/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Digest-SHA1-2.13.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

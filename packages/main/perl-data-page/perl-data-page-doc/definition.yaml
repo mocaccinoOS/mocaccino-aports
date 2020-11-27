@@ -1,0 +1,7 @@
+name: perl-data-page-doc
+version: "2.03"
+category: alpine
+description: help when paging through sets of results
+uri:
+  - https://metacpan.org/release/Data-Page/
+license: Artistic-1.0-Perl GPL-1.0-or-later

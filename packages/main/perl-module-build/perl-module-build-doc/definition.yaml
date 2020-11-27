@@ -1,0 +1,7 @@
+name: perl-module-build-doc
+version: "0.4231"
+category: alpine
+description: Build and install Perl modules
+uri:
+  - https://metacpan.org/release/Module-Build
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

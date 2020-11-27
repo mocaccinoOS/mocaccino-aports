@@ -1,0 +1,7 @@
+name: perl-xml-sax-doc
+version: "1.02"
+category: alpine
+description: Simple API for XML
+uri:
+  - https://metacpan.org/release/XML-SAX
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

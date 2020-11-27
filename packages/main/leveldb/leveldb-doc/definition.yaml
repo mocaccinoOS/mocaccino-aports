@@ -1,0 +1,7 @@
+name: leveldb-doc
+version: "1.22"
+category: alpine
+description: A fast and lightweight key/value database library by Google
+uri:
+  - https://github.com/google/leveldb
+license: BSD-3-Clause

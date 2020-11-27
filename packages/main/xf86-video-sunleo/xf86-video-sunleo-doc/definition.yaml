@@ -1,0 +1,7 @@
+name: xf86-video-sunleo-doc
+version: "1.2.2"
+category: alpine
+description: Leo video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

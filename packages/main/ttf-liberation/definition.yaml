@@ -1,0 +1,13 @@
+name: ttf-liberation
+version: "2.00.5"
+category: alpine
+description: Red Hat's Liberation fonts
+uri:
+  - https://pagure.io/liberation-fonts/
+license: custom GPL-2.0
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'

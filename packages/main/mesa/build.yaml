@@ -1,0 +1,106 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libdrm-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libxdamage-dev
+    version: '>=0'
+  - category: alpine
+    name: libxcb-dev
+    version: '>=0'
+  - category: alpine
+    name: libxshmfence-dev
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: eudev-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: findutils
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: gettext
+    version: '>=0'
+  - category: alpine
+    name: elfutils-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: libxfixes-dev
+    version: '>=0'
+  - category: alpine
+    name: libva-dev
+    version: '>=0'
+  - category: alpine
+    name: libvdpau-dev
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrandr-dev
+    version: '>=0'
+  - category: alpine
+    name: libxt-dev
+    version: '>=0'
+  - category: alpine
+    name: libxvmc-dev
+    version: '>=0'
+  - category: alpine
+    name: libxxf86vm-dev
+    version: '>=0'
+  - category: alpine
+    name: llvm10-dev
+    version: '>=0'
+  - category: alpine
+    name: makedepend
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: py3-mako
+    version: '>=0'
+  - category: alpine
+    name: py3-libxml2
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: alpine
+    name: talloc-dev
+    version: '>=0'
+  - category: alpine
+    name: wayland-dev
+    version: '>=0'
+  - category: alpine
+    name: wayland-protocols
+    version: '>=0'
+  - category: alpine
+    name: xorgproto
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: zstd-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

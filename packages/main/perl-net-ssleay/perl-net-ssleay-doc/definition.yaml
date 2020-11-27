@@ -1,0 +1,7 @@
+name: perl-net-ssleay-doc
+version: "1.88"
+category: alpine
+description: Perl extension for using OpenSSL
+uri:
+  - https://metacpan.org/release/Net-SSLeay
+license: Artistic-2.0

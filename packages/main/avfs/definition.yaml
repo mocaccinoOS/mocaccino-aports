@@ -1,0 +1,13 @@
+name: avfs
+version: "1.1.3"
+category: alpine
+description: A Virtual File System for looking into archives
+uri:
+  - http://avf.sourceforge.net/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/project/avf/avfs/1.1.3/avfs-1.1.3.tar.bz2"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'

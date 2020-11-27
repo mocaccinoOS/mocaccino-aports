@@ -1,0 +1,7 @@
+name: tcl-doc
+version: "8.6.10"
+category: alpine
+description: The Tcl scripting language
+uri:
+  - http://tcl.sourceforge.net/
+license: TCL

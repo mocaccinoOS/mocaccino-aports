@@ -1,0 +1,7 @@
+name: fsarchiver-doc
+version: "0.8.5"
+category: alpine
+description: Safe and flexible file-system backup and deployment tool
+uri:
+  - https://www.fsarchiver.org/
+license: GPL-2.0-only

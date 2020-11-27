@@ -1,0 +1,13 @@
+name: perl-apache-session
+version: "1.94"
+category: alpine
+description: A persistence framework for session data
+uri:
+  - https://metacpan.org/release/Apache-Session/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CH/CHORNY/Apache-Session-1.94.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

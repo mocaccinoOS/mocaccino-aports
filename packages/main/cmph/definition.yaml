@@ -1,0 +1,9 @@
+name: cmph
+version: "2.0.2"
+category: alpine
+description: A minimal hash C library - utility application
+uri:
+  - http://cmph.sourceforge.net/
+license: LGPL-2.0-or-later MPL-1.1
+labels:
+  package.source: "https://downloads.sourceforge.net/cmph/cmph-2.0.2.tar.gz"

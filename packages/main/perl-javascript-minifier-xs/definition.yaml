@@ -1,0 +1,9 @@
+name: perl-javascript-minifier-xs
+version: "0.11"
+category: alpine
+description: XS based JavaScript minifier
+uri:
+  - https://metacpan.org/release/JavaScript-Minifier-XS/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GT/GTERMARS/JavaScript-Minifier-XS-0.11.tar.gz"

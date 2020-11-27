@@ -1,0 +1,7 @@
+name: atop-doc
+version: "2.5.0"
+category: alpine
+description: Resource-specific view of processes
+uri:
+  - https://www.atoptool.nl/
+license: GPL-2.0-or-later

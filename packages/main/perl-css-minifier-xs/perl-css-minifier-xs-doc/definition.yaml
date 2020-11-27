@@ -1,0 +1,7 @@
+name: perl-css-minifier-xs-doc
+version: "0.09"
+category: alpine
+description: XS based CSS minifier
+uri:
+  - https://metacpan.org/release/CSS-Minifier-XS/
+license: GPL PerlArtistic

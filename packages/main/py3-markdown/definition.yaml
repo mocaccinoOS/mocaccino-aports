@@ -1,0 +1,16 @@
+name: py3-markdown
+version: "3.3.3"
+category: alpine
+description: Python3 implementation of Markdown
+uri:
+  - https://python-markdown.github.io/
+license: BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/M/Markdown/Markdown-3.3.3.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

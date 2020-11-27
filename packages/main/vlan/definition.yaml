@@ -1,0 +1,9 @@
+name: vlan
+version: "2.2"
+category: alpine
+description: Scripts for configuring VLAN network interfaces
+uri:
+  - http://wiki.alpinelinux.org/wiki/Vlan
+license: GPL
+labels:
+  package.source: "mvlan.post-down"

@@ -1,0 +1,9 @@
+name: spirv-headers
+version: "1.5.3"
+category: alpine
+description: Machine-readable files for the SPIR-V Registry
+uri:
+  - https://github.com/KhronosGroup/SPIRV-Headers
+license: GPL-3.0-or-later
+labels:
+  package.source: "spirv-headers-1.5.3.tar.gz::https://github.com/KhronosGroup/SPIRV-Headers/archive/1.5.3.tar.gz"

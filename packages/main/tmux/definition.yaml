@@ -1,0 +1,13 @@
+name: tmux
+version: "3.1c"
+category: alpine
+description: Tool to control multiple terminals from a single terminal
+uri:
+  - https://tmux.github.io
+license: ISC
+labels:
+  package.source: "https://github.com/tmux/tmux/releases/download/3.1c/tmux-3.1c.tar.gz"
+requires:
+  - category: alpine
+    name: "ncurses-terminfo-base"
+    version: '>=0'

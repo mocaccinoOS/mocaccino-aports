@@ -1,0 +1,7 @@
+name: libxext-doc
+version: "1.3.4"
+category: alpine
+description: X11 miscellaneous extensions library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

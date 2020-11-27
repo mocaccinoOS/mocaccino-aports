@@ -1,0 +1,7 @@
+name: gsm-doc
+version: "1.0.19"
+category: alpine
+description: Shared libraries for GSM speech compressor
+uri:
+  - http://www.quut.com/gsm/
+license: custom:TU-Berlin-2.0

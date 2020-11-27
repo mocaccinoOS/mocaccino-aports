@@ -1,0 +1,7 @@
+name: chrony-openrc
+version: "4.0"
+category: alpine
+description: NTP client and server programs
+uri:
+  - https://chrony.tuxfamily.org
+license: GPL-2.0-only

@@ -1,0 +1,19 @@
+name: docbook-xsl
+version: "1.79.2"
+category: alpine
+description: XML stylesheets for Docbook-xml transformations.
+uri:
+  - https://docbook.org
+license: custom
+labels:
+  package.source: "https://github.com/docbook/xslt10-stylesheets/releases/download/release%2F1.79.2/docbook-xsl-1.79.2.tar.gz"
+requires:
+  - category: alpine
+    name: "libxml2-utils"
+    version: '>=0'
+  - category: alpine
+    name: "libxslt"
+    version: '>=0'
+  - category: alpine
+    name: "docbook-xml"
+    version: '>=0'

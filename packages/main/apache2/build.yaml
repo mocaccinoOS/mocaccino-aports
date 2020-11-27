@@ -1,0 +1,40 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: apr-dev
+    version: '>=0'
+  - category: alpine
+    name: apr-util-dev
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: lua-dev
+    version: '>=0'
+  - category: alpine
+    name: nghttp2-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: pcre-dev
+    version: '>=0'
+  - category: alpine
+    name: sed
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

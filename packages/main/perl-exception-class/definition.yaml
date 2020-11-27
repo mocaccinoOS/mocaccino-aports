@@ -1,0 +1,16 @@
+name: perl-exception-class
+version: "1.44"
+category: alpine
+description: A module that allows you to declare real exception classes in Perl
+uri:
+  - https://metacpan.org/release/Exception-Class/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.44.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-devel-stacktrace"
+    version: '>=0'
+  - category: alpine
+    name: "perl-class-data-inheritable"
+    version: '>=0'

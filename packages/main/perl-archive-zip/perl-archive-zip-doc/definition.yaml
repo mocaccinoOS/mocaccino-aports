@@ -1,0 +1,7 @@
+name: perl-archive-zip-doc
+version: "1.68"
+category: alpine
+description: Provide a perl interface to ZIP archive files.
+uri:
+  - https://metacpan.org/release/Archive-Zip
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

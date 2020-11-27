@@ -1,0 +1,7 @@
+name: libatomic_ops-doc
+version: "7.6.10"
+category: alpine
+description: Semi-portable access to hardware provided atomic memory operations
+uri:
+  - https://github.com/ivmai/libatomic_ops
+license: GPL-2.0-or-later AND MIT

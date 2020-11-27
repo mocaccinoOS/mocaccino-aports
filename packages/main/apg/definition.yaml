@@ -1,0 +1,9 @@
+name: apg
+version: "2.2.3"
+category: alpine
+description: Automated Password Generator.
+uri:
+  - https://linux.die.net/man/1/apg
+license: BSD-3-Clause
+labels:
+  package.source: "https://launchpad.net/ubuntu/+archive/primary/+files/apg_2.2.3.orig.tar.gz"

@@ -1,0 +1,22 @@
+name: cups
+version: "2.3.3"
+category: alpine
+description: The CUPS Printing System
+uri:
+  - https://www.cups.org/
+license: GPL-2.0-only
+labels:
+  package.source: "cups-2.3.3.tar.gz::https://github.com/OpenPrinting/cups/archive/v2.3.3.tar.gz"
+requires:
+  - category: alpine
+    name: "cups-client"
+    version: '>=0'
+  - category: alpine
+    name: "poppler-utils"
+    version: '>=0'
+  - category: alpine
+    name: "openssl"
+    version: '>=0'
+  - category: alpine
+    name: "dbus"
+    version: '>=0'

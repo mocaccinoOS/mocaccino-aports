@@ -1,0 +1,7 @@
+name: gstreamer-tools
+version: "1.18.1"
+category: alpine
+description: GStreamer streaming media framework
+uri:
+  - https://gstreamer.freedesktop.org
+license: LGPL-2.0-or-later

@@ -1,0 +1,9 @@
+name: perl-test-notabs
+version: "2.02"
+category: alpine
+description: Check the presence of tabs in your project
+uri:
+  - https://metacpan.org/release/Test-NoTabs/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-NoTabs-2.02.tar.gz"

@@ -1,0 +1,7 @@
+name: perl-datetime-format-mail-doc
+version: "0.403"
+category: alpine
+description: DateTime::Format::Mail perl module
+uri:
+  - https://metacpan.org/release/DateTime-Format-Mail/
+license: GPL-2.0 or Artistic

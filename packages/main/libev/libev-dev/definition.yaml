@@ -1,0 +1,7 @@
+name: libev-dev
+version: "4.33"
+category: alpine
+description: event dispatch library
+uri:
+  - http://software.schmorp.de/pkg/libev.html
+license: BSD-2-Clause OR GPL-2.0-or-later

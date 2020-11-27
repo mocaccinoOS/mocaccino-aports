@@ -1,0 +1,9 @@
+name: scdoc
+version: "1.11.0"
+category: alpine
+description: simple man page generator written for POSIX systems written in C99
+uri:
+  - https://git.sr.ht/~sircmpwn/scdoc
+license: MIT
+labels:
+  package.source: "scdoc-1.11.0.tar.gz::https://git.sr.ht/~sircmpwn/scdoc/archive/1.11.0.tar.gz"

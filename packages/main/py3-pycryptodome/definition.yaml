@@ -1,0 +1,13 @@
+name: py3-pycryptodome
+version: "3.9.8"
+category: alpine
+description: Self-contained cryptographic library
+uri:
+  - https://www.pycryptodome.org
+license: BSD-2-Clause Unlicense
+labels:
+  package.source: "py3-pycryptodome-3.9.8.tar.gz::https://github.com/Legrandin/pycryptodome/archive/v3.9.8.tar.gz"
+requires:
+  - category: alpine
+    name: "gmp"
+    version: '>=0'

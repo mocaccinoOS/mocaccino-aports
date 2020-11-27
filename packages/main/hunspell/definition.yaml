@@ -1,0 +1,9 @@
+name: hunspell
+version: "1.7.0"
+category: alpine
+description: Spell checker and morphological analyzer library and program
+uri:
+  - https://hunspell.github.io/
+license: GPL-2.0-or-later LGPL-2.0-or-later MPL-1.1
+labels:
+  package.source: "hunspell-1.7.0.tar.gz::https://github.com/hunspell/hunspell/archive/v1.7.0.tar.gz"

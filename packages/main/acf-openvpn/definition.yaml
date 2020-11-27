@@ -1,0 +1,16 @@
+name: acf-openvpn
+version: "0.11.1"
+category: alpine
+description: A web-based system administration interface for openvpn
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-openvpn
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-openvpn/acf-openvpn-0.11.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "openvpn"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: perl-scope-guard
+version: "0.21"
+category: alpine
+description: Scope::Guard perl module
+uri:
+  - https://metacpan.org/release/Scope-Guard/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

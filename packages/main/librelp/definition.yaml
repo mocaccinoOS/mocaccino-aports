@@ -1,0 +1,9 @@
+name: librelp
+version: "1.6.0"
+category: alpine
+description: The Reliable Event Logging Protocol library
+uri:
+  - https://www.rsyslog.com
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://download.rsyslog.com/librelp/librelp-1.6.0.tar.gz"

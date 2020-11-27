@@ -1,0 +1,13 @@
+name: perl-extutils-cchecker
+version: "0.10"
+category: alpine
+description: Perl module configuration-time utilities for using C headers, libraries, or OS features
+uri:
+  - https://metacpan.org/release/ExtUtils-CChecker/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/ExtUtils-CChecker-0.10.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-test-exception"
+    version: '>=0'

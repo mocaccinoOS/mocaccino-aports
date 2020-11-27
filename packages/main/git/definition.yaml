@@ -1,0 +1,9 @@
+name: git
+version: "2.29.2"
+category: alpine
+description: Distributed version control system
+uri:
+  - https://www.git-scm.com/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://www.kernel.org/pub/software/scm/git/git-2.29.2.tar.xz"

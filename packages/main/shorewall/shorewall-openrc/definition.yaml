@@ -1,0 +1,7 @@
+name: shorewall-openrc
+version: "5.2.8"
+category: alpine
+description: An iptables front end for firewall configuration
+uri:
+  - https://shorewall.org/
+license: GPL-2.0-or-later

@@ -1,0 +1,7 @@
+name: spice-static
+version: "0.14.3"
+category: alpine
+description: Implements the SPICE protocol
+uri:
+  - http://www.spice-space.org/
+license: LGPL-2.0-or-later

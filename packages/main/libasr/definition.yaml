@@ -1,0 +1,9 @@
+name: libasr
+version: "1.0.4"
+category: alpine
+description: libasr is a free, simple and portable asynchronous resolver library
+uri:
+  - https://www.opensmtpd.org
+license: ISC
+labels:
+  package.source: "https://github.com/OpenSMTPD/libasr/archive/1.0.4/libasr-1.0.4.tar.gz"

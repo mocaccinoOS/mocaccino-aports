@@ -1,0 +1,13 @@
+name: dhcpcd-dbus
+version: "0.6.1"
+category: alpine
+description: DBUS binding to dhcpcd
+uri:
+  - https://roy.marples.name/projects/dhcpcd
+license: BSD-2-Clause
+labels:
+  package.source: "http://roy.marples.name/downloads/dhcpcd/dhcpcd-dbus-0.6.1.tar.bz2"
+requires:
+  - category: alpine
+    name: "dbus"
+    version: '>=0'

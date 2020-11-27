@@ -1,0 +1,7 @@
+name: perl-test-sharedfork-doc
+version: "0.35"
+category: alpine
+description: Test::SharedFork perl module
+uri:
+  - https://metacpan.org/release/Test-SharedFork
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

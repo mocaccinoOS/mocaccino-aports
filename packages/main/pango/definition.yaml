@@ -1,0 +1,9 @@
+name: pango
+version: "1.48.0"
+category: alpine
+description: library for layout and rendering of text
+uri:
+  - https://www.pango.org/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/pango/1.48/pango-1.48.0.tar.xz"

@@ -1,0 +1,22 @@
+name: perl-module-build-tiny
+version: "0.039"
+category: alpine
+description: A tiny replacement for Module::Build
+uri:
+  - https://metacpan.org/release/Module-Build-Tiny/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-extutils-installpaths"
+    version: '>=0'
+  - category: alpine
+    name: "perl-extutils-config"
+    version: '>=0'
+  - category: alpine
+    name: "perl-extutils-helpers"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-harness"
+    version: '>=0'

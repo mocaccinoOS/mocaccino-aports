@@ -1,0 +1,7 @@
+name: vim-help
+version: "8.2.2013"
+category: alpine
+description: Improved vi-style text editor
+uri:
+  - https://www.vim.org/
+license: Vim

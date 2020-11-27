@@ -1,0 +1,7 @@
+name: flite-dev
+version: "2.2"
+category: alpine
+description: Small, fast speech synthesis engine (text-to-speech)
+uri:
+  - http://www.speech.cs.cmu.edu/flite
+license: BSD-4-Clause

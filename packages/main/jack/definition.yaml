@@ -1,0 +1,9 @@
+name: jack
+version: "1.9.16"
+category: alpine
+description: The Jack Audio Connection Kit
+uri:
+  - http://www.jackaudio.org
+license: GPL-2.0 GPL-2.0-or-later LGPL-2.0-or-later
+labels:
+  package.source: "jack-1.9.16.tar.gz::https://github.com/jackaudio/jack2/archive/v1.9.16.tar.gz"

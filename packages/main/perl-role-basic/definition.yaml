@@ -1,0 +1,9 @@
+name: perl-role-basic
+version: "0.13"
+category: alpine
+description: Just roles. Nothing else.
+uri:
+  - https://metacpan.org/release/Role-Basic/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/O/OV/OVID/Role-Basic-0.13.tar.gz"

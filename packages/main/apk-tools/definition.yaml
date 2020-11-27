@@ -1,0 +1,13 @@
+name: apk-tools
+version: "2.12.0"
+category: alpine
+description: Alpine Package Keeper - package manager for alpine
+uri:
+  - https://gitlab.alpinelinux.org/alpine/apk-tools
+license: GPL-2.0-only
+labels:
+  package.source: "https://gitlab.alpinelinux.org/alpine/apk-tools/-/archive/v2.12.0/apk-tools-v2.12.0.tar.gz"
+requires:
+  - category: alpine
+    name: "musl>=1.2"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: hypermail
+version: "2.3.0"
+category: alpine
+description: Mail Archiver
+uri:
+  - http://www.hypermail-project.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://www.hypermail-project.org/hypermail-2.3.0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: mandoc
+version: "1.14.5"
+category: alpine
+description: mandoc (formerly mdocml) UNIX manpage compiler toolset
+uri:
+  - https://mandoc.bsd.lv/
+license: ISC and BSD-2-Clause and BSD-3-Clause
+labels:
+  package.source: "https://mandoc.bsd.lv/snapshots/mandoc-1.14.5.tar.gz"

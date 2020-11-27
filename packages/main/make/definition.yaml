@@ -1,0 +1,9 @@
+name: make
+version: "4.3"
+category: alpine
+description: GNU make utility to maintain groups of programs
+uri:
+  - https://www.gnu.org/software/make
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/make/make-4.3.tar.gz"

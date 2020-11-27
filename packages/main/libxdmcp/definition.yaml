@@ -1,0 +1,9 @@
+name: libxdmcp
+version: "1.1.3"
+category: alpine
+description: X11 Display Manager Control Protocol library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXdmcp-1.1.3.tar.bz2"

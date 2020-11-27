@@ -1,0 +1,9 @@
+name: dosfstools
+version: "4.1"
+category: alpine
+description: DOS filesystem utilities
+uri:
+  - https://github.com/dosfstools/dosfstools
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://github.com/dosfstools/dosfstools/releases/download/v4.1/dosfstools-4.1.tar.xz"

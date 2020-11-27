@@ -1,0 +1,7 @@
+name: check-doc
+version: "0.15.2"
+category: alpine
+description: A unit test framework for C
+uri:
+  - https://libcheck.github.io/check/
+license: LGPL-2.0-or-later

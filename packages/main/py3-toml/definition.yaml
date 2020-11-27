@@ -1,0 +1,13 @@
+name: py3-toml
+version: "0.10.2"
+category: alpine
+description: Python3 library for TOML
+uri:
+  - https://github.com/uiri/toml
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/t/toml/toml-0.10.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

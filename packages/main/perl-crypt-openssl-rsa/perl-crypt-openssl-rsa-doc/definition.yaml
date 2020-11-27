@@ -1,0 +1,7 @@
+name: perl-crypt-openssl-rsa-doc
+version: "0.31"
+category: alpine
+description: RSA encoding and decoding, using the openSSL libraries
+uri:
+  - http://search.cpan.org/~perler/
+license: Perl Artistic GPL

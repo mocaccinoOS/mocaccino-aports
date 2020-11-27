@@ -1,0 +1,7 @@
+name: perl-exception-class-doc
+version: "1.44"
+category: alpine
+description: A module that allows you to declare real exception classes in Perl
+uri:
+  - https://metacpan.org/release/Exception-Class/
+license: GPL PerlArtistic

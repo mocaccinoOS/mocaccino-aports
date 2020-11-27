@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: gd-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: libpng-dev
+    version: '>=0'
+  - category: alpine
+    name: libjpeg
+    version: '>=0'
+  - category: alpine
+    name: perl-net-snmp
+    version: '>=0'
+  - category: alpine
+    name: unzip
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

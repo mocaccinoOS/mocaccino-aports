@@ -1,0 +1,13 @@
+name: sprunge
+version: "0.7"
+category: alpine
+description: Helper script to paste things to http://sprunge.us
+uri:
+  - http://sprunge.us
+license: GPL-2.0-only
+labels:
+  package.source: "https://www.spice-space.org/download/releases/spice-protocol-0.14.3.tar.xz"
+requires:
+  - category: alpine
+    name: "curl"
+    version: '>=0'

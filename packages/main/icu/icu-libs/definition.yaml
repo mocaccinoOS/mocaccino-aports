@@ -1,0 +1,7 @@
+name: icu-libs
+version: "67.1"
+category: alpine
+description: International Components for Unicode library
+uri:
+  - http://site.icu-project.org/
+license: MIT ICU Unicode-TOU

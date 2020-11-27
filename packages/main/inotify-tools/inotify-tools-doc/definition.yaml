@@ -1,0 +1,7 @@
+name: inotify-tools-doc
+version: "3.20.11.0"
+category: alpine
+description: C library and CLI tools providing a simple interface to inotify
+uri:
+  - https://github.com/rvoicilas/inotify-tools
+license: GPL-2.0-only

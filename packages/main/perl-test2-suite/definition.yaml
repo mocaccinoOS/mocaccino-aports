@@ -1,0 +1,28 @@
+name: perl-test2-suite
+version: "0.000138"
+category: alpine
+description: Distribution with a rich set of tools built upon the Test2 framework.
+uri:
+  - https://metacpan.org/release/Test2-Suite/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000138.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-term-table"
+    version: '>=0'
+  - category: alpine
+    name: "perl-scope-guard"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-info"
+    version: '>=0'
+  - category: alpine
+    name: "perl-importer"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-pluggable"
+    version: '>=0'

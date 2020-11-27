@@ -1,0 +1,19 @@
+name: rsnapshot
+version: "1.4.3"
+category: alpine
+description: Local and remote filesystem snapshot utility
+uri:
+  - http://www.rsnapshot.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://www.rsnapshot.org/downloads/rsnapshot-1.4.3.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "rsync"
+    version: '>=0'
+  - category: alpine
+    name: "openssh-client"
+    version: '>=0'

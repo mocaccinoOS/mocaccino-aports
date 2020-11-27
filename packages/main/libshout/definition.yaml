@@ -1,0 +1,9 @@
+name: libshout
+version: "2.4.4"
+category: alpine
+description: Library for accessing a shoutcast/icecast server
+uri:
+  - https://icecast.org/
+license: GPL-2.0-only
+labels:
+  package.source: "http://downloads.xiph.org/releases/libshout/libshout-2.4.4.tar.gz"

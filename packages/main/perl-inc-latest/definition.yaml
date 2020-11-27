@@ -1,0 +1,13 @@
+name: perl-inc-latest
+version: "0.500"
+category: alpine
+description: use modules bundled in inc/ if they are newer than installed ones
+uri:
+  - https://metacpan.org/release/inc-latest/
+license: Apache-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/inc-latest-0.500.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

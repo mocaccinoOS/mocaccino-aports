@@ -1,0 +1,7 @@
+name: librsync-doc
+version: "2.3.1"
+category: alpine
+description: librsync implements the rolling-checksum algorithm of rsync
+uri:
+  - https://github.com/librsync/librsync
+license: LGPL-2.1-or-later

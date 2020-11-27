@@ -1,0 +1,13 @@
+name: perl-xml-sax-base
+version: "1.09"
+category: alpine
+description: Base class SAX Drivers and Filters
+uri:
+  - https://metacpan.org/release/XML-SAX-Base
+license: GPL
+labels:
+  package.source: "http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: xf86-video-fbdev-doc
+version: "0.5.0"
+category: alpine
+description: Video driver for framebuffer device
+uri:
+  - https://www.x.org
+license: MIT

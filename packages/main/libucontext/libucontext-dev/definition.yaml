@@ -1,0 +1,7 @@
+name: libucontext-dev
+version: "0.11"
+category: alpine
+description: ucontext function implementations
+uri:
+  - https://github.com/kaniini/libucontext
+license: ISC

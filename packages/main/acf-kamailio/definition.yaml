@@ -1,0 +1,19 @@
+name: acf-kamailio
+version: "0.10.0"
+category: alpine
+description: A web-based system administration interface for kamailio
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-kamailio
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-kamailio/acf-kamailio-0.10.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "kamailio"
+    version: '>=0'
+  - category: alpine
+    name: "acf-db-lib"
+    version: '>=0'

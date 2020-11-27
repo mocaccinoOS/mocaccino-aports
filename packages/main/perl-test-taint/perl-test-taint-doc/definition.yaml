@@ -1,0 +1,7 @@
+name: perl-test-taint-doc
+version: "1.08"
+category: alpine
+description: Checks for taintedness of variables
+uri:
+  - https://metacpan.org/release/Test-Taint
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

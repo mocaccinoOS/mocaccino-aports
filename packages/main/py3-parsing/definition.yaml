@@ -1,0 +1,13 @@
+name: py3-parsing
+version: "2.4.7"
+category: alpine
+description: An object-oriented approach to text processing
+uri:
+  - https://github.com/pyparsing/pyparsing
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/pyparsing/pyparsing-2.4.7.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

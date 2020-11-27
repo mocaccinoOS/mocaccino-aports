@@ -1,0 +1,13 @@
+name: libbsd
+version: "0.10.0"
+category: alpine
+description: commonly-used BSD functions not implemented by all libcs
+uri:
+  - https://libbsd.freedesktop.org/
+license: BSD
+labels:
+  package.source: "https://libbsd.freedesktop.org/releases/libbsd-0.10.0.tar.xz"
+requires:
+  - category: alpine
+    name: "musl>=1.1.16-r22"
+    version: '>=0'

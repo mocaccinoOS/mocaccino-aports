@@ -1,0 +1,9 @@
+name: logtail
+version: "3.21"
+category: alpine
+description: Print new lines in log file since the last run (sf.net logtail-v3 ver)
+uri:
+  - http://logtail-v3.sourceforge.net/
+license: GPL-2.0
+labels:
+  package.source: "https://downloads.sourceforge.net/logtail-v3/logtail-v3.21.zip"

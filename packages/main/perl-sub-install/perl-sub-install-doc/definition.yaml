@@ -1,0 +1,7 @@
+name: perl-sub-install-doc
+version: "0.928"
+category: alpine
+description: Sub::Install perl module
+uri:
+  - https://metacpan.org/release/Sub-Install/
+license: GPL-2.0 or Artistic

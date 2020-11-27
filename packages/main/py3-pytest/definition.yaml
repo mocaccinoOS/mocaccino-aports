@@ -1,0 +1,43 @@
+name: py3-pytest
+version: "6.1.2"
+category: alpine
+description: Python3 testing library
+uri:
+  - https://docs.pytest.org/en/latest/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/pytest/pytest-6.1.2.tar.gz"
+requires:
+  - category: alpine
+    name: "py3-atomicwrites"
+    version: '>=0'
+  - category: alpine
+    name: "py3-attrs"
+    version: '>=0'
+  - category: alpine
+    name: "py3-more-itertools"
+    version: '>=0'
+  - category: alpine
+    name: "py3-iniconfig"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pluggy"
+    version: '>=0'
+  - category: alpine
+    name: "py3-py"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'
+  - category: alpine
+    name: "py3-wcwidth"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'
+  - category: alpine
+    name: "py3-packaging"
+    version: '>=0'
+  - category: alpine
+    name: "py3-toml"
+    version: '>=0'

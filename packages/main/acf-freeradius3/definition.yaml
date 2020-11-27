@@ -1,0 +1,16 @@
+name: acf-freeradius3
+version: "0.3.1"
+category: alpine
+description: ACF for freeradius 3
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-freeradius3
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-freeradius3/acf-freeradius3-0.3.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "freeradius>3"
+    version: '>=0'

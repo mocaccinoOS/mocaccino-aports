@@ -1,0 +1,7 @@
+name: lua5.2-stdlib
+version: "41.2.2"
+category: alpine
+description: Lua library of modules for common programming tasks
+uri:
+  - https://github.com/lua-stdlib/lua-stdlib
+license: MIT/X

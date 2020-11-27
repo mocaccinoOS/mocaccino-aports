@@ -1,0 +1,13 @@
+name: py3-ply
+version: "3.11"
+category: alpine
+description: Python Lex & Yacc
+uri:
+  - https://www.dabeaz.com/ply/
+license: BSD-3-Clause
+labels:
+  package.source: "ply-3.11.tar.gz::https://github.com/dabeaz/ply/archive/3.11.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

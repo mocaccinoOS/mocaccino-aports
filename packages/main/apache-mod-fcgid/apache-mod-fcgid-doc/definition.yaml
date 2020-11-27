@@ -1,0 +1,7 @@
+name: apache-mod-fcgid-doc
+version: "2.3.9"
+category: alpine
+description: FastCGI module for Apache 2.x
+uri:
+  - http://httpd.apache.org/mod_fcgid/
+license: Apache-2.0

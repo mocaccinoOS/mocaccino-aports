@@ -1,0 +1,7 @@
+name: mbedtls-utils
+version: "2.16.8"
+category: alpine
+description: Light-weight cryptographic and SSL/TLS library
+uri:
+  - https://tls.mbed.org
+license: Apache-2.0

@@ -1,0 +1,9 @@
+name: perl-extutils-config
+version: "0.008"
+category: alpine
+description: A wrapper for perl's configuration
+uri:
+  - https://metacpan.org/release/ExtUtils-Config/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.008.tar.gz"

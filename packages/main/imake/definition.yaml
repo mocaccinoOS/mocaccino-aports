@@ -1,0 +1,9 @@
+name: imake
+version: "1.0.8"
+category: alpine
+description: X Windows make utility
+uri:
+  - https://www.x.org
+license: MIT-enna
+labels:
+  package.source: "https://ftp.x.org/pub/individual/util/imake-1.0.8.tar.bz2"

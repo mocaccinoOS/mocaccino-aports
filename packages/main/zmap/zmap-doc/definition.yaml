@@ -1,0 +1,7 @@
+name: zmap-doc
+version: "2.1.1"
+category: alpine
+description: A high performance internet scanner
+uri:
+  - https://www.zmap.io/
+license: Apache-2.0

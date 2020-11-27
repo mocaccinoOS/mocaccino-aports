@@ -1,0 +1,9 @@
+name: libdbi
+version: "0.9.0"
+category: alpine
+description: Database independent abstraction layer for C
+uri:
+  - http://libdbi.sourceforge.net/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/project/libdbi/libdbi/libdbi-0.9.0/libdbi-0.9.0.tar.gz"

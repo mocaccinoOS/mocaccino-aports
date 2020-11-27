@@ -1,0 +1,7 @@
+name: py3-tdb
+version: "1.4.3"
+category: alpine
+description: The tdb library
+uri:
+  - https://tdb.samba.org/
+license: LGPL-3.0-or-later

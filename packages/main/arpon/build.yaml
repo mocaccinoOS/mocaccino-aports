@@ -1,0 +1,19 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libdnet-dev
+    version: '>=0'
+  - category: alpine
+    name: libpcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libnet-dev
+    version: '>=0'
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

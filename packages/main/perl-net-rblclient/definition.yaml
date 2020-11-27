@@ -1,0 +1,13 @@
+name: perl-net-rblclient
+version: "0.5"
+category: alpine
+description: Queries multiple Realtime Blackhole Lists in parallel
+uri:
+  - https://metacpan.org/release/Net-RBLClient/
+license: Artistic GPL-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AB/ABLUM/Net-RBLClient-0.5.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

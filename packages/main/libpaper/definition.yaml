@@ -1,0 +1,9 @@
+name: libpaper
+version: "1.1.28"
+category: alpine
+description: Library for handling paper characteristics
+uri:
+  - http://packages.debian.org/unstable/source/libpaper
+license: GPL-2.0-only
+labels:
+  package.source: "http://ftp.debian.org/debian/pool/main/libp/libpaper/libpaper_1.1.28.tar.gz"

@@ -1,0 +1,7 @@
+name: openresolv-doc
+version: "3.11.0"
+category: alpine
+description: A framework for managing DNS information
+uri:
+  - https://roy.marples.name/projects/openresolv
+license: BSD-2-Clause

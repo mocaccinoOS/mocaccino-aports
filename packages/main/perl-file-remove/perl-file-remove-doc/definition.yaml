@@ -1,0 +1,7 @@
+name: perl-file-remove-doc
+version: "1.60"
+category: alpine
+description: Remove files and directories
+uri:
+  - https://metacpan.org/release/File-Remove/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

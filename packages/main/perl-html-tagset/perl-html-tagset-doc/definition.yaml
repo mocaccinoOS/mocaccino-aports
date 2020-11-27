@@ -1,0 +1,7 @@
+name: perl-html-tagset-doc
+version: "3.20"
+category: alpine
+description: data tables useful in parsing HTML
+uri:
+  - https://metacpan.org/release/HTML-Tagset/
+license: GPL PerlArtistic

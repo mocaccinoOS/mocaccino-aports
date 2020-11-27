@@ -1,0 +1,7 @@
+name: postgresql-bdr-extension-doc
+version: "1.0.3"
+category: alpine
+description: PostgreSQL bidirectional replication (BDR) extension
+uri:
+  - https://wiki.postgresql.org/wiki/BDR_Administration
+license: PostgreSQL

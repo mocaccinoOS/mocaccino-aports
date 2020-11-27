@@ -1,0 +1,7 @@
+name: chrpath-doc
+version: "0.16"
+category: alpine
+description: Modify rpath of compiled programs
+uri:
+  - https://tracker.debian.org/pkg/chrpath
+license: GPL-2.0-or-later

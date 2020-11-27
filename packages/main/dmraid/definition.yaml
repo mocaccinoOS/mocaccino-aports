@@ -1,0 +1,9 @@
+name: dmraid
+version: "1.0.0_rc16"
+category: alpine
+description: Device mapper RAID interface
+uri:
+  - http://people.redhat.com/~heinzm/sw/dmraid/
+license: GPL-2.0-only LGPL-2.1-only
+labels:
+  package.source: "http://people.redhat.com/~heinzm/sw/dmraid/src/dmraid-1.0.0.rc16-3.tar.bz2"

@@ -1,0 +1,13 @@
+name: perl-path-tiny
+version: "0.114"
+category: alpine
+description: File path utility
+uri:
+  - https://metacpan.org/release/Path-Tiny
+license: Apache-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.114.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

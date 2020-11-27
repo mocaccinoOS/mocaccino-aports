@@ -1,0 +1,7 @@
+name: perl-test-mockmodule-doc
+version: "0.175.0"
+category: alpine
+description: Override subroutines in a module for unit testing
+uri:
+  - https://metacpan.org/release/Test-MockModule
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

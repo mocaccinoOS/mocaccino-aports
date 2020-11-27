@@ -1,0 +1,9 @@
+name: perl-exporter-tiny
+version: "1.002002"
+category: alpine
+description: An exporter with the features of Sub::Exporter but only core dependencies
+uri:
+  - https://metacpan.org/release/Exporter-Tiny/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002002.tar.gz"

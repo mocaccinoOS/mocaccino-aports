@@ -1,0 +1,9 @@
+name: elinks
+version: "0.13"
+category: alpine
+description: a text mode web browser
+uri:
+  - http://elinks.or.cz/
+license: GPL
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/elinks/elinks-0.13.tar.bz2"

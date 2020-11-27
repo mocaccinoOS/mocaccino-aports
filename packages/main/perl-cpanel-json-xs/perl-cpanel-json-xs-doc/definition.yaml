@@ -1,0 +1,7 @@
+name: perl-cpanel-json-xs-doc
+version: "4.25"
+category: alpine
+description: cPanel fork of JSON::XS, fast and correct serializing
+uri:
+  - https://metacpan.org/release/Cpanel-JSON-XS/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

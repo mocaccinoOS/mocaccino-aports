@@ -1,0 +1,7 @@
+name: perl-class-tiny-doc
+version: "1.008"
+category: alpine
+description: Minimalist class construction
+uri:
+  - https://metacpan.org/release/Class-Tiny/
+license: Apache-2.0

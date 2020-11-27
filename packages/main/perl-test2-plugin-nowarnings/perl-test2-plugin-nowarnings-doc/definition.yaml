@@ -1,0 +1,7 @@
+name: perl-test2-plugin-nowarnings-doc
+version: "0.09"
+category: alpine
+description: Test2::Plugin::NoWarnings perl module
+uri:
+  - https://metacpan.org/release/Test2-Plugin-NoWarnings
+license: Artistic-2.0

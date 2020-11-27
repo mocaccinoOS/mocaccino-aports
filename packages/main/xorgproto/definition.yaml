@@ -1,0 +1,9 @@
+name: xorgproto
+version: "2020.1"
+category: alpine
+description: Combined X.Org X11 protocol headers
+uri:
+  - https://www.x.org
+license: BSD-2-Clause AND MIT AND X11
+labels:
+  package.source: "https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2020.1.tar.bz2"

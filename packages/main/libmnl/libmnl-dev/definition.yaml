@@ -1,0 +1,7 @@
+name: libmnl-dev
+version: "1.0.4"
+category: alpine
+description: Library for minimalistic netlink
+uri:
+  - http://www.netfilter.org/projects/libmnl/
+license: GPL

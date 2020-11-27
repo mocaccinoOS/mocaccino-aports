@@ -1,0 +1,7 @@
+name: perl-xml-parser-doc
+version: "2.46"
+category: alpine
+description: A perl module for parsing XML documents
+uri:
+  - https://metacpan.org/release/XML-Parser
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

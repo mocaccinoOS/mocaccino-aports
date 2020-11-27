@@ -1,0 +1,22 @@
+name: ghi
+version: "1.2.0"
+category: alpine
+description: GitHub Issues on the command line
+uri:
+  - https://github.com/stephencelis/ghi
+license: MIT
+labels:
+  package.source: "ghi-1.2.0.tar.gz::https://github.com/stephencelis/ghi/archive/1.2.0.tar.gz"
+requires:
+  - category: alpine
+    name: "ruby"
+    version: '>=0'
+  - category: alpine
+    name: "ruby-json"
+    version: '>=0'
+  - category: alpine
+    name: "ncurses"
+    version: '>=0'
+  - category: alpine
+    name: "less"
+    version: '>=0'

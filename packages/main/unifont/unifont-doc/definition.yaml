@@ -1,0 +1,7 @@
+name: unifont-doc
+version: "13.0.03"
+category: alpine
+description: GNU Unifont glyphs
+uri:
+  - http://unifoundry.com/unifont.html
+license: GFDL-1.3-or-later GPL-2.0-or-later WITH Font-exception-2.0

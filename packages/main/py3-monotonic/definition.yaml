@@ -1,0 +1,13 @@
+name: py3-monotonic
+version: "1.5"
+category: alpine
+description: Provides a clock which never goes backwards.
+uri:
+  - https://github.com/atdt/monotonic/
+license: Apache-2.0
+labels:
+  package.source: "monotonic-1.5.tar.gz::https://github.com/atdt/monotonic/archive/1.5.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

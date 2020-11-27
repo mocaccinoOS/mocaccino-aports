@@ -1,0 +1,13 @@
+name: gdk-pixbuf
+version: "2.40.0"
+category: alpine
+description: GTK+ image loading library
+uri:
+  - https://wiki.gnome.org/Projects/GdkPixbuf
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://download.gnome.org/sources/gdk-pixbuf/2.40/gdk-pixbuf-2.40.0.tar.xz"
+requires:
+  - category: alpine
+    name: "shared-mime-info"
+    version: '>=0'

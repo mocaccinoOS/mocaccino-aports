@@ -1,0 +1,9 @@
+name: freeradius-client
+version: "1.1.7"
+category: alpine
+description: FreeRADIUS Client Software
+uri:
+  - https://freeradius.org/sub_projects/
+license: BSD
+labels:
+  package.source: "freeradius-client-1.1.7-release.tar.gz::https://github.com/FreeRADIUS/freeradius-client/archive/release_1_1_7.tar.gz"

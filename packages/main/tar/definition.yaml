@@ -1,0 +1,9 @@
+name: tar
+version: "1.32"
+category: alpine
+description: Utility used to store, backup, and transport files
+uri:
+  - https://www.gnu.org/software/tar/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/tar/tar-1.32.tar.xz"

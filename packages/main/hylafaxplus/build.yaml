@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: tiff-dev<4.2
+    version: '>=0'
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: lcms2-dev
+    version: '>=0'
+  - category: alpine
+    name: libffi-dev
+    version: '>=0'
+  - category: alpine
+    name: jbig2dec-dev
+    version: '>=0'
+  - category: alpine
+    name: sed
+    version: '>=0'
+  - category: alpine
+    name: readline-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-inc-latest-doc
+version: "0.500"
+category: alpine
+description: use modules bundled in inc/ if they are newer than installed ones
+uri:
+  - https://metacpan.org/release/inc-latest/
+license: Apache-2.0

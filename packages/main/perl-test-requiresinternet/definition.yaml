@@ -1,0 +1,9 @@
+name: perl-test-requiresinternet
+version: "0.05"
+category: alpine
+description: Easily test network connectivity
+uri:
+  - https://metacpan.org/release/Test-RequiresInternet/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz"

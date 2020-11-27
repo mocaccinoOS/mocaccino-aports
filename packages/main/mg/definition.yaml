@@ -1,0 +1,9 @@
+name: mg
+version: "20200723"
+category: alpine
+description: microscopic EMACS style editor
+uri:
+  - https://github.com/hboetes/mg
+license: Public-Domain
+labels:
+  package.source: "mg-20200723.tar.gz::https://github.com/hboetes/mg/archive/20200723.tar.gz"

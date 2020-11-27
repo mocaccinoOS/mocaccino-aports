@@ -1,0 +1,7 @@
+name: ethtool-bash-completion
+version: "5.9"
+category: alpine
+description: Utility for controlling network drivers and hardware
+uri:
+  - https://mirrors.edge.kernel.org/pub/software/network/ethtool/
+license: GPL-2.0-only

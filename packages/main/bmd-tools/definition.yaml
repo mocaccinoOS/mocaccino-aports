@@ -1,0 +1,9 @@
+name: bmd-tools
+version: "1.0.2"
+category: alpine
+description: Tools for Blackmagic USB video encoders
+uri:
+  - https://github.com/fabled/bmd-tools
+license: MIT
+labels:
+  package.source: "bmd-tools-1.0.2.tar.gz::https://github.com/fabled/bmd-tools/archive/v1.0.2.tar.gz"

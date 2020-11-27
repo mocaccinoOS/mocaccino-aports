@@ -1,0 +1,9 @@
+name: perl-mro-compat
+version: "0.13"
+category: alpine
+description: mro::* interface compatibility for Perls < 5.9.5
+uri:
+  - https://metacpan.org/release/MRO-Compat/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.13.tar.gz"

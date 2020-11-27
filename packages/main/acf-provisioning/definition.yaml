@@ -1,0 +1,25 @@
+name: acf-provisioning
+version: "0.10.1"
+category: alpine
+description: ACF for provisioning templated configs to devices
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-provisioning
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-provisioning/acf-provisioning-0.10.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-sql-postgres"
+    version: '>=0'
+  - category: alpine
+    name: "postgresql-client"
+    version: '>=0'
+  - category: alpine
+    name: "lua-posixtz"
+    version: '>=0'
+  - category: alpine
+    name: "lua-luaxml"
+    version: '>=0'

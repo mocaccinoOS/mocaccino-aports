@@ -1,0 +1,7 @@
+name: perl-mail-imapclient-doc
+version: "3.42"
+category: alpine
+description: IMAP4 client library
+uri:
+  - https://metacpan.org/release/Mail-IMAPClient
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

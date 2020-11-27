@@ -1,0 +1,7 @@
+name: nano-syntax
+version: "5.3"
+category: alpine
+description: Enhanced clone of the Pico text editor
+uri:
+  - https://www.nano-editor.org
+license: GPL-3.0-or-later

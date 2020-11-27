@@ -1,0 +1,7 @@
+name: ircii-doc
+version: "20190117"
+category: alpine
+description: Universal IRC for Unix systems
+uri:
+  - http://www.eterna.com.au/ircii/
+license: BSD-3-Clause

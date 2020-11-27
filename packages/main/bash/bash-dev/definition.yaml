@@ -1,0 +1,7 @@
+name: bash-dev
+version: "5.0.18"
+category: alpine
+description: The GNU Bourne Again shell
+uri:
+  - https://www.gnu.org/software/bash/bash.html
+license: GPL-3.0-or-later

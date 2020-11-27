@@ -1,0 +1,19 @@
+name: acf-freeswitch
+version: "0.8.0"
+category: alpine
+description: ACF for freeswitch
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-freeswitch
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-freeswitch/acf-freeswitch-0.8.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "freeswitch"
+    version: '>=0'
+  - category: alpine
+    name: "lua-luaxml"
+    version: '>=0'

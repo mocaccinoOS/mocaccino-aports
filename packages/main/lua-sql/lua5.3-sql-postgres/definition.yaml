@@ -1,0 +1,7 @@
+name: lua5.3-sql-postgres
+version: "2.6.0"
+category: alpine
+description: Lua SQL drivers
+uri:
+  - https://keplerproject.github.io/luasql/
+license: MIT

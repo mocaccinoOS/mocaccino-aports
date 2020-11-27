@@ -1,0 +1,22 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bash
+    version: '>=0'
+  - category: alpine
+    name: acl-dev
+    version: '>=0'
+  - category: alpine
+    name: attr-dev
+    version: '>=0'
+  - category: alpine
+    name: utmps-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

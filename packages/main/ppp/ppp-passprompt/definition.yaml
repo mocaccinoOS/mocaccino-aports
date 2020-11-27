@@ -1,0 +1,7 @@
+name: ppp-passprompt
+version: "2.4.8"
+category: alpine
+description: A daemon which implements the PPP protocol for dial-up networking
+uri:
+  - https://ppp.samba.org/
+license: BSD and LGPL-2.0-or-later and GPL-2.0-or-later and Public-Domain

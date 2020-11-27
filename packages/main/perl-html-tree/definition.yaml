@@ -1,0 +1,16 @@
+name: perl-html-tree
+version: "5.07"
+category: alpine
+description: Work with HTML in a DOM-like tree structure
+uri:
+  - https://metacpan.org/release/HTML-Tree/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KE/KENTNL/HTML-Tree-5.07.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-html-tagset"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'

@@ -1,0 +1,16 @@
+name: perl-html-quoted
+version: "0.04"
+category: alpine
+description: HTML::Quoted perl module
+uri:
+  - https://metacpan.org/release/HTML-Quoted/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TS/TSIBLEY/HTML-Quoted-0.04.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-parser"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: perl-font-afm
+version: "1.20"
+category: alpine
+description: Interface to Adobe Font Metrics files
+uri:
+  - https://metacpan.org/release/Font-AFM/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz"

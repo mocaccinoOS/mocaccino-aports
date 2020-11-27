@@ -1,0 +1,9 @@
+name: mksh
+version: "59c"
+category: alpine
+description: MirBSD KSH Shell
+uri:
+  - https://www.mirbsd.org/mksh
+license: MirOS
+labels:
+  package.source: "https://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R59c.tgz"

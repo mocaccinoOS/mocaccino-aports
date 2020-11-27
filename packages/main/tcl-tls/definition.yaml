@@ -1,0 +1,9 @@
+name: tcl-tls
+version: "1.7.22"
+category: alpine
+description: OpenSSL extension to Tcl
+uri:
+  - https://core.tcl.tk/tcltls/
+license: TCL
+labels:
+  package.source: "https://core.tcl.tk/tcltls/uv/tcltls-1.7.22.tar.gz"

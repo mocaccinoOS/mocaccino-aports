@@ -1,0 +1,7 @@
+name: ldapvi-doc
+version: "1.7"
+category: alpine
+description: ldapvi is an interactive LDAP client for Unix terminals
+uri:
+  - http://www.lichteblau.com/ldapvi/
+license: GPL

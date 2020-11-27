@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxext-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrender-dev
+    version: '>=0'
+  - category: alpine
+    name: libice-dev
+    version: '>=0'
+  - category: alpine
+    name: libsm-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrandr-dev
+    version: '>=0'
+  - category: alpine
+    name: mesa-dev
+    version: '>=0'
+  - category: alpine
+    name: alsa-lib-dev
+    version: '>=0'
+  - category: alpine
+    name: glu-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

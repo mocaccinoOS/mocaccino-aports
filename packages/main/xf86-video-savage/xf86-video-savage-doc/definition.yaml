@@ -1,0 +1,7 @@
+name: xf86-video-savage-doc
+version: "2.3.9"
+category: alpine
+description: S3 Savage video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

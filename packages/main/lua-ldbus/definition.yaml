@@ -1,0 +1,9 @@
+name: lua-ldbus
+version: "20150430"
+category: alpine
+description: Lua D-Bus bindings
+uri:
+  - https://github.com/daurnimator/ldbus
+license: MIT
+labels:
+  package.source: "ldbus-20150430.tar.gz::https://github.com/daurnimator/ldbus/archive/9f6db626600eb7e04000368da947e0c5cd175fb5.tar.gz"

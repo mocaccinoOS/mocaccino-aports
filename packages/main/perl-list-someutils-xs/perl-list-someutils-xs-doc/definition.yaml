@@ -1,0 +1,7 @@
+name: perl-list-someutils-xs-doc
+version: "0.58"
+category: alpine
+description: XS implementation for List::SomeUtils
+uri:
+  - https://metacpan.org/release/List-SomeUtils-XS
+license: Artistic-2.0

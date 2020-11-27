@@ -1,0 +1,13 @@
+name: asciidoctor
+version: "2.0.12"
+category: alpine
+description: Converter for AsciiDoc to HTML5, DocBook 5 (or 4.5) and other formats
+uri:
+  - https://rubygems.org/gems/asciidoctor
+license: MIT
+labels:
+  package.source: "https://rubygems.org/downloads/asciidoctor-2.0.12.gem"
+requires:
+  - category: alpine
+    name: "ruby"
+    version: '>=0'

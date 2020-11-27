@@ -1,0 +1,22 @@
+name: perl-test-pod-coverage
+version: "1.10"
+category: alpine
+description: Perl - Check for pod coverage in your distribution.
+uri:
+  - https://metacpan.org/release/Test-Pod-Coverage/
+license: Artistic GPL
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-pod-coverage"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-pod"
+    version: '>=0'
+  - category: alpine
+    name: "perl-devel-symdump"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: mtools
+version: "4.0.25"
+category: alpine
+description: collection of utilities to access MS-DOS disks from Unix without mounting them
+uri:
+  - https://www.gnu.org/software/mtools/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/mtools/mtools-4.0.25.tar.bz2"

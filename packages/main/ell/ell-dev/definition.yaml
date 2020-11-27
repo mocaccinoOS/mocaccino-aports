@@ -1,0 +1,7 @@
+name: ell-dev
+version: "0.33"
+category: alpine
+description: Linux library for embedded development
+uri:
+  - https://01.org/ell
+license: GPL-2.0-only

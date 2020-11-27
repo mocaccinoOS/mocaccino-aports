@@ -1,0 +1,7 @@
+name: perl-exporter-doc
+version: "5.74"
+category: alpine
+description: Implements default import method for modules
+uri:
+  - https://metacpan.org/release/Exporter
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

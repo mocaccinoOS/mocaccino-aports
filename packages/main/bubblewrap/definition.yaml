@@ -1,0 +1,9 @@
+name: bubblewrap
+version: "0.4.1"
+category: alpine
+description: Unprivileged sandboxing tool
+uri:
+  - https://github.com/containers/bubblewrap
+license: LGPL-2.0-or-later
+labels:
+  package.source: "bubblewrap-0.4.1.tar.gz::https://github.com/containers/bubblewrap/archive/v0.4.1.tar.gz"

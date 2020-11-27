@@ -1,0 +1,9 @@
+name: py3-iniconfig
+version: "1.1.1"
+category: alpine
+description: brain-dead simple config-ini parsing
+uri:
+  - https://github.com/RonnyPfannschmidt/iniconfig
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-1.1.1.tar.gz"

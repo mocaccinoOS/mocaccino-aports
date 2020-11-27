@@ -1,0 +1,9 @@
+name: lua-sec
+version: "0.9"
+category: alpine
+description: TLS/SSL Support for Lua
+uri:
+  - https://github.com/brunoos/luasec/wiki
+license: MIT
+labels:
+  package.source: "luasec-0.9.tar.gz::https://github.com/brunoos/luasec/archive/v0.9.tar.gz"

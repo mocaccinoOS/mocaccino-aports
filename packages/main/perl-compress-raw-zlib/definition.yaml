@@ -1,0 +1,13 @@
+name: perl-compress-raw-zlib
+version: "2.096"
+category: alpine
+description: Perl low-level interface to zlib compression library
+uri:
+  - https://metacpan.org/release/Compress-Raw-Zlib
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.096.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

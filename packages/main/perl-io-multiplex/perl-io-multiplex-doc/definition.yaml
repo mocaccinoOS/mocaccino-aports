@@ -1,0 +1,7 @@
+name: perl-io-multiplex-doc
+version: "1.16"
+category: alpine
+description: Perl module to manage IO on many file handles
+uri:
+  - https://metacpan.org/pod/IO::Multiplex
+license: Artistic-Perl-1.0 OR GPL-1.0-or-later

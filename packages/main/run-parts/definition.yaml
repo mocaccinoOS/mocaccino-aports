@@ -1,0 +1,9 @@
+name: run-parts
+version: "4.11.2"
+category: alpine
+description: run-parts from the debianutils package
+uri:
+  - https://packages.qa.debian.org/d/debianutils.html
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://ftp.de.debian.org/debian/pool/main/d/debianutils/debianutils_4.11.2.tar.xz"

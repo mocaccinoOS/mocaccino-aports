@@ -1,0 +1,13 @@
+name: lua-json4
+version: "1.0.0"
+category: alpine
+description: JSON encoding / decoding module for Lua (JSON4lua)
+uri:
+  - https://github.com/craigmj/json4lua
+license: GPL-2.0
+labels:
+  package.source: "lua-json4-1.0.0.tar.gz::https://github.com/craigmj/json4lua/archive/1.0.0.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

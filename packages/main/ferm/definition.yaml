@@ -1,0 +1,16 @@
+name: ferm
+version: "2.5.1"
+category: alpine
+description: firewall configuration tool
+uri:
+  - http://ferm.foo-projects.org/
+license: GPL
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "iptables"
+    version: '>=0'

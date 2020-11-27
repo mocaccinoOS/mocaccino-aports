@@ -1,0 +1,7 @@
+name: giflib-dev
+version: "5.2.1"
+category: alpine
+description: A library for reading and writing GIF images
+uri:
+  - https://sourceforge.net/projects/giflib/
+license: MIT

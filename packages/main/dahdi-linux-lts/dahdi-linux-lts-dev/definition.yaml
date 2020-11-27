@@ -1,0 +1,7 @@
+name: dahdi-linux-lts-dev
+version: "5.4.80"
+category: alpine
+description: Digium Asterisk Hardware Device Interface drivers
+uri:
+  - http://www.asterisk.org
+license: GPL-2.0-or-later

@@ -1,0 +1,7 @@
+name: perl-html-tree-doc
+version: "5.07"
+category: alpine
+description: Work with HTML in a DOM-like tree structure
+uri:
+  - https://metacpan.org/release/HTML-Tree/
+license: GPL PerlArtistic

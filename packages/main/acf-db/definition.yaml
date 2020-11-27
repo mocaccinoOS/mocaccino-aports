@@ -1,0 +1,16 @@
+name: acf-db
+version: "0.2.1"
+category: alpine
+description: A web-based system administration interface for databases
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-db
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-db/acf-db-0.2.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "acf-db-lib"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: linux-pam
+version: "1.4.0"
+category: alpine
+description: Linux PAM (Pluggable Authentication Modules for Linux)
+uri:
+  - https://www.kernel.org/pub/linux/libs/pam
+license: BSD-3-Clause
+labels:
+  package.source: ""

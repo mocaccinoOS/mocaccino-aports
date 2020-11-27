@@ -1,0 +1,13 @@
+name: apache-mod-auth-kerb
+version: "5.4"
+category: alpine
+description: A Kerberos authentication module for the Apache Http Server
+uri:
+  - https://sourceforge.net/projects/modauthkerb/
+license: BSD-3-Clause AND MIT
+labels:
+  package.source: "https://downloads.sourceforge.net/project/modauthkerb/mod_auth_kerb/mod_auth_kerb-5.4/mod_auth_kerb-5.4.tar.gz"
+requires:
+  - category: alpine
+    name: "apache2"
+    version: '>=0'

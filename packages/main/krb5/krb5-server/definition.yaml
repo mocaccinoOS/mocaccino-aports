@@ -1,0 +1,7 @@
+name: krb5-server
+version: "1.18.3"
+category: alpine
+description: The Kerberos network authentication system
+uri:
+  - https://web.mit.edu/kerberos/www/
+license: MIT

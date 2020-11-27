@@ -1,0 +1,7 @@
+name: nss-tools
+version: "3.59"
+category: alpine
+description: Mozilla Network Security Services
+uri:
+  - https://developer.mozilla.org/docs/Mozilla/Projects/NSS
+license: MPL-2.0

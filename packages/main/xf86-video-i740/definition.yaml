@@ -1,0 +1,9 @@
+name: xf86-video-i740
+version: "1.4.0"
+category: alpine
+description: Intel i740 video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/driver/xf86-video-i740-1.4.0.tar.bz2"

@@ -1,0 +1,7 @@
+name: libdrm-dev
+version: "2.4.103"
+category: alpine
+description: Userspace interface to kernel DRM services
+uri:
+  - https://dri.freedesktop.org/
+license: MIT

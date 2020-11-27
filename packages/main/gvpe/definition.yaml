@@ -1,0 +1,9 @@
+name: gvpe
+version: "3.1"
+category: alpine
+description: GNU Virtual Private Ethernet
+uri:
+  - http://software.schmorp.de/pkg/gvpe.html
+license: GPL-2.0
+labels:
+  package.source: "https://ftp.gnu.org/gnu/gvpe/gvpe-3.1.tar.gz"

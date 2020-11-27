@@ -1,0 +1,9 @@
+name: perdition
+version: "2.2"
+category: alpine
+description: A Mail retrieval proxy
+uri:
+  - http://horms.net/projects/perdition/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://horms.net/projects/perdition/download/2.2/perdition-2.2.tar.xz"

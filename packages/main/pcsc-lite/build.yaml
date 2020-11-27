@@ -1,0 +1,19 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: eudev-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-ng-utils
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

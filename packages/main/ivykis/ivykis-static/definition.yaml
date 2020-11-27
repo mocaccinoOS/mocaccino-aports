@@ -1,0 +1,7 @@
+name: ivykis-static
+version: "0.42.4"
+category: alpine
+description: Library for asynchronous I/O readiness notification
+uri:
+  - http://libivykis.sourceforge.net
+license: LGPL-2.0-or-later

@@ -1,0 +1,13 @@
+name: ruby
+version: "2.7.2"
+category: alpine
+description: An object-oriented language for quick and easy programming
+uri:
+  - https://www.ruby-lang.org/
+license: Ruby AND BSD-2-Clause AND MIT
+labels:
+  package.source: "https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.gz"
+requires:
+  - category: alpine
+    name: "ca-certificates"
+    version: '>=0'

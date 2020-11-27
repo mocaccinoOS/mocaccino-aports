@@ -1,0 +1,13 @@
+name: py3-ptyprocess
+version: "0.6.0"
+category: alpine
+description: Run a subprocess in a pseudo terminal
+uri:
+  - https://github.com/pexpect/ptyprocess
+license: ISC
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/ptyprocess/ptyprocess-0.6.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

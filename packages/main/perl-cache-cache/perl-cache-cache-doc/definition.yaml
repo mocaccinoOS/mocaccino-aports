@@ -1,0 +1,7 @@
+name: perl-cache-cache-doc
+version: "1.08"
+category: alpine
+description: Perl modules for cache-handling for applications
+uri:
+  - https://metacpan.org/release/Cache-Cache/
+license: GPL PerlArtistic

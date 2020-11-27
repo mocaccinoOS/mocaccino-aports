@@ -1,0 +1,9 @@
+name: compat-pvgrub
+version: "1"
+category: alpine
+description: compatibility support for PV-GRUB 1.x
+uri:
+  - https://www.alpinelinux.org/
+license: ISC
+labels:
+  package.source: "update-pvgrub"

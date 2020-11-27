@@ -1,0 +1,7 @@
+name: perl-test-exception-doc
+version: "0.43"
+category: alpine
+description: Perl - Test exception based code
+uri:
+  - https://metacpan.org/release/Test-Exception/
+license: GPL PerlArtistic

@@ -1,0 +1,9 @@
+name: openntpd
+version: "6.2_p3"
+category: alpine
+description: Lightweight NTP server ported from OpenBSD
+uri:
+  - http://www.openntpd.org/
+license: ISC
+labels:
+  package.source: "https://ftp.openbsd.org/pub/OpenBSD/OpenNTPD/openntpd-6.2p3.tar.gz"

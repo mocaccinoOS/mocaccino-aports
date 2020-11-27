@@ -1,0 +1,7 @@
+name: perl-scalar-list-utils-doc
+version: "1.55"
+category: alpine
+description: Common Scalar and List utility subroutines
+uri:
+  - https://metacpan.org/release/Scalar-List-Utils
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

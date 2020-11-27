@@ -1,0 +1,7 @@
+name: perl-crypt-openssl-random-doc
+version: "0.15"
+category: alpine
+description: RSA encoding and decoding, using the openSSL libraries
+uri:
+  - http://search.cpan.org/~iroberts/Crypt-OpenSSL-Random-0.04/
+license: Artistic-1.0 GPL+

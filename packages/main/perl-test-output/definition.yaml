@@ -1,0 +1,19 @@
+name: perl-test-output
+version: "1.031"
+category: alpine
+description: Utilities to test STDOUT and STDERR messages.
+uri:
+  - https://metacpan.org/release/Test-Output/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Test-Output-1.031.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-capture-tiny"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-exporter"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-simple"
+    version: '>=0'

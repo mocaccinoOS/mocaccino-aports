@@ -1,0 +1,7 @@
+name: libcrypto1.1
+version: "1.1.1h"
+category: alpine
+description: Toolkit for Transport Layer Security (TLS)
+uri:
+  - https://www.openssl.org/
+license: OpenSSL

@@ -1,0 +1,7 @@
+name: perl-specio-doc
+version: "0.46"
+category: alpine
+description: Specio perl module
+uri:
+  - https://metacpan.org/release/Specio
+license: Artistic-2.0

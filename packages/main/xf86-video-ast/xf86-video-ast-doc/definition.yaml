@@ -1,0 +1,7 @@
+name: xf86-video-ast-doc
+version: "1.1.5"
+category: alpine
+description: X.Org driver for ASpeedTech cards
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

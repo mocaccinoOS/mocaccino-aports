@@ -1,0 +1,9 @@
+name: ipvsadm
+version: "1.31"
+category: alpine
+description: The IP Virtual Server administration utility
+uri:
+  - http://www.linuxvirtualserver.org/software/ipvs.html
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://kernel.org/pub/linux/utils/kernel/ipvsadm/ipvsadm-1.31.tar.xz"

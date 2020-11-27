@@ -1,0 +1,7 @@
+name: testdisk-doc
+version: "7.1"
+category: alpine
+description: A data recovery suite
+uri:
+  - https://www.cgsecurity.org/wiki/TestDisk
+license: GPL-2.0-or-later

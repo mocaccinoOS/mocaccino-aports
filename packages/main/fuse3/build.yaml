@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: gettext-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: alpine
+    name: eudev-dev
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: alpine
+    name: py3-six
+    version: '>=0'
+  - category: alpine
+    name: py3-pluggy
+    version: '>=0'
+  - category: alpine
+    name: py3-attrs
+    version: '>=0'
+  - category: alpine
+    name: py3-py
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

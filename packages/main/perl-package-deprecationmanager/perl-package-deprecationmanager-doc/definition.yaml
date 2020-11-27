@@ -1,0 +1,7 @@
+name: perl-package-deprecationmanager-doc
+version: "0.17"
+category: alpine
+description: Manage deprecation warnings for your distribution
+uri:
+  - https://metacpan.org/release/Package-DeprecationManager/
+license: Artistic-2.0

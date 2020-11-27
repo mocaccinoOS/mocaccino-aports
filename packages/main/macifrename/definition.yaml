@@ -1,0 +1,9 @@
+name: macifrename
+version: "0.1.1"
+category: alpine
+description: stably rename NICs based on MAC addresses
+uri:
+  - https://git.sr.ht/~kaniini/macifrename
+license: ISC
+labels:
+  package.source: "macifrename-0.1.1.tar.gz::https://git.sr.ht/~kaniini/macifrename/archive/0.1.1.tar.gz"

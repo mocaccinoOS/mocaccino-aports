@@ -1,0 +1,9 @@
+name: subversion
+version: "1.14.0"
+category: alpine
+description: Replacement for CVS, another versioning system (svn)
+uri:
+  - https://subversion.apache.org/
+license: Apache-2.0 BSD
+labels:
+  package.source: "https://archive.apache.org/dist/subversion/subversion-1.14.0.tar.bz2"

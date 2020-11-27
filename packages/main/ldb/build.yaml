@@ -1,0 +1,40 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libtirpc-dev
+    version: '>=0'
+  - category: alpine
+    name: tevent-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-tevent
+    version: '>=0'
+  - category: alpine
+    name: tdb-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-tdb
+    version: '>=0'
+  - category: alpine
+    name: talloc-dev
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: popt-dev
+    version: '>=0'
+  - category: alpine
+    name: cmocka-dev
+    version: '>=0'
+  - category: alpine
+    name: docbook-xsl
+    version: '>=0'
+  - category: alpine
+    name: lmdb-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

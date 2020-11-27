@@ -1,0 +1,7 @@
+name: perl-locale-maketext-lexicon-doc
+version: "1.00"
+category: alpine
+description: Locale::Maketext::Lexicon perl module
+uri:
+  - https://metacpan.org/release/Locale-Maketext-Lexicon/
+license: GPL-2.0 or Artistic

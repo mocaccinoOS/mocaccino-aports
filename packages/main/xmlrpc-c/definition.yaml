@@ -1,0 +1,9 @@
+name: xmlrpc-c
+version: "1.51.06"
+category: alpine
+description: This library provides a modular implementation of XML-RPC for C and C++
+uri:
+  - http://xmlrpc-c.sourceforge.net/
+license: BSD-3-Clause AND MIT
+labels:
+  package.source: "xmlrpc-c-1.51.06.tar::https://sourceforge.net/projects/xmlrpc-c/files/Xmlrpc-c%20Super%20Stable/1.51.06/xmlrpc-c-1.51.06.tgz/download"

@@ -1,0 +1,16 @@
+name: lua-feedparser
+version: "0.71"
+category: alpine
+description: A decent RSS and Atom XML feed parser
+uri:
+  - https://github.com/slact/lua-feedparser
+license: BSD-3-Clause
+labels:
+  package.source: "lua-feedparser-0.71.tar.gz::https://github.com/slact/lua-feedparser/archive/0.71.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'
+  - category: alpine
+    name: "lua-expat"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-class-container-doc
+version: "0.13"
+category: alpine
+description: Glues object frameworks together transparently
+uri:
+  - https://metacpan.org/release/Class-Container/
+license: GPL PerlArtistic

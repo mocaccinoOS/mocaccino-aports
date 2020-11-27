@@ -1,0 +1,9 @@
+name: nss
+version: "3.59"
+category: alpine
+description: Mozilla Network Security Services
+uri:
+  - https://developer.mozilla.org/docs/Mozilla/Projects/NSS
+license: MPL-2.0
+labels:
+  package.source: "https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_59_RTM/src/nss-3.59.tar.gz"

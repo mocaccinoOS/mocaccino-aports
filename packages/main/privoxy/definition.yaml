@@ -1,0 +1,9 @@
+name: privoxy
+version: "3.0.28"
+category: alpine
+description: A web proxy with advanced filtering capabilities
+uri:
+  - https://www.privoxy.org
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/ijbswa/privoxy-3.0.28-stable-src.tar.gz"

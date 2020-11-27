@@ -1,0 +1,7 @@
+name: bind-dnssec-tools
+version: "9.16.8"
+category: alpine
+description: The ISC DNS server
+uri:
+  - https://www.isc.org/
+license: MPL-2.0

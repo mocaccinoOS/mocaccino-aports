@@ -1,0 +1,9 @@
+name: tzdata
+version: "2020d"
+category: alpine
+description: Timezone data
+uri:
+  - https://www.iana.org/time-zones
+license: Public-Domain
+labels:
+  package.source: "https://www.iana.org/time-zones/repository/releases/tzcode2020d.tar.gz"

@@ -1,0 +1,22 @@
+name: perl-pod-coverage
+version: "0.23"
+category: alpine
+description: Perl - Checks if the documentation of a module is comprehensive
+uri:
+  - http://search.cpan.org/~rclamp/Pod-Coverage-0.23
+license: Artistic-1.0-Perl or GPL-1.0-or-later
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-devel-symdump"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-pod"
+    version: '>=0'
+  - category: alpine
+    name: "perl-pod-parser"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-ipc-sharelite-doc
+version: "0.17"
+category: alpine
+description: Lightweight interface to shared memory
+uri:
+  - https://metacpan.org/pod/IPC::ShareLite
+license: PerlArtistic GPL

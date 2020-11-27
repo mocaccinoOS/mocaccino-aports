@@ -1,0 +1,7 @@
+name: perl-socket6-doc
+version: "0.29"
+category: alpine
+description: perl module for IPV6 operations
+uri:
+  - https://metacpan.org/release/Socket6/
+license: BSD-3-Clause

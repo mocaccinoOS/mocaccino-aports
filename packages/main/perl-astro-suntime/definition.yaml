@@ -1,0 +1,16 @@
+name: perl-astro-suntime
+version: "0.06"
+category: alpine
+description: A functional module for calculating sunrise/sunset times
+uri:
+  - https://metacpan.org/release/Astro-SunTime/
+license: GPL-3.0-only
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RO/ROBF/Astro-SunTime-0.06.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-time-parsedate"
+    version: '>=0'

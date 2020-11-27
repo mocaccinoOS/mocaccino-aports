@@ -1,0 +1,13 @@
+name: perl-module-scandeps
+version: "1.29"
+category: alpine
+description: Recursively scan Perl code for dependencies
+uri:
+  - https://metacpan.org/release/Module-ScanDeps
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RS/RSCHUPP/Module-ScanDeps-1.29.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

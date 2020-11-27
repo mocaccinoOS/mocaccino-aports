@@ -1,0 +1,7 @@
+name: ncdu-doc
+version: "1.15.1"
+category: alpine
+description: Text-based disk usage viewer
+uri:
+  - https://dev.yorhel.nl/ncdu
+license: MIT

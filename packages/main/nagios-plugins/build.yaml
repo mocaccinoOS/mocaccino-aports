@@ -1,0 +1,70 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: openssh-client
+    version: '>=0'
+  - category: alpine
+    name: bind-tools
+    version: '>=0'
+  - category: alpine
+    name: samba-client
+    version: '>=0'
+  - category: alpine
+    name: fping
+    version: '>=0'
+  - category: alpine
+    name: grep
+    version: '>=0'
+  - category: alpine
+    name: rpcbind
+    version: '>=0'
+  - category: alpine
+    name: lm-sensors
+    version: '>=0'
+  - category: alpine
+    name: net-snmp-tools
+    version: '>=0'
+  - category: alpine
+    name: file
+    version: '>=0'
+  - category: alpine
+    name: freeradius-client-dev
+    version: '>=0'
+  - category: alpine
+    name: libdbi-dev
+    version: '>=0'
+  - category: alpine
+    name: libpq
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: mariadb-dev
+    version: '>=0'
+  - category: alpine
+    name: mariadb-connector-c-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: net-snmp-dev
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: opensmtpd
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

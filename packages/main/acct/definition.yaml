@@ -1,0 +1,9 @@
+name: acct
+version: "6.6.4"
+category: alpine
+description: The GNU Accounting Utilities
+uri:
+  - https://www.gnu.org/software/acct/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/acct/acct-6.6.4.tar.gz"

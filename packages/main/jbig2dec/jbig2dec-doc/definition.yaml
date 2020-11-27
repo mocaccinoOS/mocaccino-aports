@@ -1,0 +1,7 @@
+name: jbig2dec-doc
+version: "0.19"
+category: alpine
+description: JBIG2 image compression format decoder
+uri:
+  - https://jbig2dec.com/
+license: GPL-2.0-or-later

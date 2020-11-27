@@ -1,0 +1,7 @@
+name: isl-dev
+version: "0.22"
+category: alpine
+description: An Integer Set Library for the Polyhedral Model
+uri:
+  - http://isl.gforge.inria.fr/
+license: MIT

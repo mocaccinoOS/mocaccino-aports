@@ -1,0 +1,7 @@
+name: po4a-lang
+version: "0.61"
+category: alpine
+description: Tools for helping translation of documentation
+uri:
+  - https://po4a.org
+license: GPL-2.0-or-later

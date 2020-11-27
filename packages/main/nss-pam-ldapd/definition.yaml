@@ -1,0 +1,9 @@
+name: nss-pam-ldapd
+version: "0.9.11"
+category: alpine
+description: An nsswitch module which uses directory servers
+uri:
+  - https://arthurdejong.org/nss-pam-ldapd/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://arthurdejong.org/nss-pam-ldapd/nss-pam-ldapd-0.9.11.tar.gz"

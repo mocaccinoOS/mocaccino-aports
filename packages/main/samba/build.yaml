@@ -1,0 +1,106 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: acl-dev
+    version: '>=0'
+  - category: alpine
+    name: bind-dev
+    version: '>=0'
+  - category: alpine
+    name: cups-dev
+    version: '>=0'
+  - category: alpine
+    name: dbus-dev
+    version: '>=0'
+  - category: alpine
+    name: docbook-xsl
+    version: '>=0'
+  - category: alpine
+    name: e2fsprogs-dev
+    version: '>=0'
+  - category: alpine
+    name: fuse-dev
+    version: '>=0'
+  - category: alpine
+    name: gnutls-dev
+    version: '>=0'
+  - category: alpine
+    name: iniparser-dev
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: ldb-dev
+    version: '>=0'
+  - category: alpine
+    name: libarchive-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libtirpc-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-pam-dev
+    version: '>=0'
+  - category: alpine
+    name: musl-nscd-dev
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: perl-parse-yapp
+    version: '>=0'
+  - category: alpine
+    name: popt-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-tdb
+    version: '>=0'
+  - category: alpine
+    name: py3-tevent
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: rpcgen
+    version: '>=0'
+  - category: alpine
+    name: subunit-dev
+    version: '>=0'
+  - category: alpine
+    name: talloc-dev
+    version: '>=0'
+  - category: alpine
+    name: tdb-dev
+    version: '>=0'
+  - category: alpine
+    name: tevent-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-dnspython
+    version: '>=0'
+  - category: alpine
+    name: py3-markdown
+    version: '>=0'
+  - category: alpine
+    name: tdb
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

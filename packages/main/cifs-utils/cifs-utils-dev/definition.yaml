@@ -1,0 +1,7 @@
+name: cifs-utils-dev
+version: "6.11"
+category: alpine
+description: CIFS filesystem user-space tools
+uri:
+  - https://wiki.samba.org/index.php/LinuxCIFS_utils
+license: GPL-2.0-or-later

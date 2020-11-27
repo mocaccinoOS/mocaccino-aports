@@ -1,0 +1,9 @@
+name: aspell-de
+version: "20161207"
+category: alpine
+description: German dictionary for aspell
+uri:
+  - http://aspell.net/
+license: GPL-2.0
+labels:
+  package.source: "https://ftp.gnu.org/gnu/aspell/dict/de/aspell6-de-20161207-7-0.tar.bz2"

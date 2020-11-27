@@ -1,0 +1,9 @@
+name: rpcbind
+version: "1.2.5"
+category: alpine
+description: portmap replacement which supports RPC over various protocols
+uri:
+  - http://rpcbind.sourceforge.net
+license: BSD-3-Clause
+labels:
+  package.source: "https://downloads.sourceforge.net/project/rpcbind/rpcbind/1.2.5/rpcbind-1.2.5.tar.bz2"

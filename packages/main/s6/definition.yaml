@@ -1,0 +1,13 @@
+name: s6
+version: "2.9.2.0"
+category: alpine
+description: skarnet.org's small & secure supervision software suite.
+uri:
+  - https://skarnet.org/software/s6/
+license: ISC
+labels:
+  package.source: "https://skarnet.org/software/s6/s6-2.9.2.0.tar.gz s6-svscanboot s6.initd"
+requires:
+  - category: alpine
+    name: "s6-ipcserver"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: vanessa_logger-doc
+version: "0.0.10"
+category: alpine
+description: Logging library
+uri:
+  - http://horms.net/projects/perdition/
+license: LGPL-2.0-or-later

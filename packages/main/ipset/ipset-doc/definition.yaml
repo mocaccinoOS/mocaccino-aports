@@ -1,0 +1,7 @@
+name: ipset-doc
+version: "7.9"
+category: alpine
+description: Manage Linux IP sets
+uri:
+  - https://ipset.netfilter.org/
+license: GPL-2.0-only

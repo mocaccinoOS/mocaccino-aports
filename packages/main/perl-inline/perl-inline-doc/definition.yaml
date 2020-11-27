@@ -1,0 +1,7 @@
+name: perl-inline-doc
+version: "0.86"
+category: alpine
+description: Write Perl subroutines in other programming languages
+uri:
+  - https://metacpan.org/pod/distribution/Inline/lib/Inline.pod
+license: Artistic-1.0-Perl OR GPL-1.0-or-later

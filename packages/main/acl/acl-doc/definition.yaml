@@ -1,0 +1,7 @@
+name: acl-doc
+version: "2.2.53"
+category: alpine
+description: Access control list utilities
+uri:
+  - https://savannah.nongnu.org/projects/acl
+license: LGPL-2.1-or-later AND GPL-2.0-or-later

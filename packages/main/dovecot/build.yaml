@@ -1,0 +1,55 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: bzip2-dev
+    version: '>=0'
+  - category: alpine
+    name: clucene-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: heimdal-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: mariadb-connector-c-dev
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libsodium-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

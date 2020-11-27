@@ -1,0 +1,7 @@
+name: rrsync
+version: "3.2.3"
+category: alpine
+description: A file transfer program to keep remote files in sync
+uri:
+  - https://rsync.samba.org/
+license: GPL-3.0-or-later

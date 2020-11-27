@@ -1,0 +1,13 @@
+name: bash-completion
+version: "2.11"
+category: alpine
+description: Command-line tab-completion for bash
+uri:
+  - https://github.com/scop/bash-completion
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'

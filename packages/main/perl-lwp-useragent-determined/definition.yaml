@@ -1,0 +1,16 @@
+name: perl-lwp-useragent-determined
+version: "1.07"
+category: alpine
+description: a virtual browser that retries errors
+uri:
+  - https://metacpan.org/release/LWP-UserAgent-Determined/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AL/ALEXMV/LWP-UserAgent-Determined-1.07.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-libwww"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-try-tiny-doc
+version: "0.30"
+category: alpine
+description: minimal try/catch with proper preservation of perl-try-tiny-doc perl-try-tiny /home/mudler/_git/aports/main/perl-try-tiny /home/mudler/_git/aports/main/perl-try-tiny/APKBUILD
+uri:
+  - https://search.cpan.org/dist/Try-Tiny/
+license: MIT

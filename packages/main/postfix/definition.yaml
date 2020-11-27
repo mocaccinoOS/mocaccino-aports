@@ -1,0 +1,13 @@
+name: postfix
+version: "3.5.8"
+category: alpine
+description: Secure and fast drop-in replacement for Sendmail (MTA)
+uri:
+  - http://www.postfix.org/
+license: IPL-1.0 EPL-2.0
+labels:
+  package.source: "https://de.postfix.org/ftpmirror/official/postfix-3.5.8.tar.gz"
+requires:
+  - category: alpine
+    name: "musl>=1.1.24-r7"
+    version: '>=0'

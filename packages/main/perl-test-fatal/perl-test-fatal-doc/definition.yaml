@@ -1,0 +1,7 @@
+name: perl-test-fatal-doc
+version: "0.016"
+category: alpine
+description: incredibly simple helpers for testing code with exceptions
+uri:
+  - https://metacpan.org/release/Test-Fatal/
+license: GPL PerlArtistic

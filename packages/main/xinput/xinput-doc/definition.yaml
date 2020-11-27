@@ -1,0 +1,7 @@
+name: xinput-doc
+version: "1.6.3"
+category: alpine
+description: Utility to configure and test XInput devices
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

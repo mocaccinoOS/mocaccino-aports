@@ -1,0 +1,37 @@
+name: perl-ldap
+version: "0.66"
+category: alpine
+description: LDAP client library
+uri:
+  - https://metacpan.org/release/perl-ldap/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MARSCHAP/perl-ldap-0.66.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-libwww"
+    version: '>=0'
+  - category: alpine
+    name: "perl-lwp-mediatypes"
+    version: '>=0'
+  - category: alpine
+    name: "perl-json"
+    version: '>=0'
+  - category: alpine
+    name: "perl-convert-asn1"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-message"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-negotiate"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-socket-ssl"
+    version: '>=0'

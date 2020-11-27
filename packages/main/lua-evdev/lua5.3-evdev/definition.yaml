@@ -1,0 +1,7 @@
+name: lua5.3-evdev
+version: "2.2.1"
+category: alpine
+description: Lua module for reading input events
+uri:
+  - https://github.com/Tangent128/lua-evdev
+license: MIT

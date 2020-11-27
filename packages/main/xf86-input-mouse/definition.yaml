@@ -1,0 +1,9 @@
+name: xf86-input-mouse
+version: "1.9.3"
+category: alpine
+description: X.org mouse input driver
+uri:
+  - https://www.x.org
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/driver/xf86-input-mouse-1.9.3.tar.bz2"

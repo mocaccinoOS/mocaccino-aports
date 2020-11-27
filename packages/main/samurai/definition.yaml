@@ -1,0 +1,9 @@
+name: samurai
+version: "1.1"
+category: alpine
+description: ninja-compatible build tool written in C
+uri:
+  - https://github.com/michaelforney/samurai
+license: Apache-2.0
+labels:
+  package.source: "https://github.com/michaelforney/samurai/releases/download/1.1/samurai-1.1.tar.gz"

@@ -1,0 +1,22 @@
+name: perl-mime-tools
+version: "5.509"
+category: alpine
+description: Perl modules for parsing (and creating!) MIME entities
+uri:
+  - http://search.cpan.org/~doneill/MIME-tools-5.509/
+license: PerlArtistic GPL
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DS/DSKOLL/MIME-tools-5.509.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-stringy"
+    version: '>=0'
+  - category: alpine
+    name: "perl-mailtools"
+    version: '>=0'
+  - category: alpine
+    name: "perl-convert-binhex"
+    version: '>=0'

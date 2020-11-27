@@ -1,0 +1,43 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: alpine
+    name: isl-dev
+    version: '>=0'
+  - category: alpine
+    name: libedit-dev
+    version: '>=0'
+  - category: alpine
+    name: libexecinfo-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-utils
+    version: '>=0'
+  - category: alpine
+    name: llvm10-dev
+    version: '>=0'
+  - category: alpine
+    name: llvm10-static
+    version: '>=0'
+  - category: alpine
+    name: llvm10-test-utils
+    version: '>=0'
+  - category: alpine
+    name: samurai
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: alpine
+    name: py3-sphinx
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

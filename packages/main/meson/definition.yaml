@@ -1,0 +1,19 @@
+name: meson
+version: "0.56.0"
+category: alpine
+description: Fast and user friendly build system
+uri:
+  - https://mesonbuild.com
+license: Apache-2.0
+labels:
+  package.source: "https://github.com/mesonbuild/meson/releases/download/0.56.0/meson-0.56.0.tar.gz"
+requires:
+  - category: alpine
+    name: "samurai"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'
+  - category: alpine
+    name: "python3"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: lua-ldap
+version: "1.2.5"
+category: alpine
+description: Lua binding to LDAP
+uri:
+  - https://github.com/lualdap/lualdap
+license: MIT
+labels:
+  package.source: "lualdap-1.2.5.tar.gz::https://github.com/lualdap/lualdap/archive/v1.2.5.tar.gz"

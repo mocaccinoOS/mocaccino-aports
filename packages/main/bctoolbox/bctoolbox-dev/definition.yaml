@@ -1,0 +1,7 @@
+name: bctoolbox-dev
+version: "4.4.9"
+category: alpine
+description: Utilities library used by Belledonne Communications softwares like belle-sip, mediastreamer2 and linphone
+uri:
+  - https://github.com/BelledonneCommunications/bctoolbox
+license: GPL-2.0-or-later

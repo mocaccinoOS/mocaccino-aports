@@ -1,0 +1,7 @@
+name: unionfs-fuse-doc
+version: "2.1"
+category: alpine
+description: Union Filesystem in Userspace
+uri:
+  - https://github.com/rpodgorny/unionfs-fuse
+license: BSD-3-Clause

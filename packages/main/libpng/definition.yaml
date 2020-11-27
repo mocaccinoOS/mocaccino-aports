@@ -1,0 +1,9 @@
+name: libpng
+version: "1.6.37"
+category: alpine
+description: Portable Network Graphics library
+uri:
+  - http://www.libpng.org
+license: Libpng
+labels:
+  package.source: "https://downloads.sourceforge.net/libpng/libpng-1.6.37.tar.gz"

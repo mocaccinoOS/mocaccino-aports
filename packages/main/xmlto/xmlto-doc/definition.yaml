@@ -1,0 +1,7 @@
+name: xmlto-doc
+version: "0.0.28"
+category: alpine
+description: Convert xml to many other formats
+uri:
+  - https://pagure.io/xmlto/
+license: GPL-2.0-or-later

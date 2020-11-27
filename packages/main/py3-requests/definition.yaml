@@ -1,0 +1,22 @@
+name: py3-requests
+version: "2.24.0"
+category: alpine
+description: A HTTP request library for Python3
+uri:
+  - http://www.python-requests.org/
+license: Apache-2.0
+labels:
+  package.source: ""
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-chardet"
+    version: '>=0'
+  - category: alpine
+    name: "py3-idna"
+    version: '>=0'
+  - category: alpine
+    name: "py3-urllib3"
+    version: '>=0'

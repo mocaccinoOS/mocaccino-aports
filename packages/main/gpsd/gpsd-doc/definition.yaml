@@ -1,0 +1,7 @@
+name: gpsd-doc
+version: "3.21"
+category: alpine
+description: GPS daemon
+uri:
+  - http://catb.org/gpsd/
+license: BSD-2-Clause

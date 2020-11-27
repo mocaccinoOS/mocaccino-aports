@@ -1,0 +1,7 @@
+name: perl-fcgi-doc
+version: "0.79"
+category: alpine
+description: Perl Fast CGI module
+uri:
+  - https://metacpan.org/pod/FCGI
+license: OML

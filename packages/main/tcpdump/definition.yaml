@@ -1,0 +1,9 @@
+name: tcpdump
+version: "4.9.3"
+category: alpine
+description: A tool for network monitoring and data acquisition
+uri:
+  - https://www.tcpdump.org/
+license: BSD-3-Clause
+labels:
+  package.source: "https://www.tcpdump.org/release/tcpdump-4.9.3.tar.gz"

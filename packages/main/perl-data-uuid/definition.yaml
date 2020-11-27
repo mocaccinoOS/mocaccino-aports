@@ -1,0 +1,13 @@
+name: perl-data-uuid
+version: "1.226"
+category: alpine
+description: Globally/Universally Unique Identifiers (GUIDs/UUIDs)
+uri:
+  - https://metacpan.org/release/Data-UUID/
+license: osf-1990(variant)
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Data-UUID-1.226.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

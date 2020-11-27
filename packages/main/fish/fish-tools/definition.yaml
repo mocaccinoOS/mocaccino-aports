@@ -1,0 +1,7 @@
+name: fish-tools
+version: "3.1.2"
+category: alpine
+description: Modern interactive commandline shell
+uri:
+  - http://www.fishshell.com
+license: GPL-2.0-only

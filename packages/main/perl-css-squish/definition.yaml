@@ -1,0 +1,19 @@
+name: perl-css-squish
+version: "0.10"
+category: alpine
+description: CSS::Squish perl module
+uri:
+  - https://metacpan.org/release/CSS-Squish/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TS/TSIBLEY/CSS-Squish-0.10.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-longstring"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: hwids-doc
+version: "20200813"
+category: alpine
+description: Hardware identification databases
+uri:
+  - https://github.com/gentoo/hwids/
+license: BSD-3-Clause OR GPL-2.0-or-later

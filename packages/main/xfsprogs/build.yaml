@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: attr-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: bash
+    version: '>=0'
+  - category: alpine
+    name: gzip
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: xf86-video-amdgpu-doc
+version: "19.1.0"
+category: alpine
+description: AMD Rx/HDxxxx video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

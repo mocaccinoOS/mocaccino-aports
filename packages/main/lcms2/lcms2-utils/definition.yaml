@@ -1,0 +1,7 @@
+name: lcms2-utils
+version: "2.11"
+category: alpine
+description: Color Management Engine
+uri:
+  - http://www.littlecms.com
+license: MIT GPL-3.0-only

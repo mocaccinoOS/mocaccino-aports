@@ -1,0 +1,7 @@
+name: datefudge-doc
+version: "1.24"
+category: alpine
+description: Tool to fake the system date
+uri:
+  - https://packages.debian.org/sid/datefudge
+license: GPL-2.0

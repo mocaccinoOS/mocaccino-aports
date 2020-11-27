@@ -1,0 +1,7 @@
+name: sshguard-doc
+version: "2.4.1"
+category: alpine
+description: Protects hosts from brute-force attacks against SSH and other services
+uri:
+  - https://www.sshguard.net/
+license: ISC

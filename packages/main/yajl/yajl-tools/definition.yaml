@@ -1,0 +1,7 @@
+name: yajl-tools
+version: "2.1.0"
+category: alpine
+description: Yet Another JSON Library (YAJL)
+uri:
+  - http://lloyd.github.com/yajl/
+license: MIT

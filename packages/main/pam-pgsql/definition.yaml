@@ -1,0 +1,9 @@
+name: pam-pgsql
+version: "0.7.3.2"
+category: alpine
+description: PAM module to authenticate using a PostgreSQL database
+uri:
+  - https://sourceforge.net/projects/pam-pgsql/
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/project/pam-pgsql/pam-pgsql/0.7/pam-pgsql-0.7.3.2.tar.gz"

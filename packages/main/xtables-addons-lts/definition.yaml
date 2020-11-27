@@ -1,0 +1,13 @@
+name: xtables-addons-lts
+version: "5.4.80"
+category: alpine
+description: Iptables extensions kernel modules
+uri:
+  - http://xtables-addons.sourceforge.net/
+license: GPL-2.0
+labels:
+  package.source: "https://inai.de/files/xtables-addons/xtables-addons-3.11.tar.xz"
+requires:
+  - category: alpine
+    name: "linux-lts=5.4.80-r0"
+    version: '>=0'

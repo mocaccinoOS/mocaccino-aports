@@ -1,0 +1,9 @@
+name: font-alias
+version: "1.0.3"
+category: alpine
+description: X.org font alias files
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/font/font-alias-1.0.3.tar.bz2"

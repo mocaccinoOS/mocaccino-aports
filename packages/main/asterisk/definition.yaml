@@ -1,0 +1,9 @@
+name: asterisk
+version: "18.0.0"
+category: alpine
+description: 'Asterisk: A Module Open Source PBX System'
+uri:
+  - https://www.asterisk.org/
+license: GPL-2.0-only WITH OpenSSL-Exception
+labels:
+  package.source: "https://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-18.0.0.tar.gz"

@@ -1,0 +1,7 @@
+name: perl-devel-overloadinfo-doc
+version: "0.005"
+category: alpine
+description: introspect overloaded operators
+uri:
+  - https://metacpan.org/release/Devel-OverloadInfo/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

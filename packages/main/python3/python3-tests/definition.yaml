@@ -1,0 +1,7 @@
+name: python3-tests
+version: "3.8.6"
+category: alpine
+description: A high-level scripting language
+uri:
+  - https://www.python.org/
+license: PSF-2.0

@@ -1,0 +1,49 @@
+# Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+pkgname=man-pages
+pkgver=5.09
+_posixver=2017
+pkgrel=0
+pkgdesc="Linux man pages"
+url="https://www.kernel.org/doc/man-pages/"
+arch="noarch"
+license="GPL-2.0-or-later"
+options="!strip !check"
+source="https://cdn.kernel.org/pub/linux/docs/man-pages/man-pages-$pkgver.tar.xz
+	https://cdn.kernel.org/pub/linux/docs/man-pages/man-pages-posix/man-pages-posix-$_posixver-a.tar.xz
+	"
+
+build() {
+	mkdir man0
+	for sect in 0 1 3; do
+		sed -i "/^\.so /s/man${sect}p/man$sect/" \
+			"$srcdir"/$pkgname-posix-$_posixver/man${sect}p/*
+		mv "$srcdir"/$pkgname-posix-$_posixver/man${sect}p/* \
+			"$srcdir"/$pkgname-$pkgver/man$sect/
+	done
+}
+
+package() {
+	make prefix="$pkgdir"/usr install
+	find "$pkgdir"/usr/share/man -name "*.[0-9]" -o -name "*.[0-9]p" \
+		| xargs gzip -9
+
+	# provided by libiconv-doc
+	rm -f "$pkgdir"/usr/share/man/man3/iconv*
+
+	# provided by mandoc
+	rm -f "$pkgdir"/usr/share/man/man7/man* \
+		"$pkgdir"/usr/share/man/man7/mdoc*
+
+	# provided by tzdata
+	rm -f "$pkgdir"/usr/share/man/man5/tzfile* \
+		"$pkgdir"/usr/share/man/man8/tzselect* \
+		"$pkgdir"/usr/share/man/man8/zic* \
+		"$pkgdir"/usr/share/man/man8/zdump*
+
+	# provided by libbsd
+	rm -f "$pkgdir"/usr/share/man/man3/explicit_bzero*
+}
+
+sha512sums="fa5684c316326afd2056876c174e4f2c8baa18d76bfc2f63009903f09f93b4c204fb0773e0991b5247e50596b2da7e232c5087121a0c938a072af8c77848686f  man-pages-5.09.tar.xz
+dac6bd5bb3e1d5f8918bad3eb15e08eeb3e06ae160c04ccd5619bfb0c536139ac06faa62b6856656a1bb9a7496f3148e52a5227b83e4099be6e6b93230de211d  man-pages-posix-2017-a.tar.xz"

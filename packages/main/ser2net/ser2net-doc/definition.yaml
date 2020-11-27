@@ -1,0 +1,7 @@
+name: ser2net-doc
+version: "3.5.1"
+category: alpine
+description: A proxy that allows telnet/tcp connections to be made to serial ports
+uri:
+  - https://sourceforge.net/projects/ser2net
+license: GPL

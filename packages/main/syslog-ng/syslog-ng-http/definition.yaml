@@ -1,0 +1,7 @@
+name: syslog-ng-http
+version: "3.30.1"
+category: alpine
+description: Next generation logging daemon
+uri:
+  - https://www.syslog-ng.com/products/open-source-log-management/
+license: GPL-2.0-or-later

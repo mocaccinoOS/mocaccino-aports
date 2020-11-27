@@ -1,0 +1,13 @@
+name: perl-io-captureoutput
+version: "1.1105"
+category: alpine
+description: capture STDOUT and STDERR from Perl code, subprocesses or XS
+uri:
+  - https://metacpan.org/pod/IO::CaptureOutput
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/IO-CaptureOutput-1.1105.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,46 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libart-lgpl-dev
+    version: '>=0'
+  - category: alpine
+    name: libpng-dev
+    version: '>=0'
+  - category: alpine
+    name: freetype-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: cairo-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: pango-dev
+    version: '>=0'
+  - category: alpine
+    name: lua
+    version: '>=0'
+  - category: alpine
+    name: lua-dev
+    version: '>=0'
+  - category: alpine
+    name: groff
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

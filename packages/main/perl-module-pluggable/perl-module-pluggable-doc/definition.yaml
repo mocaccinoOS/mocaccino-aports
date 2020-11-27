@@ -1,0 +1,7 @@
+name: perl-module-pluggable-doc
+version: "5.2"
+category: alpine
+description: automatically give your module the ability to have plugins
+uri:
+  - https://metacpan.org/release/Module-Pluggable/
+license: GPL PerlArtistic

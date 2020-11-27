@@ -1,0 +1,7 @@
+name: perl-module-runtime-doc
+version: "0.016"
+category: alpine
+description: runtime module handling
+uri:
+  - https://metacpan.org/release/Module-Runtime/
+license: GPL PerlArtistic

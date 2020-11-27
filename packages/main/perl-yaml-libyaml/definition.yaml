@@ -1,0 +1,13 @@
+name: perl-yaml-libyaml
+version: "0.82"
+category: alpine
+description: Perl YAML Serialization using XS and libyaml
+uri:
+  - https://metacpan.org/release/YAML-LibYAML
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TI/TINITA/YAML-LibYAML-0.82.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,16 @@
+name: perl-text-autoformat
+version: "1.75"
+category: alpine
+description: Text::Autoformat perl module
+uri:
+  - https://metacpan.org/release/Text-Autoformat
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Autoformat-1.75.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-text-reform"
+    version: '>=0'

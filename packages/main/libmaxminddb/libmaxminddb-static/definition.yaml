@@ -1,0 +1,7 @@
+name: libmaxminddb-static
+version: "1.4.3"
+category: alpine
+description: Maxmind GeoIP2 database library
+uri:
+  - https://github.com/maxmind/libmaxminddb
+license: Apache-2.0

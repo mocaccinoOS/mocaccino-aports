@@ -1,0 +1,9 @@
+name: tarsnap
+version: "1.0.39"
+category: alpine
+description: Online backups for the truly paranoid
+uri:
+  - https://www.tarsnap.com/
+license: custom
+labels:
+  package.source: "https://www.tarsnap.com/download/tarsnap-autoconf-1.0.39.tgz"

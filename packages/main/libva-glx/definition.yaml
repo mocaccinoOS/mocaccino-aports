@@ -1,0 +1,9 @@
+name: libva-glx
+version: "2.9.1"
+category: alpine
+description: Video Acceleration (VA) API for Linux with MESA support
+uri:
+  - https://01.org/linuxmedia
+license: MIT
+labels:
+  package.source: "libva-2.9.1.tar.gz::https://github.com/intel/libva/archive/2.9.1.tar.gz"

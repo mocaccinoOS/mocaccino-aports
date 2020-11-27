@@ -1,0 +1,9 @@
+name: atop
+version: "2.5.0"
+category: alpine
+description: Resource-specific view of processes
+uri:
+  - https://www.atoptool.nl/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://www.atoptool.nl/download/atop-2.5.0.tar.gz"

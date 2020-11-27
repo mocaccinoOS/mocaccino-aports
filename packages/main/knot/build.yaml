@@ -1,0 +1,58 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: gnutls-dev
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-ng-dev
+    version: '>=0'
+  - category: alpine
+    name: libedit-dev
+    version: '>=0'
+  - category: alpine
+    name: libidn-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: lmdb-dev
+    version: '>=0'
+  - category: alpine
+    name: m4
+    version: '>=0'
+  - category: alpine
+    name: nghttp2-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: sed
+    version: '>=0'
+  - category: alpine
+    name: userspace-rcu-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

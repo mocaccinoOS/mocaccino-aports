@@ -1,0 +1,28 @@
+name: perl-mail-spf
+version: "2.9.0"
+category: alpine
+description: An object-oriented implementation of Sender Policy Framework
+uri:
+  - http://search.cpan.org/~jmehnle/Mail-SPF-v2.006/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JM/JMEHNLE/mail-spf/Mail-SPF-v2.9.0.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-error"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-dns"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'
+  - category: alpine
+    name: "perl-netaddr-ip"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-dns-resolver-programmable"
+    version: '>=0'

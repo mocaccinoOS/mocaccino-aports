@@ -1,0 +1,7 @@
+name: xkbcli-doc
+version: "1.0.3"
+category: alpine
+description: keyboard handling library
+uri:
+  - https://www.xkbcommon.org/
+license: MIT

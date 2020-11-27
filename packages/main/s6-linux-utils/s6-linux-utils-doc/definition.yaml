@@ -1,0 +1,7 @@
+name: s6-linux-utils-doc
+version: "2.5.1.3"
+category: alpine
+description: A set of tiny Linux-specific utilities optimized for simplicity and small size.
+uri:
+  - http://skarnet.org/software/s6-linux-utils/
+license: ISC

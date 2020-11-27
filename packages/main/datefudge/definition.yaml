@@ -1,0 +1,13 @@
+name: datefudge
+version: "1.24"
+category: alpine
+description: Tool to fake the system date
+uri:
+  - https://packages.debian.org/sid/datefudge
+license: GPL-2.0
+labels:
+  package.source: "http://deb.debian.org/debian/pool/main/d/datefudge/datefudge_1.24.tar.xz"
+requires:
+  - category: alpine
+    name: "coreutils"
+    version: '>=0'

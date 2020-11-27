@@ -1,0 +1,7 @@
+name: perl-gd-doc
+version: "2.73"
+category: alpine
+description: Perl interface to the gd2 graphics library
+uri:
+  - https://metacpan.org/release/GD/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,9 @@
+name: lua-imlib2
+version: "0.1"
+category: alpine
+description: A LUA binding to the Imlib2 image manipulation library
+uri:
+  - http://asbradbury.org/projects/lua-imlib2/
+license: MIT
+labels:
+  package.source: "http://luaforge.net/frs/download.php/3042/lua-imlib2-0.1.tar.gz"

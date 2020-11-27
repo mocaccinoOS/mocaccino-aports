@@ -1,0 +1,7 @@
+name: perl-html-quoted-doc
+version: "0.04"
+category: alpine
+description: HTML::Quoted perl module
+uri:
+  - https://metacpan.org/release/HTML-Quoted/
+license: GPL-2.0 or Artistic

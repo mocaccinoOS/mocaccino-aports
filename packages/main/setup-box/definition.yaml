@@ -1,0 +1,13 @@
+name: setup-box
+version: "1.0.1"
+category: alpine
+description: A tool to setup a variety of Alpine Linux Environments
+uri:
+  - https://git.alpinelinux.org/cgit/alacerda/setup-box/
+license: MIT
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/setup-box/setup-box-1.0.1.tar.bz2"
+requires:
+  - category: alpine
+    name: "jq"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: ifupdown-ng-ppp
+version: "0.10.1"
+category: alpine
+description: tools for managing network configuration
+uri:
+  - https://github.com/ifupdown-ng/ifupdown-ng
+license: ISC

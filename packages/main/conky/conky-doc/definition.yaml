@@ -1,0 +1,7 @@
+name: conky-doc
+version: "1.11.6"
+category: alpine
+description: An advanced, highly configurable system monitor for X based on torsmo
+uri:
+  - http://conky.sourceforge.net/
+license: custom

@@ -1,0 +1,7 @@
+name: ghi-doc
+version: "1.2.0"
+category: alpine
+description: GitHub Issues on the command line
+uri:
+  - https://github.com/stephencelis/ghi
+license: MIT

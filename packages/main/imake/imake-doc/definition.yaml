@@ -1,0 +1,7 @@
+name: imake-doc
+version: "1.0.8"
+category: alpine
+description: X Windows make utility
+uri:
+  - https://www.x.org
+license: MIT-enna

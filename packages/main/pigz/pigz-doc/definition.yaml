@@ -1,0 +1,7 @@
+name: pigz-doc
+version: "2.4"
+category: alpine
+description: Parallel implementation of gzip
+uri:
+  - https://zlib.net/pigz/
+license: Zlib

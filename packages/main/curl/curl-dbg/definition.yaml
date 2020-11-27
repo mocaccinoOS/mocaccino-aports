@@ -1,0 +1,7 @@
+name: curl-dbg
+version: "7.73.0"
+category: alpine
+description: URL retrival utility and library
+uri:
+  - https://curl.haxx.se/
+license: MIT

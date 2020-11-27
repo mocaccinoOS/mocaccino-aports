@@ -1,0 +1,9 @@
+name: freeswitch-sounds-music-8000
+version: "1.0.8"
+category: alpine
+description: Music for freeswitch
+uri:
+  - http://files.freeswitch.org/
+license: unknown
+labels:
+  package.source: "http://files.freeswitch.org/freeswitch-sounds-music-8000-1.0.8.tar.gz"

@@ -1,0 +1,7 @@
+name: libseccomp-doc
+version: "2.5.1"
+category: alpine
+description: An interface to the Linux Kernel's syscall filtering mechanism
+uri:
+  - https://github.com/seccomp/libseccomp
+license: LGPL-2.1-or-later

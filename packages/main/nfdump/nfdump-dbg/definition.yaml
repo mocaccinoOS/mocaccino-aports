@@ -1,0 +1,7 @@
+name: nfdump-dbg
+version: "1.6.22"
+category: alpine
+description: Tools to collect and process netflow data
+uri:
+  - https://github.com/phaag/nfdump
+license: BSD-3-Clause

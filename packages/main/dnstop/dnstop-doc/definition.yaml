@@ -1,0 +1,7 @@
+name: dnstop-doc
+version: "20140915"
+category: alpine
+description: A DNS traffic capture utility
+uri:
+  - http://dns.measurement-factory.com/tools/dnstop/
+license: BSD-3-Clause

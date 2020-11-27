@@ -1,0 +1,13 @@
+name: py3-urllib3
+version: "1.26.2"
+category: alpine
+description: HTTP library with thread-safe connection pooling, file post, and more
+uri:
+  - https://github.com/shazow/urllib3
+license: MIT
+labels:
+  package.source: "py3-urllib3-1.26.2.tar.gz::https://github.com/shazow/urllib3/archive/1.26.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

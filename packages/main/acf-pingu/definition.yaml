@@ -1,0 +1,16 @@
+name: acf-pingu
+version: "0.4.0"
+category: alpine
+description: A web-based system administration interface for pingu
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-pingu
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-pingu/acf-pingu-0.4.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "pingu"
+    version: '>=0'

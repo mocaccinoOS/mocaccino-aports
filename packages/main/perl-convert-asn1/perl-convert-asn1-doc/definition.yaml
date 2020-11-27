@@ -1,0 +1,7 @@
+name: perl-convert-asn1-doc
+version: "0.27"
+category: alpine
+description: Convert between perl data structures and ASN.1 encoded packets
+uri:
+  - https://metacpan.org/release/Convert-ASN1/
+license: GPL PerlArtistic

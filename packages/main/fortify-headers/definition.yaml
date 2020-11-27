@@ -1,0 +1,9 @@
+name: fortify-headers
+version: "1.1"
+category: alpine
+description: standalone fortify source implementation
+uri:
+  - http://git.2f30.org/fortify-headers/
+license: BSD-0
+labels:
+  package.source: "http://dl.2f30.org/releases/fortify-headers-1.1.tar.gz"

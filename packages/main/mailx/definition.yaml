@@ -1,0 +1,9 @@
+name: mailx
+version: "8.1.1"
+category: alpine
+description: commandline utility for sending email
+uri:
+  - http://www.opengroup.org/onlinepubs/007908799/xcu/mailx.html
+license: BSD-4-Clause-UC
+labels:
+  package.source: "https://sources.archlinux.org/other/mailx/mailx-8.1.1-fixed.tar.gz"

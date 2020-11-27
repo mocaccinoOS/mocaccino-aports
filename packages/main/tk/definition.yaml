@@ -1,0 +1,9 @@
+name: tk
+version: "8.6.10"
+category: alpine
+description: GUI toolkit for the Tcl scripting language
+uri:
+  - http://tcl.sourceforge.net/
+license: TCL
+labels:
+  package.source: "https://downloads.sourceforge.net/sourceforge/tcl/tk8.6.10-src.tar.gz"

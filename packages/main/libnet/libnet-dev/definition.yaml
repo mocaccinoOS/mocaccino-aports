@@ -1,0 +1,7 @@
+name: libnet-dev
+version: "1.2"
+category: alpine
+description: A generic networking API that provides access to several protocols.
+uri:
+  - https://sourceforge.net/projects/libnet-dev/
+license: BSD-2-Clause

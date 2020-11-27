@@ -1,0 +1,9 @@
+name: lua-discount
+version: "1.2.10.1"
+category: alpine
+description: Markdown implementation in C for Lua
+uri:
+  - http://asbradbury.org/projects/lua-discount
+license: custom
+labels:
+  package.source: "http://luaforge.net/frs/download.php/3758/lua-discount-1.2.10.1.tar.gz"

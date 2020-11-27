@@ -1,0 +1,9 @@
+name: ucarp
+version: "1.5.2"
+category: alpine
+description: Share common IP and do fail over
+uri:
+  - http://www.ucarp.org
+license: ISC
+labels:
+  package.source: "https://download.pureftpd.org/pub/ucarp/ucarp-1.5.2.tar.gz"

@@ -1,0 +1,46 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: flex-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: bzip2-dev
+    version: '>=0'
+  - category: alpine
+    name: xz-dev
+    version: '>=0'
+  - category: alpine
+    name: argp-standalone
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: fts-dev
+    version: '>=0'
+  - category: alpine
+    name: musl-obstack-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

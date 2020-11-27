@@ -1,0 +1,9 @@
+name: socat
+version: "1.7.3.4"
+category: alpine
+description: Multipurpose relay for binary protocols
+uri:
+  - http://www.dest-unreach.org/socat/
+license: GPL-2.0-only WITH OpenSSL-Exception
+labels:
+  package.source: "http://www.dest-unreach.org/socat/download/socat-1.7.3.4.tar.bz2"

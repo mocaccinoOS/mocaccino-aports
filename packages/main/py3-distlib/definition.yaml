@@ -1,0 +1,13 @@
+name: py3-distlib
+version: "0.3.1"
+category: alpine
+description: Distribution utilities
+uri:
+  - https://bitbucket.org/pypa/distlib
+license: PSF-2.0
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/d/distlib/distlib-0.3.1.zip"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

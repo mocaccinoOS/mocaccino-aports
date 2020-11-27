@@ -1,0 +1,9 @@
+name: libconfig
+version: "1.7.2"
+category: alpine
+description: A simple library for manipulating structured configuration files
+uri:
+  - http://www.hyperrealm.com/libconfig/
+license: LGPL-2.1-or-later
+labels:
+  package.source: "libconfig-1.7.2.tar.gz::https://github.com/hyperrealm/libconfig/archive/v1.7.2.tar.gz"

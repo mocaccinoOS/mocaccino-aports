@@ -1,0 +1,9 @@
+name: tolua++
+version: "1.0.93"
+category: alpine
+description: a tool to integrate C/C++ code with Lua
+uri:
+  - http://www.codenix.com/~tolua/
+license: MIT
+labels:
+  package.source: "tolua++-1.0.93.tar.gz::https://github.com/LuaDist/toluapp/archive/1.0.93.tar.gz"

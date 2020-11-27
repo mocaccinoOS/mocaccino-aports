@@ -1,0 +1,7 @@
+name: iproute2-bash-completion
+version: "5.9.0"
+category: alpine
+description: IP Routing Utilities
+uri:
+  - https://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+license: GPL-2.0-or-later

@@ -1,0 +1,7 @@
+name: which-doc
+version: "2.21"
+category: alpine
+description: A utility to show the full path of commands
+uri:
+  - http://savannah.gnu.org/projects/which
+license: GPL-3.0

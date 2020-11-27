@@ -1,0 +1,16 @@
+name: acf-tinydns
+version: "0.11.0"
+category: alpine
+description: A web-based system administration interface for tinydns
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-tinydns
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-tinydns/acf-tinydns-0.11.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "tinydns"
+    version: '>=0'

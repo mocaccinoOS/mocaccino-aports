@@ -1,0 +1,9 @@
+name: atf
+version: "0.21"
+category: alpine
+description: libraries to write tests in C, C++ and shell
+uri:
+  - https://github.com/jmmv/atf
+license: BSD-2-Clause AND BSD-3-Clause
+labels:
+  package.source: "https://github.com/jmmv/atf/releases/download/atf-0.21/atf-0.21.tar.gz"

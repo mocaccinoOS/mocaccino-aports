@@ -1,0 +1,7 @@
+name: wireless-regdb-doc
+version: "2019.06.03"
+category: alpine
+description: Central Regulatory Domain Database
+uri:
+  - https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
+license: ISC

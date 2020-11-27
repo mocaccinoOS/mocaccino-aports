@@ -1,0 +1,7 @@
+name: binutils-doc
+version: "2.35.1"
+category: alpine
+description: Tools necessary to build programs
+uri:
+  - https://www.gnu.org/software/binutils/
+license: GPL-2.0 GPL-3.0-or-later LGPL-2.0 BSD

@@ -1,0 +1,7 @@
+name: e2fsprogs-dev
+version: "1.45.6"
+category: alpine
+description: Standard Ext2/3/4 filesystem utilities
+uri:
+  - http://e2fsprogs.sourceforge.net
+license: GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT

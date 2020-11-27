@@ -1,0 +1,9 @@
+name: bluez-firmware
+version: "1.2"
+category: alpine
+description: Firmware for Broadcom BCM203x Blutonium devices
+uri:
+  - http://www.bluez.org/
+license: GPL-2.0
+labels:
+  package.source: "http://bluez.sf.net/download/bluez-firmware-1.2.tar.gz"

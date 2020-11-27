@@ -1,0 +1,9 @@
+name: arm-trusted-firmware
+version: "2.3"
+category: alpine
+description: ARM Trusted Firmware-A (TF-A)
+uri:
+  - https://github.com/ARM-software/arm-trusted-firmware
+license: BSD-3-Clause
+labels:
+  package.source: "https://github.com/ARM-software/arm-trusted-firmware/archive/v2.3/arm-trusted-firmware-v2.3.tar.gz"

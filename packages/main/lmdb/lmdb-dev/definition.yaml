@@ -1,0 +1,7 @@
+name: lmdb-dev
+version: "0.9.27"
+category: alpine
+description: Lightning Memory-Mapped Database
+uri:
+  - https://symas.com/mdb
+license: OLDAP-2.8

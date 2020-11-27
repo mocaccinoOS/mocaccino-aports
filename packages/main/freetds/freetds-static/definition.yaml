@@ -1,0 +1,7 @@
+name: freetds-static
+version: "1.2.12"
+category: alpine
+description: Tabular Datastream Library
+uri:
+  - https://www.freetds.org/
+license: GPL-2.0-or-later OR LGPL-2.0-or-later

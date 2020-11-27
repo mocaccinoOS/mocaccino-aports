@@ -1,0 +1,7 @@
+name: perl-cgi-doc
+version: "4.51"
+category: alpine
+description: Handle Common Gateway Interface requests and responses
+uri:
+  - https://metacpan.org/release/CGI
+license: Artistic-2.0

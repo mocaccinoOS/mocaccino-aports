@@ -1,0 +1,9 @@
+name: musl
+version: "1.2.2_pre3"
+category: alpine
+description: the musl c library (libc) implementation
+uri:
+  - https://musl.libc.org/
+license: MIT
+labels:
+  package.source: "musl-debbddf7c86dfe7fb2f44f057123ccfd950ff555.tar.gz::https://git.musl-libc.org/cgit/musl/snapshot/debbddf7c86dfe7fb2f44f057123ccfd950ff555.tar.gz"

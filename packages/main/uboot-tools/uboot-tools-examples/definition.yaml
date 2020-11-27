@@ -1,0 +1,7 @@
+name: uboot-tools-examples
+version: "2020.10"
+category: alpine
+description: U-Boot bootloader utility tools
+uri:
+  - https://www.denx.de/wiki/U-Boot/WebHome
+license: GPL

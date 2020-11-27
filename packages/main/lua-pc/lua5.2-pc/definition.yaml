@@ -1,0 +1,7 @@
+name: lua5.2-pc
+version: "1.0.0"
+category: alpine
+description: Lua Process Call
+uri:
+  - https://github.com/LuaDist/lpc
+license: MIT

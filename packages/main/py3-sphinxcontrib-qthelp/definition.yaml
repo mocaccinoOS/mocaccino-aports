@@ -1,0 +1,13 @@
+name: py3-sphinxcontrib-qthelp
+version: "1.0.3"
+category: alpine
+description: Sphinx qthelp extension
+uri:
+  - https://pypi.python.org/pypi/sphinxcontrib-qthelp
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-qthelp/sphinxcontrib-qthelp-1.0.3.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

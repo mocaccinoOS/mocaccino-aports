@@ -1,0 +1,19 @@
+name: ruby-bundler
+version: "2.1.4"
+category: alpine
+description: Manage an application's gem dependencies
+uri:
+  - https://bundler.io/
+license: MIT
+labels:
+  package.source: "https://rubygems.org/downloads/bundler-2.1.4.gem"
+requires:
+  - category: alpine
+    name: "ruby"
+    version: '>=0'
+  - category: alpine
+    name: "ruby-etc"
+    version: '>=0'
+  - category: alpine
+    name: "ruby-io-console"
+    version: '>=0'

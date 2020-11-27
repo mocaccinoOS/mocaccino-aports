@@ -1,0 +1,13 @@
+name: py3-meld3
+version: "2.0.1"
+category: alpine
+description: An HTML/XML templating engine
+uri:
+  - https://github.com/supervisor/meld3
+license: ZPL
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/m/meld3/meld3-2.0.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

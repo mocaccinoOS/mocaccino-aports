@@ -1,0 +1,7 @@
+name: iaxmodem-doc
+version: "1.3.0"
+category: alpine
+description: Softmodem for hylafax that connects to VOIP gateway with IAX
+uri:
+  - http://iaxmodem.sourceforge.net/
+license: LGPL+

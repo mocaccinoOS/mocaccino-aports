@@ -1,0 +1,19 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-setuptools
+    version: '>=0'
+  - category: alpine
+    name: libffi-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

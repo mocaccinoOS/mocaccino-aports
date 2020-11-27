@@ -1,0 +1,9 @@
+name: mqtt-exec
+version: "0.4"
+category: alpine
+description: simple MQTT client that executes a command on messages
+uri:
+  - https://github.com/ncopa/mqtt-exec
+license: MIT
+labels:
+  package.source: "mqtt-exec-0.4.tar.gz::https://github.com/ncopa/mqtt-exec/archive/v0.4.tar.gz"

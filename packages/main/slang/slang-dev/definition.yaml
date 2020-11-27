@@ -1,0 +1,7 @@
+name: slang-dev
+version: "2.3.2"
+category: alpine
+description: Powerful interpreted language
+uri:
+  - https://www.jedsoft.org/slang
+license: GPL-2.0-or-later

@@ -1,0 +1,13 @@
+name: vim
+version: "8.2.2013"
+category: alpine
+description: Improved vi-style text editor
+uri:
+  - https://www.vim.org/
+license: Vim
+labels:
+  package.source: "vim-8.2.2013.tar.gz::https://github.com/vim/vim/archive/v8.2.2013.tar.gz"
+requires:
+  - category: alpine
+    name: "xxd"
+    version: '>=0'

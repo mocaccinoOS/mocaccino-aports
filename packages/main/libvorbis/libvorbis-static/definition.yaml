@@ -1,0 +1,7 @@
+name: libvorbis-static
+version: "1.3.7"
+category: alpine
+description: Vorbis codec library
+uri:
+  - https://xiph.org/vorbis
+license: BSD-3-Clause

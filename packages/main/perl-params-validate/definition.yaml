@@ -1,0 +1,16 @@
+name: perl-params-validate
+version: "1.30"
+category: alpine
+description: Validate method/function parameters
+uri:
+  - https://metacpan.org/release/Params-Validate/
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.30.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-module-implementation"
+    version: '>=0'

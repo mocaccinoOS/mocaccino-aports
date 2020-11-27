@@ -1,0 +1,7 @@
+name: sntpc-openrc
+version: "0.9"
+category: alpine
+description: Simple NTP client
+uri:
+  - https://git.alpinelinux.org/cgit/hosted/sntpc/
+license: GPL-2.0-only

@@ -1,0 +1,13 @@
+name: py3-sphinxcontrib-jsmath
+version: "1.0.1"
+category: alpine
+description: Sphinx jsmath extension
+uri:
+  - https://pypi.python.org/pypi/sphinxcontrib-jsmath
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-jsmath/sphinxcontrib-jsmath-1.0.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: perl-module-runtime
+version: "0.016"
+category: alpine
+description: runtime module handling
+uri:
+  - https://metacpan.org/release/Module-Runtime/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz"

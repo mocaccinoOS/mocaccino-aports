@@ -1,0 +1,9 @@
+name: bdftopcf
+version: "1.1"
+category: alpine
+description: X.Org font utility
+uri:
+  - http://xorg.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/app/bdftopcf-1.1.tar.bz2"

@@ -1,0 +1,13 @@
+name: openvpn
+version: "2.4.9"
+category: alpine
+description: A robust, and highly configurable VPN (Virtual Private Network)
+uri:
+  - https://openvpn.net/
+license: custom
+labels:
+  package.source: "https://swupdate.openvpn.net/community/releases/openvpn-2.4.9.tar.xz"
+requires:
+  - category: alpine
+    name: "iproute2"
+    version: '>=0'

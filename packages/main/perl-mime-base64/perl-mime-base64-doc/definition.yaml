@@ -1,0 +1,7 @@
+name: perl-mime-base64-doc
+version: "3.16"
+category: alpine
+description: Encoding and decoding of base64 strings
+uri:
+  - https://metacpan.org/release/MIME-Base64/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

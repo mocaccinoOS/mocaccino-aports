@@ -1,0 +1,13 @@
+name: perl-text-vfile-asdata
+version: "0.08"
+category: alpine
+description: parse vFile formatted files into data structures
+uri:
+  - https://metacpan.org/release/Text-vFile-asData/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-vFile-asData-0.08.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-class-accessor-chained"
+    version: '>=0'

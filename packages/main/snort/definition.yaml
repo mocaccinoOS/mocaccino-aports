@@ -1,0 +1,9 @@
+name: snort
+version: "2.9.15.1"
+category: alpine
+description: An open source network intrusion prevention and detection system
+uri:
+  - https://www.snort.org/
+license: GPL-2.0-only
+labels:
+  package.source: "https://www.snort.org/downloads/archive/snort/snort-2.9.15.1.tar.gz"

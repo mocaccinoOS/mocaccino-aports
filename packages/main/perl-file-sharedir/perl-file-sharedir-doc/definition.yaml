@@ -1,0 +1,7 @@
+name: perl-file-sharedir-doc
+version: "1.118"
+category: alpine
+description: Locate per-dist and per-module shared files
+uri:
+  - https://metacpan.org/release/File-ShareDir/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

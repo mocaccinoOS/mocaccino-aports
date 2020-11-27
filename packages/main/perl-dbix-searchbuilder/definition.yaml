@@ -1,0 +1,31 @@
+name: perl-dbix-searchbuilder
+version: "1.68"
+category: alpine
+description: Encapsulate SQL queries and rows in simple perl objects
+uri:
+  - https://metacpan.org/release/DBIx-SearchBuilder/
+license: GPL-1.0-or-later Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/B/BP/BPS/DBIx-SearchBuilder-1.68.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-class-returnvalue"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dbi"
+    version: '>=0'
+  - category: alpine
+    name: "perl-cache-simple-timedexpiry"
+    version: '>=0'
+  - category: alpine
+    name: "perl-class-accessor"
+    version: '>=0'
+  - category: alpine
+    name: "perl-clone"
+    version: '>=0'
+  - category: alpine
+    name: "perl-want"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dbix-dbschema"
+    version: '>=0'

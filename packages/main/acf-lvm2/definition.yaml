@@ -1,0 +1,16 @@
+name: acf-lvm2
+version: "0.7.0"
+category: alpine
+description: ACF module for lvm2
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-lvm2
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-lvm2/acf-lvm2-0.7.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lvm2"
+    version: '>=0'

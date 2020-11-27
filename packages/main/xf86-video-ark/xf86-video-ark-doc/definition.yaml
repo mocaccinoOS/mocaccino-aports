@@ -1,0 +1,7 @@
+name: xf86-video-ark-doc
+version: "0.7.5"
+category: alpine
+description: X.Org driver for ark cards
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

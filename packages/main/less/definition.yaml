@@ -1,0 +1,9 @@
+name: less
+version: "563"
+category: alpine
+description: File pager
+uri:
+  - http://www.greenwoodsoftware.com/less/
+license: GPL-3.0-or-later OR BSD-2-Clause
+labels:
+  package.source: "http://www.greenwoodsoftware.com/less/less-563.tar.gz"

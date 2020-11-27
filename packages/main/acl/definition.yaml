@@ -1,0 +1,9 @@
+name: acl
+version: "2.2.53"
+category: alpine
+description: Access control list utilities
+uri:
+  - https://savannah.nongnu.org/projects/acl
+license: LGPL-2.1-or-later AND GPL-2.0-or-later
+labels:
+  package.source: "https://download.savannah.nongnu.org/releases/acl/acl-2.2.53.tar.gz"

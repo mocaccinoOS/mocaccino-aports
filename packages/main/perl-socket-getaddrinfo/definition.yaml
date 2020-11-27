@@ -1,0 +1,13 @@
+name: perl-socket-getaddrinfo
+version: "0.22"
+category: alpine
+description: Perl interface for get{addr,name}info(3)
+uri:
+  - https://metacpan.org/release/Socket-GetAddrInfo/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-GetAddrInfo-0.22.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-extutils-cchecker"
+    version: '>=0'

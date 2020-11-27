@@ -1,0 +1,9 @@
+name: libuv
+version: "1.40.0"
+category: alpine
+description: Cross-platform asychronous I/O
+uri:
+  - https://libuv.org
+license: MIT AND ISC
+labels:
+  package.source: "https://dist.libuv.org/dist/v1.40.0/libuv-v1.40.0.tar.gz"

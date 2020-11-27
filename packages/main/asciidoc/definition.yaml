@@ -1,0 +1,19 @@
+name: asciidoc
+version: "9.0.4"
+category: alpine
+description: Text based documentation
+uri:
+  - https://asciidoc.org/
+license: GPL-2.0-or-later and GPL-1.0-or-later
+labels:
+  package.source: "asciidoc-9.0.4.tar.gz::https://github.com/asciidoc/asciidoc-py3/archive/9.0.4.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "libxml2-utils"
+    version: '>=0'
+  - category: alpine
+    name: "docbook-xsl"
+    version: '>=0'

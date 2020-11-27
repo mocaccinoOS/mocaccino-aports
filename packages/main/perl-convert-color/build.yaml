@@ -1,0 +1,16 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-test-number-delta
+    version: '>=0'
+  - category: alpine
+    name: perl-module-build
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

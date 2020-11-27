@@ -1,0 +1,25 @@
+name: xorg-server
+version: "1.20.9"
+category: alpine
+description: X.Org X servers
+uri:
+  - https://www.x.org/wiki
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/xserver/xorg-server-1.20.9.tar.bz2"
+requires:
+  - category: alpine
+    name: "font-misc-misc"
+    version: '>=0'
+  - category: alpine
+    name: "font-cursor-misc"
+    version: '>=0'
+  - category: alpine
+    name: "xkeyboard-config"
+    version: '>=0'
+  - category: alpine
+    name: "xkbcomp"
+    version: '>=0'
+  - category: alpine
+    name: "xinit"
+    version: '>=0'

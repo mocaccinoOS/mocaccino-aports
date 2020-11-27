@@ -1,0 +1,13 @@
+name: mdadm
+version: "4.1"
+category: alpine
+description: a tool for managing Linux Software RAID arrays
+uri:
+  - https://neil.brown.name/blog/mdadm
+license: GPL-2.0-only
+labels:
+  package.source: "https://www.kernel.org/pub/linux/utils/raid/mdadm/mdadm-4.1.tar.gz"
+requires:
+  - category: alpine
+    name: "lsblk"
+    version: '>=0'

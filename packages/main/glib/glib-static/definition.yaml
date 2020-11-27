@@ -1,0 +1,7 @@
+name: glib-static
+version: "2.66.3"
+category: alpine
+description: Common C routines used by Gtk+ and other libs
+uri:
+  - https://developer.gnome.org/glib/
+license: LGPL-2.1-or-later

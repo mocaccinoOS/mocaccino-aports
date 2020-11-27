@@ -1,0 +1,9 @@
+name: cgit
+version: "1.2.3"
+category: alpine
+description: A fast webinterface for git
+uri:
+  - https://git.zx2c4.com/cgit/
+license: GPL-2.0-only
+labels:
+  package.source: "http://git.zx2c4.com/cgit/snapshot/cgit-1.2.3.tar.xz"

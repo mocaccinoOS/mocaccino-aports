@@ -1,0 +1,7 @@
+name: arpwatch-doc
+version: "2.1a15"
+category: alpine
+description: Ethernet monitoring program
+uri:
+  - http://www-nrg.ee.lbl.gov/
+license: BSD-4-Clause-Shortened

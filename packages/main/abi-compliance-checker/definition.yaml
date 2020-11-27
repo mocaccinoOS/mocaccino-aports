@@ -1,0 +1,16 @@
+name: abi-compliance-checker
+version: "2.3"
+category: alpine
+description: A tool for checking backward compatibility of a C/C++ library
+uri:
+  - https://github.com/lvc/abi-compliance-checker
+license: LGPL-2.0-or-later
+labels:
+  package.source: "abi-compliance-checker-2.3.tar.gz::https://github.com/lvc/abi-compliance-checker/archive/2.3.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "build-base"
+    version: '>=0'

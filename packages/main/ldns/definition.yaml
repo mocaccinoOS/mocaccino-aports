@@ -1,0 +1,9 @@
+name: ldns
+version: "1.7.1"
+category: alpine
+description: Lowlevel DNS(SEC) library
+uri:
+  - http://nlnetlabs.nl/projects/ldns/
+license: Custom
+labels:
+  package.source: "https://nlnetlabs.nl/downloads/ldns/ldns-1.7.1.tar.gz"

@@ -1,0 +1,34 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: krb5-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: coreutils
+    version: '>=0'
+  - category: alpine
+    name: iproute2
+    version: '>=0'
+  - category: alpine
+    name: run-parts
+    version: '>=0'
+  - category: alpine
+    name: '!dhcp-server-vanilla'
+    version: '>=0'
+  - category: alpine
+    name: '!dhcp-server-ldap'
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

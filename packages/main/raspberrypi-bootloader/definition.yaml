@@ -1,0 +1,9 @@
+name: raspberrypi-bootloader
+version: "1.20200902"
+category: alpine
+description: Bootloader files for the Raspberry Pi
+uri:
+  - https://github.com/raspberrypi/firmware
+license: custom
+labels:
+  package.source: "raspberrypi-bootloader-1.20200902.tar.gz::https://github.com/raspberrypi/firmware/archive/1.20200902.tar.gz"

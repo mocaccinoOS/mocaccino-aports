@@ -1,0 +1,7 @@
+name: razor-doc
+version: "2.85"
+category: alpine
+description: Vipul's Razor is a distributed, collaborative spam detection and filtering network
+uri:
+  - http://razor.sourceforge.net/
+license: Artistic

@@ -1,0 +1,9 @@
+name: libburn
+version: "1.5.2"
+category: alpine
+description: Library for reading, mastering and writing optical discs
+uri:
+  - http://libburnia-project.org/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://files.libburnia-project.org/releases/libburn-1.5.2.tar.gz"

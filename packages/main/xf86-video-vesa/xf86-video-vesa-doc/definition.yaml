@@ -1,0 +1,7 @@
+name: xf86-video-vesa-doc
+version: "2.5.0"
+category: alpine
+description: X.org generic VESA video driver
+uri:
+  - https://xorg.freedesktop.org/wiki/
+license: MIT

@@ -1,0 +1,9 @@
+name: fcgi
+version: "2.4.2"
+category: alpine
+description: FAST CGI(fcgi) is a language independent, high performant extension to CGI
+uri:
+  - https://github.com/FastCGI-Archives/fcgi2
+license: custom
+labels:
+  package.source: "fcgi2-2.4.2.tar.gz::https://github.com/FastCGI-Archives/fcgi2/archive/2.4.2.tar.gz"

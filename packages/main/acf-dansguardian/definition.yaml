@@ -1,0 +1,16 @@
+name: acf-dansguardian
+version: "0.8.0"
+category: alpine
+description: A web-based system administration interface for dansguardian
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-dansguardian
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-dansguardian/acf-dansguardian-0.8.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "dansguardian"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-cgi-session-doc
+version: "4.48"
+category: alpine
+description: perl module for persistent session data in CGI applications
+uri:
+  - http://search.cpan.org/~markstos/CGI-Session-4.48/
+license: PerlArtistic

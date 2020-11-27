@@ -1,0 +1,9 @@
+name: ngrep
+version: "1.47"
+category: alpine
+description: A grep-like utility that allows you to search for network packets on an interface
+uri:
+  - http://ngrep.sourceforge.net/
+license: custom
+labels:
+  package.source: "ngrep-1.47.tar.gz::https://github.com/jpr5/ngrep/archive/V1_47.tar.gz"

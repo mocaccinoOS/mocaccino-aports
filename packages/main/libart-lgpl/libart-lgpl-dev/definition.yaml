@@ -1,0 +1,7 @@
+name: libart-lgpl-dev
+version: "2.3.21"
+category: alpine
+description: A library for high-performance 2D graphics
+uri:
+  - https://www.levien.com/libart/
+license: LGPL-2.0-or-later

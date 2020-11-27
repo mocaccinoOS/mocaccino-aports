@@ -1,0 +1,9 @@
+name: perl-stream-buffered
+version: "0.03"
+category: alpine
+description: Temporary buffer to save bytes
+uri:
+  - https://metacpan.org/release/Stream-Buffered/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DO/DOY/Stream-Buffered-0.03.tar.gz"

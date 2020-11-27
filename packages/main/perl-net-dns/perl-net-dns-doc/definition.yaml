@@ -1,0 +1,7 @@
+name: perl-net-dns-doc
+version: "1.29"
+category: alpine
+description: Perl Interface to the Domain Name System
+uri:
+  - https://metacpan.org/release/Net-DNS/
+license: MIT

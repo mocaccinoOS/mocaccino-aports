@@ -1,0 +1,7 @@
+name: umurmur-openrc
+version: "0.2.17"
+category: alpine
+description: Minimalistic Mumble server primarily targeted to run on routers
+uri:
+  - https://umurmur.net/
+license: BSD-3-Clause

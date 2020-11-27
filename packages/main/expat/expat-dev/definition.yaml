@@ -1,0 +1,7 @@
+name: expat-dev
+version: "2.2.10"
+category: alpine
+description: XML Parser library written in C
+uri:
+  - http://www.libexpat.org/
+license: MIT

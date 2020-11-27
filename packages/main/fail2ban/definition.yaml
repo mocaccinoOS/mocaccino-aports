@@ -1,0 +1,22 @@
+name: fail2ban
+version: "0.11.1"
+category: alpine
+description: Scans log files for login failures then updates iptables to reject originating ip address
+uri:
+  - https://www.fail2ban.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "fail2ban-0.11.1.tar.gz::https://github.com/fail2ban/fail2ban/archive/0.11.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "iptables"
+    version: '>=0'
+  - category: alpine
+    name: "ip6tables"
+    version: '>=0'
+  - category: alpine
+    name: "logrotate"
+    version: '>=0'

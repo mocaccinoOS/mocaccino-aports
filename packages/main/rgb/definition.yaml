@@ -1,0 +1,9 @@
+name: rgb
+version: "1.0.6"
+category: alpine
+description: X.org utility to display an RGB color-name database
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/app/rgb-1.0.6.tar.bz2"

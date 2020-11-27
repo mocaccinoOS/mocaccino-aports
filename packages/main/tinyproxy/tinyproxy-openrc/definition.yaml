@@ -1,0 +1,7 @@
+name: tinyproxy-openrc
+version: "1.10.0"
+category: alpine
+description: Lightweight HTTP proxy
+uri:
+  - https://tinyproxy.github.io/
+license: GPL-2.0-or-later

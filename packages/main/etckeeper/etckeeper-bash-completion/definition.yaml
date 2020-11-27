@@ -1,0 +1,7 @@
+name: etckeeper-bash-completion
+version: "1.18.15"
+category: alpine
+description: Store /etc in git.
+uri:
+  - http://etckeeper.branchable.com
+license: GPL-2.0-or-later

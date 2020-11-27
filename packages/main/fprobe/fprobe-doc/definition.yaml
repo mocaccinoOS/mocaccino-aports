@@ -1,0 +1,7 @@
+name: fprobe-doc
+version: "1.1"
+category: alpine
+description: libpcap-based tool that collect network traffic
+uri:
+  - http://fprobe.sourceforge.net/
+license: GPL

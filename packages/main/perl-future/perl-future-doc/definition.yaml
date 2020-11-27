@@ -1,0 +1,7 @@
+name: perl-future-doc
+version: "0.46"
+category: alpine
+description: represent an operation awaiting completion
+uri:
+  - https://metacpan.org/release/Future
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

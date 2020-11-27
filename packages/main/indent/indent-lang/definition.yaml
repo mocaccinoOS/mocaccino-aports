@@ -1,0 +1,7 @@
+name: indent-lang
+version: "2.2.12"
+category: alpine
+description: An indenting utility
+uri:
+  - https://www.gnu.org/software/indent/
+license: GPL-3.0-or-later BSD

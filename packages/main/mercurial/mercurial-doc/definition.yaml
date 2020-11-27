@@ -1,0 +1,7 @@
+name: mercurial-doc
+version: "5.5.2"
+category: alpine
+description: Scalable distributed SCM tool
+uri:
+  - https://www.mercurial-scm.org/
+license: GPL-2.0-or-later

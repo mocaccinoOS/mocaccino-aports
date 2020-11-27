@@ -1,0 +1,7 @@
+name: gdk-pixbuf-dbg
+version: "2.40.0"
+category: alpine
+description: GTK+ image loading library
+uri:
+  - https://wiki.gnome.org/Projects/GdkPixbuf
+license: LGPL-2.0-or-later

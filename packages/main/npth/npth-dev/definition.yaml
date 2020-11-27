@@ -1,0 +1,7 @@
+name: npth-dev
+version: "1.6"
+category: alpine
+description: The New GNU Portable Threads library
+uri:
+  - ftp://ftp.gnupg.org/gcrypt/npth/
+license: LGPL-3.0-or-later or GPL-2.0-or-later or (LGPL-3.0-or-later and GPL-2.0-or-later)

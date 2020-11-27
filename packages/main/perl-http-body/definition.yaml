@@ -1,0 +1,19 @@
+name: perl-http-body
+version: "1.22"
+category: alpine
+description: HTTP::Body perl module
+uri:
+  - https://search.cpan.org/dist/HTTP-Body/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://search.cpan.org/CPAN/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-http-message"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'

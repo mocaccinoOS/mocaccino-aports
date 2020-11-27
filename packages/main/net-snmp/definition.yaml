@@ -1,0 +1,9 @@
+name: net-snmp
+version: "5.9"
+category: alpine
+description: Simple Network Management Protocol
+uri:
+  - http://www.net-snmp.org/
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/net-snmp/net-snmp-5.9.tar.gz"

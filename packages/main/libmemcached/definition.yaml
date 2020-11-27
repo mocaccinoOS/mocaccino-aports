@@ -1,0 +1,9 @@
+name: libmemcached
+version: "1.0.18"
+category: alpine
+description: Client library and command line tools for memcached server
+uri:
+  - https://libmemcached.org/libMemcached.html
+license: BSD-3-Clause
+labels:
+  package.source: "https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz"

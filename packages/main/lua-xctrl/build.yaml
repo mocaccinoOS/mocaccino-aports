@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: lua-dev
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxmu-dev
+    version: '>=0'
+  - category: alpine
+    name: lua5.1-dev
+    version: '>=0'
+  - category: alpine
+    name: lua5.2-dev
+    version: '>=0'
+  - category: alpine
+    name: lua5.3-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: sc
+version: "7.16"
+category: alpine
+description: Speadsheet Calculator
+uri:
+  - https://github.com/dkastner/sc
+license: Public-Domain
+labels:
+  package.source: "http://ibiblio.org/pub/linux/apps/financial/spreadsheet/sc-7.16.tar.gz"

@@ -1,0 +1,19 @@
+name: py3-babel
+version: "2.8.0"
+category: alpine
+description: Python3 i18n tool
+uri:
+  - http://babel.pocoo.org/
+license: BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/B/Babel/Babel-2.8.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-tz"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'

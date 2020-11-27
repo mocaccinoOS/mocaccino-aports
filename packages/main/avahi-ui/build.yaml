@@ -1,0 +1,55 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: gdbm-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-gobject3-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-dbus-dev
+    version: '>=0'
+  - category: alpine
+    name: intltool
+    version: '>=0'
+  - category: alpine
+    name: gobject-introspection-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: libdaemon-dev
+    version: '>=0'
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: dbus-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: avahi-dev
+    version: '>=0'
+  - category: alpine
+    name: gtk+3.0-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

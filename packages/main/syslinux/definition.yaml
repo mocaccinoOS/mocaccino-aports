@@ -1,0 +1,19 @@
+name: syslinux
+version: "6.04_pre1"
+category: alpine
+description: Boot loader for the Linux operating system
+uri:
+  - http://syslinux.org
+license: GPL
+labels:
+  package.source: "https://www.kernel.org/pub/linux/utils/boot/syslinux/Testing/6.04/syslinux-6.04-pre1.tar.xz"
+requires:
+  - category: alpine
+    name: "mtools"
+    version: '>=0'
+  - category: alpine
+    name: "blkid"
+    version: '>=0'
+  - category: alpine
+    name: "mkinitfs"
+    version: '>=0'

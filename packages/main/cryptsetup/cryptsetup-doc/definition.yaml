@@ -1,0 +1,7 @@
+name: cryptsetup-doc
+version: "2.3.4"
+category: alpine
+description: Userspace setup tool for transparent encryption of block devices using the Linux 2.6 cryptoapi
+uri:
+  - https://gitlab.com/cryptsetup/cryptsetup
+license: GPL-2.0-or-later WITH OpenSSL-Exception

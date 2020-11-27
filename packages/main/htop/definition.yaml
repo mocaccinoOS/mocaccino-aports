@@ -1,0 +1,9 @@
+name: htop
+version: "3.0.2"
+category: alpine
+description: Interactive process viewer
+uri:
+  - https://htop.dev/
+license: GPL-2.0-or-later
+labels:
+  package.source: "htop-3.0.2.tar.gz::https://github.com/htop-dev/htop/archive/3.0.2.tar.gz"

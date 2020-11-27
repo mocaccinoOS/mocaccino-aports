@@ -1,0 +1,7 @@
+name: flac-dev
+version: "1.3.3"
+category: alpine
+description: Free Lossless Audio Codec
+uri:
+  - https://xiph.org/flac/
+license: custom:Xiph LGPL GPL FDL

@@ -1,0 +1,19 @@
+name: perl-devel-overloadinfo
+version: "0.005"
+category: alpine
+description: introspect overloaded operators
+uri:
+  - https://metacpan.org/release/Devel-OverloadInfo/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Devel-OverloadInfo-0.005.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-mro-compat"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-identify"
+    version: '>=0'
+  - category: alpine
+    name: "perl-package-stash"
+    version: '>=0'

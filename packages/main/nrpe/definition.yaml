@@ -1,0 +1,9 @@
+name: nrpe
+version: "4.0.3"
+category: alpine
+description: NRPE allows you to remotely execute Nagios plugins on other Linux/Unix machines.
+uri:
+  - http://www.nagios.org/download/addons
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/nagios/nrpe-4.0.3.tar.gz"

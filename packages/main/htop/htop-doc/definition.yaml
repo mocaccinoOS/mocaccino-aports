@@ -1,0 +1,7 @@
+name: htop-doc
+version: "3.0.2"
+category: alpine
+description: Interactive process viewer
+uri:
+  - https://htop.dev/
+license: GPL-2.0-or-later

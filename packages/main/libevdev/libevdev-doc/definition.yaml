@@ -1,0 +1,7 @@
+name: libevdev-doc
+version: "1.10.0"
+category: alpine
+description: Kernel Evdev Device Wrapper Library
+uri:
+  - https://www.freedesktop.org/wiki/Software/libevdev
+license: MIT

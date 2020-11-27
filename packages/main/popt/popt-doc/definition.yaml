@@ -1,0 +1,7 @@
+name: popt-doc
+version: "1.18"
+category: alpine
+description: commandline option parser
+uri:
+  - https://github.com/rpm-software-management/popt
+license: MIT

@@ -1,0 +1,7 @@
+name: perl-http-date-doc
+version: "6.05"
+category: alpine
+description: Perl module date conversion routines
+uri:
+  - https://metacpan.org/pod/HTTP::Date
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

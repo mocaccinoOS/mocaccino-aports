@@ -1,0 +1,7 @@
+name: ncurses-doc
+version: "6.2_p20201121"
+category: alpine
+description: Console display library
+uri:
+  - https://invisible-island.net/ncurses/
+license: MIT

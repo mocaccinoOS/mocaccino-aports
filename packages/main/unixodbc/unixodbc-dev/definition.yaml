@@ -1,0 +1,7 @@
+name: unixodbc-dev
+version: "2.3.9"
+category: alpine
+description: ODBC is an open specification to access Data Sources
+uri:
+  - http://www.unixodbc.org/
+license: LGPL-2.0-or-later

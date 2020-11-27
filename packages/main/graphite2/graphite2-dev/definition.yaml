@@ -1,0 +1,7 @@
+name: graphite2-dev
+version: "1.3.14"
+category: alpine
+description: reimplementation of the SIL Graphite text processing engine
+uri:
+  - https://graphite.sil.org/
+license: LGPL-2.1-or-later OR MPL-1.1

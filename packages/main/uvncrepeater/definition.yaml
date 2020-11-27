@@ -1,0 +1,13 @@
+name: uvncrepeater
+version: "014"
+category: alpine
+description: VNC repeater based on ultravnc repeater
+uri:
+  - http://koti.mbnet.fi/jtko/
+license: GPL-2.0-or-later
+labels:
+  package.source: "http://distcache.freebsd.org/ports-distfiles/repeater014.zip"
+requires:
+  - category: alpine
+    name: "openrc>=0.6"
+    version: '>=0'

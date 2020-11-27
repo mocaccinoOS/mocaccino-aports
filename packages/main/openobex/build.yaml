@@ -1,0 +1,25 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libusb-dev
+    version: '>=0'
+  - category: alpine
+    name: bluez-dev
+    version: '>=0'
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: alpine
+    name: eudev-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-utils
+    version: '>=0'
+  - category: alpine
+    name: docbook-xsl
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

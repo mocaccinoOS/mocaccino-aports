@@ -1,0 +1,7 @@
+name: lua-xctrl-doc
+version: "2015.04.10"
+category: alpine
+description: Lua module that allows you to query and manipulate various aspects of an X11 window manager
+uri:
+  - https://github.com/yetanothergeek/xctrl
+license: GPL-2.0

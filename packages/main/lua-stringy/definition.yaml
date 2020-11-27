@@ -1,0 +1,9 @@
+name: lua-stringy
+version: "0.5.1"
+category: alpine
+description: Lua string utility library
+uri:
+  - https://github.com/brentp/lua-stringy/
+license: MIT
+labels:
+  package.source: "lua-stringy-0.5.1.tar.gz::https://github.com/brentp/lua-stringy/archive/v0.5-1.tar.gz"

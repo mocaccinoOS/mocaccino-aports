@@ -1,0 +1,9 @@
+name: static-routing
+version: "1.0"
+category: alpine
+description: Script for configuring static routing
+uri:
+  - http://git.alpinelinux.org/cgit/aports/tree/testing/static-routing
+license: GPL-2
+labels:
+  package.source: "static-routing"

@@ -1,0 +1,13 @@
+name: py3-pluggy
+version: "0.13.1"
+category: alpine
+description: Plugin management and hook calling for Python
+uri:
+  - https://pluggy.readthedocs.io/en/latest/
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/pluggy/pluggy-0.13.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

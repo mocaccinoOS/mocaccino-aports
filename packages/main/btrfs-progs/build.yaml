@@ -1,0 +1,52 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: acl-dev
+    version: '>=0'
+  - category: alpine
+    name: asciidoc
+    version: '>=0'
+  - category: alpine
+    name: attr-dev
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: e2fsprogs-dev
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: lzo-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-setuptools
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: xmlto
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: zstd-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

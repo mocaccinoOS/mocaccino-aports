@@ -1,0 +1,7 @@
+name: hostapd-openrc
+version: "2.9"
+category: alpine
+description: daemon for wireless software access points
+uri:
+  - https://w1.fi/hostapd/
+license: custom

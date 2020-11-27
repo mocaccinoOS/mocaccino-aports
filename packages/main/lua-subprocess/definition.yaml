@@ -1,0 +1,9 @@
+name: lua-subprocess
+version: "0.0.20141229"
+category: alpine
+description: A Lua module written in C that allows you to create child processes and communicate with them
+uri:
+  - https://github.com/tdtrask/lua-subprocess
+license: AS-IS
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/lua-subprocess/lua-subprocess-0.0.20141229.tar.gz"

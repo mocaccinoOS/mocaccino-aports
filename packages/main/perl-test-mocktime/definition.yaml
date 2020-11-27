@@ -1,0 +1,9 @@
+name: perl-test-mocktime
+version: "0.17"
+category: alpine
+description: Replaces actual time with simulated time
+uri:
+  - https://metacpan.org/release/Test-MockTime/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz"

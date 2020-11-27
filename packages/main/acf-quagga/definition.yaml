@@ -1,0 +1,19 @@
+name: acf-quagga
+version: "0.10.1"
+category: alpine
+description: A web-based system administration interface for quagga
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-quagga
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-quagga/acf-quagga-0.10.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "lua-socket"
+    version: '>=0'
+  - category: alpine
+    name: "quagga"
+    version: '>=0'

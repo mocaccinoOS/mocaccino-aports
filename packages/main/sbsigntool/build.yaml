@@ -1,0 +1,31 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: bash
+    version: '>=0'
+  - category: alpine
+    name: binutils-dev
+    version: '>=0'
+  - category: alpine
+    name: gnu-efi-dev
+    version: '>=0'
+  - category: alpine
+    name: help2man
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

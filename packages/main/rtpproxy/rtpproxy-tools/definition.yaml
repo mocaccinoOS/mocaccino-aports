@@ -1,0 +1,7 @@
+name: rtpproxy-tools
+version: "2.1.1"
+category: alpine
+description: RTP proxy
+uri:
+  - https://www.rtpproxy.org/
+license: BSD-2-CLause

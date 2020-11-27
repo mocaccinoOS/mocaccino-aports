@@ -1,0 +1,13 @@
+name: lua-resty-lrucache
+version: "0.09"
+category: alpine
+description: Lua-land LRU Cache based on LuaJIT FFI
+uri:
+  - https://github.com/openresty/lua-resty-lrucache
+license: BSD-2-Clause
+labels:
+  package.source: "https://github.com/openresty/lua-resty-lrucache/archive/v0.09/lua-resty-lrucache-0.09.tar.gz"
+requires:
+  - category: alpine
+    name: "luajit"
+    version: '>=0'

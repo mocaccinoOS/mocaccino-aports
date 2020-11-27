@@ -1,0 +1,13 @@
+name: perl-switch
+version: "2.17"
+category: alpine
+description: A switch statement for Perl
+uri:
+  - https://metacpan.org/release/Switch/
+license: Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CH/CHORNY/Switch-2.17.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

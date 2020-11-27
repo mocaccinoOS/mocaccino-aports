@@ -1,0 +1,25 @@
+name: aaudit
+version: "0.7.2"
+category: alpine
+description: Alpine Auditor
+uri:
+  - https://alpinelinux.org
+license: Unknown
+labels:
+  package.source: "aaudit-common.lua"
+requires:
+  - category: alpine
+    name: "lua5.2"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-posix"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-cjson"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-pc"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.2-socket"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: lua5.1-socket
+version: "3.0_rc1_git20160306"
+category: alpine
+description: Networking library for Lua
+uri:
+  - http://luaforge.net/projects/luasocket/
+license: MIT

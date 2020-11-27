@@ -1,0 +1,7 @@
+name: perl-text-wrapper-doc
+version: "1.05"
+category: alpine
+description: Word wrap text by breaking long lines
+uri:
+  - https://metacpan.org/release/Text-Wrapper/
+license: GPL PerlArtistic

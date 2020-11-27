@@ -1,0 +1,13 @@
+name: squid
+version: "5.0.4"
+category: alpine
+description: A full-featured Web proxy cache server.
+uri:
+  - http://www.squid-cache.org
+license: GPL-2.0
+labels:
+  package.source: "http://www.squid-cache.org/Versions/v5/squid-5.0.4.tar.xz"
+requires:
+  - category: alpine
+    name: "logrotate"
+    version: '>=0'

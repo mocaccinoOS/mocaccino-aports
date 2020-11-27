@@ -1,0 +1,9 @@
+name: monit
+version: "5.27.1"
+category: alpine
+description: Managing and monitoring on a UNIX system
+uri:
+  - https://mmonit.com/monit/
+license: AGPL-3.0-or-later WITH OpenSSL-Exception
+labels:
+  package.source: "https://mmonit.com/monit/dist/monit-5.27.1.tar.gz"

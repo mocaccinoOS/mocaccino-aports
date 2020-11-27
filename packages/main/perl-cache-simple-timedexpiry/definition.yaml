@@ -1,0 +1,13 @@
+name: perl-cache-simple-timedexpiry
+version: "0.27"
+category: alpine
+description: Cache::Simple::TimedExpiry perl module
+uri:
+  - https://metacpan.org/release/Cache-Simple-TimedExpiry/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JE/JESSE/Cache-Simple-TimedExpiry-0.27.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

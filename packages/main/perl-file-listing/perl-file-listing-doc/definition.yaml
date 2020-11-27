@@ -1,0 +1,7 @@
+name: perl-file-listing-doc
+version: "6.11"
+category: alpine
+description: Parse directory listing
+uri:
+  - https://metacpan.org/release/File-Listing/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

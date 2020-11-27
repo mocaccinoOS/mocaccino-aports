@@ -1,0 +1,9 @@
+name: freeswitch-sounds-fr-ca-june-8000
+version: "1.0.51"
+category: alpine
+description: Sounds for freeswitch French
+uri:
+  - http://files.freeswitch.org/
+license: unknown
+labels:
+  package.source: "http://files.freeswitch.org/releases/sounds/freeswitch-sounds-fr-ca-june-8000-1.0.51.tar.gz"

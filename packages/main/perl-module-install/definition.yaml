@@ -1,0 +1,9 @@
+name: perl-module-install
+version: "1.19"
+category: alpine
+description: Perl module for Module-Install
+uri:
+  - https://metacpan.org/release/Module-Install/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Module-Install-1.19.tar.gz"

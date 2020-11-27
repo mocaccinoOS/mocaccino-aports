@@ -1,0 +1,7 @@
+name: pptpd-doc
+version: "1.4.0"
+category: alpine
+description: PoPToP - PPTP Daemon, Linux as Microsoft VPN Server
+uri:
+  - http://www.poptop.org/
+license: GPL-2.0-or-later

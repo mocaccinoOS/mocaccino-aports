@@ -1,0 +1,9 @@
+name: icu
+version: "67.1"
+category: alpine
+description: International Components for Unicode library
+uri:
+  - http://site.icu-project.org/
+license: MIT ICU Unicode-TOU
+labels:
+  package.source: "https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz"

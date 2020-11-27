@@ -1,0 +1,7 @@
+name: netcat-openbsd-doc
+version: "1.130"
+category: alpine
+description: The TCP/IP swiss army knife. OpenBSD variant.
+uri:
+  - http://packages.debian.org/sid/netcat-openbsd
+license: BSD-3-Clause

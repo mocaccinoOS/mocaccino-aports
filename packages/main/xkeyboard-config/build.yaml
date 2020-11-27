@@ -1,0 +1,22 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: xkbcomp
+    version: '>=0'
+  - category: alpine
+    name: intltool
+    version: '>=0'
+  - category: alpine
+    name: libx11-dev
+    version: '>=0'
+  - category: alpine
+    name: libxslt
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

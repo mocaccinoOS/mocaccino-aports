@@ -1,0 +1,7 @@
+name: sudo-doc
+version: "1.9.3_p1"
+category: alpine
+description: Give certain users the ability to run some commands as root
+uri:
+  - https://www.sudo.ws/sudo/
+license: custom ISC

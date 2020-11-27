@@ -1,0 +1,7 @@
+name: cciss_vol_status-doc
+version: "1.12a"
+category: alpine
+description: Drivers for the HP (previously Compaq) Smart Array controllers which provide hardware RAID capability
+uri:
+  - http://cciss.sourceforge.net/
+license: GPL-2.0-or-later

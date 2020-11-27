@@ -1,0 +1,19 @@
+name: perl-sub-exporter
+version: "0.987"
+category: alpine
+description: a sophisticated exporter for custom-built routines
+uri:
+  - https://metacpan.org/release/Sub-Exporter/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Sub-Exporter-0.987.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-data-optlist"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-install"
+    version: '>=0'
+  - category: alpine
+    name: "perl-params-util"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: geoip-dev
+version: "1.6.12"
+category: alpine
+description: Lookup countries by IP addresses
+uri:
+  - http://www.maxmind.com/app/ip-location
+license: GPL

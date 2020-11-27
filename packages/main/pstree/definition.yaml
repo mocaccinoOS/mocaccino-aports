@@ -1,0 +1,13 @@
+name: pstree
+version: "2.39"
+category: alpine
+description: A small tool to list processes as a tree
+uri:
+  - http://www.thp.uni-duisburg.de/pstree/
+license: GPL
+labels:
+  package.source: "ftp://ftp.thp.uni-duisburg.de/pub/source/pstree-2.39.tar.gz"
+requires:
+  - category: alpine
+    name: "!psmisc"
+    version: '>=0'

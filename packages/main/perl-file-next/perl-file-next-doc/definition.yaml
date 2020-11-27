@@ -1,0 +1,7 @@
+name: perl-file-next-doc
+version: "1.18"
+category: alpine
+description: Perl module for taint-safe file-finding
+uri:
+  - https://metacpan.org/release/File-Next
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

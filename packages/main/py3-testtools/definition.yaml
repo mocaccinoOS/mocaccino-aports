@@ -1,0 +1,31 @@
+name: py3-testtools
+version: "2.4.0"
+category: alpine
+description: Extensions to the Python standard library unit testing framework
+uri:
+  - https://pypi.python.org/pypi/testtools
+license: MIT
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/t/testtools/testtools-2.4.0.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pbr"
+    version: '>=0'
+  - category: alpine
+    name: "py3-setuptools"
+    version: '>=0'
+  - category: alpine
+    name: "py3-fixtures"
+    version: '>=0'
+  - category: alpine
+    name: "py3-extras"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'
+  - category: alpine
+    name: "py3-mimeparse"
+    version: '>=0'

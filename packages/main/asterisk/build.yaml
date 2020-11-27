@@ -1,0 +1,112 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: findutils
+    version: '>=0'
+  - category: alpine
+    name: tar
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: popt-dev
+    version: '>=0'
+  - category: alpine
+    name: newt-dev
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: libedit-dev
+    version: '>=0'
+  - category: alpine
+    name: tiff-dev
+    version: '>=0'
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: lua-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: alpine
+    name: unixodbc-dev
+    version: '>=0'
+  - category: alpine
+    name: freetds-dev
+    version: '>=0'
+  - category: alpine
+    name: mariadb-connector-c-dev
+    version: '>=0'
+  - category: alpine
+    name: alsa-lib-dev
+    version: '>=0'
+  - category: alpine
+    name: pjproject-dev
+    version: '>=0'
+  - category: alpine
+    name: dahdi-tools-dev
+    version: '>=0'
+  - category: alpine
+    name: libpri-dev
+    version: '>=0'
+  - category: alpine
+    name: libsrtp-dev
+    version: '>=0'
+  - category: alpine
+    name: spandsp-dev
+    version: '>=0'
+  - category: alpine
+    name: libresample
+    version: '>=0'
+  - category: alpine
+    name: speex-dev
+    version: '>=0'
+  - category: alpine
+    name: speexdsp-dev
+    version: '>=0'
+  - category: alpine
+    name: libogg-dev
+    version: '>=0'
+  - category: alpine
+    name: bluez-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: imap-dev
+    version: '>=0'
+  - category: alpine
+    name: unbound-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,16 @@
+name: perl-list-someutils
+version: "0.58"
+category: alpine
+description: Provide the stuff missing in List::Util
+uri:
+  - https://metacpan.org/release/List-SomeUtils
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.58.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-module-implementation"
+    version: '>=0'
+  - category: alpine
+    name: "perl-list-someutils-xs"
+    version: '>=0'

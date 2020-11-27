@@ -1,0 +1,7 @@
+name: perl-crypt-ssleay-doc
+version: "0.72"
+category: alpine
+description: OpenSSL Support for LWP
+uri:
+  - https://metacpan.org/release/Crypt-SSLeay/
+license: GPL PerlArtistic

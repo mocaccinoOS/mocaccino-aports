@@ -1,0 +1,13 @@
+name: ttf-droid
+version: "20200215"
+category: alpine
+description: General-purpose fonts released by Google as part of Android.
+uri:
+  - http://code.google.com/android/
+license: Apache-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/android-fonts/android-fonts-4.2.2_r1.2.tar.gz"
+requires:
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'

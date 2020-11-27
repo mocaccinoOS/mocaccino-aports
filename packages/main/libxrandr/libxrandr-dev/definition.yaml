@@ -1,0 +1,7 @@
+name: libxrandr-dev
+version: "1.5.2"
+category: alpine
+description: X11 RandR extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT

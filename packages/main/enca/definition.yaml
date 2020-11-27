@@ -1,0 +1,9 @@
+name: enca
+version: "1.19"
+category: alpine
+description: Charset analyser and converter
+uri:
+  - http://freshmeat.net/projects/enca/
+license: GPL
+labels:
+  package.source: "http://dl.cihar.com/enca/enca-1.19.tar.xz"

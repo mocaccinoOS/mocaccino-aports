@@ -1,0 +1,9 @@
+name: udns
+version: "0.4"
+category: alpine
+description: DNS Resolver Library
+uri:
+  - http://www.corpit.ru/mjt/udns.html
+license: LGPL-2.1-or-later
+labels:
+  package.source: "http://www.corpit.ru/mjt/udns/udns-0.4.tar.gz"

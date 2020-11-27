@@ -1,0 +1,13 @@
+name: perl-xml-xpath
+version: "1.44"
+category: alpine
+description: Parse and evaluate XPath statements.
+uri:
+  - https://metacpan.org/release/XML-XPath/
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MA/MANWAR/XML-XPath-1.44.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-xml-parser"
+    version: '>=0'

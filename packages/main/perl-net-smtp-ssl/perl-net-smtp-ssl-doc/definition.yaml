@@ -1,0 +1,7 @@
+name: perl-net-smtp-ssl-doc
+version: "1.04"
+category: alpine
+description: SSL support for Net::SMTP
+uri:
+  - https://metacpan.org/release/Net-SMTP-SSL/
+license: GPL PerlArtistic

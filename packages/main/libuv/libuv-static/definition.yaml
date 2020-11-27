@@ -1,0 +1,7 @@
+name: libuv-static
+version: "1.40.0"
+category: alpine
+description: Cross-platform asychronous I/O
+uri:
+  - https://libuv.org
+license: MIT AND ISC

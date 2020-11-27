@@ -1,0 +1,7 @@
+name: perl-test-without-doc
+version: "0.10"
+category: alpine
+description: Test::Without perl module
+uri:
+  - https://metacpan.org/pod/Test::Without
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

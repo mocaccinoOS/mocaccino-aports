@@ -1,0 +1,9 @@
+name: wayland-protocols
+version: "1.20"
+category: alpine
+description: Protocols and protocol extensions complementing the Wayland core protocol
+uri:
+  - https://wayland.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://wayland.freedesktop.org/releases/wayland-protocols-1.20.tar.xz"

@@ -1,0 +1,7 @@
+name: perl-file-which-doc
+version: "1.23"
+category: alpine
+description: Perl implementation of the which utility as an API
+uri:
+  - https://metacpan.org/release/File-Which/
+license: GPL PerlArtistic

@@ -1,0 +1,7 @@
+name: libedit-static
+version: "20191231.3.1"
+category: alpine
+description: BSD line editing library
+uri:
+  - https://www.thrysoee.dk/editline
+license: BSD-3-Clause

@@ -1,0 +1,112 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: db-dev
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: freeradius-client-dev
+    version: '>=0'
+  - category: alpine
+    name: expat-dev
+    version: '>=0'
+  - category: alpine
+    name: lksctp-tools-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: pcre-dev
+    version: '>=0'
+  - category: alpine
+    name: mariadb-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: unixodbc-dev
+    version: '>=0'
+  - category: alpine
+    name: confuse-dev
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: lua-dev
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: net-snmp-dev
+    version: '>=0'
+  - category: alpine
+    name: libuuid
+    version: '>=0'
+  - category: alpine
+    name: libev-dev
+    version: '>=0'
+  - category: alpine
+    name: jansson-dev
+    version: '>=0'
+  - category: alpine
+    name: json-c-dev
+    version: '>=0'
+  - category: alpine
+    name: libevent-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: libmemcached-dev
+    version: '>=0'
+  - category: alpine
+    name: rabbitmq-c-dev
+    version: '>=0'
+  - category: alpine
+    name: hiredis-dev
+    version: '>=0'
+  - category: alpine
+    name: ruby-dev
+    version: '>=0'
+  - category: alpine
+    name: libmaxminddb-dev
+    version: '>=0'
+  - category: alpine
+    name: libunistring-dev
+    version: '>=0'
+  - category: alpine
+    name: mosquitto-dev
+    version: '>=0'
+  - category: alpine
+    name: libmnl-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: xcb-util-renderutil
+version: "0.3.9"
+category: alpine
+description: X C-language Binding - Convenience functions for XRender extension
+uri:
+  - https://xcb.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.gz"

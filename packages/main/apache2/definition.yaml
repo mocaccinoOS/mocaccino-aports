@@ -1,0 +1,9 @@
+name: apache2
+version: "2.4.46"
+category: alpine
+description: A high performance Unix-based HTTP server
+uri:
+  - https://httpd.apache.org/
+license: Apache-2.0
+labels:
+  package.source: "https://archive.apache.org/dist/httpd/httpd-2.4.46.tar.bz2"

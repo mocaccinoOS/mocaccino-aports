@@ -1,0 +1,7 @@
+name: dhcpcd-doc
+version: "8.1.6"
+category: alpine
+description: RFC2131 compliant DHCP client
+uri:
+  - https://roy.marples.name/projects/dhcpcd
+license: BSD-2-Clause

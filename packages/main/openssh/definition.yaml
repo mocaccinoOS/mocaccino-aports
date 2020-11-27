@@ -1,0 +1,19 @@
+name: openssh
+version: "8.4_p1"
+category: alpine
+description: Port of OpenBSD's free SSH release
+uri:
+  - https://www.openssh.com/portable.html
+license: BSD
+labels:
+  package.source: "https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-8.4p1.tar.gz"
+requires:
+  - category: alpine
+    name: "openssh-client"
+    version: '>=0'
+  - category: alpine
+    name: "openssh-sftp-server"
+    version: '>=0'
+  - category: alpine
+    name: "openssh-server"
+    version: '>=0'

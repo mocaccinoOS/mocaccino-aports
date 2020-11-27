@@ -1,0 +1,9 @@
+name: devicemaster-linux
+version: "7.34"
+category: alpine
+description: Userspace tools for NS-Link Device Drivers
+uri:
+  - http://www.comtrol.com/resources/product-resources-white-papers/ns-link-device-drivers
+license: GPL
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/devicemaster-linux/devicemaster-linux-7.34.tar.gz"

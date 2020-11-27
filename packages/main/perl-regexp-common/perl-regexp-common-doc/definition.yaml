@@ -1,0 +1,7 @@
+name: perl-regexp-common-doc
+version: "2017060201"
+category: alpine
+description: Provide commonly requested regular expressions
+uri:
+  - https://metacpan.org/release/Regexp-Common/
+license: MIT

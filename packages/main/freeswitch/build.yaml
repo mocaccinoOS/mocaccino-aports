@@ -1,0 +1,148 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bash
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: coreutils
+    version: '>=0'
+  - category: alpine
+    name: curl-dev
+    version: '>=0'
+  - category: alpine
+    name: db-dev
+    version: '>=0'
+  - category: alpine
+    name: diffutils
+    version: '>=0'
+  - category: alpine
+    name: flac-dev
+    version: '>=0'
+  - category: alpine
+    name: flite-dev
+    version: '>=0'
+  - category: alpine
+    name: gdbm-dev
+    version: '>=0'
+  - category: alpine
+    name: gnutls-dev
+    version: '>=0'
+  - category: alpine
+    name: ilbc-dev
+    version: '>=0'
+  - category: alpine
+    name: lame-dev
+    version: '>=0'
+  - category: alpine
+    name: ldns-dev
+    version: '>=0'
+  - category: alpine
+    name: libedit-dev
+    version: '>=0'
+  - category: alpine
+    name: libexecinfo-dev
+    version: '>=0'
+  - category: alpine
+    name: libjpeg-turbo-dev
+    version: '>=0'
+  - category: alpine
+    name: libogg-dev
+    version: '>=0'
+  - category: alpine
+    name: libpri-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: libshout-dev
+    version: '>=0'
+  - category: alpine
+    name: libsndfile-dev
+    version: '>=0'
+  - category: alpine
+    name: libvorbis-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: lua5.3-dev
+    version: '>=0'
+  - category: alpine
+    name: mpg123-dev
+    version: '>=0'
+  - category: alpine
+    name: ncurses-dev
+    version: '>=0'
+  - category: alpine
+    name: net-snmp-dev
+    version: '>=0'
+  - category: alpine
+    name: opus-dev
+    version: '>=0'
+  - category: alpine
+    name: pcre-dev
+    version: '>=0'
+  - category: alpine
+    name: perl-dev
+    version: '>=0'
+  - category: alpine
+    name: portaudio-dev
+    version: '>=0'
+  - category: alpine
+    name: postgresql-dev
+    version: '>=0'
+  - category: alpine
+    name: sngtc_client-dev
+    version: '>=0'
+  - category: alpine
+    name: speex-dev
+    version: '>=0'
+  - category: alpine
+    name: speexdsp-dev
+    version: '>=0'
+  - category: alpine
+    name: sqlite-dev
+    version: '>=0'
+  - category: alpine
+    name: tiff-dev
+    version: '>=0'
+  - category: alpine
+    name: unixodbc-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: xmlrpc-c-dev
+    version: '>=0'
+  - category: alpine
+    name: yasm
+    version: '>=0'
+  - category: alpine
+    name: zlib-dev
+    version: '>=0'
+  - category: alpine
+    name: sofia-sip-dev
+    version: '>=0'
+  - category: alpine
+    name: spandsp3-dev
+    version: '>=0'
+  - category: alpine
+    name: autoconf
+    version: '>=0'
+  - category: alpine
+    name: automake
+    version: '>=0'
+  - category: alpine
+    name: libtool
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

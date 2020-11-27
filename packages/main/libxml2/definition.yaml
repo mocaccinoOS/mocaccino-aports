@@ -1,0 +1,9 @@
+name: libxml2
+version: "2.9.10"
+category: alpine
+description: XML parsing library, version 2
+uri:
+  - http://www.xmlsoft.org/
+license: MIT
+labels:
+  package.source: "http://xmlsoft.org/sources/libxml2-2.9.10.tar.gz"

@@ -1,0 +1,58 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: bash
+    version: '>=0'
+  - category: alpine
+    name: bsd-compat-headers
+    version: '>=0'
+  - category: alpine
+    name: fstrm-dev
+    version: '>=0'
+  - category: alpine
+    name: json-c-dev
+    version: '>=0'
+  - category: alpine
+    name: krb5-dev
+    version: '>=0'
+  - category: alpine
+    name: libcap-dev
+    version: '>=0'
+  - category: alpine
+    name: libuv-dev
+    version: '>=0'
+  - category: alpine
+    name: libxml2-dev
+    version: '>=0'
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: openldap-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: perl
+    version: '>=0'
+  - category: alpine
+    name: protobuf-c-dev
+    version: '>=0'
+  - category: alpine
+    name: py3-ply
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: alpine
+    name: python3-dev
+    version: '>=0'
+  - category: alpine
+    name: dnssec-root
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

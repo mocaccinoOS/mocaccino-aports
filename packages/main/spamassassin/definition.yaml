@@ -1,0 +1,16 @@
+name: spamassassin
+version: "3.4.4"
+category: alpine
+description: 'The Powerful #1 Open-Source Spam Filter'
+uri:
+  - https://metacpan.org/pod/Mail::SpamAssassin
+license: Apache-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KM/KMCGRAIL/SpamAssassin/Mail-SpamAssassin-3.4.4.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-mail-spamassassin"
+    version: '>=0'
+  - category: alpine
+    name: "curl"
+    version: '>=0'

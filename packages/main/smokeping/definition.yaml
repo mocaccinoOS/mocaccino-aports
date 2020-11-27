@@ -1,0 +1,85 @@
+name: smokeping
+version: "2.7.3"
+category: alpine
+description: Smokeping network latency monitoring
+uri:
+  - https://oss.oetiker.ch/smokeping/
+license: GPL
+labels:
+  package.source: "https://oss.oetiker.ch/smokeping/pub/smokeping-2.7.3.tar.gz"
+requires:
+  - category: alpine
+    name: "fping"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-cgi"
+    version: '>=0'
+  - category: alpine
+    name: "perl-cgi-fast"
+    version: '>=0'
+  - category: alpine
+    name: "perl-cgi-session"
+    version: '>=0'
+  - category: alpine
+    name: "perl-config-grammar"
+    version: '>=0'
+  - category: alpine
+    name: "perl-data-hexdump"
+    version: '>=0'
+  - category: alpine
+    name: "perl-digest-hmac"
+    version: '>=0'
+  - category: alpine
+    name: "perl-fcgi"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-socket-ssl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-io-tty"
+    version: '>=0'
+  - category: alpine
+    name: "perl-ldap"
+    version: '>=0'
+  - category: alpine
+    name: "perl-libwww"
+    version: '>=0'
+  - category: alpine
+    name: "perl-mozilla-ca"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-dns"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-ip"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-openssh"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-snmp"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-telnet"
+    version: '>=0'
+  - category: alpine
+    name: "perl-text-soundex"
+    version: '>=0'
+  - category: alpine
+    name: "perl-rrd"
+    version: '>=0'
+  - category: alpine
+    name: "perl-snmp-session"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'
+  - category: alpine
+    name: "rrdtool"
+    version: '>=0'
+  - category: alpine
+    name: "ttf-dejavu"
+    version: '>=0'

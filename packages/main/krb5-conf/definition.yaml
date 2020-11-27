@@ -1,0 +1,9 @@
+name: krb5-conf
+version: "1.0"
+category: alpine
+description: Shared krb5.conf for both MIT krb5 and heimdal
+uri:
+  - https://web.mit.edu/kerberos/www/
+license: MIT
+labels:
+  package.source: "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/snapshot/keyutils-1.6.3.tar.gz"

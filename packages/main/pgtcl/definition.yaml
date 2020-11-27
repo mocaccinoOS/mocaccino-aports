@@ -1,0 +1,9 @@
+name: pgtcl
+version: "2.1.0"
+category: alpine
+description: Tcl client side interface to PostgreSQL (libpgtcl)
+uri:
+  - https://flightaware.github.io/Pgtcl/
+license: BSD-3-Clause
+labels:
+  package.source: "pgtcl-2.1.0.tar.gz::https://github.com/flightaware/Pgtcl/archive/v2.1.0.tar.gz"

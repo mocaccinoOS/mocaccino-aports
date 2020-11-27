@@ -1,0 +1,7 @@
+name: perl-mailtools-doc
+version: "2.21"
+category: alpine
+description: Various e-mail related modules
+uri:
+  - https://metacpan.org/release/MailTools/
+license: GPL PerlArtistic

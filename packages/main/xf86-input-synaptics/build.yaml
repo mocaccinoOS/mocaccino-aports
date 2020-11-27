@@ -1,0 +1,28 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libxkbfile-dev
+    version: '>=0'
+  - category: alpine
+    name: xorg-server-dev
+    version: '>=0'
+  - category: alpine
+    name: libxi-dev
+    version: '>=0'
+  - category: alpine
+    name: libxrandr-dev
+    version: '>=0'
+  - category: alpine
+    name: mtdev-dev
+    version: '>=0'
+  - category: alpine
+    name: libxtst-dev
+    version: '>=0'
+  - category: alpine
+    name: libevdev-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

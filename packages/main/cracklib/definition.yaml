@@ -1,0 +1,9 @@
+name: cracklib
+version: "2.9.7"
+category: alpine
+description: A library used to enforce strong passwords
+uri:
+  - https://github.com/cracklib/cracklib
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://github.com/cracklib/cracklib/releases/download/v2.9.7/cracklib-2.9.7.tar.bz2"

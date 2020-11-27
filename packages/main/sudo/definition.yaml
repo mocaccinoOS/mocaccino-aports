@@ -1,0 +1,9 @@
+name: sudo
+version: "1.9.3_p1"
+category: alpine
+description: Give certain users the ability to run some commands as root
+uri:
+  - https://www.sudo.ws/sudo/
+license: custom ISC
+labels:
+  package.source: "https://www.sudo.ws/dist/sudo-1.9.3p1.tar.gz"

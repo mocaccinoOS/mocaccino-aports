@@ -1,0 +1,9 @@
+name: perl-net-telnet
+version: "3.04"
+category: alpine
+description: Interact with TELNET port or other TCP ports
+uri:
+  - https://metacpan.org/release/Net-Telnet/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/J/JR/JROGERS/Net-Telnet-3.04.tar.gz"

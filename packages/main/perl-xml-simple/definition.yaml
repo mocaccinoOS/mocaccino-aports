@@ -1,0 +1,16 @@
+name: perl-xml-simple
+version: "2.25"
+category: alpine
+description: Simple XML parser for Perl
+uri:
+  - https://metacpan.org/release/XML-Simple
+license: Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.25.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-xml-parser"
+    version: '>=0'
+  - category: alpine
+    name: "perl"
+    version: '>=0'

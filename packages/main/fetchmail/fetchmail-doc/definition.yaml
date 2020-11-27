@@ -1,0 +1,7 @@
+name: fetchmail-doc
+version: "6.4.13"
+category: alpine
+description: remote-mail retrieval and forwarding utility
+uri:
+  - https://www.fetchmail.info/
+license: GPL-2.0-or-later WITH OpenSSL-Exception AND Public-Domain

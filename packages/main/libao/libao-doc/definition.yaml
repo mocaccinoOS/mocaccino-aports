@@ -1,0 +1,7 @@
+name: libao-doc
+version: "1.2.2"
+category: alpine
+description: Cross-platform audio output library and plugins
+uri:
+  - http://www.xiph.org/ao
+license: GPL-2.0-or-later

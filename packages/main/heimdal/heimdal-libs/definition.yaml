@@ -1,0 +1,7 @@
+name: heimdal-libs
+version: "7.7.0"
+category: alpine
+description: Iplementation of Kerberos 5
+uri:
+  - https://github.com/heimdal/
+license: BSD-3-Clause

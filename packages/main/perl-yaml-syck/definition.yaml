@@ -1,0 +1,13 @@
+name: perl-yaml-syck
+version: "1.34"
+category: alpine
+description: Fast, lightweight YAML loader and dumper
+uri:
+  - https://metacpan.org/release/YAML-Syck/
+license: MIT
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TODDR/YAML-Syck-1.34.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

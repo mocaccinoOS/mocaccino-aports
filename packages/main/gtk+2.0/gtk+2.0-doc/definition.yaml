@@ -1,0 +1,7 @@
+name: gtk+2.0-doc
+version: "2.24.32"
+category: alpine
+description: The GTK+ Toolkit (v2)
+uri:
+  - https://www.gtk.org/
+license: LGPL-2.0-or-later

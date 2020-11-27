@@ -1,0 +1,7 @@
+name: checkbashisms-doc
+version: "2.20.4"
+category: alpine
+description: Check shell scripts for POXIX compliance
+uri:
+  - https://tracker.debian.org/pkg/devscripts
+license: GPL-2.0-or-later

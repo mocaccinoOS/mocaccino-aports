@@ -1,0 +1,7 @@
+name: poppler-utils
+version: "20.11.0"
+category: alpine
+description: PDF rendering library based on xpdf 3.0
+uri:
+  - https://poppler.freedesktop.org/
+license: GPL-2.0-or-later

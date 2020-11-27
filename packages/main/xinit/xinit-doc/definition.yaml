@@ -1,0 +1,7 @@
+name: xinit-doc
+version: "1.4.1"
+category: alpine
+description: X.Org initialisation program
+uri:
+  - http://xorg.freedesktop.org
+license: MIT

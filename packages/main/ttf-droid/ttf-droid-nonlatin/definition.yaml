@@ -1,0 +1,7 @@
+name: ttf-droid-nonlatin
+version: "20200215"
+category: alpine
+description: General-purpose fonts released by Google as part of Android.
+uri:
+  - http://code.google.com/android/
+license: Apache-2.0

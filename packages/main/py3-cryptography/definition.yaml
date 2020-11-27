@@ -1,0 +1,25 @@
+name: py3-cryptography
+version: "3.2.1"
+category: alpine
+description: Cryptographic recipes and primitives for Python
+uri:
+  - https://cryptography.io/
+license: Apache-2.0 OR BSD-3-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/c/cryptography/cryptography-3.2.1.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-cffi"
+    version: '>=0'
+  - category: alpine
+    name: "py3-idna"
+    version: '>=0'
+  - category: alpine
+    name: "py3-asn1crypto"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'

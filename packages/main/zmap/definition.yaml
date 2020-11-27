@@ -1,0 +1,9 @@
+name: zmap
+version: "2.1.1"
+category: alpine
+description: A high performance internet scanner
+uri:
+  - https://www.zmap.io/
+license: Apache-2.0
+labels:
+  package.source: "zmap-2.1.1.tar.gz::https://github.com/zmap/zmap/archive/v2.1.1.tar.gz"

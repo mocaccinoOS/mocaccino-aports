@@ -1,0 +1,13 @@
+name: openrc
+version: "0.42.1"
+category: alpine
+description: OpenRC manages the services, startup and shutdown of a host
+uri:
+  - https://github.com/OpenRC/openrc
+license: BSD-2-Clause
+labels:
+  package.source: "openrc-0.42.1.tar.gz::https://github.com/OpenRC/openrc/archive/0.42.1.tar.gz"
+requires:
+  - category: alpine
+    name: "ifupdown-any"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: perl-parse-yapp-doc
+version: "1.21"
+category: alpine
+description: Perl module for Parse-Yapp
+uri:
+  - https://metacpan.org/release/Parse-Yapp/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

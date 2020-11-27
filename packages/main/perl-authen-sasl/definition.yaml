@@ -1,0 +1,16 @@
+name: perl-authen-sasl
+version: "2.16"
+category: alpine
+description: SASL Authentication framework for perl
+uri:
+  - https://metacpan.org/release/Authen-SASL
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/G/GB/GBARR/Authen-SASL-2.16.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-digest-hmac"
+    version: '>=0'

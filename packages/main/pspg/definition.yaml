@@ -1,0 +1,9 @@
+name: pspg
+version: "3.1.5"
+category: alpine
+description: A unix pager optimized for psql
+uri:
+  - https://github.com/okbob/pspg
+license: BSD-2-Clause
+labels:
+  package.source: "pspg-3.1.5.tar.gz::https://github.com/okbob/pspg/archive/3.1.5.tar.gz"

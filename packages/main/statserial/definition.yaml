@@ -1,0 +1,9 @@
+name: statserial
+version: "1.1"
+category: alpine
+description: Display serial port modem status lines
+uri:
+  - http://sunsite.unc.edu/pub/Linux/system/Serial
+license: GPL
+labels:
+  package.source: "http://ibiblio.org/pub/linux/system/serial/statserial-1.1.tar.gz"

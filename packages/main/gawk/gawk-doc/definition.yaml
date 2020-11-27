@@ -1,0 +1,7 @@
+name: gawk-doc
+version: "5.1.0"
+category: alpine
+description: GNU awk pattern-matching language
+uri:
+  - https://www.gnu.org/software/gawk/gawk.html
+license: GPL-3.0-or-later

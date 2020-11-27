@@ -1,0 +1,9 @@
+name: mpg123
+version: "1.26.3"
+category: alpine
+description: Console-based MPEG Audio Player for Layers 1, 2 and 3
+uri:
+  - http://www.mpg123.org
+license: LGPL-2.1-only
+labels:
+  package.source: "http://www.mpg123.org/download/mpg123-1.26.3.tar.bz2"

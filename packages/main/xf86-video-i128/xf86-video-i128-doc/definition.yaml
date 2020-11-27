@@ -1,0 +1,7 @@
+name: xf86-video-i128-doc
+version: "1.4.0"
+category: alpine
+description: Number 9 I128 video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

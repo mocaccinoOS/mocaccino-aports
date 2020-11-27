@@ -1,0 +1,7 @@
+name: py3-jinja2-vim
+version: "2.11.2"
+category: alpine
+description: A small but fast and easy to use stand-alone python template engine
+uri:
+  - https://palletsprojects.com/p/jinja/
+license: BSD-3-Clause

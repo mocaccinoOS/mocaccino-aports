@@ -1,0 +1,19 @@
+name: py3-packaging
+version: "20.4"
+category: alpine
+description: Core utilities for Python3 packages
+uri:
+  - https://pypi.python.org/pypi/packaging
+license: Apache-2.0 AND BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/packaging/packaging-20.4.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-parsing"
+    version: '>=0'
+  - category: alpine
+    name: "py3-six"
+    version: '>=0'

@@ -1,0 +1,9 @@
+name: gnu-efi
+version: "3.0.12"
+category: alpine
+description: Development Libraries and headers for EFI
+uri:
+  - ftp://ftp.hpl.hp.com/pub/linux-ia64
+license: BSD-3-Clause
+labels:
+  package.source: "https://downloads.sourceforge.net/project/gnu-efi/gnu-efi-3.0.12.tar.bz2"

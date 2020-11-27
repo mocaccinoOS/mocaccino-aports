@@ -1,0 +1,9 @@
+name: efitools
+version: "1.9.2"
+category: alpine
+description: EFI tools
+uri:
+  - https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git
+license: (GPL-2.0-only AND LGPL-2.1-or-later) WITH OpenSSL-Exception
+labels:
+  package.source: "https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git/snapshot/efitools-1.9.2.tar.gz"

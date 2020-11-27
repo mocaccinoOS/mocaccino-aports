@@ -1,0 +1,9 @@
+name: perl-list-utilsby
+version: "0.11"
+category: alpine
+description: higher-order list utility functions
+uri:
+  - https://metacpan.org/release/List-UtilsBy/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.11.tar.gz"

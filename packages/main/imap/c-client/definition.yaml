@@ -1,0 +1,7 @@
+name: c-client
+version: "2007f"
+category: alpine
+description: An IMAP/POP server
+uri:
+  - http://www.washington.edu/imap
+license: Apache-2.0

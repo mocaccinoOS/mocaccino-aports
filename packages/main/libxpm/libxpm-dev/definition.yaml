@@ -1,0 +1,7 @@
+name: libxpm-dev
+version: "3.5.13"
+category: alpine
+description: X11 pixmap library
+uri:
+  - http://xorg.freedesktop.org/
+license: custom:BELL

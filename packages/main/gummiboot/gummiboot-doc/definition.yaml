@@ -1,0 +1,7 @@
+name: gummiboot-doc
+version: "48.1"
+category: alpine
+description: Simple EFI Boot Manager
+uri:
+  - http://freedesktop.org/wiki/Software/gummiboot
+license: LGPL-2.0-or-later

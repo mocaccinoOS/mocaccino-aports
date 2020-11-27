@@ -1,0 +1,13 @@
+name: perl-lwp-mediatypes
+version: "6.04"
+category: alpine
+description: Perl module - guess media type for a file or a URL
+uri:
+  - http://search.cpan.org/~gaas
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

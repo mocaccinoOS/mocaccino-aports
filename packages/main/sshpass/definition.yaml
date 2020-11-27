@@ -1,0 +1,9 @@
+name: sshpass
+version: "1.06"
+category: alpine
+description: Non-interactive SSH authentication utility
+uri:
+  - http://sshpass.sourceforge.net/
+license: GPL-2.0
+labels:
+  package.source: "https://downloads.sourceforge.net/sshpass/sshpass-1.06.tar.gz"

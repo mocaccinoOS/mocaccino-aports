@@ -1,0 +1,9 @@
+name: libfastjson
+version: "0.99.8"
+category: alpine
+description: A fork of the json-c library for rsyslog, optimized for liblognorm processing.
+uri:
+  - https://www.rsyslog.com/
+license: MIT
+labels:
+  package.source: "libfastjson-0.99.8.tar.gz::https://github.com/rsyslog/libfastjson/archive/v0.99.8.tar.gz"

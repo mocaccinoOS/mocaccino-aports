@@ -1,0 +1,7 @@
+name: libprotobuf
+version: "3.13.0"
+category: alpine
+description: Library for extensible, efficient structure packing
+uri:
+  - https://github.com/google/protobuf
+license: BSD-3-Clause

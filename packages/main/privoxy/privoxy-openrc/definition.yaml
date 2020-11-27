@@ -1,0 +1,7 @@
+name: privoxy-openrc
+version: "3.0.28"
+category: alpine
+description: A web proxy with advanced filtering capabilities
+uri:
+  - https://www.privoxy.org
+license: GPL

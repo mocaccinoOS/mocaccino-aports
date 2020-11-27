@@ -1,0 +1,7 @@
+name: lua5.3-pty
+version: "1.2.2"
+category: alpine
+description: Lua module to control other programs via PTYs.
+uri:
+  - https://www.tset.de/lpty/
+license: MIT

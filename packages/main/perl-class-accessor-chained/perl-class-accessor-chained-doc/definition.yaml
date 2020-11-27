@@ -1,0 +1,7 @@
+name: perl-class-accessor-chained-doc
+version: "0.01"
+category: alpine
+description: make chained accessors
+uri:
+  - https://metacpan.org/release/Class-Accessor-Chained/
+license: GPL PerlArtistic

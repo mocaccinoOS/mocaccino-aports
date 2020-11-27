@@ -1,0 +1,9 @@
+name: perl-probe-perl
+version: "0.03"
+category: alpine
+description: Information about the currently running perl
+uri:
+  - https://metacpan.org/release/Probe-Perl/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz"

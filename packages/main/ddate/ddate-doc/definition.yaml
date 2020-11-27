@@ -1,0 +1,7 @@
+name: ddate-doc
+version: "0.2.2"
+category: alpine
+description: Convert Gregorian dates to Discordian dates
+uri:
+  - https://github.com/bo0ts/ddate
+license: Public-Domain

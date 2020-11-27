@@ -1,0 +1,16 @@
+name: acf-amavisd-new
+version: "0.4.0"
+category: alpine
+description: ACF module for amavis
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-amavisd-new
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-amavisd-new/acf-amavisd-new-0.4.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "amavis"
+    version: '>=0'

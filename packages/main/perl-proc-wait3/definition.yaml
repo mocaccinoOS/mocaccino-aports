@@ -1,0 +1,9 @@
+name: perl-proc-wait3
+version: "0.05"
+category: alpine
+description: Perl extension for wait3 system call
+uri:
+  - https://metacpan.org/release/Proc-Wait3/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CT/CTILMES/Proc-Wait3-0.05.tar.gz"

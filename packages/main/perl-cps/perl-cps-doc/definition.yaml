@@ -1,0 +1,7 @@
+name: perl-cps-doc
+version: "0.19"
+category: alpine
+description: manage flow of control in Continuation-Passing Style
+uri:
+  - https://metacpan.org/release/CPS/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

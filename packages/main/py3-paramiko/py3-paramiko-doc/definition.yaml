@@ -1,0 +1,7 @@
+name: py3-paramiko-doc
+version: "2.7.2"
+category: alpine
+description: An SSH2 protocol library for Python3
+uri:
+  - https://www.paramiko.org/
+license: LGPL-2.0-or-later

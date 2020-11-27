@@ -1,0 +1,9 @@
+name: postgresql-bdr-extension
+version: "1.0.3"
+category: alpine
+description: PostgreSQL bidirectional replication (BDR) extension
+uri:
+  - https://wiki.postgresql.org/wiki/BDR_Administration
+license: PostgreSQL
+labels:
+  package.source: "http://packages.2ndquadrant.com/postgresql-bdr94-2ndquadrant/tarballs/bdr-1.0.3.tar.bz2"

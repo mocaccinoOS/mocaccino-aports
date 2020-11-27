@@ -1,0 +1,9 @@
+name: py3-sphinxcontrib-websupport
+version: "1.2.2"
+category: alpine
+description: Sphinx API for Web Apps
+uri:
+  - https://pypi.python.org/pypi/sphinxcontrib-websupport
+license: BSD-2-Clause
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-websupport/sphinxcontrib-websupport-1.2.2.tar.gz"

@@ -1,0 +1,13 @@
+name: apache2-mod-wsgi
+version: "4.7.1"
+category: alpine
+description: Python WSGI Module for Apache2
+uri:
+  - https://github.com/GrahamDumpleton/mod_wsgi
+license: Apache-2.0
+labels:
+  package.source: "apache2-mod-wsgi-4.7.1.tar.gz::https://github.com/GrahamDumpleton/mod_wsgi/archive/4.7.1.tar.gz"
+requires:
+  - category: alpine
+    name: "apache2"
+    version: '>=0'

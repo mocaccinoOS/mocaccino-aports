@@ -1,0 +1,13 @@
+name: lddtree
+version: "1.26"
+category: alpine
+description: List dynamic dependencies as a tree
+uri:
+  - https://github.com/ncopa/lddtree
+license: GPL-2.0
+labels:
+  package.source: "lddtree-1.26.tar.gz::https://github.com/ncopa/lddtree/archive/v1.26.tar.gz"
+requires:
+  - category: alpine
+    name: "scanelf"
+    version: '>=0'

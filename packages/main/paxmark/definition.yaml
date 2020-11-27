@@ -1,0 +1,13 @@
+name: paxmark
+version: "0.12"
+category: alpine
+description: Manage PaX marking of executables
+uri:
+  - https://alpinelinux.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "paxmark"
+requires:
+  - category: alpine
+    name: "attr"
+    version: '>=0'

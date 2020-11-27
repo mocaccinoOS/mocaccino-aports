@@ -1,0 +1,9 @@
+name: jq
+version: "1.6"
+category: alpine
+description: A lightweight and flexible command-line JSON processor
+uri:
+  - https://stedolan.github.io/jq/
+license: MIT
+labels:
+  package.source: "https://github.com/stedolan/jq/archive/jq-1.6.tar.gz"

@@ -1,0 +1,7 @@
+name: speexdsp-dev
+version: "1.2.0"
+category: alpine
+description: A voice compression format (DSP)
+uri:
+  - https://www.speex.org/
+license: BSD-3-Clause

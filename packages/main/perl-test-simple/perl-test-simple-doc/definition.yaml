@@ -1,0 +1,7 @@
+name: perl-test-simple-doc
+version: "1.302183"
+category: alpine
+description: Basic utilities for writing tests
+uri:
+  - https://metacpan.org/release/Test-Simple/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

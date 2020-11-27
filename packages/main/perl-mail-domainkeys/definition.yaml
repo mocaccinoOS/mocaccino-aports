@@ -1,0 +1,13 @@
+name: perl-mail-domainkeys
+version: "1.0"
+category: alpine
+description: A perl implementation of DomainKeys
+uri:
+  - http://search.cpan.org/~anthonyu/Mail-DomainKeys-1.0/
+license: Artistic-Perl-1.0 GPL+
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AN/ANTHONYU/Mail-DomainKeys-1.0.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

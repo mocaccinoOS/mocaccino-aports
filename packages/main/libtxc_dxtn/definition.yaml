@@ -1,0 +1,9 @@
+name: libtxc_dxtn
+version: "1.0.1"
+category: alpine
+description: S3TC texture decompression helper library
+uri:
+  - http://dri.freedesktop.org/wiki/S3TC
+license: BSD
+labels:
+  package.source: "libtxc_dxtn-1.0.1-r5.tar.bz2::https://people.freedesktop.org/~cbrill/libtxc_dxtn/libtxc_dxtn-1.0.1.tar.bz2"

@@ -1,0 +1,7 @@
+name: openjpeg-tools
+version: "2.3.1"
+category: alpine
+description: Open-source implementation of JPEG2000 image codec
+uri:
+  - https://www.openjpeg.org/
+license: BSD-2-Clause-NetBSD

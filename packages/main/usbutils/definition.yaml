@@ -1,0 +1,13 @@
+name: usbutils
+version: "013"
+category: alpine
+description: USB Device Utilities
+uri:
+  - http://linux-usb.sourceforge.net/
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-013.tar.xz"
+requires:
+  - category: alpine
+    name: "hwids-usb"
+    version: '>=0'

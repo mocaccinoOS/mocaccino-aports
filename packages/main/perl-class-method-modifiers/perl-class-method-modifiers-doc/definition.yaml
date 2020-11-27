@@ -1,0 +1,7 @@
+name: perl-class-method-modifiers-doc
+version: "2.13"
+category: alpine
+description: Provides Moose-like method modifiers
+uri:
+  - https://metacpan.org/release/Class-Method-Modifiers/
+license: GPL PerlArtistic

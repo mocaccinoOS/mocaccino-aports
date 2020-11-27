@@ -1,0 +1,7 @@
+name: perl-net-libidn-doc
+version: "0.12"
+category: alpine
+description: Perl bindings for GNU Libidn
+uri:
+  - http://www.net-dns.org/
+license: Artistic-Perl-1.0 GPL+

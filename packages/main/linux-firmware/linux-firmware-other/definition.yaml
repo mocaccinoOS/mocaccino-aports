@@ -1,0 +1,7 @@
+name: linux-firmware-other
+version: "20201118"
+category: alpine
+description: firmware files for linux
+uri:
+  - https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license: custom:multiple

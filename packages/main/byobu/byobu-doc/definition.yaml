@@ -1,0 +1,7 @@
+name: byobu-doc
+version: "5.133"
+category: alpine
+description: An enhancement of the GNU Screen
+uri:
+  - https://launchpad.net/byobu
+license: GPL-3.0

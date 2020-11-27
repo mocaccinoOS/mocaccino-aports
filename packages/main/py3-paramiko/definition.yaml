@@ -1,0 +1,25 @@
+name: py3-paramiko
+version: "2.7.2"
+category: alpine
+description: An SSH2 protocol library for Python3
+uri:
+  - https://www.paramiko.org/
+license: LGPL-2.0-or-later
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/p/paramiko/paramiko-2.7.2.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'
+  - category: alpine
+    name: "py3-asn1"
+    version: '>=0'
+  - category: alpine
+    name: "py3-cryptography"
+    version: '>=0'
+  - category: alpine
+    name: "py3-bcrypt"
+    version: '>=0'
+  - category: alpine
+    name: "py3-pynacl"
+    version: '>=0'

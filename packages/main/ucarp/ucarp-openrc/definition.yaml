@@ -1,0 +1,7 @@
+name: ucarp-openrc
+version: "1.5.2"
+category: alpine
+description: Share common IP and do fail over
+uri:
+  - http://www.ucarp.org
+license: ISC

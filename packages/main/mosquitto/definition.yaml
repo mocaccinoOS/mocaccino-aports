@@ -1,0 +1,9 @@
+name: mosquitto
+version: "1.6.12"
+category: alpine
+description: An open source MQTT broker
+uri:
+  - https://mosquitto.org/
+license: EPL-1.0
+labels:
+  package.source: "http://mosquitto.org/files/source/mosquitto-1.6.12.tar.gz"

@@ -1,0 +1,9 @@
+name: sipcalc
+version: "1.1.6"
+category: alpine
+description: Advanced console based ip subnet calculator
+uri:
+  - http://www.routemeister.net/projects/sipcalc/
+license: BSD
+labels:
+  package.source: "http://www.routemeister.net/projects/sipcalc/files/sipcalc-1.1.6.tar.gz"

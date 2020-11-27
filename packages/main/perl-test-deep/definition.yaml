@@ -1,0 +1,19 @@
+name: perl-test-deep
+version: "1.130"
+category: alpine
+description: Test::Deep perl module
+uri:
+  - https://metacpan.org/release/Test-Deep/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-tester"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-nowarnings"
+    version: '>=0'

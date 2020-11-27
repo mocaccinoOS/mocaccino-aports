@@ -1,0 +1,7 @@
+name: perl-http-daemon-doc
+version: "6.12"
+category: alpine
+description: HTTP::Daemon perl module
+uri:
+  - https://metacpan.org/release/HTTP-Daemon
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

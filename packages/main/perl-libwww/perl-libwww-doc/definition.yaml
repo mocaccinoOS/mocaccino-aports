@@ -1,0 +1,7 @@
+name: perl-libwww-doc
+version: "6.49"
+category: alpine
+description: Perl module - World Wide Web library
+uri:
+  - https://metacpan.org/author/MSCHILLI
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

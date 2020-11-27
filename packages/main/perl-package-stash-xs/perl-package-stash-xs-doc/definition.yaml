@@ -1,0 +1,7 @@
+name: perl-package-stash-xs-doc
+version: "0.29"
+category: alpine
+description: faster and more correct implementation of the Package::Stash API
+uri:
+  - https://metacpan.org/release/Package-Stash-XS/
+license: GPL PerlArtistic

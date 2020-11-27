@@ -1,0 +1,9 @@
+name: flite
+version: "2.2"
+category: alpine
+description: Small, fast speech synthesis engine (text-to-speech)
+uri:
+  - http://www.speech.cs.cmu.edu/flite
+license: BSD-4-Clause
+labels:
+  package.source: "flite-2.2.tar.gz::https://github.com/festvox/flite/archive/v2.2.tar.gz"

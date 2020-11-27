@@ -1,0 +1,7 @@
+name: alpine-ipxe-ipxe_usb
+version: "1.20.1"
+category: alpine
+description: iPXE build for Alpine Linux netboot
+uri:
+  - https://boot.alpinelinux.org
+license: GPL-2.0-or-later

@@ -1,0 +1,7 @@
+name: libsodium-dev
+version: "1.0.18"
+category: alpine
+description: P(ortable|ackageable) NaCl-based crypto library
+uri:
+  - https://github.com/jedisct1/libsodium
+license: ISC

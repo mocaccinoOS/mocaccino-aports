@@ -1,0 +1,7 @@
+name: py3-tevent
+version: "0.10.2"
+category: alpine
+description: The tevent library
+uri:
+  - https://tevent.samba.org/
+license: LGPL-3.0-or-later

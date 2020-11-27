@@ -1,0 +1,7 @@
+name: perl-string-shellquote-doc
+version: "1.04"
+category: alpine
+description: unknown
+uri:
+  - https://metacpan.org/release/String-ShellQuote/
+license: GPL PerlArtistic

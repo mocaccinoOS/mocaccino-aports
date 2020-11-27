@@ -1,0 +1,7 @@
+name: perl-config-inifiles-doc
+version: "3.000003"
+category: alpine
+description: A module for reading .ini-style configuration files.
+uri:
+  - https://metacpan.org/release/Config-IniFiles
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

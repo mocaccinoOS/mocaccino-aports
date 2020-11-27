@@ -1,0 +1,16 @@
+name: perl-dbix-dbschema
+version: "0.45"
+category: alpine
+description: DBIx::DBSchema perl module
+uri:
+  - https://metacpan.org/release/DBIx-DBSchema/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/I/IV/IVAN/DBIx-DBSchema-0.45.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dbi"
+    version: '>=0'

@@ -1,0 +1,16 @@
+name: perl-net-dns
+version: "1.29"
+category: alpine
+description: Perl Interface to the Domain Name System
+uri:
+  - https://metacpan.org/release/Net-DNS/
+license: MIT
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.29.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-digest-hmac"
+    version: '>=0'

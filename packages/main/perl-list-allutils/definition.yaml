@@ -1,0 +1,22 @@
+name: perl-list-allutils
+version: "0.18"
+category: alpine
+description: Combines List::Util, List::SomeUtils and List::UtilsBy in one bite-sized package
+uri:
+  - https://metacpan.org/release/List-AllUtils
+license: Artistic-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.18.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-scalar-list-utils"
+    version: '>=0'
+  - category: alpine
+    name: "perl-list-utilsby"
+    version: '>=0'
+  - category: alpine
+    name: "perl-list-someutils"
+    version: '>=0'

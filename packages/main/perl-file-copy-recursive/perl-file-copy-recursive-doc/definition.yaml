@@ -1,0 +1,7 @@
+name: perl-file-copy-recursive-doc
+version: "0.45"
+category: alpine
+description: Perl extension for recursively copying files and directories
+uri:
+  - https://metacpan.org/release/File-Copy-Recursive
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

@@ -1,0 +1,7 @@
+name: dropbear-doc
+version: "2020.81"
+category: alpine
+description: small SSH 2 client/server designed for small memory environments
+uri:
+  - https://matt.ucc.asn.au/dropbear/dropbear.html
+license: MIT

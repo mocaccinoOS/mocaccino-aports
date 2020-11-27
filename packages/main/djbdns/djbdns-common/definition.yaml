@@ -1,0 +1,7 @@
+name: djbdns-common
+version: "1.05"
+category: alpine
+description: Excellent high-performance DNS services
+uri:
+  - http://cr.yp.to/djbdns.html
+license: Public-Domain

@@ -1,0 +1,7 @@
+name: wireless-tools-doc
+version: "30_pre9"
+category: alpine
+description: Open Source wireless tools
+uri:
+  - http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+license: GPL-2.0-only

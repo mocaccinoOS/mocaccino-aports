@@ -1,0 +1,13 @@
+name: perl-net-server
+version: "2.009"
+category: alpine
+description: Extensible, general Perl server engine
+uri:
+  - https://metacpan.org/release/Net-Server/
+license: Artistic-1.0 GPL+
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RH/RHANDOM/Net-Server-2.009.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

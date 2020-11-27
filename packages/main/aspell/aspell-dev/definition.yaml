@@ -1,0 +1,7 @@
+name: aspell-dev
+version: "0.60.8"
+category: alpine
+description: A spell checker designed to eventually replace Ispell
+uri:
+  - http://aspell.net/
+license: LGPL-2.0-or-later

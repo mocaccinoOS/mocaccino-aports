@@ -1,0 +1,7 @@
+name: xf86-video-s3virge-doc
+version: "1.11.0"
+category: alpine
+description: S3 ViRGE video driver
+uri:
+  - https://xorg.freedesktop.org/
+license: MIT

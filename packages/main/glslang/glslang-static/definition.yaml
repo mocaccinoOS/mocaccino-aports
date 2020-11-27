@@ -1,0 +1,7 @@
+name: glslang-static
+version: "8.13.3743"
+category: alpine
+description: Khronos reference front-end for GLSL, ESSL, and sample SPIR-V generator
+uri:
+  - https://github.com/KhronosGroup/glslang
+license: BSD-3-Clause

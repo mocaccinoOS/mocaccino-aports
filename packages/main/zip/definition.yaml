@@ -1,0 +1,13 @@
+name: zip
+version: "3.0"
+category: alpine
+description: Creates PKZIP-compatible .zip files
+uri:
+  - http://www.info-zip.org/pub/infozip/Zip.html
+license: Info-ZIP
+labels:
+  package.source: "https://downloads.sourceforge.net/infozip/zip30.tar.gz"
+requires:
+  - category: alpine
+    name: "unzip"
+    version: '>=0'

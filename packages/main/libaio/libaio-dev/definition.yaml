@@ -1,0 +1,7 @@
+name: libaio-dev
+version: "0.3.112"
+category: alpine
+description: Asynchronous input/output library
+uri:
+  - https://pagure.io/libaio
+license: LGPL-2.1-or-later

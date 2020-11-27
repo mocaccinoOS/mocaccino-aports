@@ -1,0 +1,7 @@
+name: rp-pppoe-doc
+version: "3.14"
+category: alpine
+description: PPP over Ethernet client (for xDSL support)
+uri:
+  - https://dianne.skoll.ca/projects/rp-pppoe/
+license: GPL-2.0-or-later

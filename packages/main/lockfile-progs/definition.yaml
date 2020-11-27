@@ -1,0 +1,9 @@
+name: lockfile-progs
+version: "0.1.18"
+category: alpine
+description: Programs for locking and unlocking files and mailboxes
+uri:
+  - https://packages.debian.org/sid/lockfile-progs
+license: GPL-2.0-only
+labels:
+  package.source: "http://ftp.debian.org/debian/pool/main/l/lockfile-progs/lockfile-progs_0.1.18.tar.gz"

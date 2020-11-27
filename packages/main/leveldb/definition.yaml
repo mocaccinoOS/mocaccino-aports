@@ -1,0 +1,9 @@
+name: leveldb
+version: "1.22"
+category: alpine
+description: A fast and lightweight key/value database library by Google
+uri:
+  - https://github.com/google/leveldb
+license: BSD-3-Clause
+labels:
+  package.source: "leveldb-1.22.tar.gz::https://github.com/google/leveldb/archive/1.22.tar.gz"

@@ -1,0 +1,13 @@
+name: lua-stdlib-debug
+version: "1.0.1"
+category: alpine
+description: Manage an overall debug state, and associated hint substates
+uri:
+  - https://lua-stdlib.github.io/_debug/
+license: MIT
+labels:
+  package.source: "lua-stdlib-debug-1.0.1.tar.gz::https://github.com/lua-stdlib/_debug/archive/v1.0.1.tar.gz"
+requires:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

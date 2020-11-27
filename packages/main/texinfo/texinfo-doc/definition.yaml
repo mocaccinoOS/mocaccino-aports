@@ -1,0 +1,7 @@
+name: texinfo-doc
+version: "6.7"
+category: alpine
+description: Utilities to work with and produce manuals, ASCII text, and on-line documentation from a single source file
+uri:
+  - https://www.gnu.org/software/texinfo/
+license: GPL-3.0-or-later

@@ -1,0 +1,7 @@
+name: perl-test-nowarnings-doc
+version: "1.04"
+category: alpine
+description: Test::NoWarnings perl module
+uri:
+  - https://metacpan.org/release/Test-NoWarnings/
+license: GPL-2.0 or Artistic

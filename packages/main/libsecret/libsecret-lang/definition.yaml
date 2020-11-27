@@ -1,0 +1,7 @@
+name: libsecret-lang
+version: "0.20.4"
+category: alpine
+description: Library for storing and retrieving passwords and other secrets
+uri:
+  - https://wiki.gnome.org/Projects/Libsecret
+license: LGPL-2.0-or-later

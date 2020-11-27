@@ -1,0 +1,7 @@
+name: xf86-video-r128-doc
+version: "6.12.0"
+category: alpine
+description: ATI Rage128 video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

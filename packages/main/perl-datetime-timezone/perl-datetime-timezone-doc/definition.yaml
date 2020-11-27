@@ -1,0 +1,7 @@
+name: perl-datetime-timezone-doc
+version: "2.44"
+category: alpine
+description: Time zone object base class and factory
+uri:
+  - https://metacpan.org/release/DateTime-TimeZone/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

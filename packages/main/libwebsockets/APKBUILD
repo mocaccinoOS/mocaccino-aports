@@ -1,0 +1,57 @@
+# Contributor: V.Krishn <vkrishn4@gmail.com>
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+pkgname=libwebsockets
+pkgver=4.1.4
+pkgrel=0
+pkgdesc="C library for lightweight websocket clients and servers"
+url="https://libwebsockets.org"
+arch="all"
+license="MIT"
+options="!check"
+makedepends="cmake linux-headers openssl-dev zlib-dev libuv-dev"
+subpackages="$pkgname-doc $pkgname-dev $pkgname-test:_test $pkgname-evlib_uv:_evlib"
+source="
+	libwebsockets-$pkgver.tar.gz::https://github.com/warmcat/libwebsockets/archive/v$pkgver.tar.gz
+	fix-version-string.patch
+"
+
+build() {
+	mkdir -p "$builddir"/build
+	cd "$builddir"/build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=MinSizeRel \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_VERBOSE_MAKEFILE=TRUE \
+		-DLWS_WITH_LIBUV=ON \
+		-DLWS_WITH_STATIC=OFF \
+		-DLWS_LINK_TESTAPPS_DYNAMIC=ON
+	make
+}
+
+# TODO: Use test subpkg to validate
+check() {
+	make check
+}
+
+package() {
+	install -Dm644 LICENSE \
+		"$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+	make -C build DESTDIR="$pkgdir" install
+}
+
+_test() {
+	pkgdesc="$pkgdesc (test server)"
+
+	mkdir -p "$subpkgdir"/usr
+	mv "$pkgdir"/usr/share "$pkgdir"/usr/bin "$subpkgdir"/usr/
+}
+
+_evlib() {
+	local _plugin=${subpkgname#$pkgname-}
+	pkgdesc="libwebsocket $_plugin plugin"
+	amove usr/lib/libwebsockets-$_plugin.so
+}
+
+sha512sums="4da84f612ad427465c4eea0bdd0db59c21c9e42bb21eb46b904f544dc4078af2c9a957e61430f3569b87cfc96b3addee50ac7a7c77777dcf16350fe441dd8854  libwebsockets-4.1.4.tar.gz
+9325b7cadeb2ca8fb20b4759feb49fb255b1b14c432b7c8c3a1b793a49266bb4f69b78a9c72656039e94ba4fc59ca2c5e821ba33e4f133e72cab26786feb9d60  fix-version-string.patch"

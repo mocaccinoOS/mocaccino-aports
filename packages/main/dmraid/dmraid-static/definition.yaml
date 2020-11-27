@@ -1,0 +1,7 @@
+name: dmraid-static
+version: "1.0.0_rc16"
+category: alpine
+description: Device mapper RAID interface
+uri:
+  - http://people.redhat.com/~heinzm/sw/dmraid/
+license: GPL-2.0-only LGPL-2.1-only

@@ -1,0 +1,9 @@
+name: alpine-baselayout
+version: "3.2.0"
+category: alpine
+description: Alpine base dir structure and init scripts
+uri:
+  - https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
+license: GPL-2.0-only
+labels:
+  package.source: "mkmntdirs.c"

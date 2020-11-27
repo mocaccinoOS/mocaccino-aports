@@ -1,0 +1,7 @@
+name: perl-doc
+version: "5.32.0"
+category: alpine
+description: Larry Wall's Practical Extraction and Report Language
+uri:
+  - https://www.perl.org/
+license: Artistic-Perl OR GPL-1.0-or-later

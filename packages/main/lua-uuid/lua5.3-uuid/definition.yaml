@@ -1,0 +1,7 @@
+name: lua5.3-uuid
+version: "0.2.0"
+category: alpine
+description: A pure Lua uuid generator (modified from a Rackspace module)
+uri:
+  - https://tieske.github.io/uuid/
+license: Apache-2.0

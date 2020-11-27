@@ -1,0 +1,7 @@
+name: perl-test-deep-doc
+version: "1.130"
+category: alpine
+description: Test::Deep perl module
+uri:
+  - https://metacpan.org/release/Test-Deep/
+license: GPL-2.0 or Artistic

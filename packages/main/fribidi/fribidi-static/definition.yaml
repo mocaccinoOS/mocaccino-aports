@@ -1,0 +1,7 @@
+name: fribidi-static
+version: "1.0.10"
+category: alpine
+description: Free Implementation of the Unicode Bidirectional Algorithm
+uri:
+  - https://github.com/fribidi/fribidi
+license: LGPL-2.0-or-later

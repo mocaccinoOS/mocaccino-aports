@@ -1,0 +1,7 @@
+name: dahdi-linux-dev
+version: "3.1.0"
+category: alpine
+description: Firmware for Digium Asterisk Hardware Device Interface drivers
+uri:
+  - https://www.asterisk.org
+license: GPL-2.0-only

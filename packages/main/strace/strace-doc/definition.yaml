@@ -1,0 +1,7 @@
+name: strace-doc
+version: "5.9"
+category: alpine
+description: Diagnostic, debugging and instructional userspace tracer
+uri:
+  - https://strace.io
+license: BSD-3-Clause

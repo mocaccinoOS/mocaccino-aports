@@ -1,0 +1,16 @@
+name: acf-awall
+version: "0.4.1"
+category: alpine
+description: ACF for Alpine Wall
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-awall
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-awall/acf-awall-0.4.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "awall"
+    version: '>=0'

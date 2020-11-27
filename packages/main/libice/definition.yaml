@@ -1,0 +1,9 @@
+name: libice
+version: "1.0.10"
+category: alpine
+description: X11 Inter-Client Exchange library
+uri:
+  - http://xorg.freedesktop.org/
+license: X11
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libICE-1.0.10.tar.bz2"

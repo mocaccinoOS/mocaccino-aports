@@ -1,0 +1,9 @@
+name: py3-dnspython
+version: "2.0.0"
+category: alpine
+description: A DNS toolkit for Python3
+uri:
+  - https://www.dnspython.org/
+license: ISC
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/d/dnspython/dnspython-2.0.0.zip"

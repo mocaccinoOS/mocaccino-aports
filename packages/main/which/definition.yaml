@@ -1,0 +1,9 @@
+name: which
+version: "2.21"
+category: alpine
+description: A utility to show the full path of commands
+uri:
+  - http://savannah.gnu.org/projects/which
+license: GPL-3.0
+labels:
+  package.source: "https://ftp.gnu.org/gnu/which/which-2.21.tar.gz"

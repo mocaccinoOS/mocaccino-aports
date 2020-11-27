@@ -1,0 +1,37 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: alpine
+    name: chrpath
+    version: '>=0'
+  - category: alpine
+    name: python3
+    version: '>=0'
+  - category: alpine
+    name: py3-setuptools
+    version: '>=0'
+  - category: alpine
+    name: lvm2-dev
+    version: '>=0'
+  - category: alpine
+    name: openssl-dev
+    version: '>=0'
+  - category: alpine
+    name: popt-dev
+    version: '>=0'
+  - category: alpine
+    name: util-linux-dev
+    version: '>=0'
+  - category: alpine
+    name: json-c-dev
+    version: '>=0'
+  - category: alpine
+    name: argon2-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

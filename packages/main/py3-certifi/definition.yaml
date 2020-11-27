@@ -1,0 +1,13 @@
+name: py3-certifi
+version: "2020.6.20"
+category: alpine
+description: Python3 package for providing Mozilla's CA Bundle
+uri:
+  - https://pypi.python.org/pypi/certifi
+license: MPL-2.0
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2020.6.20.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

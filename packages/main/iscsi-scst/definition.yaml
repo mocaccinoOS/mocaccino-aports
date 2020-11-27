@@ -1,0 +1,9 @@
+name: iscsi-scst
+version: "2.2.1"
+category: alpine
+description: ISCSI target for SCST - userspace tools
+uri:
+  - http://scst.sourceforge.net/
+license: GPL-2.0-only
+labels:
+  package.source: "https://downloads.sourceforge.net/scst/iscsi-scst-2.2.1.tar.bz2"

@@ -1,0 +1,7 @@
+name: s6-linux-init-static
+version: "1.0.5.0"
+category: alpine
+description: Set of tools to create and run an s6-based init system
+uri:
+  - http://skarnet.org/software/s6-linux-init/
+license: ISC

@@ -1,0 +1,13 @@
+name: perl-super
+version: "1.20190531"
+category: alpine
+description: Control superclass method dispatch
+uri:
+  - https://metacpan.org/pod/SUPER
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/SUPER-1.20190531.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

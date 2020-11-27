@@ -1,0 +1,7 @@
+name: lua5.3-md5
+version: "1.2"
+category: alpine
+description: Basic cryptographic facilities for Lua
+uri:
+  - https://github.com/keplerproject/md5
+license: MIT

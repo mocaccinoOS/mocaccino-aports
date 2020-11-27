@@ -1,0 +1,9 @@
+name: pcre
+version: "8.44"
+category: alpine
+description: Perl-compatible regular expression library
+uri:
+  - http://pcre.sourceforge.net
+license: BSD-3-Clause
+labels:
+  package.source: "https://ftp.pcre.org/pub/pcre/pcre-8.44.tar.bz2"

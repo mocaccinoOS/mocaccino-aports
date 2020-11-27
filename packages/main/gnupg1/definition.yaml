@@ -1,0 +1,13 @@
+name: gnupg1
+version: "1.4.23"
+category: alpine
+description: GNU Privacy Guard 1 - a PGP replacement tool
+uri:
+  - https://www.gnupg.org/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-1.4.23.tar.bz2"
+requires:
+  - category: alpine
+    name: "pinentry"
+    version: '>=0'

@@ -1,0 +1,13 @@
+name: perl-list-moreutils-xs
+version: "0.430"
+category: alpine
+description: Provide the stuff missing in List::Util in XS
+uri:
+  - https://metacpan.org/release/List-MoreUtils-XS/
+license: Apache-2.0
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.430.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

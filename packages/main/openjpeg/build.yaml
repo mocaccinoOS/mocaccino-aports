@@ -1,0 +1,22 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: libpng-dev
+    version: '>=0'
+  - category: alpine
+    name: tiff-dev
+    version: '>=0'
+  - category: alpine
+    name: lcms2-dev
+    version: '>=0'
+  - category: alpine
+    name: doxygen
+    version: '>=0'
+  - category: alpine
+    name: cmake
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

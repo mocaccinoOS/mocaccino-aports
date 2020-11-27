@@ -1,0 +1,7 @@
+name: valgrind-dev
+version: "3.16.1"
+category: alpine
+description: A tool to help find memory-management problems in programs
+uri:
+  - http://valgrind.org/
+license: GPL-2.0-or-later

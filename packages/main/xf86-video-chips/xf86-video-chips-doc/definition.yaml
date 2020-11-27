@@ -1,0 +1,7 @@
+name: xf86-video-chips-doc
+version: "1.4.0"
+category: alpine
+description: Chips and Technologies video driver
+uri:
+  - https://xorg.freedesktop.org
+license: MIT

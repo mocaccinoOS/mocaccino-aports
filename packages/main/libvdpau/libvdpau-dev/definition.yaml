@@ -1,0 +1,7 @@
+name: libvdpau-dev
+version: "1.4"
+category: alpine
+description: Hardware-accelerated video playback library
+uri:
+  - https://gitlab.freedesktop.org/vdpau/libvdpau
+license: MIT

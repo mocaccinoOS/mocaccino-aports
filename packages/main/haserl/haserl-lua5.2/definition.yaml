@@ -1,0 +1,7 @@
+name: haserl-lua5.2
+version: "0.9.35"
+category: alpine
+description: Html And Shell Embedded Report Language
+uri:
+  - http://haserl.sourceforge.net/
+license: GPL-2.0

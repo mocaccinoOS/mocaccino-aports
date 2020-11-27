@@ -1,0 +1,7 @@
+name: perl-convert-uulib-doc
+version: "1.71"
+category: alpine
+description: Perl module for Convert-UUlib
+uri:
+  - https://metacpan.org/release/Convert-UUlib/
+license: (GPL-2.0-or-later OR Artistic-1.0-Perl) AND GPL-2.0-or-later AND ZLib

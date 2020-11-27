@@ -1,0 +1,7 @@
+name: cpufrequtils-dev
+version: "008"
+category: alpine
+description: Userspace tools for the kernel cpufreq subsystem
+uri:
+  - https://www.kernel.org/pub/linux/utils/kernel/cpufreq/cpufrequtils.html
+license: GPL-2.0

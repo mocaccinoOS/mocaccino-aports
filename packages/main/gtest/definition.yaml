@@ -1,0 +1,9 @@
+name: gtest
+version: "1.10.0"
+category: alpine
+description: Google Test - C++ testing utility based on the xUnit framework (like JUnit)
+uri:
+  - https://github.com/google/googletest
+license: BSD-3-Clause
+labels:
+  package.source: "gtest-1.10.0.tar.gz::https://github.com/google/googletest/archive/release-1.10.0.tar.gz"

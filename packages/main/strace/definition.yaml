@@ -1,0 +1,9 @@
+name: strace
+version: "5.9"
+category: alpine
+description: Diagnostic, debugging and instructional userspace tracer
+uri:
+  - https://strace.io
+license: BSD-3-Clause
+labels:
+  package.source: "https://github.com/strace/strace/releases/download/v5.9/strace-5.9.tar.xz"

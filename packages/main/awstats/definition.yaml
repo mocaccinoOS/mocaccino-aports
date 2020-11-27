@@ -1,0 +1,16 @@
+name: awstats
+version: "7.8"
+category: alpine
+description: Free real-time logfile analyzer to get advanced statistics
+uri:
+  - http://awstats.sourceforge.net/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://prdownloads.sourceforge.net/awstats/awstats-7.8.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-uri"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: screen-doc
+version: "4.8.0"
+category: alpine
+description: Window manager that multiplexes a physical terminal
+uri:
+  - https://www.gnu.org/software/screen/
+license: GPL-3.0-or-later

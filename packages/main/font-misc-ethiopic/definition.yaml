@@ -1,0 +1,25 @@
+name: font-misc-ethiopic
+version: "1.0.4"
+category: alpine
+description: X.org misc ethiopic fonts
+uri:
+  - https://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/font/font-misc-ethiopic-1.0.4.tar.bz2"
+requires:
+  - category: alpine
+    name: "encodings"
+    version: '>=0'
+  - category: alpine
+    name: "font-alias"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontscale"
+    version: '>=0'
+  - category: alpine
+    name: "mkfontdir"
+    version: '>=0'
+  - category: alpine
+    name: "fontconfig"
+    version: '>=0'

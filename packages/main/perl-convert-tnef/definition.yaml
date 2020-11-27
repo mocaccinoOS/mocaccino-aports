@@ -1,0 +1,13 @@
+name: perl-convert-tnef
+version: "0.18"
+category: alpine
+description: Perl module to read TNEF files
+uri:
+  - http://search.cpan.org/~dougw/Convert-TNEF-0.17/
+license: Artistic-Perl-1.0 GPL+
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/D/DO/DOUGW/Convert-TNEF-0.18.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

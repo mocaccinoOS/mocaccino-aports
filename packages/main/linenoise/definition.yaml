@@ -1,0 +1,9 @@
+name: linenoise
+version: "1.0"
+category: alpine
+description: Minimal replacement for readline
+uri:
+  - https://github.com/antirez/linenoise
+license: BSD-2-Clause-NetBSD
+labels:
+  package.source: "linenoise-1.0.tar.gz::https://github.com/antirez/linenoise/archive/1.0.tar.gz"

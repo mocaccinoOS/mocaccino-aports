@@ -1,0 +1,16 @@
+name: acf-heimdal
+version: "0.6.0"
+category: alpine
+description: ACF module for heimdal
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-heimdal
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-heimdal/acf-heimdal-0.6.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "heimdal"
+    version: '>=0'

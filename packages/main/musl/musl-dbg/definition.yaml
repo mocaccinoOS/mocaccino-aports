@@ -1,0 +1,7 @@
+name: musl-dbg
+version: "1.2.2_pre3"
+category: alpine
+description: the musl c library (libc) implementation
+uri:
+  - https://musl.libc.org/
+license: MIT

@@ -1,0 +1,9 @@
+name: libxvmc
+version: "1.0.12"
+category: alpine
+description: X11 Video Motion Compensation extension library
+uri:
+  - http://xorg.freedesktop.org/
+license: MIT
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libXvMC-1.0.12.tar.bz2"

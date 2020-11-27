@@ -1,0 +1,7 @@
+name: perl-list-allutils-doc
+version: "0.18"
+category: alpine
+description: Combines List::Util, List::SomeUtils and List::UtilsBy in one bite-sized package
+uri:
+  - https://metacpan.org/release/List-AllUtils
+license: Artistic-2.0

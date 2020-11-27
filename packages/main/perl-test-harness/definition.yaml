@@ -1,0 +1,9 @@
+name: perl-test-harness
+version: "3.42"
+category: alpine
+description: Run Perl standard test scripts with statistics
+uri:
+  - https://metacpan.org/release/Test-Harness/
+license: GPL PerlArtistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Test-Harness-3.42.tar.gz"

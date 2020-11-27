@@ -1,0 +1,7 @@
+name: cdparanoia-libs
+version: "10.2"
+category: alpine
+description: An audio CD extraction application
+uri:
+  - http://www.xiph.org/paranoia
+license: LGPL-2.0-or-later

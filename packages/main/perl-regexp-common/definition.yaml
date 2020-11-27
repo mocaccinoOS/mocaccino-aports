@@ -1,0 +1,9 @@
+name: perl-regexp-common
+version: "2017060201"
+category: alpine
+description: Provide commonly requested regular expressions
+uri:
+  - https://metacpan.org/release/Regexp-Common/
+license: MIT
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz"

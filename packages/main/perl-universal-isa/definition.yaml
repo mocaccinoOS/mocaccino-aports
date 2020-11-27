@@ -1,0 +1,9 @@
+name: perl-universal-isa
+version: "1.20171012"
+category: alpine
+description: Attempt to recover from people calling UNIVERSAL::isa as a function
+uri:
+  - https://metacpan.org/release/UNIVERSAL-isa/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/UNIVERSAL-isa-1.20171012.tar.gz"

@@ -1,0 +1,9 @@
+name: iptraf-ng
+version: "1.1.4"
+category: alpine
+description: An IP Network Monitoring tool
+uri:
+  - https://fedorahosted.org/iptraf-ng/
+license: GPL-2.0
+labels:
+  package.source: "http://pkgs.fedoraproject.org/repo/pkgs/iptraf-ng/iptraf-ng-1.1.4.tar.gz/de27cfeeede96e2acfb0edc8439b034a/iptraf-ng-1.1.4.tar.gz"

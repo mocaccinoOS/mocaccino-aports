@@ -1,0 +1,9 @@
+name: opensp
+version: "1.5.2"
+category: alpine
+description: Implementation of the DSSSL style language
+uri:
+  - http://openjade.sourceforge.net
+license: custom
+labels:
+  package.source: "https://prdownloads.sourceforge.net/openjade/OpenSP-1.5.2.tar.gz"

@@ -1,0 +1,7 @@
+name: perl-mail-spf-doc
+version: "2.9.0"
+category: alpine
+description: An object-oriented implementation of Sender Policy Framework
+uri:
+  - http://search.cpan.org/~jmehnle/Mail-SPF-v2.006/
+license: GPL PerlArtistic

@@ -1,0 +1,7 @@
+name: perl-test-mockrandom-doc
+version: "1.01"
+category: alpine
+description: Replaces random number generation with non-random number generation
+uri:
+  - https://metacpan.org/release/Test-MockRandom/
+license: Apache-2.0

@@ -1,0 +1,13 @@
+name: openvpn-auth-ldap
+version: "2.0.4"
+category: alpine
+description: LDAP authentication and authorization plugin for OpenVPN 2.x
+uri:
+  - https://github.com/threerings/openvpn-auth-ldap/
+license: BSD-3-Clause
+labels:
+  package.source: "https://github.com/threerings/openvpn-auth-ldap/archive/auth-ldap-2.0.4.tar.gz"
+requires:
+  - category: alpine
+    name: "openvpn"
+    version: '>=0'

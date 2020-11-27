@@ -1,0 +1,13 @@
+name: libmaxminddb
+version: "1.4.3"
+category: alpine
+description: Maxmind GeoIP2 database library
+uri:
+  - https://github.com/maxmind/libmaxminddb
+license: Apache-2.0
+labels:
+  package.source: "https://github.com/maxmind/libmaxminddb/releases/download/1.4.3/libmaxminddb-1.4.3.tar.gz"
+requires:
+  - category: alpine
+    name: "curl"
+    version: '>=0'

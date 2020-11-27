@@ -1,0 +1,7 @@
+name: pwgen-doc
+version: "2.08"
+category: alpine
+description: A Password Generator
+uri:
+  - https://github.com/tytso/pwgen
+license: GPL-2.0-only

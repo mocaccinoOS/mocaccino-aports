@@ -1,0 +1,9 @@
+name: radvd
+version: "2.19"
+category: alpine
+description: IPv6 router advertisement daemon
+uri:
+  - http://www.litech.org/radvd
+license: BSD with advertising
+labels:
+  package.source: "http://www.litech.org/radvd/dist/radvd-2.19.tar.xz"

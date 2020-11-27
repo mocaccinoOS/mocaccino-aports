@@ -1,0 +1,22 @@
+name: perl-namespace-autoclean
+version: "0.29"
+category: alpine
+description: Keep imports out of your namespace
+uri:
+  - https://metacpan.org/release/namespace-autoclean/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/E/ET/ETHER/namespace-autoclean-0.29.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sub-identify"
+    version: '>=0'
+  - category: alpine
+    name: "perl-b-hooks-endofscope"
+    version: '>=0'
+  - category: alpine
+    name: "perl-namespace-clean"
+    version: '>=0'

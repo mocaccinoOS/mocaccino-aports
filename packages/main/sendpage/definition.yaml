@@ -1,0 +1,28 @@
+name: sendpage
+version: "1.0.3"
+category: alpine
+description: SNPP server, client, queueing engine, modem control and TAP system
+uri:
+  - http://www.sendpage.org
+license: GPL
+labels:
+  package.source: "https://downloads.sourceforge.net/sourceforge/sendpage/sendpage-1.000003.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-mailtools"
+    version: '>=0'
+  - category: alpine
+    name: "perl-net-snpp"
+    version: '>=0'
+  - category: alpine
+    name: "perl-device-serialport"
+    version: '>=0'
+  - category: alpine
+    name: "perl-dbi"
+    version: '>=0'
+  - category: alpine
+    name: "perl-sys-hostname-long"
+    version: '>=0'
+  - category: alpine
+    name: "perl-test-mockobject"
+    version: '>=0'

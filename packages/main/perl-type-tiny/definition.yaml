@@ -1,0 +1,16 @@
+name: perl-type-tiny
+version: "1.012000"
+category: alpine
+description: tiny, yet Moo(se)-compatible type constraint
+uri:
+  - https://metacpan.org/release/Type-Tiny/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-1.012000.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-exporter-tiny"
+    version: '>=0'

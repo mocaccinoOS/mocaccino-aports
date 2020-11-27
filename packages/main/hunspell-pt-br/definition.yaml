@@ -1,0 +1,9 @@
+name: hunspell-pt-br
+version: "20131017"
+category: alpine
+description: Portuguese (Brazil) hunspell dictionaries
+uri:
+  - http://pt-br.libreoffice.org/
+license: LGPL-3.0 MPL
+labels:
+  package.source: "https://pt-br.libreoffice.org/assets/Uploads/PT-BR-Documents/VERO/VeroptBRV320AOC.oxt"

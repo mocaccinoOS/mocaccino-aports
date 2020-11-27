@@ -1,0 +1,22 @@
+name: perl-x10
+version: "0.04"
+category: alpine
+description: Perl module for X10
+uri:
+  - https://metacpan.org/release/X10/
+license: GPL-3.0-only
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/R/RO/ROBF/X10-0.04.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-time-parsedate"
+    version: '>=0'
+  - category: alpine
+    name: "perl-device-serialport"
+    version: '>=0'
+  - category: alpine
+    name: "perl-astro-suntime"
+    version: '>=0'

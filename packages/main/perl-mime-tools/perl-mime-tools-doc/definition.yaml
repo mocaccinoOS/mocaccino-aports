@@ -1,0 +1,7 @@
+name: perl-mime-tools-doc
+version: "5.509"
+category: alpine
+description: Perl modules for parsing (and creating!) MIME entities
+uri:
+  - http://search.cpan.org/~doneill/MIME-tools-5.509/
+license: PerlArtistic GPL

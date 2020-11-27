@@ -1,0 +1,9 @@
+name: libpciaccess
+version: "0.16"
+category: alpine
+description: X11 PCI access library
+uri:
+  - http://xorg.freedesktop.org/
+license: X11
+labels:
+  package.source: "https://www.x.org/releases/individual/lib/libpciaccess-0.16.tar.bz2"

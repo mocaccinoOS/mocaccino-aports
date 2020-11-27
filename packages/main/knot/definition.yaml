@@ -1,0 +1,9 @@
+name: knot
+version: "3.0.2"
+category: alpine
+description: An high-performance authoritative-only DNS server
+uri:
+  - https://www.knot-dns.cz/
+license: GPL-3.0-or-later
+labels:
+  package.source: "https://secure.nic.cz/files/knot-dns/knot-3.0.2.tar.xz"

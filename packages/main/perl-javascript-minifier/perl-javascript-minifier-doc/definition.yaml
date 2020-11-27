@@ -1,0 +1,7 @@
+name: perl-javascript-minifier-doc
+version: "1.14"
+category: alpine
+description: Perl extension for minifying JavaScript code
+uri:
+  - https://metacpan.org/release/JavaScript-Minifier/
+license: GPL PerlArtistic

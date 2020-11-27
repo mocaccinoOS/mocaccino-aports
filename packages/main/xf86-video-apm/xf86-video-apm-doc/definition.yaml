@@ -1,0 +1,7 @@
+name: xf86-video-apm-doc
+version: "1.3.0"
+category: alpine
+description: Alliance ProMotion video driver
+uri:
+  - https://xorg.freedesktop.org/
+license: MIT

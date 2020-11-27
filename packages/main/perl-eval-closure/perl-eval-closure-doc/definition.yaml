@@ -1,0 +1,7 @@
+name: perl-eval-closure-doc
+version: "0.14"
+category: alpine
+description: safely and cleanly create closures via string eval
+uri:
+  - https://metacpan.org/release/Eval-Closure/
+license: GPL PerlArtistic

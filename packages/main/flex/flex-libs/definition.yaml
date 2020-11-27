@@ -1,0 +1,7 @@
+name: flex-libs
+version: "2.6.4"
+category: alpine
+description: A tool for generating text-scanning programs
+uri:
+  - https://github.com/westes/flex
+license: BSD-2-Clause AND LGPL-2.0-or-later

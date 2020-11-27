@@ -1,0 +1,37 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: linux-headers
+    version: '>=0'
+  - category: alpine
+    name: libnfnetlink-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_conntrack-dev
+    version: '>=0'
+  - category: alpine
+    name: bison
+    version: '>=0'
+  - category: alpine
+    name: flex
+    version: '>=0'
+  - category: alpine
+    name: libmnl-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_cttimeout-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_cthelper-dev
+    version: '>=0'
+  - category: alpine
+    name: libnetfilter_queue-dev
+    version: '>=0'
+  - category: alpine
+    name: libtirpc-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

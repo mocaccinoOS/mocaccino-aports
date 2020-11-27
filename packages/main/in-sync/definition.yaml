@@ -1,0 +1,16 @@
+name: in-sync
+version: "1.0"
+category: alpine
+description: inotify-triggered file synchronization
+uri:
+  - https://git.alpinelinux.org/cgit/aports/tree/main/in-sync
+license: GPL-2.0-only
+labels:
+  package.source: "in-sync in-sync.conf in-sync.initd"
+requires:
+  - category: alpine
+    name: "inotify-tools"
+    version: '>=0'
+  - category: alpine
+    name: "rsync"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: amavisd-milter-doc
+version: "1.7.0"
+category: alpine
+description: sendmail milter for amavisd-new using the AM.PDP protocol
+uri:
+  - http://amavisd-milter.sourceforge.net/
+license: BSD-3-Clause

@@ -1,0 +1,9 @@
+name: encodings
+version: "1.0.5"
+category: alpine
+description: X.org font encoding files
+uri:
+  - http://xorg.freedesktop.org/
+license: custom
+labels:
+  package.source: "https://www.x.org/releases/individual/font/encodings-1.0.5.tar.bz2"

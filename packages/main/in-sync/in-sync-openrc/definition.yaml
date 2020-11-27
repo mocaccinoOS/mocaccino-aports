@@ -1,0 +1,7 @@
+name: in-sync-openrc
+version: "1.0"
+category: alpine
+description: inotify-triggered file synchronization
+uri:
+  - https://git.alpinelinux.org/cgit/aports/tree/main/in-sync
+license: GPL-2.0-only

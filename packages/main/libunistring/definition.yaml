@@ -1,0 +1,9 @@
+name: libunistring
+version: "0.9.10"
+category: alpine
+description: Library for manipulating Unicode strings and C strings
+uri:
+  - https://www.gnu.org/software/libunistring/
+license: GPL-2.0+ OR LGPL-3.0+
+labels:
+  package.source: "https://ftp.gnu.org/gnu/libunistring/libunistring-0.9.10.tar.xz"

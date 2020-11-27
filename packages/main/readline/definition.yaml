@@ -1,0 +1,9 @@
+name: readline
+version: "8.0.4"
+category: alpine
+description: GNU readline library
+uri:
+  - https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz"

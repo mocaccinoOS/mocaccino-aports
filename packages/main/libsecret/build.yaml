@@ -1,0 +1,31 @@
+package_dir: /luetbuild/pkg/{{.Values.name}}
+steps:
+  - sh build.sh
+requires:
+  - category: alpine
+    name: glib-dev
+    version: '>=0'
+  - category: alpine
+    name: intltool
+    version: '>=0'
+  - category: alpine
+    name: libxslt-dev
+    version: '>=0'
+  - category: alpine
+    name: docbook-xsl
+    version: '>=0'
+  - category: alpine
+    name: libgcrypt-dev
+    version: '>=0'
+  - category: alpine
+    name: gobject-introspection-dev
+    version: '>=0'
+  - category: alpine
+    name: vala
+    version: '>=0'
+  - category: alpine
+    name: meson
+    version: '>=0'
+  - category: development
+    name: toolchain
+    version: '>=0'

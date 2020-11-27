@@ -1,0 +1,46 @@
+name: awall
+version: "1.8.1"
+category: alpine
+description: Alpine Wall
+uri:
+  - https://gitlab.alpinelinux.org/alpine/awall
+license: GPL-2.0
+labels:
+  package.source: "https://gitlab.alpinelinux.org/alpine/awall/-/archive/v1.8.1/awall-v1.8.1.tar.bz2"
+requires:
+  - category: alpine
+    name: "drill"
+    version: '>=0'
+  - category: alpine
+    name: "ip6tables"
+    version: '>=0'
+  - category: alpine
+    name: "ipset"
+    version: '>=0'
+  - category: alpine
+    name: "iptables"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-alt-getopt"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-cjson"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-pc"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-posix"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-stringy"
+    version: '>=0'
+  - category: alpine
+    name: "lua5.3-lyaml"
+    version: '>=0'
+  - category: alpine
+    name: "xtables-addons"
+    version: '>=0'

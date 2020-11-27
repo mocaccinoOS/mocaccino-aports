@@ -1,0 +1,7 @@
+name: perl-control-x10-doc
+version: "2.09"
+category: alpine
+description: Perl extension for X10 'ActiveHome' Controller
+uri:
+  - http://search.cpan.org/~bbirth/ControlX10-CM11-2.09/
+license: GPL PerlArtistic

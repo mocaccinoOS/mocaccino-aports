@@ -1,0 +1,7 @@
+name: perl-unix-syslog-doc
+version: "1.1"
+category: alpine
+description: Perl interface to the UNIX syslog(3) calls
+uri:
+  - http://search.cpan.org/~mharnisch/Unix-Syslog/
+license: Artistic-2.0

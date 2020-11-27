@@ -1,0 +1,13 @@
+name: perl-test-tcp
+version: "2.22"
+category: alpine
+description: Testing TCP program
+uri:
+  - https://metacpan.org/release/Test-TCP
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Test-TCP-2.22.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-test-sharedfork"
+    version: '>=0'

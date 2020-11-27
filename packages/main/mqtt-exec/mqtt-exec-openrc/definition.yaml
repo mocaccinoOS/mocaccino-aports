@@ -1,0 +1,7 @@
+name: mqtt-exec-openrc
+version: "0.4"
+category: alpine
+description: simple MQTT client that executes a command on messages
+uri:
+  - https://github.com/ncopa/mqtt-exec
+license: MIT

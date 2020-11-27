@@ -1,0 +1,9 @@
+name: rabbitmq-c
+version: "0.10.0"
+category: alpine
+description: RabbitMQ C client
+uri:
+  - https://github.com/alanxz/rabbitmq-c
+license: MIT
+labels:
+  package.source: "rabbitmq-c-0.10.0.tar.gz::https://github.com/alanxz/rabbitmq-c/archive/v0.10.0.tar.gz"

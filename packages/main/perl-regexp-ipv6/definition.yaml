@@ -1,0 +1,13 @@
+name: perl-regexp-ipv6
+version: "0.03"
+category: alpine
+description: Regexp::IPv6 perl module
+uri:
+  - https://metacpan.org/release/Regexp-IPv6/
+license: GPL-2.0 or Artistic
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/S/SA/SALVA/Regexp-IPv6-0.03.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: lm-sensors-sensord-openrc
+version: "3.6.0"
+category: alpine
+description: Collection of user space tools for general SMBus access and hardware monitoring.
+uri:
+  - https://github.com/lm-sensors/lm-sensors
+license: LGPL-2.1-or-later AND GPL-2.0-or-later

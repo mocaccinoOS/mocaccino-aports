@@ -1,0 +1,7 @@
+name: perl-crypt-rijndael-doc
+version: "1.15"
+category: alpine
+description: Crypt::CBC compliant Rijndael encryption module
+uri:
+  - https://metacpan.org/release/Crypt-Rijndael/
+license: LGPL-2.0-or-later

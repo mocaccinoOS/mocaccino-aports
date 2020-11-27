@@ -1,0 +1,22 @@
+name: acf-postgresql
+version: "0.11.0"
+category: alpine
+description: ACF module for postgresql
+uri:
+  - http://git.alpinelinux.org/cgit/acf/acf-postgresql
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-postgresql/acf-postgresql-0.11.0.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "postgresql"
+    version: '>=0'
+  - category: alpine
+    name: "acf-db-lib"
+    version: '>=0'
+  - category: alpine
+    name: "lua-sql-postgres"
+    version: '>=0'

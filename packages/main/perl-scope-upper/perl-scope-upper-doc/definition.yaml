@@ -1,0 +1,7 @@
+name: perl-scope-upper-doc
+version: "0.32"
+category: alpine
+description: Act on upper scopes.
+uri:
+  - https://metacpan.org/release/Scope-Upper/
+license: GPL PerlArtistic

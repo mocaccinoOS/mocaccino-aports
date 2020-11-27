@@ -1,0 +1,13 @@
+name: py3-pretend
+version: "1.0.9"
+category: alpine
+description: Library for stubbing in Python
+uri:
+  - https://github.com/alex/pretend
+license: BSD-3-Clause
+labels:
+  package.source: "pretend-1.0.9.tar.gz::https://github.com/alex/pretend/archive/v1.0.9.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

@@ -1,0 +1,7 @@
+name: gnupg-doc
+version: "2.2.25"
+category: alpine
+description: GNU Privacy Guard 2 - a PGP replacement tool
+uri:
+  - https://www.gnupg.org/
+license: GPL-3.0-or-later

@@ -1,0 +1,7 @@
+name: gcr-lang
+version: "3.38.0"
+category: alpine
+description: A library for bits of crypto UI and parsing
+uri:
+  - https://wiki.gnome.org/Projects/CryptoGlue
+license: LGPL-2.0-or-later

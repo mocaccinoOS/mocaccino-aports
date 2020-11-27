@@ -1,0 +1,13 @@
+name: perl-crypt-x509
+version: "0.53"
+category: alpine
+description: Parse a X.509 certificate
+uri:
+  - https://metacpan.org/release/Crypt-X509/
+license: Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/M/MR/MRSCOTTY/Crypt-X509-0.53.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-convert-asn1"
+    version: '>=0'

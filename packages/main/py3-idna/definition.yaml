@@ -1,0 +1,13 @@
+name: py3-idna
+version: "2.10"
+category: alpine
+description: 'IDNA 2008 and UTS #46 for Python3'
+uri:
+  - https://github.com/kjd/idna
+license: BSD-3-Clause
+labels:
+  package.source: "idna-2.10.tar.gz::https://github.com/kjd/idna/archive/v2.10.tar.gz"
+requires:
+  - category: alpine
+    name: "python3"
+    version: '>=0'

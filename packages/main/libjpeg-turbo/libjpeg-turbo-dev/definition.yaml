@@ -1,0 +1,7 @@
+name: libjpeg-turbo-dev
+version: "2.0.6"
+category: alpine
+description: Accelerated baseline JPEG compression and decompression library
+uri:
+  - https://libjpeg-turbo.org/
+license: BSD-3-Clause IJG Zlib

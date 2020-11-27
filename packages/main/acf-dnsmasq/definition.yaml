@@ -1,0 +1,16 @@
+name: acf-dnsmasq
+version: "0.7.1"
+category: alpine
+description: A web-based system administration interface for dnsmasq
+uri:
+  - https://git.alpinelinux.org/cgit/acf/acf-dnsmasq
+license: GPL-2.0
+labels:
+  package.source: "https://dev.alpinelinux.org/archive/acf-dnsmasq/acf-dnsmasq-0.7.1.tar.xz"
+requires:
+  - category: alpine
+    name: "acf-core"
+    version: '>=0'
+  - category: alpine
+    name: "dnsmasq"
+    version: '>=0'

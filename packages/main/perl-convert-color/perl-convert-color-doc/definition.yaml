@@ -1,0 +1,7 @@
+name: perl-convert-color-doc
+version: "0.11"
+category: alpine
+description: color space conversions and named lookups
+uri:
+  - https://metacpan.org/release/Convert-Color/
+license: GPL PerlArtistic

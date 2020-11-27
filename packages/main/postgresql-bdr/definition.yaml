@@ -1,0 +1,16 @@
+name: postgresql-bdr
+version: "9.4.14_p1"
+category: alpine
+description: A sophisticated object-relational DBMS with bidirectional replication support (BDR)
+uri:
+  - https://www.2ndquadrant.com/en/resources/postgres-bdr-2ndquadrant/
+license: PostgreSQL
+labels:
+  package.source: "http://packages.2ndquadrant.com/postgresql-bdr94-2ndquadrant/tarballs/postgresql-bdr-9.4.14_bdr1.tar.bz2"
+requires:
+  - category: alpine
+    name: "bash"
+    version: '>=0'
+  - category: alpine
+    name: "libpq"
+    version: '>=0'

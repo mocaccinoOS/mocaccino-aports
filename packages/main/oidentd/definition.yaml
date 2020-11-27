@@ -1,0 +1,9 @@
+name: oidentd
+version: "2.5.0"
+category: alpine
+description: Configurable IDENT server that supports NAT/IP masq
+uri:
+  - https://oidentd.janikrabe.com
+license: GPL-2.0-only
+labels:
+  package.source: "https://files.janikrabe.com/pub/oidentd/releases/2.5.0/oidentd-2.5.0.tar.xz"

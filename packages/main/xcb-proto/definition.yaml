@@ -1,0 +1,9 @@
+name: xcb-proto
+version: "1.14.1"
+category: alpine
+description: XML-XCB protocol descriptions
+uri:
+  - https://xcb.freedesktop.org
+license: MIT
+labels:
+  package.source: "https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.14.1.tar.xz"

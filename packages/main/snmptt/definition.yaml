@@ -1,0 +1,19 @@
+name: snmptt
+version: "1.4.2"
+category: alpine
+description: Translates traps received from snmptrapd into easy to understand messages
+uri:
+  - http://www.snmptt.org
+license: GPL-2.0-or-later
+labels:
+  package.source: "https://downloads.sourceforge.net/snmptt/snmptt_1.4.2.tgz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-config-inifiles"
+    version: '>=0'
+  - category: alpine
+    name: "perl-list-moreutils"
+    version: '>=0'

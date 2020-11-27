@@ -1,0 +1,7 @@
+name: postgresql-client
+version: "12.5"
+category: alpine
+description: A sophisticated object-relational DBMS
+uri:
+  - https://www.postgresql.org/
+license: PostgreSQL

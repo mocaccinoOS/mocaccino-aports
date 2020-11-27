@@ -1,0 +1,7 @@
+name: nginx-mod-http-upstream-fair
+version: "1.18.0"
+category: alpine
+description: HTTP and reverse proxy server (stable version)
+uri:
+  - https://www.nginx.org/
+license: BSD-2-Clause

@@ -1,0 +1,7 @@
+name: ortp-dev
+version: "4.4.9"
+category: alpine
+description: oRTP is a library implemeting Real-time Transport Protocol (RFC3550), licensed under LGPL
+uri:
+  - http://www.linphone.org/technical-corner/ortp
+license: LGPL-2.0-or-later VSL

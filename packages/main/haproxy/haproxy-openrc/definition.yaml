@@ -1,0 +1,7 @@
+name: haproxy-openrc
+version: "2.2.5"
+category: alpine
+description: A TCP/HTTP reverse proxy for high availability environments
+uri:
+  - https://www.haproxy.org/
+license: (GPL-2.0-or-later AND GPL-2.1-or-later) WITH OpenSSL-Exception

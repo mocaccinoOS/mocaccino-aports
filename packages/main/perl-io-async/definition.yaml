@@ -1,0 +1,16 @@
+name: perl-io-async
+version: "0.77"
+category: alpine
+description: Asynchronous event-driven programming
+uri:
+  - https://metacpan.org/release/IO-Async
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.77.tar.gz"
+requires:
+  - category: alpine
+    name: "perl-struct-dumb"
+    version: '>=0'
+  - category: alpine
+    name: "perl-future"
+    version: '>=0'

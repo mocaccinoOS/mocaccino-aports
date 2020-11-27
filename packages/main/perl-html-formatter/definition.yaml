@@ -1,0 +1,19 @@
+name: perl-html-formatter
+version: "2.16"
+category: alpine
+description: Base class for HTML formatters
+uri:
+  - https://metacpan.org/release/HTML-Formatter/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+labels:
+  package.source: "https://cpan.metacpan.org/authors/id/N/NI/NIGELM/HTML-Formatter-2.16.tar.gz"
+requires:
+  - category: alpine
+    name: "perl"
+    version: '>=0'
+  - category: alpine
+    name: "perl-font-afm"
+    version: '>=0'
+  - category: alpine
+    name: "perl-html-tree"
+    version: '>=0'

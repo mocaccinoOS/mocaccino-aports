@@ -1,0 +1,7 @@
+name: grep-doc
+version: "3.6"
+category: alpine
+description: Searches input files for lines containing a match to a specified pattern
+uri:
+  - https://www.gnu.org/software/grep/grep.html
+license: GPL-3.0-or-later

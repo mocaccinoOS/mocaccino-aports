@@ -1,0 +1,7 @@
+name: raspberrypi-bootloader-debug
+version: "1.20200902"
+category: alpine
+description: Bootloader files for the Raspberry Pi
+uri:
+  - https://github.com/raspberrypi/firmware
+license: custom

@@ -1,0 +1,7 @@
+name: perl-encode-doc
+version: "3.07"
+category: alpine
+description: character encodings in Perl
+uri:
+  - https://metacpan.org/release/Encode/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl

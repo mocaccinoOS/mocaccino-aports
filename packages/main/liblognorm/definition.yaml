@@ -1,0 +1,9 @@
+name: liblognorm
+version: "2.0.6"
+category: alpine
+description: A fast log-normalization library
+uri:
+  - https://www.liblognorm.com/
+license: LGPL-2.1-or-later Apache-2.0
+labels:
+  package.source: "http://www.liblognorm.com/files/download/liblognorm-2.0.6.tar.gz"

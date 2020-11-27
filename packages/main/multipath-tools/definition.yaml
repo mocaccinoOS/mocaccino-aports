@@ -1,0 +1,16 @@
+name: multipath-tools
+version: "0.8.5"
+category: alpine
+description: Device Mapper Multipathing Driver
+uri:
+  - http://christophe.varoqui.free.fr
+license: LGPL-2.0-only
+labels:
+  package.source: "multipath-tools-0.8.5.tar.gz::https://git.opensvc.com/gitweb.cgi?p=multipath-tools/.git;a=snapshot;h=0.8.5;sf=tgz"
+requires:
+  - category: alpine
+    name: "eudev"
+    version: '>=0'
+  - category: alpine
+    name: "device-mapper"
+    version: '>=0'

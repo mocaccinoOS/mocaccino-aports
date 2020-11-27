@@ -1,0 +1,9 @@
+name: py3-mimeparse
+version: "1.6.0"
+category: alpine
+description: Basic functions for parsing mime-types and matching media-ranges
+uri:
+  - https://github.com/dbtsai/python-mimeparse
+license: MIT
+labels:
+  package.source: "py3-mimeparse-1.6.0.tar.gz::https://github.com/dbtsai/python-mimeparse/archive/1.6.0.tar.gz"

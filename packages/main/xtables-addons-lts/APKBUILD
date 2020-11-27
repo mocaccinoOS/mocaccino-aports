@@ -1,0 +1,64 @@
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+
+# when changing _ver we *must* bump _rel
+_name=xtables-addons
+_ver=3.11
+_rel=0
+
+_flavor=${FLAVOR:-lts}
+_kpkg=linux-$_flavor
+_kver=5.4.80
+_krel=0
+
+_kpkgver="$_kver-r$_krel"
+_kabi="$_kver-$_krel-$_flavor"
+
+pkgname=$_name-$_flavor
+pkgver=$_kver
+pkgrel=$(( $_krel + $_rel ))
+
+pkgdesc="Iptables extensions kernel modules"
+url="http://xtables-addons.sourceforge.net/"
+arch="all !armhf !mips64"
+license="GPL-2.0"
+depends="$_kpkg=$_kpkgver"
+makedepends="$_kpkg-dev=$_kpkgver iptables-dev linux-headers"
+install_if="$_kpkg=$_kpkgver $_name"
+source="https://inai.de/files/xtables-addons/xtables-addons-$_ver.tar.xz
+	ip_route_me_harder-5.4.78.patch"
+builddir="$srcdir/$_name-$_ver"
+options="!check"
+
+prepare() {
+	default_prepare
+	local _kapkbuild=../../main/linux-$_flavor/APKBUILD
+	if [ -f $_kapkbuild ]; then
+		(	. $_kapkbuild
+			pkgname=$_name-$_flavor
+			[ "$_kver" != "$pkgver" ] && die "please update _kver to $pkgver"
+			[ "$_krel" != "$pkgrel" ] && die "please update _krel to $pkgrel"
+			return 0
+		)
+	fi
+}
+
+build() {
+	cd "$builddir"
+	unset LDFLAGS
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--with-kbuild=/usr/src/linux-headers-$_kabi
+
+	cd extensions
+	make modules
+}
+
+package() {
+	cd "$builddir/extensions"
+	make DESTDIR="$pkgdir" modules_install
+}
+
+sha512sums="3b9d57596002efa4f874734debdab560d49bc600010986a2b3db9dab262251fd37da45bc8e9d0cbbe77f9c5e95c96a36d5372ae2bd12822a5765c7b5ebb715ea  xtables-addons-3.11.tar.xz
+a746279a28b7ab9d6d0783ccded9d4dec953dd33127b1e5cf3421cf8e601e81c003869831aaa78fb811ffe10e2b5c0d3dd80c4d0fc31a0ca134459caeb428fe5  ip_route_me_harder-5.4.78.patch"

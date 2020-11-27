@@ -1,0 +1,9 @@
+name: lttng-ust
+version: "2.12.0"
+category: alpine
+description: LTTng 2.0 Userspace Tracer
+uri:
+  - https://lttng.org
+license: LGPL-2.1-or-later
+labels:
+  package.source: "https://lttng.org/files/lttng-ust/lttng-ust-2.12.0.tar.bz2"

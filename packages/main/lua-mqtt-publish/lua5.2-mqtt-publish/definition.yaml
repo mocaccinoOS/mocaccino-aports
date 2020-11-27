@@ -1,0 +1,7 @@
+name: lua5.2-mqtt-publish
+version: "0.3"
+category: alpine
+description: Lua module for simple MQTT connect, publish and disconnect
+uri:
+  - https://github.com/ncopa/lua-mqtt-publish
+license: MIT

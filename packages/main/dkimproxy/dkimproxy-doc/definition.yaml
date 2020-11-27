@@ -1,0 +1,7 @@
+name: dkimproxy-doc
+version: "1.4.1"
+category: alpine
+description: SMTP-proxy that signs and/or verifies emails, using the Mail::DKIM module
+uri:
+  - http://dkimproxy.sourceforge.net/
+license: GPL

@@ -1,0 +1,9 @@
+name: tiff
+version: "4.1.0"
+category: alpine
+description: Provides support for the Tag Image File Format or TIFF
+uri:
+  - http://www.libtiff.org
+license: libtiff
+labels:
+  package.source: "http://download.osgeo.org/libtiff/tiff-4.1.0.tar.gz"

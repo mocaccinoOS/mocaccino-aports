@@ -1,0 +1,9 @@
+name: py3-coverage
+version: "5.3"
+category: alpine
+description: Code coverage measurement for Python
+uri:
+  - https://pypi.python.org/pypi/coverage
+license: Apache-2.0
+labels:
+  package.source: "https://files.pythonhosted.org/packages/source/c/coverage/coverage-5.3.tar.gz"

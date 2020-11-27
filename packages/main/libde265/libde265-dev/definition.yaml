@@ -1,0 +1,7 @@
+name: libde265-dev
+version: "1.0.4"
+category: alpine
+description: Open h.265 video codec implementation
+uri:
+  - https://github.com/strukturag/libde265
+license: LGPL-3.0-or-later

@@ -1,0 +1,7 @@
+name: xcb-util-wm-dev
+version: "0.4.1"
+category: alpine
+description: X C-language Binding - helpers for ICCCM and EWMH
+uri:
+  - https://xcb.freedesktop.org/
+license: MIT

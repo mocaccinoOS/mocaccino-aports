@@ -1,0 +1,7 @@
+name: perl-params-util-doc
+version: "1.102"
+category: alpine
+description: Simple, compact and correct param-checking functions
+uri:
+  - https://metacpan.org/release/Params-Util/
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
