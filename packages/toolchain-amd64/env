@@ -5,6 +5,9 @@ export LUET_YES=true
 export CBUILD=x86_64-mocaccino-linux-musl
 export LUET_YES=true
 export CC=gcc
-export CFLAGS="-g -O2 -I/include -I/usr/include"
-export CPPFLAGS="-I/include -I/usr/include"
 export ABUILD_BOOTSTRAP=true
+
+export CFLAGS="-g -O2 -I/include -I/usr/include -fPIC -fomit-frame-pointer -march=x86-64 -mtune=generic"
+export CXXFLAGS="$CFLAGS"
+export CPPFLAGS="$CFLAGS"
+export LDFLAGS="-Wl,--as-needed"
