@@ -4,8 +4,7 @@ set -e
 if [ -e "/build/env" ]; then
     source /build/env
 fi
-export CFLAGS="-g -O2 -I/include -I/usr/include -fPIC"
-export LDFLAGS="-fPIC"
+
 # export CBUILD=$MUSL_TARGET
 # export LUET_YES=true
 # luet install libs/libressl development/abuild vcs/git development/make
