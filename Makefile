@@ -11,7 +11,7 @@ DESTINATION?=$(ROOT_DIR)/build
 COMPRESSION?=gzip
 CLEAN?=false
 export TREE?=$(ROOT_DIR)/packages
-REPO_CACHE?=mocaccinoos/aports-amd64-cache
+REPO_CACHE?=quay.io/mocaccinoos/aports-amd64-cache
 export REPO_CACHE
 BUILD_ARGS?=--pull --no-spinner
 SUDO?=
