@@ -1,6 +1,4 @@
 package_dir: /luetbuild/pkg/{{.Values.name}}
-env:
-  - CFLAGS="-g -O2 -I/include -I/usr/include -fPIC"
 steps:
   - sh build.sh
 requires:
