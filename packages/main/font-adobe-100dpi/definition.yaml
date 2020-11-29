@@ -1,7 +1,7 @@
-name: font-adobe-100dpi
+name: "font-adobe-100dpi"
 version: "1.0.3"
 category: alpine
-description: X.org adobe 100dpi font
+description: "X.org adobe 100dpi font"
 uri:
   - http://xorg.freedesktop.org/
 license: custom

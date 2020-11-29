@@ -47,9 +47,6 @@ requires:
   - category: alpine
     name: libtool
     version: '>=0'
-  - category: alpine
-    name: '!gettext-dev'
-    version: '>=0'
   - category: development
     name: toolchain
     version: '>=0'

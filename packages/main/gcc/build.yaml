@@ -60,9 +60,6 @@ requires:
     name: zlib-dev
     version: '>=0'
   - category: alpine
-    name: '!gettext-dev'
-    version: '>=0'
-  - category: alpine
     name: libucontext-dev
     version: '>=0'
   - category: development
