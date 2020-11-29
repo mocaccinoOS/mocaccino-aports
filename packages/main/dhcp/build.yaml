@@ -23,12 +23,6 @@ requires:
   - category: alpine
     name: run-parts
     version: '>=0'
-  - category: alpine
-    name: '!dhcp-server-vanilla'
-    version: '>=0'
-  - category: alpine
-    name: '!dhcp-server-ldap'
-    version: '>=0'
   - category: development
     name: toolchain
     version: '>=0'
