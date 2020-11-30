@@ -5,8 +5,8 @@ requires:
   - category: alpine
     name: libogg-dev
     version: '>=0'
-  - category: alpine
-    name: '!libiconv'
+  - category: development
+    name: toolchain
     version: '>=0'
   - category: development
     name: toolchain

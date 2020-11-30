@@ -9,5 +9,5 @@ labels:
   package.source: "http://distcache.freebsd.org/ports-distfiles/repeater014.zip"
 requires:
   - category: alpine
-    name: "openrc>=0.6"
+    name: "openrc"
     version: '>=0'

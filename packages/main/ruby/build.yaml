@@ -3,9 +3,6 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: ruby=2.7.2-r1
-    version: '>=0'
-  - category: alpine
     name: gmp-dev
     version: '>=0'
   - category: alpine
@@ -37,6 +34,9 @@ requires:
     version: '>=0'
   - category: alpine
     name: autoconf
+    version: '>=0'
+  - category: development
+    name: toolchain
     version: '>=0'
   - category: development
     name: toolchain

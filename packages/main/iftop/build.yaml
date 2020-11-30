@@ -3,7 +3,7 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: libpcap-dev>=1
+    name: libpcap-dev
     version: '>=0'
   - category: alpine
     name: ncurses-dev

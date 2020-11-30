@@ -33,7 +33,7 @@ requires:
     name: hiredis-dev
     version: '>=0'
   - category: alpine
-    name: ivykis-dev>=0.42.4
+    name: ivykis-dev
     version: '>=0'
   - category: alpine
     name: libdbi-dev

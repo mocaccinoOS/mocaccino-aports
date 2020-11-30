@@ -33,7 +33,7 @@ requires:
     name: linux-headers
     version: '>=0'
   - category: alpine
-    name: gdbm-dev>=1.18.1-r0
+    name: gdbm-dev
     version: '>=0'
   - category: alpine
     name: readline-dev

@@ -9,7 +9,7 @@ labels:
   package.source: "https://www.opensmtpd.org/archives/opensmtpd-6.7.1p1.tar.gz"
 requires:
   - category: alpine
-    name: "!postfix"
+    name: "ca-certificates"
     version: '>=0'
   - category: alpine
     name: "ca-certificates"

@@ -6,7 +6,7 @@ requires:
     name: zlib-dev
     version: '>=0'
   - category: alpine
-    name: tiff-dev<4.2
+    name: tiff-dev
     version: '>=0'
   - category: alpine
     name: gettext-dev

@@ -3,7 +3,7 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: tcl>=8.5
+    name: tcl
     version: '>=0'
   - category: development
     name: toolchain

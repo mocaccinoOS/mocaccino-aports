@@ -6,7 +6,7 @@ requires:
     name: perl-dev
     version: '>=0'
   - category: alpine
-    name: perl-module-build>=0.4229
+    name: perl-module-build
     version: '>=0'
   - category: development
     name: toolchain

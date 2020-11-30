@@ -7,3 +7,7 @@ uri:
 license: MIT
 labels:
   package.source: "https://www.lua.org/ftp/lua-5.1.5.tar.gz"
+provides:
+  - category: alpine
+    name: "lua"
+    version: '>=0'

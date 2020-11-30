@@ -5,3 +5,7 @@ description: ZFS for Linux
 uri:
   - http://zfsonlinux.org
 license: CDDL-1.0
+provides:
+  - category: alpine
+    name: "splzfs-dev"
+    version: '>=0'

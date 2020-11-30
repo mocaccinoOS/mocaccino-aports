@@ -3,9 +3,6 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: memcached=1.6.9-r0
-    version: '>=0'
-  - category: alpine
     name: cyrus-sasl-dev
     version: '>=0'
   - category: alpine
@@ -16,6 +13,9 @@ requires:
     version: '>=0'
   - category: alpine
     name: linux-headers
+    version: '>=0'
+  - category: development
+    name: toolchain
     version: '>=0'
   - category: development
     name: toolchain

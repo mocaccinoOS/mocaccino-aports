@@ -7,3 +7,7 @@ uri:
 license: ISC
 labels:
   package.source: "https://distfiles.dereferenced.org/pkgconf/pkgconf-1.7.3.tar.xz"
+provides:
+  - category: alpine
+    name: "pkgconfig"
+    version: '>=0'

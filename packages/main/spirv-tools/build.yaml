@@ -6,9 +6,6 @@ requires:
     name: spirv-headers
     version: '>=0'
   - category: alpine
-    name: spirv-tools=2020.3-r0
-    version: '>=0'
-  - category: alpine
     name: cmake
     version: '>=0'
   - category: alpine
@@ -16,6 +13,9 @@ requires:
     version: '>=0'
   - category: alpine
     name: python3
+    version: '>=0'
+  - category: development
+    name: toolchain
     version: '>=0'
   - category: development
     name: toolchain

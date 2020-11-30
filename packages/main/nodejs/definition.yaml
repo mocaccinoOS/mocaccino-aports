@@ -12,5 +12,9 @@ requires:
     name: "ca-certificates"
     version: '>=0'
   - category: alpine
-    name: "nghttp2-libs>=1.41"
+    name: "nghttp2-libs"
+    version: '>=0'
+provides:
+  - category: alpine
+    name: "nodejs-lts"
     version: '>=0'

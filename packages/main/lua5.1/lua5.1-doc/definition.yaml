@@ -5,3 +5,7 @@ description: A powerful light-weight programming language designed for extending
 uri:
   - https://www.lua.org/
 license: MIT
+provides:
+  - category: alpine
+    name: "lua-doc"
+    version: '>=0'

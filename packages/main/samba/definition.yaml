@@ -9,11 +9,11 @@ labels:
   package.source: ""
 requires:
   - category: alpine
-    name: "samba-server=4.13.2-r0"
+    name: "samba-server"
     version: '>=0'
   - category: alpine
-    name: "samba-client=4.13.2-r0"
+    name: "samba-client"
     version: '>=0'
   - category: alpine
-    name: "samba-common-tools=4.13.2-r0"
+    name: "samba-common-tools"
     version: '>=0'

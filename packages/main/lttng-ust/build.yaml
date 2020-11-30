@@ -3,7 +3,7 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: userspace-rcu-dev>0.10
+    name: userspace-rcu-dev
     version: '>=0'
   - category: alpine
     name: util-linux-dev

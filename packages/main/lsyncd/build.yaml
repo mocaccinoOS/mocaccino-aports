@@ -3,9 +3,6 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: llvm10=10.0.1-r0
-    version: '>=0'
-  - category: alpine
     name: cmake
     version: '>=0'
   - category: alpine
@@ -13,6 +10,9 @@ requires:
     version: '>=0'
   - category: alpine
     name: lua5.3-dev
+    version: '>=0'
+  - category: development
+    name: toolchain
     version: '>=0'
   - category: development
     name: toolchain

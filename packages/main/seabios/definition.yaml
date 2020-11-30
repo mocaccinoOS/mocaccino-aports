@@ -9,8 +9,8 @@ labels:
   package.source: "seabios-1.13.0.tar.gz::https://github.com/coreboot/seabios/archive/rel-1.13.0.tar.gz"
 requires:
   - category: alpine
-    name: "seabios-bin=1.13.0-r0"
+    name: "seabios-bin"
     version: '>=0'
   - category: alpine
-    name: "seavgabios-bin=1.13.0-r0"
+    name: "seavgabios-bin"
     version: '>=0'

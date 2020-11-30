@@ -15,7 +15,7 @@ requires:
     name: llvm-dev>=10
     version: '>=0'
   - category: alpine
-    name: llvm-static>=10
+    name: llvm-static
     version: '>=0'
   - category: alpine
     name: samurai

@@ -6,7 +6,7 @@ requires:
     name: gmp-dev
     version: '>=0'
   - category: alpine
-    name: mpfr-dev>=4.1.0-r0
+    name: mpfr-dev
     version: '>=0'
   - category: development
     name: toolchain

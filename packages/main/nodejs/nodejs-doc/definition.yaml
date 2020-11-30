@@ -5,3 +5,7 @@ description: JavaScript runtime built on V8 engine - LTS version
 uri:
   - https://nodejs.org/
 license: MIT
+provides:
+  - category: alpine
+    name: "nodejs-ltsnodejs-doc"
+    version: '>=0'

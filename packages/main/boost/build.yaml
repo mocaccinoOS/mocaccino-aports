@@ -6,7 +6,7 @@ requires:
     name: linux-headers
     version: '>=0'
   - category: alpine
-    name: python3-dev>=3.8
+    name: python3-dev
     version: '>=0'
   - category: alpine
     name: flex

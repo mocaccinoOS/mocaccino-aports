@@ -8,8 +8,8 @@ requires:
   - category: alpine
     name: tcl-dev
     version: '>=0'
-  - category: alpine
-    name: '!bind-libs'
+  - category: development
+    name: toolchain
     version: '>=0'
   - category: development
     name: toolchain
