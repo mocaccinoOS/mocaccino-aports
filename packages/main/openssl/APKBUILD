@@ -15,7 +15,6 @@ subpackages="$pkgname-dbg $pkgname-libs-static $pkgname-dev $pkgname-doc
 	libcrypto$_abiver:_libcrypto libssl$_abiver:_libssl"
 source="https://www.openssl.org/source/openssl-$pkgver.tar.gz
 	man-section.patch
-	ppc64.patch
 	"
 
 
@@ -114,5 +113,4 @@ _libssl() {
 }
 
 sha512sums="da50fd99325841ed7a4367d9251c771ce505a443a73b327d8a46b2c6a7d2ea99e43551a164efc86f8743b22c2bdb0020bf24a9cbd445e9d68868b2dc1d34033a  openssl-1.1.1h.tar.gz
-43c3255118db6f5f340dc865c0f25ccbcafe5bf7507585244ca59b4d27daf533d6c3171aa32a8685cbb6200104bec535894b633de13feaadff87ab86739a445a  man-section.patch
-e040f23770d52b988578f7ff84d77563340f37c026db7643db8e4ef18e795e27d10cb42cb8656da4d9c57a28283a2828729d70f940edc950c3422a54fea55509  ppc64.patch"
+43c3255118db6f5f340dc865c0f25ccbcafe5bf7507585244ca59b4d27daf533d6c3171aa32a8685cbb6200104bec535894b633de13feaadff87ab86739a445a  man-section.patch"
