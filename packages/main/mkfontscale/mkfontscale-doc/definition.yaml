@@ -5,3 +5,7 @@ description: Scalable font index generator for X
 uri:
   - http://xorg.freedesktop.org
 license: MIT
+provides:
+  - category: alpine
+    name: "mkfontdirmkfontscale-doc"
+    version: '>=0'

@@ -7,3 +7,7 @@ uri:
 license: MIT
 labels:
   package.source: "https://www.x.org/releases/individual/app/mkfontscale-1.2.1.tar.bz2"
+provides:
+  - category: alpine
+    name: "mkfontdir"
+    version: '>=0'

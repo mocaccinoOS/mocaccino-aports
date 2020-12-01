@@ -1,1 +1,2 @@
-cp -rfv pkg/$PACKAGE_NAME/* /
+#!/bin/bash
+cp -rf pkg/$PACKAGE_NAME/* / || true

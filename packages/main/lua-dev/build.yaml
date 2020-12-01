@@ -2,3 +2,6 @@ requires:
 - name: toolchain
   category: development
   version: ">=0"
+- name: lua5.1-dev
+  category: alpine
+  version: ">=0"

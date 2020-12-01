@@ -21,9 +21,6 @@ requires:
     name: libxext-dev
     version: '>=0'
   - category: alpine
-    name: cairo-tools
-    version: '>=0'
-  - category: alpine
     name: zlib-dev
     version: '>=0'
   - category: alpine

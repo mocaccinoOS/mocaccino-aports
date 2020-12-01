@@ -9,5 +9,5 @@ labels:
   package.source: "https://inai.de/files/xtables-addons/xtables-addons-3.11.tar.xz"
 requires:
   - category: alpine
-    name: "linux-lts=5.4.80-r0"
+    name: "linux-lts"
     version: '>=0'

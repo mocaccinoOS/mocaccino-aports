@@ -5,3 +5,7 @@ description: Low Level Virtual Machine compiler system, version 10
 uri:
   - https://llvm.org/
 license: Apache-2.0
+provides:
+  - category: alpine
+    name: "llvm-dev"
+    version: '>=0'

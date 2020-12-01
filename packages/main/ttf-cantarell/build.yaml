@@ -2,10 +2,10 @@ package_dir: /luetbuild/pkg/{{.Values.name}}
 steps:
   - sh build.sh
 requires:
-  - category: /home/mudler/_git/aports/packages/main/ttf-dejavu
+  - category: alpine
     name: meson
     version: '>=0'
-  - category: /home/mudler/_git/aports/packages/main/ttf-dejavu
+  - category: alpine
     name: gettext-dev
     version: '>=0'
   - category: development

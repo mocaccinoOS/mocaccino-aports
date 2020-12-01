@@ -3,7 +3,7 @@ steps:
   - sh build.sh
 requires:
   - category: alpine
-    name: linux-lts-dev=5.4.80-r0
+    name: linux-lts-dev
     version: '>=0'
   - category: alpine
     name: iptables-dev

@@ -1,6 +1,6 @@
 name: ttf-cantarell
 version: "0.201"
-category: /home/mudler/_git/aports/packages/main/ttf-dejavu
+category: alpine
 description: Humanist sans-serif font designed for on-screen reading
 uri:
   - https://wiki.gnome.org/Projects/CantarellFonts
