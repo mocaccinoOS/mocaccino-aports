@@ -10,3 +10,5 @@ aports-alpine
 *.tar
 build.log
 build
+kube_tasks
+templates/
